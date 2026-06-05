@@ -1,0 +1,61 @@
+﻿designer_profile,source,target,edge,mean_weight
+AI-guided technical optimizers,VisualSpatial,AIParameter,VisualSpatial__AIParameter,0.96
+AI-guided technical optimizers,AIEnergy,AIParameter,AIEnergy__AIParameter,0.9324747474747475
+AI-guided technical optimizers,VisualSpatial,AIEnergy,VisualSpatial__AIEnergy,0.8924747474747474
+AI-guided technical optimizers,TechPrompt,AIParameter,TechPrompt__AIParameter,0.7723953823953823
+AI-guided technical optimizers,TechPrompt,AIEnergy,TechPrompt__AIEnergy,0.7657287157287158
+AI-guided technical optimizers,AIParameter,SelectiveUptake,AIParameter__SelectiveUptake,0.7635900356952989
+AI-guided technical optimizers,GoalPrompt,TechPrompt,GoalPrompt__TechPrompt,0.7600144300144299
+AI-guided technical optimizers,GoalPrompt,AIParameter,GoalPrompt__AIParameter,0.7600144300144299
+AI-guided technical optimizers,GoalPrompt,AIEnergy,GoalPrompt__AIEnergy,0.7533477633477633
+AI-guided technical optimizers,TechPrompt,VisualSpatial,TechPrompt__VisualSpatial,0.7457287157287158
+AI-guided technical optimizers,VisualSpatial,SelectiveUptake,VisualSpatial__SelectiveUptake,0.7369233690286322
+AI-guided technical optimizers,GoalPrompt,VisualSpatial,GoalPrompt__VisualSpatial,0.7333477633477634
+Off-task but technically iterative designers,VisualSpatial,AIParameter,VisualSpatial__AIParameter,0.9722222222222222
+Off-task but technically iterative designers,AIEnergy,AIParameter,AIEnergy__AIParameter,0.8765873015873016
+Off-task but technically iterative designers,VisualSpatial,AIEnergy,VisualSpatial__AIEnergy,0.8488095238095238
+Off-task but technically iterative designers,AIParameter,AIFeasibility,AIParameter__AIFeasibility,0.7573412698412698
+Off-task but technically iterative designers,VisualSpatial,AIFeasibility,VisualSpatial__AIFeasibility,0.743452380952381
+Off-task but technically iterative designers,AIParameter,SelectiveUptake,AIParameter__SelectiveUptake,0.7212301587301587
+Off-task but technically iterative designers,VisualSpatial,SelectiveUptake,VisualSpatial__SelectiveUptake,0.7073412698412699
+Off-task but technically iterative designers,TechPrompt,AIParameter,TechPrompt__AIParameter,0.7017857142857142
+Off-task but technically iterative designers,AIEnergy,AIFeasibility,AIEnergy__AIFeasibility,0.6906746031746032
+Off-task but technically iterative designers,TechPrompt,AIEnergy,TechPrompt__AIEnergy,0.6839285714285714
+Off-task but technically iterative designers,TechPrompt,VisualSpatial,TechPrompt__VisualSpatial,0.6740079365079366
+Off-task but technically iterative designers,AIEnergy,SelectiveUptake,AIEnergy__SelectiveUptake,0.6228174603174603
+Off-task weak-coupling explorers,VisualSpatial,AIParameter,VisualSpatial__AIParameter,0.7842712842712842
+Off-task weak-coupling explorers,AIParameter,AIFeasibility,AIParameter__AIFeasibility,0.6551226551226551
+Off-task weak-coupling explorers,AIParameter,SelectiveUptake,AIParameter__SelectiveUptake,0.6125541125541126
+Off-task weak-coupling explorers,VisualSpatial,SelectiveUptake,VisualSpatial__SelectiveUptake,0.5995670995670996
+Off-task weak-coupling explorers,VisualSpatial,AIFeasibility,VisualSpatial__AIFeasibility,0.5101010101010102
+Off-task weak-coupling explorers,AIParameter,AIClimate,AIParameter__AIClimate,0.5101010101010102
+Off-task weak-coupling explorers,AIClimate,AIFeasibility,AIClimate__AIFeasibility,0.4613997113997114
+Off-task weak-coupling explorers,VisualSpatial,AIClimate,VisualSpatial__AIClimate,0.3780663780663781
+Off-task weak-coupling explorers,AIFeasibility,SelectiveUptake,AIFeasibility__SelectiveUptake,0.36724386724386726
+Off-task weak-coupling explorers,AIClimate,SelectiveUptake,AIClimate__SelectiveUptake,0.34235209235209235
+Off-task weak-coupling explorers,AIParameter,OffTask,AIParameter__OffTask,0.23051948051948054
+Off-task weak-coupling explorers,AIEnergy,AIParameter,AIEnergy__AIParameter,0.21356421356421354
+Technical prompt composers with limited uptake,VisualSpatial,AIParameter,VisualSpatial__AIParameter,0.9027777777777778
+Technical prompt composers with limited uptake,AIEnergy,AIParameter,AIEnergy__AIParameter,0.855489417989418
+Technical prompt composers with limited uptake,VisualSpatial,AIEnergy,VisualSpatial__AIEnergy,0.7582671957671958
+Technical prompt composers with limited uptake,AIParameter,AIFeasibility,AIParameter__AIFeasibility,0.7239417989417989
+Technical prompt composers with limited uptake,TechPrompt,AIEnergy,TechPrompt__AIEnergy,0.6851190476190476
+Technical prompt composers with limited uptake,TechPrompt,AIParameter,TechPrompt__AIParameter,0.6851190476190476
+Technical prompt composers with limited uptake,VisualSpatial,AIFeasibility,VisualSpatial__AIFeasibility,0.6822751322751323
+Technical prompt composers with limited uptake,GoalPrompt,TechPrompt,GoalPrompt__TechPrompt,0.6675264550264549
+Technical prompt composers with limited uptake,GoalPrompt,AIEnergy,GoalPrompt__AIEnergy,0.6675264550264549
+Technical prompt composers with limited uptake,GoalPrompt,AIParameter,GoalPrompt__AIParameter,0.6675264550264549
+Technical prompt composers with limited uptake,TechPrompt,VisualSpatial,TechPrompt__VisualSpatial,0.629563492063492
+Technical prompt composers with limited uptake,GoalPrompt,VisualSpatial,GoalPrompt__VisualSpatial,0.6119708994708994
+Visual-spatial generators,VisualSpatial,AIParameter,VisualSpatial__AIParameter,0.8714285714285714
+Visual-spatial generators,AIParameter,AIClimate,AIParameter__AIClimate,0.5714285714285715
+Visual-spatial generators,AIParameter,AIFeasibility,AIParameter__AIFeasibility,0.5492063492063493
+Visual-spatial generators,AIEnergy,AIParameter,AIEnergy__AIParameter,0.5238095238095238
+Visual-spatial generators,VisualSpatial,AIFeasibility,VisualSpatial__AIFeasibility,0.5222222222222223
+Visual-spatial generators,VisualSpatial,AIClimate,VisualSpatial__AIClimate,0.5222222222222223
+Visual-spatial generators,VisualSpatial,AIEnergy,VisualSpatial__AIEnergy,0.4666666666666667
+Visual-spatial generators,AIClimate,AIFeasibility,AIClimate__AIFeasibility,0.4222222222222222
+Visual-spatial generators,AIEnergy,AIClimate,AIEnergy__AIClimate,0.3492063492063492
+Visual-spatial generators,AIEnergy,AIFeasibility,AIEnergy__AIFeasibility,0.319047619047619
+Visual-spatial generators,AIEnergy,SelectiveUptake,AIEnergy__SelectiveUptake,0.0380952380952381
+Visual-spatial generators,AIParameter,SelectiveUptake,AIParameter__SelectiveUptake,0.0380952380952381

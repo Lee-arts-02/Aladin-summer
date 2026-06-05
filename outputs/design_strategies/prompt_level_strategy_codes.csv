@@ -1,0 +1,977 @@
+student_id,Name,class,iteration,prompt,prompt_state,has_parameter_specific,has_performance_outcome,has_visual_detail,has_site_prompt,has_offtask_strategy,raw_address,primary_design_strategy
+0,Abisai Lopez Carrillo,Mr C,1,Generate a colonial style house. netherlands,Site,0,0,1,1,0,netherlands,Site exploration
+0,Abisai Lopez Carrillo,Mr C,2,Generate a colonial style house. steetserland,Detail,0,0,1,0,0,switzerland,Site exploration
+0,Abisai Lopez Carrillo,Mr C,3,Generate a colonial style house. steetserland add solar panels,Detail,0,0,1,0,0,switzerland,Site exploration
+0,Abisai Lopez Carrillo,Mr C,4,Generate a colonial style house. greenland solar panel,Site,0,0,1,1,0,greenland,Site exploration
+0,Abisai Lopez Carrillo,Mr C,5,Generate a colonial style house. puebla mx solar panel,Detail,0,0,1,0,0,"puebla, mexico",Site exploration
+0,Abisai Lopez Carrillo,Mr C,6,Generate a colonial style house. benson nc mx solar panel,Site,0,0,1,1,0,"benson, nc, usa",Site exploration
+0,Abisai Lopez Carrillo,Mr C,7,Generate a colonial style house. benson nc mx solar panel color white,Site,0,0,1,1,0,"benson, nc, usa",Site exploration
+1,Carlos Principe,Mr C,1,a barbershop,Off-task,0,0,0,0,1,"natick, ma, usa",Off-task / imaginative exploratory
+1,Carlos Principe,Mr C,2,a barbershop in southern africa,Off-task,0,0,0,1,1,"johannesburg, south africa",Off-task / imaginative exploratory
+1,Carlos Principe,Mr C,3,make a small cozy colonial style house that is ergonomic,Detail,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+1,Carlos Principe,Mr C,4,"Architectural rendering of a 2-story American Colonial style home, net-zero energy usage. Symmetrical front facade, white clapboard siding, black shutters, brick chimney, gabled roof with integrated dark solar roof tiles (solar shingles) for seamless aesthetic. Large, high-efficiency triple-pane windows for passive solar gain. Exterior features thick super-insulated walls, modern air-source heat pump unit discreetly placed. Set in a sunny, pleasant suburban setting, clear daylight, realistic 4k, sustainable architecture.",Performance,0,1,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+1,Carlos Principe,Mr C,5,make a small house in New Mexico with no power,Performance,0,1,1,1,0,"santa fe, new mexico, usa",Off-task / imaginative exploratory
+2,Daniela Perez Barron,Mr C,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+2,Daniela Perez Barron,Mr C,2,a big house with colors brown and white,Detail,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+2,Daniela Perez Barron,Mr C,3,small house with 2 doors and 5 windows and color pink,Detail,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+2,Daniela Perez Barron,Mr C,4,big house with 7 doors and 30 windows and color pink,Detail,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+2,Daniela Perez Barron,Mr C,5,big house with 20 doors and 200 windows and color pink and black and 2 floors,Detail,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+2,Daniela Perez Barron,Mr C,6,small house with 10 doors and 50 windows and color pink and black  and white with a big pool,Off-task,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+2,Daniela Perez Barron,Mr C,7,small house with 10 doors and 30windows and color  black  and white with a big pool and 3  solar pannels with ac cold,Off-task,0,0,1,1,0,"natick, ma, usa",Off-task / imaginative exploratory
+2,Daniela Perez Barron,Mr C,8,una casa chica con 5 panels solares y aire acondiciona frioy que la casa Este cafe y negra y naranja y q Este en la playa en cancun,General,0,0,0,0,0,"playa delfines, cancún, quintana roo, mexico",Off-task / imaginative exploratory
+2,Daniela Perez Barron,Mr C,9,una casa chica  en Miami con Alberca y 10 panels solares con 3 ventanas y 6 puertas con aire frio,General,0,0,0,0,0,"miami, fl, usa",Off-task / imaginative exploratory
+3,Giovany Flores Pacheco,Mr C,1,"generate a colonial style house in durham, north carolina",Site,0,0,1,1,0,"durham, nc",Cumulative incremental
+3,Giovany Flores Pacheco,Mr C,2,"generate a colonial style house in durham, north carolina, add more solar panels on the roof",Site,0,0,1,1,0,"durham, nc",Cumulative incremental
+3,Giovany Flores Pacheco,Mr C,3,"generate a colonial style house in durham, north carolina, add way more solar panels on roof",Site,0,0,1,1,0,"durham, nc",Cumulative incremental
+4,Isaiah Farmer ,Mr C,1,Generate a colonial style house. in Germany.,Site,0,0,1,1,0,"frankfurt am main, germany",Detail-descriptive
+4,Isaiah Farmer ,Mr C,2,Generate a colonial style house with solar panels,Detail,0,0,1,0,0,"frankfurt am main, germany",Detail-descriptive
+4,Isaiah Farmer ,Mr C,3,Generate a colonial style house with lots of solar panels,Detail,0,0,1,0,0,"frankfurt am main, germany",Detail-descriptive
+5,Jose Perez Campos,Mr C,1,"Generate a colonial style house in Durham, North Carolina.",Site,0,0,1,1,0,"durham, north carolina",Performance-oriented
+5,Jose Perez Campos,Mr C,2,"Generate a colonial style house and add a solar panel array that covers 90% of the south-facing roof in Durham, North Carolina.",Parameter,1,0,1,1,0,"durham, north carolina",Performance-oriented
+5,Jose Perez Campos,Mr C,3,Remove all objects that consume energy and heavily insulate the house,Performance,0,1,0,0,0,"durham, north carolina",Performance-oriented
+5,Jose Perez Campos,Mr C,4,Turn the house upside down while having no objects that consume energy and having the house and window materials viable to retain temperatures.,Detail,0,0,1,0,0,"durham, north carolina",Performance-oriented
+5,Jose Perez Campos,Mr C,5,"Have the house have zero objects that consume energy and very flexible walls, windows, roof, and insides that allow temperatures and heat to change accordingly and safely without the consumption of energy for air conditioning or a heater.",Detail,0,0,1,0,0,"durham, north carolina",Performance-oriented
+5,Jose Perez Campos,Mr C,6,"Have the house have no walls, objects, and roofs.",Detail,0,0,1,0,0,"durham, north carolina",Performance-oriented
+6,Leslie Colunga Bronfield,Mr C,1,Generate a colonial style house. Add solar Panels,Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+6,Leslie Colunga Bronfield,Mr C,2,Generate a colonial style house. Add solar panels. Add insulation all around the house. Add extreme air tightness all around the house.  Add high performance triple panel windows. Add a bigger roof for a bigger solar panel. Add solar panels on both sides of the roof.,Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+6,Leslie Colunga Bronfield,Mr C,3,Generate a colonial style house. Add solar Panels. Add insulation.,Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+7,McKenzie Anderson,Mr C,1,"Generate a colonial style house in Garner, North Carolina",Site,0,0,1,1,0,"garner, north carolina, usa",Off-task / imaginative exploratory
+7,McKenzie Anderson,Mr C,2,"Generate a colonial style house in Las Vegas, Nevada with a pool in the back, add solar panels onto the roof",Off-task,0,0,1,1,0,"las vegas, nevada, usa",Off-task / imaginative exploratory
+7,McKenzie Anderson,Mr C,3,"Generate a colonial style house in Charleston, South Carolina with a lot of solar panels on the roof",Site,0,0,1,1,0,"charleston, south carolina, usa",Off-task / imaginative exploratory
+7,McKenzie Anderson,Mr C,4,"Generate a colonial style house in Scottsdale, Arizona with solar panels covering the roof",Site,0,0,1,1,0,"scottsdale, arizona, usa",Off-task / imaginative exploratory
+7,McKenzie Anderson,Mr C,5,"Generate a colonial style house in Joplin, Missouri",Site,0,0,1,1,0,"joplin, missouri, usa",Off-task / imaginative exploratory
+8,Mia Martinez Alvarez,Mr C,1,Generate a colonial style house with 3 big windows,Detail,0,0,1,0,0,"natick, ma, usa",Site exploration
+8,Mia Martinez Alvarez,Mr C,2,Generate a small house with 10  big windows and change the color,Detail,0,0,1,0,0,"natick, ma, usa",Site exploration
+8,Mia Martinez Alvarez,Mr C,3,Generate a small house with 100  big windows and change the color to black,Detail,0,0,1,0,0,"natick, ma, usa",Site exploration
+8,Mia Martinez Alvarez,Mr C,4,Generate a small house with 100  big windows and change the color to black,Detail,0,0,1,0,0,"natick, ma, usa",Site exploration
+8,Mia Martinez Alvarez,Mr C,5,small house with 5 windows in the north pole with one door,Detail,0,0,1,0,0,north pole,Site exploration
+8,Mia Martinez Alvarez,Mr C,6,"small house with a lake, with 5 windows",Detail,0,0,1,0,0,"natick, ma, usa",Site exploration
+8,Mia Martinez Alvarez,Mr C,7,"big house with no sealing, and a lake with 8 windows",Detail,0,0,1,0,0,"natick, ma, usa",Site exploration
+8,Mia Martinez Alvarez,Mr C,8,"casa mediana con paneles solares, sin techno, con dos ventanas, ubicada en UN lago",General,0,0,0,0,0,"lake cochituate, natick, ma, usa",Site exploration
+8,Mia Martinez Alvarez,Mr C,9,"una casa en Cancun chica con Cinco paneles solares, aire acondicionado frio",General,0,0,0,0,0,"cancún, quintana roo, mexico",Site exploration
+9,Victor Villalobos Flores,Mr C,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma",Cumulative incremental
+9,Victor Villalobos Flores,Mr C,2,Generate a colonial style house with solar panels on both sides of the roof and trees around the house,Detail,0,0,1,0,0,"natick, ma",Cumulative incremental
+9,Victor Villalobos Flores,Mr C,3,Generate a colonial style small house in Benson with solar panels on both sides of the roof,Site,0,0,1,1,0,"benson, nc",Cumulative incremental
+9,Victor Villalobos Flores,Mr C,4,Generate a colonial style small house in Benson with solar panels on one sides of the roof,Site,0,0,1,1,0,"benson, nc",Cumulative incremental
+9,Victor Villalobos Flores,Mr C,5,Generate a colonial style small house in Benson with solar panels all over it,Site,0,0,1,1,0,"benson, nc",Cumulative incremental
+9,Victor Villalobos Flores,Mr C,6,Generate a colonial style small and short house  with a really tall roof in Benson with solar panels all over it,Site,0,0,1,1,0,"benson, nc",Cumulative incremental
+11,Hanna Beall,Mr R block4,1,Generate a colonial style house in Benson NC,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,2,Generate a colonial style house in Benson NC with solar panels on the roof and insulation,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,3,Generate a colonial style house in Benson NC with solar panels on the roof and insulation with smaller windows,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,4,Generate a colonial style house in Benson NC with a lot of solar panels on the roof and insulation with less windows but larger,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,5,Generate a colonial style house in Benson NC with a lot of solar panels on the roof and insulation with less windows but larger and trees around the house,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,6,Generate a colonial style house in Benson NC with a lot of solar panels on the roof and insulation with less windows but larger and blankets in the house,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,7,Generate a colonial style house in Benson NC with a lot of solar panels on the roof and insulation with less windows but larger and a real fireplace,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,8,Generate a colonial style house in Benson NC with a lot of solar panels on the roof and insulation with less windows but larger with an HVAC system,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,9,Generate a colonial style house in Benson NC with a lot of solar panels on the roof and insulation with less windows but larger with thermal curtains around the window,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,10,Generate a colonial style house in Benson NC with a lot of solar panels on the roof and insulation around the windows and in the walls with less windows but larger with,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,11,Generate a colonial style house in Benson NC with a lot of solar panels on the roof and insulation with less windows but larger,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+11,Hanna Beall,Mr R block4,12,Generate a colonial style house in Benson NC,Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+12,Jayden LaPietra,Mr R block4,1,Generate a house with 1 million solar energy in Columbia. Also make the house pretty small,Detail,0,0,1,0,0,"columbia, sc, usa",Detail-descriptive
+13,Kylie Emery,Mr R block4,1,"Generate a colonial style house in Benson, nc",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,2,"Generate a colonial style house in Benson, nc with insulation, a/c and heater",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,3,"Generate a colonial style house in Benson, nc with insulation, a/c and heater, spaced out and smaller windows",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,4,"Generate a colonial style house in Benson, nc with lots of insulation, a/c and heater, less but larger windows,",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,5,"Generate a colonial style house in Benson, nc with lots of insulation, a/c and heater, less but larger windows, and solar panels",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,6,"Generate a colonial style house in Benson, nc with lots of insulation, a/c and heater, less but larger windows, and solar panels, and windmills and a pool",Off-task,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,7,"Generate a colonial style house in Benson, nc with lots of insulation, a/c and heater, less but larger windows, and solar panels, and windmills that generate power",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,8,"Generate a colonial style house in Benson, nc with lots of insulation, a/c and heater, less but larger windows, and solar panels, and windmills that generate power, a fireplace inside",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,9,"Generate a colonial style house in Benson, nc with lots of insulation, a/c and heater, less but larger windows, and big solar panels, and windmills that generate power, a wood fireplace,",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,10,"Generate a colonial style house in Benson, nc with lots of insulation, a/c and heater, larger windows, and big solar panels, and windmills that generate power,",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,11,"Generate a colonial style 2-story house in Benson, nc with lots of insulation, a/c and heater, larger windows, and big solar panels, and windmills that generate power,",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,12,"Generate a colonial style 2-story house in Benson, nc with lots of insulation, a/c and heater, larger windows, and big solar panels, dark colored carpets
+,",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,13,"Generate a colonial style 2-story house in Benson, nc with lots of insulation, a/c and heater, less but larger windows, and big solar panels, light colored carpets
+,",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+13,Kylie Emery,Mr R block4,14,"Generate a colonial style 2-story house in Benson, nc with a net of 0
+
+,",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+14,Maria Aguilar Ramirez,Mr R block4,1,Generate a city like Manhattan. make it a colonial style house in italy,Detail,0,0,1,0,0,"naples, italy",Detail-descriptive
+14,Maria Aguilar Ramirez,Mr R block4,2,Make a house in Italy,General,0,0,0,0,0,"florence, italy",Detail-descriptive
+15,Miroslava Komleva,Mr R block4,1,Generate a colonial style house with 4 windows and he tree at the front of the house,Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+15,Miroslava Komleva,Mr R block4,2,"Generate an image of a cozy modern house with seven windows. The house features two solar panels, one on each side of the roof. In front of the house, there is a lush green tree, providing shade and adding natural beauty to the scene. The setting is bright and inviting, with clear details of the windows, solar panels, and the tree.",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+15,Miroslava Komleva,Mr R block4,3,"Generate an image of a cozy modern house with seven windows. The house features two solar panels, one on each side of the roof. In front of the house, there is a lush green tree, providing shade and adding natural beauty to the scene. The setting is bright and inviting, with clear details of the windows, solar panels, and the tree in front of it, WITH insulation",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+16,Perry Demoss,Mr R block4,1,"Generate a colonial style house from Angier, NC",Site,0,0,1,1,0,"angier, nc, usa",Cumulative incremental
+16,Perry Demoss,Mr R block4,2,"Generate a colonial style house with solar panels on the roof from Angier, NC",Site,0,0,1,1,0,"angier, nc, usa",Cumulative incremental
+16,Perry Demoss,Mr R block4,3,"Generate a colonial style house with solar panels on both sides of the roof from Angier, NC. I want 4 windows on the back of the house, and 3 on the front of the house. the house needs to be insulated",Site,0,0,1,1,0,"angier, nc, usa",Cumulative incremental
+16,Perry Demoss,Mr R block4,4,"Generate a colonial style house with solar panels on both sides of the roof from Angier, NC. I want 4 insulated windows on the back of the house, and 3 insulated on the front of the house. the house needs to  be insulated. make the material of the walls brick",Site,0,0,1,1,0,"angier, nc, usa",Cumulative incremental
+16,Perry Demoss,Mr R block4,5,"Generate a colonial style house with solar panels on both sides of the roof from Angier, NC. I want 4 insulated windows on the back of the house, and 3 insulated on the front of the house with curtains. the walls need to be insulated. make the floors carpet",Site,0,0,1,1,0,"angier, nc, usa",Cumulative incremental
+16,Perry Demoss,Mr R block4,6,"Generate a colonial style house with solar panels on both sides of the roof from Angier, NC. I want 4 insulated windows on the back of the house, and 3 insulated on the front of the house with curtains. the walls need to be insulated. make the floors carpet. Use less heater in the winter",Site,0,0,1,1,0,"angier, nc, usa",Cumulative incremental
+16,Perry Demoss,Mr R block4,7,"Generate a colonial style house with solar panels on both sides of the roof from Angier, NC. I want 4 insulated windows on the back of the house, and 3 insulated on the front of the house with curtains. the walls need to be insulated. make the floors carpet. Use less heater in the winter. add trees outside covering the windows from the sun",Site,0,0,1,1,0,"angier, nc, usa",Cumulative incremental
+17,Peyton Booe ,Mr R block4,1,Generate a colonial style house hawaii,Site,0,0,1,1,0,"honolulu, hi, usa",Off-task / imaginative exploratory
+17,Peyton Booe ,Mr R block4,2,Generate a mansion style house hawaii,Site,0,0,1,1,0,"honolulu, hi, usa",Off-task / imaginative exploratory
+17,Peyton Booe ,Mr R block4,3,"Generate a massive house with a bunker, pool, greenhouse, and a bunch of trees around in hawaii",Off-task,0,0,1,1,0,"honolulu, hi, usa",Off-task / imaginative exploratory
+17,Peyton Booe ,Mr R block4,4,generate  a house in the jungle,General,0,0,0,0,0,"hilo, hi, usa",Off-task / imaginative exploratory
+18,Thomas Millage,Mr R block4,1,make a mansion,Detail,0,0,1,0,0,"tucson, arizona, usa",Detail-descriptive
+21,Autumn Parnell ,Mr R block2,1,Generate a colonial style house In hawaii,Site,0,0,1,1,0,"honolulu, hi, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,2,Generate a colonial style house In hawaii,Site,0,0,1,1,0,"honolulu, hi, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,3,Generate a colonial style house In hawaii add solar panels and fans that are powered by the solar pannels,Site,0,0,1,1,0,"honolulu, hi, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,4,Generate a colonial style house In hawaii add solar panels and fans that are powered by the solar pannels and make the windows solar resisting,Site,0,0,1,1,0,"honolulu, hi, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,5,Generate a colonial style house In hawaii add solar panels and fans that are powered by the solar pannels and make the windows solar resisting and add flowers by each window and make the house light gray with a welcome mat on by the door,Site,0,0,1,1,0,"honolulu, hi, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,6,"Generate a colonial style house In hawaii add solar panels and fans that are powered by the solar pannels and make the windows solar resisting and add flowers by the front door
+ and make the house light gray with a welcome mat on by the door",Site,0,0,1,1,0,"honolulu, hi, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,7,Generate a colonial style house In hawaii add solar panels and fans that are powered by the solar pannels and make the windows solar resisting and add a landskape,Site,0,0,1,1,0,"honolulu, hi, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,8,"Generate a colonial style house In Berkeley Springs, West Virginia",Detail,0,0,1,0,0,"berkeley springs, wv 25411, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,9,"Generate a colonial style house In Berkeley Springs, West Virginia add solar panels that power 2 heaters and add insulation to keep the house warm from the heaters and insulation and make the house only 1 story",Detail,0,0,1,0,0,"berkeley springs, wv 25411, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,10,"Generate a colonial style house In Berkeley Springs, West Virginia add solar panels that power 2 heaters and add a lot insulation to keep the house warm from the heaters in the winter and insulation and make the house only 1 story and add windows that allow a lot of sun to heat the house",Detail,0,0,1,0,0,"berkeley springs, wv 25411, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,11,Generate a colonial style house In Alaska,Site,0,0,1,1,0,"anchorage, ak, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,12,Generate a colonial style house In Alaska add a lot of insulation and make solar panels that attract the light to reduce the use of energy and make the windows attract a lot of sun to reduce the use of the heater,Site,0,0,1,1,0,"anchorage, ak, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,13,Generate a colonial style house In Alaska add a lot of insulation and make solar panels that attract the light to reduce the use of energy and make the windows attract a lot of sun to reduce the use of the heater find a way to heat the house without using the heater,Site,0,0,1,1,0,"anchorage, ak, usa",Site exploration
+21,Autumn Parnell ,Mr R block2,14,Generate a colonial style house In Ecuador,Detail,0,0,1,0,0,"quito, ecuador",Site exploration
+22,Breydin Ross,Mr R block2,1,Generate a mansion,Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+22,Breydin Ross,Mr R block2,2,"Generate a luxury house, with solar panels, insulated walls.",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+22,Breydin Ross,Mr R block2,3,Generate the biggest mansion possible with as many solar panels as possible and thick insulated walls,Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+22,Breydin Ross,Mr R block2,4,Generate a mansion that has the best energy cost at a all time low,Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+23,Deysi Mazariegos Marroquin,Mr R block2,1,"Generate a colonial style house.Benson,NC",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+23,Deysi Mazariegos Marroquin,Mr R block2,2,"Generate a colonial style house.Benson,NC,add solar panels",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+23,Deysi Mazariegos Marroquin,Mr R block2,3,"Generate a colonial style house.Benson,NC,add solar panels on both sides of the roof,add a lot of insulation around the house",Site,0,0,1,1,0,"benson, nc, usa",Cumulative incremental
+24,ElleMari Harrell,Mr R block2,1,build  a big beach house in hawaii,Site,0,0,1,1,0,"beach house, hawaii, usa",Site exploration
+24,ElleMari Harrell,Mr R block2,2,"build  a big beach house in hawaii, make it tall, light pink pig shutters a wrap around pourch hydrangas in the yard with peoines",Site,0,0,1,1,0,"beach house, kailua, oahu, hawaii, usa",Site exploration
+24,ElleMari Harrell,Mr R block2,3,"build  a big beach house in hawaii, make it tall not wide, light pink pig shutters a wrap around pourch hydrangas in the yard with peoines  add stairs to the front door.",Site,0,0,1,1,0,"kailua, oahu, hawaii, usa",Site exploration
+24,ElleMari Harrell,Mr R block2,4,"build  a big beach house in hawaii, make it tall not wide, light pink big shutters a wrap around porch add stairs to the front door.and a cobble stone path connecting to the front door",Site,0,0,1,1,0,"kailua, oahu, hawaii, usa",Site exploration
+25,Jackson Liles,Mr R block2,1,Generate a colonial style house. in Benson NC,Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,2,"Generate a colonial style house. in Benson NC solar panels on roof, both sides",Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,3,"Generate a colonial style house. in Benson NC solar panels on roof, both sides, with minimal lights",Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,4,"Generate a colonial style house. in Benson NC solar panels on roof, both sides, one story",Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,5,"Generate a colonial style house. in Benson NC solar panels on roof, both sides, one story, more solar panel on the side of the house all 4 sides",Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,6,"Generate a colonial style house. in Benson NC solar panels on roof, both sides, one story, more solar panel on the side of the house all 4 sides",Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,7,"Generate a trailer style house . in Benson NC solar panels on roof, both sides, one story,",Off-task,0,0,1,1,1,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,8,"Generate a trailer style house . in Benson NC solar panels on roof, both sides, one story, small 2 room 1 bath small kitchen",Off-task,0,0,1,1,1,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,9,"Generate a trailer style house . in Benson NC solar panels on roof, both sides, one story, small 2 room 1 bath small kitchen super small house",Off-task,0,0,1,1,1,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,10,"Generate a trailer style house . in Benson NC solar panels on roof, both sides, one story, small 2 room 1 bath small kitchen super small house  add more solar panels",Off-task,0,0,1,1,1,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,11,"Generate a trailer style house . in Benson NC solar panels on roof, both sides, one story, small 2 room 1 bath small kitchen super small house  add more solar panels, house barley lived in only once a month",Off-task,0,0,1,1,1,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,12,"Generate a trailer style house . in Benson NC solar panels on roof, both sides, one story, small 2 room 1 bath small kitchen super small house  add more solar panels, house barley lived in only once a month, use as less as heat as possible",Off-task,0,0,1,1,1,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,13,"Generate a continetal style house . in Benson NC solar panels on roof, both sides, insulated walls",Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,14,"Generate a continetal style house . in Benson NC solar panels on roof, both sides, insulated walls on all outside walls",Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+25,Jackson Liles,Mr R block2,15,generate a HUGE house with as much solar panels as possible and super thick walls and tons of insulation on all the walls,Detail,0,0,1,0,0,"benson, nc, usa",Off-task / imaginative exploratory
+26,John Hernandez ,Mr R block2,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+26,John Hernandez ,Mr R block2,2,"Generate a colonial style house.
+put 10 solar panels on each side
+put a lot of installation",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+26,John Hernandez ,Mr R block2,3,"Generate a colonial style house. Benson NC
+put 10 solar panels on each side
+put a lot of insulation",Site,0,0,1,1,0,"benson, nc, usa",Detail-descriptive
+27,Kinley Stevens,Mr R block2,1,"Generate a colonial style house. with lots of solar panels on both sides of the roof, lots of better insulation to all the walls, LED lighting, Smart thermostats, more windows, thermal curtains, window insulation, Use VFDs on fan and pump motors, Increase the insulation property (R-value) of walls and roofs. In Wilmington Nc. 
+Solar resisting windows",Parameter,1,0,1,1,0,"wilmington, nc, usa",Parameter-driven
+27,Kinley Stevens,Mr R block2,2,"Generate a colonial style house. with lots of solar panels on both sides of the roof, lots of better insulation to all the walls, LED lighting, Smart thermostats, more windows, thermal curtains, window insulation, Use VFDs on fan and pump motors, Increase the insulation property (R-value) of walls and roofs. high-efficiency heat pumps, Solar resisting windows, 
+Insulation of doors and solar resisting, Radiant Barriers, Duct sealing, Thermal curtains, 
+ In Wilmington Nc.",Parameter,1,0,1,1,0,"wilmington, nc, usa",Parameter-driven
+27,Kinley Stevens,Mr R block2,3,"Generate a colonial style house. with lots of solar panels on both sides of the roof, lots of better insulation to all the walls, LED lighting, Smart thermostats, more windows, thermal curtains, window insulation, Use VFDs on fan and pump motors, Increase the insulation property (R-value) of walls and roofs. high-efficiency heat pumps, Solar resisting windows, 
+Insulation of doors and solar resisting, Radiant Barriers, Duct sealing, Thermal curtains, turn the AC down in may. Wilmington Nc 
+ In Wilmington Nc.",Parameter,1,0,1,1,0,"wilmington, nc, usa",Parameter-driven
+27,Kinley Stevens,Mr R block2,4,"Generate a colonial style house. with lots of solar panels on both sides of the roof, lots of better insulation to all the walls, LED lighting, Smart thermostats, more windows, thermal curtains, window insulation, Use VFDs on fan and pump motors, Increase the insulation property (R-value) of walls and roofs. high-efficiency heat pumps, Solar resisting windows, 
+Insulation of doors and solar resisting, Radiant Barriers, Duct sealing, Thermal curtains, turn the AC down in may. Find a place where no AC or heater is needed.",Parameter,1,0,1,0,0,"santa barbara, ca, usa",Parameter-driven
+27,Kinley Stevens,Mr R block2,5,"Generate a colonial style house. with lots of solar panels on both sides of the roof, lots of better insulation to all the walls, LED lighting, Smart thermostats, more windows, thermal curtains, window insulation, Use VFDs on fan and pump motors, Increase the insulation property (R-value) of walls and roofs. high-efficiency heat pumps, Solar resisting windows, 
+Insulation of doors and solar resisting, Radiant Barriers, Duct sealing, Thermal curtains, turn the AC down in may. in Medellin colombia.",Parameter,1,0,1,0,0,"medellín, antioquia, colombia",Parameter-driven
+27,Kinley Stevens,Mr R block2,6,"Generate a colonial style house. with lots of solar panels on both sides of the roof, lots of better insulation to all the walls, LED lighting, Smart thermostats, more windows, thermal curtains, window insulation, Use VFDs on fan and pump motors, Increase the insulation property (R-value) of walls and roofs. high-efficiency heat pumps, Solar resisting windows, 
+Insulation of doors and solar resisting, Radiant Barriers, Duct sealing, Thermal curtains, turn the AC down in may. in Medellin colombia.",Parameter,1,0,1,0,0,"medellín, antioquia, colombia",Parameter-driven
+28,Kyndall Ratliff,Mr R block2,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma, usa",Parameter-driven
+28,Kyndall Ratliff,Mr R block2,2,"colonial style house, with solar panels on both sides of the roof, many windows",Detail,0,0,1,0,0,"natick, ma, usa",Parameter-driven
+28,Kyndall Ratliff,Mr R block2,3,"colonial style house, with solar panels on both sides of the roof, better insulation to the walls, led lights, smart thermostats, many windows, thermal curtains, window insulation, vfds on fan and pump motors, increase insulation property(R-value) of walls and roof, Wilmington NC. solar resisting windows",Parameter,1,0,1,1,0,"wilmington, nc, usa",Parameter-driven
+28,Kyndall Ratliff,Mr R block2,4,"colonial style house, with solar panels on both sides of the roof, better insulation to the walls, led lights, smart thermostats, many windows, thermal curtains, window insulation, vfds on fan and pump motors, increase insulation property(R-value) of walls and roof, Wilmington NC. solar resisting windows, radiant barriers, duct sealing, storm doors/windows",Parameter,1,0,1,1,0,"wilmington, nc, usa",Parameter-driven
+28,Kyndall Ratliff,Mr R block2,5,"colonial style house, with a lot of solar panels on both sides of the roof, a lot of better insulation to all of the walls, led lighting everywhere, smart thermostats, windows, thermal curtains, window insulation, vfds on fan and pump motors, increase insulation property(R-value) of walls and roof, Wilmington NC. solar resisting windows, radiant barriers, duct sealing, storm doors/windows",Parameter,1,0,1,1,0,"wilmington, nc, usa",Parameter-driven
+28,Kyndall Ratliff,Mr R block2,6,"colonial style house, with a lot of solar panels on both sides of the roof, a lot of better insulation to all of the walls, led lighting everywhere, smart thermostats, windows, thermal curtains, window insulation, vfds on fan and pump motors, increase insulation property(R-value) of walls and roof, Medellin colombia. solar resisting windows, radiant barriers, duct sealing, storm doors/windows",Parameter,1,0,1,0,0,"medellín, antioquia, colombia",Parameter-driven
+29,Lihan Juarez Rangel,Mr R block2,1,"Generate a colonial style house. Benson,NC",Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+29,Lihan Juarez Rangel,Mr R block2,2,"Generate a colonial style house. Benson,NC, add solar panels on the roof  on both sides",Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+29,Lihan Juarez Rangel,Mr R block2,3,"Generate a colonial style house. Benson,NC, add solar panels on the roof  on both sides , add a hydroelectric plant to the right of the house",Site,0,0,1,1,0,"benson, nc, usa",Off-task / imaginative exploratory
+29,Lihan Juarez Rangel,Mr R block2,4,"Generate a colonial style house. Benson,NC, add solar panels on the roof  on both sides, add aLocation (Natick, MA, USA)
+Date and time (2 pm on June 22) 
+House length (12 m), width (10m), height (5.6 m), and orientation (0°, south-facing)
+R-value of ground floor (2 m²·℃/W)
+Walls
+Color (white, #FFFFFF)
+R-value (2 m²·℃/W)
+Roof
+Color (#454769)
+Rise (2.4 m)
+Type: gable, pyramid, hip, mansard, or gambrel (gable)
+R-value (2 m²·℃/W)
+Eaves overhang length (0.3 m)
+Windows
+Width (1 m) and height (1.5 m)
+Color (white, #FFFFFF)
+Glass tint (#73D8FF)
+U-value (2 W/(m²·℃)) 
+Solar heat gain coefficient (SHGC) (0.5)
+Door
+Width (1.6 m) and height (2.5 m)
+U-value (1 W/(m²·℃))
+Frame color (white, #FFFFFF)
+HVAC system
+Heating setpoint (20 ℃)
+Cooling setpoint (25 ℃)
+AC coefficient of performance (4)
+Solar panel array
+Orientation: Landscape or portrait (landscape)
+PV model name (SPR-X21-335-BLK)
+Length and width (cover the roof)",Parameter,1,0,1,1,0,"natick, ma, usa",Off-task / imaginative exploratory
+29,Lihan Juarez Rangel,Mr R block2,5,"Generate a colonial style house. Benson,NC, add solar panels on the roof  on both sides, add aLocation (Natick, MA, USA)
+Date and time (2 pm on June 22) 
+House length (12 m), width (10m), height (5.6 m), and orientation (0°, south-facing)
+R-value of ground floor (2 m²·℃/W)
+Walls
+Color (white, #FFFFFF)
+R-value (2 m²·℃/W)
+Roof
+Color (#454769)
+Rise (2.4 m)
+Type: gable, pyramid, hip, mansard, or gambrel (gable)
+R-value (2 m²·℃/W)
+Eaves overhang length (0.3 m)
+Windows
+Width (1 m) and height (1.5 m)
+Color (white, #FFFFFF)
+Glass tint (#73D8FF)
+U-value (2 W/(m²·℃)) 
+Solar heat gain coefficient (SHGC) (0.5)
+Door
+Width (1.6 m) and height (2.5 m)
+U-value (1 W/(m²·℃))
+Frame color (white, #FFFFFF)
+HVAC system
+Heating setpoint (20 ℃)
+Cooling setpoint (25 ℃)
+AC coefficient of performance (4)
+Solar panel array
+Orientation: Landscape or portrait (landscape)
+PV model name (SPR-X21-335-BLK)
+Length and width (cover the roof)
+add a  maga sing at the door",Parameter,1,0,1,1,0,"natick, ma, usa",Off-task / imaginative exploratory
+29,Lihan Juarez Rangel,Mr R block2,6,"Generate a manshion. Benson,NC, add solar panels on the roof  on both sides, add aLocation (Natick, MA, USA)
+Date and time (2 pm on June 22) 
+House length (12 m), width (10m), height (5.6 m), and orientation (0°, south-facing)
+R-value of ground floor (2 m²·℃/W)
+Walls
+Color (white, #FFFFFF)
+R-value (2 m²·℃/W)
+Roof
+Color (#454769)
+Rise (2.4 m)
+Type: gable, pyramid, hip, mansard, or gambrel (gable)
+R-value (2 m²·℃/W)
+Eaves overhang length (0.3 m)
+Windows
+Width (1 m) and height (1.5 m)
+Color (white, #FFFFFF)
+Glass tint (#73D8FF)
+U-value (2 W/(m²·℃)) 
+Solar heat gain coefficient (SHGC) (0.5)
+Door
+Width (1.6 m) and height (2.5 m)
+U-value (1 W/(m²·℃))
+Frame color (white, #FFFFFF)
+HVAC system
+Heating setpoint (20 ℃)
+Cooling setpoint (25 ℃)
+AC coefficient of performance (4)
+Solar panel array
+Orientation: Landscape or portrait (landscape)
+PV model name (SPR-X21-335-BLK)
+Length and width (cover the roof)
+add a  maga sing at the door 
+add a pool
+add a gaming room outside the manshion 
+add a golden gate
+add a big statue with a garden around the manshion",Off-task,1,0,1,1,0,"natick, ma, usa",Off-task / imaginative exploratory
+29,Lihan Juarez Rangel,Mr R block2,7,"Generate a manshion. Benson,NC, add solar panels on the roof  on both sides, add aLocation (Natick, MA, USA)
+Date and time (2 pm on June 22) 
+House length (12 m), width (10m), height (5.6 m), and orientation (0°, south-facing)
+R-value of ground floor (2 m²·℃/W)
+Walls
+Color (white, #FFFFFF)
+R-value (2 m²·℃/W)
+Roof
+Color (#454769)
+Rise (2.4 m)
+Type: gable, pyramid, hip, mansard, or gambrel (gable)
+R-value (2 m²·℃/W)
+Eaves overhang length (0.3 m)
+Windows
+Width (1 m) and height (1.5 m)
+Color (white, #FFFFFF)
+Glass tint (#73D8FF)
+U-value (2 W/(m²·℃)) 
+Solar heat gain coefficient (SHGC) (0.5)
+Door
+Width (1.6 m) and height (2.5 m)
+U-value (1 W/(m²·℃))
+Frame color (white, #FFFFFF)
+HVAC system
+Heating setpoint (20 ℃)
+Cooling setpoint (25 ℃)
+AC coefficient of performance (4)
+Solar panel array
+Orientation: Landscape or portrait (landscape)
+PV model name (SPR-X21-335-BLK)
+Length and width (cover the roof)
+add a  maga sing at the door 
+add a pool
+add a gaming room outside the manshion 
+add a golden gate
+add a big statue with a garden around the manshion
+add 20000 solar panels  around the house stack on top each other
+
+\",Off-task,1,0,1,1,0,"natick, ma, usa",Off-task / imaginative exploratory
+30,Logan Gonzalez,Mr R block2,1,Generate a colonial style house. Benson NC,Site,0,0,1,1,0,"benson, nc, usa",Parameter-driven
+30,Logan Gonzalez,Mr R block2,2,Generate a colonial style house. Benson NC with solar panels on both sides of the roof with solar panels on the walls too,Site,0,0,1,1,0,"benson, nc, usa",Parameter-driven
+30,Logan Gonzalez,Mr R block2,3,Generate a colonial style house. Benson NC with solar panels on both sides of the roof with an air conditioning unit on the right side of the house,Site,0,0,1,1,0,"benson, nc, usa",Parameter-driven
+30,Logan Gonzalez,Mr R block2,4,Generate a colonial style house. Benson NC with solar panels on both sides of the roof with an air conditioning unit on the right side of the house. with a back door,Site,0,0,1,1,0,"benson, nc, usa",Parameter-driven
+30,Logan Gonzalez,Mr R block2,5,Generate a colonial style house. Benson NC with solar panels on both sides of the roof with an air conditioning unit on the right side of the house.,Site,0,0,1,1,0,"benson, nc, usa",Parameter-driven
+30,Logan Gonzalez,Mr R block2,6,Generate a colonial style house. Benson NC with solar panels on both sides of the roof with an air conditioning unit on the right side of the house and a chimney,Site,0,0,1,1,0,"benson, nc, usa",Parameter-driven
+30,Logan Gonzalez,Mr R block2,7,Generate a colonial style house. Benson NC with solar panels on both sides of the roof with an air conditioning unit on the right side of the house. House color #FFFFFF. Window tint #73D8FF. Add insulation inside house.,Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+30,Logan Gonzalez,Mr R block2,8,Generate a colonial style house. Benson NC with solar panels on both sides of the roof with an air conditioning unit on the right side of the house. House color #FFFFFF.  Replace all current windows with a tint of #73D8FF. Add insulation inside house.,Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+30,Logan Gonzalez,Mr R block2,9,Generate a colonial style house. California Los Angeles with solar panels on both sides of the roof with an air conditioning unit on the right side of the house. House color #FFFFFF.  Replace all current windows with a tint of #73D8FF. Add insulation inside house.,Parameter,1,0,1,1,0,"los angeles, ca, usa",Parameter-driven
+30,Logan Gonzalez,Mr R block2,10,Generate a colonial style house. California Los Angeles with solar panels on both sides of the roof with an air conditioning unit on the right side of the house. House color #FFFFFF.  Replace all current windows with a tint of #73D8FF. Add insulation inside house.,Parameter,1,0,1,1,0,"los angeles, ca, usa",Parameter-driven
+30,Logan Gonzalez,Mr R block2,11,Generate a colonial style house. California Los Angeles with solar panels on both sides of the roof with an air conditioning unit on the right side of the house. House color #FFFFFF.  Replace all current windows with a tint of #73D8FF. Add insulation inside house.,Parameter,1,0,1,1,0,"los angeles, ca, usa",Parameter-driven
+31,Lyla Pollard,Mr R block2,1,Generate a colonial style house. Benson NC,Site,0,0,1,1,0,"benson, nc, usa",Site exploration
+31,Lyla Pollard,Mr R block2,2,Generate a colonial style house. add insulation and solar panels,Detail,0,0,1,0,0,"natick, ma, usa",Site exploration
+31,Lyla Pollard,Mr R block2,3,Generate a colonial style house. add insulation and solar panels. Maine,Detail,0,0,1,0,0,"maine, usa",Site exploration
+31,Lyla Pollard,Mr R block2,4,Generate a colonial style house. add insulation and solar panels. Add fans. oregon,Detail,0,0,1,0,0,"oregon, usa",Site exploration
+31,Lyla Pollard,Mr R block2,5,Generate a colonial style house. add more insulation and solar panels. Add fans. make solar resistant paint. Tacoma Washington,Detail,0,0,1,0,0,"tacoma, wa, usa",Site exploration
+31,Lyla Pollard,Mr R block2,6,Generate a colonial style house. add a lot of  insulation and solar panels. Add fans. make solar resistant paint. add more windows.Tacoma Washington,Detail,0,0,1,0,0,"tacoma, wa, usa",Site exploration
+31,Lyla Pollard,Mr R block2,7,Generate a colonial style house. add a lot of insulation and solar panels. Add fans powered by solar energy. make solar resistant paint. add more windows. Add curtains that keep in heat during the winter. Tacoma Washington,Detail,0,0,1,0,0,"tacoma, wa, usa",Site exploration
+31,Lyla Pollard,Mr R block2,8,Generate a colonial style house. add a lot of insulation and solar panels. Add fans powered by solar energy. make solar resistant paint. add more windows. Add white curtains. open windows at night. add reflective window film. Tacoma Washington,Detail,0,0,1,0,0,"tacoma, wa, usa",Site exploration
+31,Lyla Pollard,Mr R block2,9,Generate a colonial style house. add a lot of insulation and solar panels. Add fans powered by solar energy. make solar resistant paint. add more windows. Add white curtains. open windows at night. add reflective window film. Tacoma Washington,Detail,0,0,1,0,0,"tacoma, wa, usa",Site exploration
+32,Nathalia SanMiguel,Mr R block2,1,"Generate a colonial style house in Raleigh, North Carolina.",Site,0,0,1,1,0,"raleigh, north carolina",Cumulative incremental
+32,Nathalia SanMiguel,Mr R block2,2,"Generate a colonial style house in Raleigh, North Carolina.",Site,0,0,1,1,0,"raleigh, north carolina",Cumulative incremental
+32,Nathalia SanMiguel,Mr R block2,3,"Generate a colonial style house in Raleigh, North Carolina.",Site,0,0,1,1,0,"raleigh, north carolina",Cumulative incremental
+32,Nathalia SanMiguel,Mr R block2,4,"Generate a colonial style house in Raleigh, North Carolina. add solar panels",Site,0,0,1,1,0,"raleigh, north carolina",Cumulative incremental
+32,Nathalia SanMiguel,Mr R block2,5,"Generate a colonial style house in Raleigh, North Carolina. add solar panels, add insulation",Site,0,0,1,1,0,"raleigh, north carolina",Cumulative incremental
+32,Nathalia SanMiguel,Mr R block2,6,"Generate a colonial style house in Raleigh, North Carolina. add solar panels, add insulation, natural gas furnace",Site,0,0,1,1,0,"raleigh, north carolina",Cumulative incremental
+32,Nathalia SanMiguel,Mr R block2,7,"Generate a colonial style house in Raleigh, North Carolina. Window Insulation",Site,0,0,1,1,0,"raleigh, north carolina",Cumulative incremental
+33,Peyton Jones,Mr R block2,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+33,Peyton Jones,Mr R block2,2,generate the white house,Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+33,Peyton Jones,Mr R block2,3,"generate the white house 
+add solar panals to the top of the house",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+33,Peyton Jones,Mr R block2,4,"generate the white house 
+add solar panals to the top of the house",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+33,Peyton Jones,Mr R block2,5,"generate the white house 
+add solar panals to the top of the house 
+try to get the heat down",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+33,Peyton Jones,Mr R block2,6,"generate the white house 
+add solar panals to the top of the house 
+put insulation in",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+33,Peyton Jones,Mr R block2,7,"generate the white house 
+add solar panals to the top of the house 
+put insulation in
+put a lot of wind turbines",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+33,Peyton Jones,Mr R block2,8,"generate the white house 
+add solar panals to the top of the house 
+put insulation in
+generate wind turbines",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+34,Trevor Schwartz,Mr R block2,1,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  save energy",Performance,0,1,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,2,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,3,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,4,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,5,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,6,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,7,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat, reserve all the heat",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,8,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat, reserve all the heat, make house a shed",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,9,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat, reserve all the heat, make house a shed, make the house normal",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,10,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat, reserve all the heat, make house a shed, make the house normal,  reserve all the heat on earth",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,11,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat, reserve all the heat, make house a shed, make the house normal,  reserve all the heat on earth, reserve all heat, save all heat, save all the heat everywhere",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,12,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat, reserve all the heat, make house a shed, make the house normal,  reserve all the heat on earth, reserve all heat, save heat, reserve  heat with solar panels",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,13,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat, reserve all the heat, make house a shed, make the house normal,  reserve all the heat on earth, reserve all heat, save heat, reserve  heat with solar panels, protect all of the heat",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,14,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat, reserve all the heat, make house a shed, make the house normal,  reserve all the heat on earth, reserve all heat, save heat, reserve  heat with solar panels, protect all of the heat, make house a shed",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,15,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat, reserve all the heat, make house a shed, make the house normal,  reserve all the heat on earth, reserve all heat, save heat, reserve  heat with solar panels, protect all of the heat, make house a shed, make the house very tiny, make the house smaller",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,16,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat, reserve all the heat, make house a shed, make the house normal,  reserve all the heat on earth, reserve all heat, save heat, reserve  heat with solar panels, protect all of the heat, make house a shed, make the house very tiny, make the house smaller, make house smaller",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,17,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small, reserve  heat and save heat, save more heat, make house smaller, save all the heat",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+34,Trevor Schwartz,Mr R block2,18,"Generate a colonial style house. Add solar panels on the roof both sides add energy saver, more solar panels, put insulation in the walls,  make the house small",Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+35,Tristin Groves,Mr R block2,1,"Generate a colonial style house Miami, Florida.",Site,0,0,1,1,0,"miami, fl, usa",Site exploration
+35,Tristin Groves,Mr R block2,2,"Generate a colonial style house Benson, NC add solar panels, on both sides of the roof",Site,0,0,1,1,0,"benson, nc, usa",Site exploration
+35,Tristin Groves,Mr R block2,3,"Generate a colonial style house Benson, NC add solar panels, on both sides of the roof, change the color of the roof to green, and walls to yellow",Site,0,0,1,1,0,"benson, nc, usa",Site exploration
+35,Tristin Groves,Mr R block2,4,Generate a lebron James style mansion with a basketball court,Detail,0,0,1,0,0,"natick, ma, usa",Site exploration
+35,Tristin Groves,Mr R block2,5,Generate a lebron James style mansion with a basketball court make the walls pink and roof green,Detail,0,0,1,0,0,"natick, ma, usa",Site exploration
+35,Tristin Groves,Mr R block2,6,Generate a lebron James style mansion with a basketball court make the walls pink and roof green add solar panels all over the roof,Detail,0,0,1,0,0,"natick, ma, usa",Site exploration
+36,Ty_Vey Johnson,Mr R block2,1,"Generate a colonial style house.In Benson,North carolina",Site,0,0,1,1,0,"benson, north carolina, usa",Detail-descriptive
+37,Vanacy Terrell,Mr R block2,1,"Generate a colonial style house, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W)",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,2,"Generate a colonial style house, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m)",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,3,"Generate a colonial style house, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), add a brick fireplace",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,4,"Generate a colonial style house, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m)",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,5,"Generate a colonial style house, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m),",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,6,"Generate a colonial style house, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), maximize heating ventilation around the house",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,7,"Generate a colonial style house, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), maximize heating ventilation around the house, Width (1 m) and height (1.5 m)
+Color (white, #FFFFFF), Glass tint (#73D8FF), U-value (2 W/(m²·℃)) , Solar heat gain coefficient (SHGC) (0.5)",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,8,"Generate a colonial style house, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), add an energy saver",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,9,"Generate a colonial style house super small, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), add an energy saver",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,10,"Generate a colonial style house super small, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), add an energy saver, 68F when heating and 78F when cooling",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,11,"Generate a colonial style house super small, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), add an energy saver, 68F when heating and 78F when cooling, add solar panels on the west end of the house",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,12,"Generate a colonial style house super small, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), add an energy saver, 68F when heating and 78F when cooling",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,13,"Generate a colonial style house super small, Benson NC, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), add an energy saver, 68F when heating and 78F when cooling, add solar panels on both ends of the roof",Parameter,1,0,1,1,0,"benson, nc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,14,"Generate a colonial style house super small, Columbia, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), add an energy saver, 68F when heating and 78F when cooling, add solar panels on both ends of the roof",Parameter,1,0,1,0,0,"columbia, sc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,15,"Generate a colonial style house super small, Columbia, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), add an energy saver, 68F when heating and 78F when cooling, add solar panels on both ends of the roof, save all the heat",Parameter,1,0,1,0,0,"columbia, sc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,16,"Generate a colonial style house super small, Columbia, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m), add an energy saver, 68F when heating and 78F when cooling",Parameter,1,0,1,0,0,"columbia, sc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,17,"Generate a colonial style house super small, Columbia, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W), Eaves overhang length (0.3 m)",Parameter,1,0,1,0,0,"columbia, sc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,18,"Generate a colonial style house super small, Columbia, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃)), Frame color (white, #FFFFFF), R-value (2 m²·℃/W)",Parameter,1,0,1,0,0,"columbia, sc, usa",Parameter-driven
+37,Vanacy Terrell,Mr R block2,19,"Generate a colonial style house super small, Columbia, Orientation: Solar panels with Landscape or portrait (landscape), PV model name (SPR-X21-335-BLK), Length and width (cover the roof), add high R value insulation to the walls, add triple glazed windows, add a black roofing, Glass tint (#73D8FF), Heating setpoint (20 ℃), Cooling setpoint (25 ℃), AC coefficient of performance (4), R-value of ground floor (2 m²·℃/W), Width (1.6 m) and height (2.5 m), U-value (1 W/(m²·℃))",Parameter,1,0,1,0,0,"columbia, sc, usa",Parameter-driven
+39,Alexa Arenas Perez,Mr R block1,1,"Generate a colonial style house. In Huajimic, Nayarit, Mexico",Site,0,0,1,1,0,"huajimic, nayarit, mexico",Cumulative incremental
+39,Alexa Arenas Perez,Mr R block1,2,"Generate a colonial style house. In Huajimic, Nayarit, Mexico. No AC in May.",Site,0,0,1,1,0,"huajimic, nayarit, mexico",Cumulative incremental
+39,Alexa Arenas Perez,Mr R block1,3,"Generate a colonial style house. In Huajimic, Nayarit, Mexico. No AC in May. Add solar panels.",Site,0,0,1,1,0,"huajimic, nayarit, mexico",Cumulative incremental
+39,Alexa Arenas Perez,Mr R block1,4,"Generate a colonial style house. In Huajimic, Nayarit, Mexico. No AC in May. Add solar panels.
+Add energy-efficient windows.",Site,0,0,1,1,0,"huajimic, nayarit, mexico",Cumulative incremental
+40,Amiera Johnson,Mr R block1,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+41,Angelica Garcia Hernandez,Mr R block1,1,"Generate a colonial style house, la havana Cuba",Detail,0,0,1,0,0,"havana, cuba",Detail-descriptive
+42,Cassidy Weal,Mr R block1,1,Generate a colonial style house. NC.,Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+42,Cassidy Weal,Mr R block1,2,Generate a colonial style house. No AC in May. NC,Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+42,Cassidy Weal,Mr R block1,3,"Generate a colonial style house. NC. Solar panels, big windows with curtains",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+42,Cassidy Weal,Mr R block1,4,"Generate a colonial style house. NC.big windows with black curtains, blue house, black floor",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+42,Cassidy Weal,Mr R block1,5,"Generate a colonial style house. NC.big windows with window blinds, brick house, trees around the house, insulated walls in the house",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+42,Cassidy Weal,Mr R block1,6,"Generate a colonial style house. NC.big windows with window blinds, brick house, trees around the house, insulated walls in the house, basement, solar panels",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+42,Cassidy Weal,Mr R block1,7,"Generate a colonial style house. NC.big windows with window blinds, blue house, trees around the house, insulated walls in the house, basement, solar panels, white roof",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+42,Cassidy Weal,Mr R block1,8,"Generate a colonial style house. NC. window blinds, blue house, trees around the house, insulated walls in the house, basement, solar panels, white roof",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+42,Cassidy Weal,Mr R block1,9,"Generate a colonial style house. NC. window blinds, blue house, trees around the house, insulated walls in the house, basement,  two solar panels, white roof, blue base of the house",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,1,Generate a colonial style house,Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,2,Generate a colonial style house with the walls colored blue and the roof being blaack,Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,3,Generate a colonial style house with the walls colored blue and the roof being black and the windows being the width of 16m,Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,4,Generate a colonial style house with the walls colored blue and the roof being black and the windows being the width of 16m make the windows have a tint of 73,Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,5,Generate a colonial style house with the walls colored blue and the roof being black and the windows being the width of 16m make the windows have a tint of 73,Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,6,Generate a colonial style house with the walls colored blue and the roof being black and the windows being the width of 16m,Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,7,Generate a colonial style house with the walls colored blue and the roof being black and the windows being the width of 16m make the door a dark green,Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,8,"Generate a colonial style house with the walls colored blue and the roof being black and the windows being the width of 16m, make the house have a light insulation",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,9,"Generate a colonial style house with the walls colored blue and the roof being black and the windows being the width of 16m, make the house have a light insulation turn the house back the shape it was",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,10,"Generate a colonial style house with the walls colored blue and the roof being black, make the house have a light insulation turn the house back the shape it was",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,11,"Generate a colonial style house with the walls colored blue and the roof being black, make the house have a light insulation, make the house of solar panels",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,12,"Generate a colonial style house with the walls colored blue and the roof being black, make the house have a light insulation, make the house of solar panels put windmills close to the house",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,13,"Generate a colonial style house with the walls colored blue and the roof being black, make the house have a light insulation, make the house of solar panels put a wind turbine close to the house",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,14,"Generate a colonial style house with the walls colored blue and the roof being black, make the house have a light insulation, make the house of solar panels,addt wind turbines close to the house",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,15,"Generate a colonial style house with the walls colored blue and the roof being white, make the house have a light insulation, make the house of solar panels,addt wind turbines close to the house, make the windows the width of 17, more insulation,",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,16,"Generate a colonial style house with the walls colored blue and the roof being white, make the house have a light insulation, make the house of solar panels,addt wind turbines close to the house, make the windows the width of 7, more insulation,",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,17,"Generate a colonial style house with the walls colored blue and the roof being white, make the house have a light insulation, make the house of solar panels,addt wind turbines close to the house, make the windows the width of 7, more insulation,",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+43,Christopher Santizo Morales,Mr R block1,18,"Generate a colonial style house with the walls colored blue and the roof being white, make the house have a light insulation, make the house of solar panels,addt wind turbines close to the house, make the windows the width of 10, more insulation, and have more solar panels",Detail,0,0,1,0,0,"natick, ma, usa",Cumulative incremental
+44,Conner Murray,Mr R block1,1,Generate a colonial style house. in Florida,Site,0,0,1,1,0,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,2,Generate a colonial style house. in Florida  add solar panels,Site,0,0,1,1,0,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,3,Generate a colonial style house. in Florida  add solar panels  add 100 solar panels,Site,0,0,1,1,0,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,4,Generate a colonial style house. in Florida  add solar panels  add 100 solar panels add on both sides,Site,0,0,1,1,0,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,5,"Generate a colonial style house with a pool and 3 car garage and a guest house connected to it and add a electric car in the front drivway
+. in Florida  add solar panels  add 100 solar panels add on both sides",Off-task,0,0,1,1,1,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,6,"Generate a colonial style house with a pool and 3 car garage and a guest house connected to it and add a electric car in the front drivway
+. in Florida  add solar panels  add 100 solar panels add on both sides  add 100 wind turbines",Off-task,0,0,1,1,1,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,7,"Generate a colonial style house with a pool and 3 car garage and a guest house connected to it and add a electric car in the front drivway
+. in Florida  add solar panels  add 100 solar panels add on both sides  add 100 wind turbines add a castle connecting to the house",Off-task,0,0,1,1,1,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,8,"Generate a colonial style house with a pool and 3 car garage and a guest house connected to it and add a electric car in the front drivway
+. in Florida  add solar panels  add 100 solar panels add on both sides  add 100 wind turbines add a castle connecting to the house  insalate the house and windows",Off-task,0,0,1,1,1,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,9,"Generate a colonial style house with a pool and 3 car garage and a guest house connected to it and add a electric car in the front drivway
+. in Florida  add solar panels  add 100 solar panels add on both sides  add 100 wind turbines add a castle connecting to the house  insalate the house and windows 
+add solar panels all over borth sides of the house",Off-task,0,0,1,1,1,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,10,"Generate a colonial style house with a pool and 3 car garage and a guest house connected to it and add a electric car in the front drivway
+. in Florida  insalate the house and windows",Off-task,0,0,1,1,1,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,11,"Generate a colonial style house with a pool and 3 car garage and a guest house connected to it and add a electric car in the front drivway
+. in Florida  insalate the house and windows  add solar panels on both sides of house",Off-task,0,0,1,1,1,"miami, fl, usa",Off-task / imaginative exploratory
+44,Conner Murray,Mr R block1,12,"Generate a colonial style house with a pool and 3 car garage and a guest house connected to it and add a electric car in the front drivway
+. in Florida  insalate the house and windows  add solar panels on both sides of house  add stuff to save nergy and make the net 0",Off-task,0,1,1,1,1,"miami, fl, usa",Off-task / imaginative exploratory
+45,Enil Martinez-Gonzalez,Mr R block1,1,Generate a colonial style house. hawaii,Site,0,0,1,1,0,"honolulu, hi, usa",Cumulative incremental
+45,Enil Martinez-Gonzalez,Mr R block1,2,"Generate a colonial style house. hawaii, add solar panels",Site,0,0,1,1,0,"honolulu, hi, usa",Cumulative incremental
+45,Enil Martinez-Gonzalez,Mr R block1,3,"Generate a colonial style house. hawaii, add solar panels, add them on both sides of the roof and add a wind turbine next to the house a couple feet away",Site,0,0,1,1,0,"honolulu, hi, usa",Cumulative incremental
+45,Enil Martinez-Gonzalez,Mr R block1,4,"Generate a colonial style house. hawaii, add solar panels, add them on both sides of the roof and add a wind turbine next to the house a couple feet away, add a wind turbine facing east 8.5 meters away from the house",Site,0,0,1,1,0,"honolulu, hi, usa",Cumulative incremental
+45,Enil Martinez-Gonzalez,Mr R block1,5,"Generate a colonial style house. hawaii, add solar panels, add them on both sides of the roof and add a wind turbine next to the house a couple feet away, add a battery on the side of the house that stores the solar energy",Site,0,0,1,1,0,"honolulu, hi, usa",Cumulative incremental
+45,Enil Martinez-Gonzalez,Mr R block1,6,"Generate a colonial style house. hawaii, add solar panels, add them on both sides of the roof and add a wind turbine next to the house a couple feet away, add a battery on the side of the house that stores the solar energy, make the solar panels a little bigger fitting the whole roof",Site,0,0,1,1,0,"honolulu, hi, usa",Cumulative incremental
+45,Enil Martinez-Gonzalez,Mr R block1,7,"Generate a colonial style house. hawaii, add solar panels, add them on both sides of the roof and add a wind turbine next to the house a couple feet away, add a battery on the side of the house that stores the solar energy, make the solar panels a little bigger fitting the whole roof, add a full size soccer pitch next to the house and a water park on the other side of the house",Site,0,0,1,1,0,"honolulu, hi, usa",Cumulative incremental
+45,Enil Martinez-Gonzalez,Mr R block1,8,"Generate a colonial style house. hawaii, add solar panels, add them on both sides of the roof and add a wind turbine next to the house a couple feet away, add a battery on the side of the house that stores the solar energy, make the solar panels a little bigger fitting the whole roof, add insulation",Site,0,0,1,1,0,"honolulu, hi, usa",Cumulative incremental
+45,Enil Martinez-Gonzalez,Mr R block1,9,"Generate a colonial style house. hawaii, add solar panels, add them on both sides of the roof and add a wind turbine next to the house a couple feet away, add a battery on the side of the house that stores the solar energy, make the solar panels a little bigger fitting the whole roof, add insulation, add a garage and a greenhouse room",Site,0,0,1,1,0,"honolulu, hi, usa",Cumulative incremental
+46,Esther Adebusuyi,Mr R block1,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma, usa",Parameter-driven
+46,Esther Adebusuyi,Mr R block1,2,Generate a colonial style house. Glass tint (#73D8FF),Parameter,1,0,1,0,0,"natick, ma, usa",Parameter-driven
+46,Esther Adebusuyi,Mr R block1,3,Generate a colonial style house. Glass tint (#73D8FF) Heating setpoint (20 ℃),Parameter,1,0,1,0,0,"natick, ma, usa",Parameter-driven
+46,Esther Adebusuyi,Mr R block1,4,"Generate a colonial style house. Glass tint (#73D8FF) Heating setpoint (20 ℃)
+solar panel",Parameter,1,0,1,0,0,"natick, ma, usa",Parameter-driven
+46,Esther Adebusuyi,Mr R block1,5,"Generate a colonial style house. insulation, basement, solar panel, blue house",Detail,0,0,1,0,0,"natick, ma, usa",Parameter-driven
+46,Esther Adebusuyi,Mr R block1,6,"Generate a colonial style house. make R-values super high by insulation, basement, solar panel, blue house",Detail,0,0,1,0,0,"natick, ma, usa",Parameter-driven
+46,Esther Adebusuyi,Mr R block1,7,"Generate a colonial style house. make R-values super high by insulation, basement, solar panel, blue house make u-value super low by insulation.",Parameter,1,0,1,0,0,"natick, ma, usa",Parameter-driven
+47,Isabella Martinez,Mr R block1,1,Generate a tudor revival home,General,0,0,0,0,0,"natick, ma, usa",Site exploration
+47,Isabella Martinez,Mr R block1,2,Generate a tudor revival home in north carolina dose not need cooling but needs heat,Site,0,0,0,1,0,"raleigh, nc, usa",Site exploration
+47,Isabella Martinez,Mr R block1,3,Generate a spainish revival home in california dose not need cooling but needs heat,Site,0,0,0,1,0,"los angeles, ca, usa",Site exploration
+49,John Calas Diaz,Mr R block1,1,"Dog Trot Ranch-Style House Floor Plan (Approx. 2,500 sq ft)
+
+Key Features:
+
+* Single-story, ranch-style design
+* Dog trot breezeway at the center, connecting living and bedroom wings
+* 3 bedrooms, 4 baths
+* 2-car garage with direct access to mud room
+* Spacious kitchen with large island
+* First floor (main floor) laundry room
+* Mud room off garage/entry
+* Covered outdoor living area with fireplace
+* Pool accessible from main living area and master suite
+
+---
+
+Floor Plan Layout:
+
+1. Garage/Mud Room Wing:
+  * 2-car garage with storage/workspace
+  * Mud room with built-in bench/cubbies
+  * Adjacent full bathroom (for pool/garage use)
+  * Laundry room with folding counter and storage
+2. Dog Trot (Central Breezeway):
+  * Wide, open breezeway for natural ventilation and connection to the outdoors
+  * Covered, ideal for relaxing or entertaining
+  * Access to backyard pool area and outdoor fireplace
+3. Main Living Wing (Left Side):
+  * Open concept living room with fireplace
+  * Dining area with large windows to pool
+  * Kitchen with central island, breakfast bar, walk-in pantry
+  * Sliding glass doors to outdoor living space
+4. Bedroom Wing (Right Side):
+  * Primary suite with walk-in closet, direct pool access
+  * Primary bath: double vanity, soaking tub, walk-in shower, private toilet
+  * Two secondary bedrooms, each with en-suite full bath
+  * Optional study or flex space near bedrooms
+5. Outdoor Living:
+  * Covered patio with built-in outdoor fireplace
+  * Pool with sun shelf and lounge area
+  * Landscaped backyard with privacy fencing
+
+---
+
+Room Sizes (approximate):
+
+* Primary Suite: 18’ x 16’
+* Bedrooms 2 & 3: 13’ x 13’
+* Kitchen: 16’ x 14’ (island 8’ long)
+* Living Room: 20’ x 18’
+* Garage: 24’ x 24’
+* Dog Trot Breezeway: 10’ wide
+* Outdoor Patio: 18’ x 14’
+
+Note: Actual room sizes and configurations can be adjusted to meet specific needs or preferences.
+
+Summary:
+This dog trot ranch-style plan blends indoor and outdoor living, offers generous communal spaces, private bedroom suites, and all the key amenities you requested. The pool and outdoor fireplace make it ideal for entertaining and relaxation.",Off-task,0,0,1,0,1,"natick, ma, usa",Off-task / imaginative exploratory
+49,John Calas Diaz,Mr R block1,2,"Dog Trot Ranch-Style House Floor Plan (Approx. 2,500 sq ft)
+
+Key Features:
+
+* Single-story, ranch-style design
+* Dog trot breezeway at the center, connecting living and bedroom wings
+* 3 bedrooms, 4 baths
+* 2-car garage with direct access to mud room
+* Spacious kitchen with large island
+* First floor (main floor) laundry room
+* Mud room off garage/entry
+* Covered outdoor living area with fireplace
+* Pool accessible from main living area and master suite
+
+---
+
+Floor Plan Layout:
+
+1. Garage/Mud Room Wing:
+  * 2-car garage with storage/workspace
+  * Mud room with built-in bench/cubbies
+  * Adjacent full bathroom (for pool/garage use)
+  * Laundry room with folding counter and storage
+2. Dog Trot (Central Breezeway):
+  * Wide, open breezeway for natural ventilation and connection to the outdoors
+  * Covered, ideal for relaxing or entertaining
+  * Access to backyard pool area and outdoor fireplace
+3. Main Living Wing (Left Side):
+  * Open concept living room with fireplace
+  * Dining area with large windows to pool
+  * Kitchen with central island, breakfast bar, walk-in pantry
+  * Sliding glass doors to outdoor living space
+4. Bedroom Wing (Right Side):
+  * Primary suite with walk-in closet, direct pool access
+  * Primary bath: double vanity, soaking tub, walk-in shower, private toilet
+  * Two secondary bedrooms, each with en-suite full bath
+  * Optional study or flex space near bedrooms
+5. Outdoor Living:
+  * Covered patio with built-in outdoor fireplace
+  * Pool with sun shelf and lounge area
+  * Landscaped backyard with privacy fencing
+
+---
+
+Room Sizes (approximate):
+
+* Primary Suite: 18’ x 16’
+* Bedrooms 2 & 3: 13’ x 13’
+* Kitchen: 16’ x 14’ (island 8’ long)
+* Living Room: 20’ x 18’
+* Garage: 24’ x 24’
+* Dog Trot Breezeway: 10’ wide
+* Outdoor Patio: 18’ x 14’
+
+Note: Actual room sizes and configurations can be adjusted to meet specific needs or preferences.
+
+Summary:
+This dog trot ranch-style plan blends indoor and outdoor living, offers generous communal spaces, private bedroom suites, and all the key amenities you requested. The pool and outdoor fireplace make it ideal for entertaining and relaxation. Calorina, Puerto Rico",Off-task,0,0,1,0,1,"carolina, puerto rico, usa",Off-task / imaginative exploratory
+49,John Calas Diaz,Mr R block1,3,"Dog Trot Ranch-Style House Floor Plan (Approx. 2,500 sq ft)
+
+Key Features:
+
+* Single-story, ranch-style design
+* Dog trot breezeway at the center, connecting living and bedroom wings
+* 3 bedrooms, 4 baths
+* 2-car garage with direct access to mud room
+* Spacious kitchen with large island
+* First floor (main floor) laundry room
+* Mud room off garage/entry
+* Covered outdoor living area with fireplace
+* Pool accessible from main living area and master suite
+
+---
+
+Floor Plan Layout:
+
+1. Garage/Mud Room Wing:
+  * 2-car garage with storage/workspace
+  * Mud room with built-in bench/cubbies
+  * Adjacent full bathroom (for pool/garage use)
+  * Laundry room with folding counter and storage
+2. Dog Trot (Central Breezeway):
+  * Wide, open breezeway for natural ventilation and connection to the outdoors
+  * Covered, ideal for relaxing or entertaining
+  * Access to backyard pool area and outdoor fireplace
+3. Main Living Wing (Left Side):
+  * Open concept living room with fireplace
+  * Dining area with large windows to pool
+  * Kitchen with central island, breakfast bar, walk-in pantry
+  * Sliding glass doors to outdoor living space
+4. Bedroom Wing (Right Side):
+  * Primary suite with walk-in closet, direct pool access
+  * Primary bath: double vanity, soaking tub, walk-in shower, private toilet
+  * Two secondary bedrooms, each with en-suite full bath
+  * Optional study or flex space near bedrooms
+5. Outdoor Living:
+  * Covered patio with built-in outdoor fireplace
+  * Pool with sun shelf and lounge area
+  * Landscaped backyard with privacy fencing
+
+---
+
+Room Sizes (approximate):
+
+* Primary Suite: 18’ x 16’
+* Bedrooms 2 & 3: 13’ x 13’
+* Kitchen: 16’ x 14’ (island 8’ long)
+* Living Room: 20’ x 18’
+* Garage: 24’ x 24’
+* Dog Trot Breezeway: 10’ wide
+* Outdoor Patio: 18’ x 14’
+
+Note: Actual room sizes and configurations can be adjusted to meet specific needs or preferences.
+
+Summary:
+This dog trot ranch-style plan blends indoor and outdoor living, offers generous communal spaces, private bedroom suites, and all the key amenities you requested. The pool and outdoor fireplace make it ideal for entertaining and relaxation. 
+Coastal CA, Portugal, South-facing, breezeway, All envelope surfaces, Solar PV with battery, Natural shade, wind blocking give me my roof back",Off-task,1,0,1,0,1,"santa barbara, ca, usa",Off-task / imaginative exploratory
+49,John Calas Diaz,Mr R block1,4,"Dog Trot Ranch-Style House Floor Plan (Approx. 2,500 sq ft)
+
+Key Features:
+
+* Single-story, ranch-style design
+* Dog trot breezeway at the center, connecting living and bedroom wings
+* 3 bedrooms, 4 baths
+* 2-car garage with direct access to mud room
+* Spacious kitchen with large island
+* First floor (main floor) laundry room
+* Mud room off garage/entry
+* Covered outdoor living area with fireplace
+* Pool accessible from main living area and master suite
+
+---
+
+Floor Plan Layout:
+
+1. Garage/Mud Room Wing:
+  * 2-car garage with storage/workspace
+  * Mud room with built-in bench/cubbies
+  * Adjacent full bathroom (for pool/garage use)
+  * Laundry room with folding counter and storage
+2. Dog Trot (Central Breezeway):
+  * Wide, open breezeway for natural ventilation and connection to the outdoors
+  * Covered, ideal for relaxing or entertaining
+  * Access to backyard pool area and outdoor fireplace
+3. Main Living Wing (Left Side):
+  * Open concept living room with fireplace
+  * Dining area with large windows to pool
+  * Kitchen with central island, breakfast bar, walk-in pantry
+  * Sliding glass doors to outdoor living space
+4. Bedroom Wing (Right Side):
+  * Primary suite with walk-in closet, direct pool access
+  * Primary bath: double vanity, soaking tub, walk-in shower, private toilet
+  * Two secondary bedrooms, each with en-suite full bath
+  * Optional study or flex space near bedrooms
+5. Outdoor Living:
+  * Covered patio with built-in outdoor fireplace
+  * Pool with sun shelf and lounge area
+  * Landscaped backyard with privacy fencing
+
+---
+
+Room Sizes (approximate):
+
+* Primary Suite: 18’ x 16’
+* Bedrooms 2 & 3: 13’ x 13’
+* Kitchen: 16’ x 14’ (island 8’ long)
+* Living Room: 20’ x 18’
+* Garage: 24’ x 24’
+* Dog Trot Breezeway: 10’ wide
+* Outdoor Patio: 18’ x 14’
+
+Note: Actual room sizes and configurations can be adjusted to meet specific needs or preferences.
+
+Summary:
+This dog trot ranch-style plan blends indoor and outdoor living, offers generous communal spaces, private bedroom suites, and all the key amenities you requested. The pool and outdoor fireplace make it ideal for entertaining and relaxation. 
+Coastal CA, Portugal, South-facing, breezeway, All envelope surfaces, Solar PV with battery, Natural shade, wind blocking give me my roof back now give  me solar panels to cover the whole roof",Off-task,1,0,1,0,1,"cascais, portugal",Off-task / imaginative exploratory
+49,John Calas Diaz,Mr R block1,5,"Dog Trot Ranch-Style House Floor Plan (Approx. 2,500 sq ft)
+
+Key Features:
+
+* Single-story, ranch-style design
+* Dog trot breezeway at the center, connecting living and bedroom wings
+* 3 bedrooms, 4 baths
+* 2-car garage with direct access to mud room
+* Spacious kitchen with large island
+* First floor (main floor) laundry room
+* Mud room off garage/entry
+* Covered outdoor living area with fireplace
+* Pool accessible from main living area and master suite
+
+---
+
+Floor Plan Layout:
+
+1. Garage/Mud Room Wing:
+  * 2-car garage with storage/workspace
+  * Mud room with built-in bench/cubbies
+  * Adjacent full bathroom (for pool/garage use)
+  * Laundry room with folding counter and storage
+2. Dog Trot (Central Breezeway):
+  * Wide, open breezeway for natural ventilation and connection to the outdoors
+  * Covered, ideal for relaxing or entertaining
+  * Access to backyard pool area and outdoor fireplace
+3. Main Living Wing (Left Side):
+  * Open concept living room with fireplace
+  * Dining area with large windows to pool
+  * Kitchen with central island, breakfast bar, walk-in pantry
+  * Sliding glass doors to outdoor living space
+4. Bedroom Wing (Right Side):
+  * Primary suite with walk-in closet, direct pool access
+  * Primary bath: double vanity, soaking tub, walk-in shower, private toilet
+  * Two secondary bedrooms, each with en-suite full bath
+  * Optional study or flex space near bedrooms
+5. Outdoor Living:
+  * Covered patio with built-in outdoor fireplace
+  * Pool with sun shelf and lounge area
+  * Landscaped backyard with privacy fencing
+
+---
+
+Room Sizes (approximate):
+
+* Primary Suite: 18’ x 16’
+* Bedrooms 2 & 3: 13’ x 13’
+* Kitchen: 16’ x 14’ (island 8’ long)
+* Living Room: 20’ x 18’
+* Garage: 24’ x 24’
+* Dog Trot Breezeway: 10’ wide
+* Outdoor Patio: 18’ x 14’
+
+Note: Actual room sizes and configurations can be adjusted to meet specific needs or preferences.
+
+Summary:
+This dog trot ranch-style plan blends indoor and outdoor living, offers generous communal spaces, private bedroom suites, and all the key amenities you requested. The pool and outdoor fireplace make it ideal for entertaining and relaxation. 
+Coastal CA, Portugal, South-facing, breezeway, All envelope surfaces, Solar PV with battery, Natural shade, wind blocking give me my roof back now give  me solar panels to cover the whole roof and add a battery to save energy and more solar panels to the side of the roof the sun faces",Off-task,1,1,1,0,1,"cascais, portugal",Off-task / imaginative exploratory
+49,John Calas Diaz,Mr R block1,6,"Dog Trot Ranch-Style House Floor Plan (Approx. 2,500 sq ft)
+
+Key Features:
+
+* Single-story, ranch-style design
+* Dog trot breezeway at the center, connecting living and bedroom wings
+* 3 bedrooms, 4 baths
+* 2-car garage with direct access to mud room
+* Spacious kitchen with large island
+* First floor (main floor) laundry room
+* Mud room off garage/entry
+* Covered outdoor living area with fireplace
+* Pool accessible from main living area and master suite
+
+---
+
+Floor Plan Layout:
+
+1. Garage/Mud Room Wing:
+  * 2-car garage with storage/workspace
+  * Mud room with built-in bench/cubbies
+  * Adjacent full bathroom (for pool/garage use)
+  * Laundry room with folding counter and storage
+2. Dog Trot (Central Breezeway):
+  * Wide, open breezeway for natural ventilation and connection to the outdoors
+  * Covered, ideal for relaxing or entertaining
+  * Access to backyard pool area and outdoor fireplace
+3. Main Living Wing (Left Side):
+  * Open concept living room with fireplace
+  * Dining area with large windows to pool
+  * Kitchen with central island, breakfast bar, walk-in pantry
+  * Sliding glass doors to outdoor living space
+4. Bedroom Wing (Right Side):
+  * Primary suite with walk-in closet, direct pool access
+  * Primary bath: double vanity, soaking tub, walk-in shower, private toilet
+  * Two secondary bedrooms, each with en-suite full bath
+  * Optional study or flex space near bedrooms
+5. Outdoor Living:
+  * Covered patio with built-in outdoor fireplace
+  * Pool with sun shelf and lounge area
+  * Landscaped backyard with privacy fencing
+
+---
+
+Room Sizes (approximate):
+
+* Primary Suite: 18’ x 16’
+* Bedrooms 2 & 3: 13’ x 13’
+* Kitchen: 16’ x 14’ (island 8’ long)
+* Living Room: 20’ x 18’
+* Garage: 24’ x 24’
+* Dog Trot Breezeway: 10’ wide
+* Outdoor Patio: 18’ x 14’
+
+
+
+Summary: 
+put my house in hawaii, South-facing, breezeway, All envelope surfaces, Solar PV with battery, Natural shade, wind blocking give me my roof back now give  me solar panels to cover the whole roof and add a battery to save energy and more solar panels to the side of the roof the sun faces, add insulation as well to the household, insulated windows and place solar panels where theyt would be most efficient and remove those that don't give enough energy",Off-task,1,1,1,1,1,"honolulu, hawaii, usa",Off-task / imaginative exploratory
+49,John Calas Diaz,Mr R block1,7,"Dog Trot Ranch-Style House Floor Plan (Approx. 2,500 sq ft)
+
+Key Features:
+
+* Single-story, ranch-style design
+* Dog trot breezeway at the center, connecting living and bedroom wings
+* 3 bedrooms, 4 baths
+* 2-car garage with direct access to mud room
+* Spacious kitchen with large island
+* First floor (main floor) laundry room
+* Mud room off garage/entry
+* Covered outdoor living area with fireplace
+* Pool accessible from main living area and master suite
+
+---
+
+Floor Plan Layout:
+
+1. Garage/Mud Room Wing:
+  * 2-car garage with storage/workspace
+  * Mud room with built-in bench/cubbies
+  * Adjacent full bathroom (for pool/garage use)
+  * Laundry room with folding counter and storage
+2. Dog Trot (Central Breezeway):
+  * Wide, open breezeway for natural ventilation and connection to the outdoors
+  * Covered, ideal for relaxing or entertaining
+  * Access to backyard pool area and outdoor fireplace
+3. Main Living Wing (Left Side):
+  * Open concept living room with fireplace
+  * Dining area with large windows to pool
+  * Kitchen with central island, breakfast bar, walk-in pantry
+  * Sliding glass doors to outdoor living space
+4. Bedroom Wing (Right Side):
+  * Primary suite with walk-in closet, direct pool access
+  * Primary bath: double vanity, soaking tub, walk-in shower, private toilet
+  * Two secondary bedrooms, each with en-suite full bath
+  * Optional study or flex space near bedrooms
+5. Outdoor Living:
+  * Covered patio with built-in outdoor fireplace
+  * Pool with sun shelf and lounge area
+  * Landscaped backyard with privacy fencing
+
+---
+
+Room Sizes (approximate):
+
+* Primary Suite: 18’ x 16’
+* Bedrooms 2 & 3: 13’ x 13’
+* Kitchen: 16’ x 14’ (island 8’ long)
+* Living Room: 20’ x 18’
+* Garage: 24’ x 24’
+* Dog Trot Breezeway: 10’ wide
+* Outdoor Patio: 18’ x 14’
+
+
+
+Summary: 
+put my house in hawaii, South-facing, breezeway, All envelope surfaces, Solar PV with battery, Natural shade, wind blocking give me my roof back now give  me solar panels to cover the whole roof and add a battery to save energy and more solar panels to the side of the roof the sun faces, add insulation as well to the household, insulated windows and place solar panels on both sides of the roof keeping all three batteries",Off-task,1,1,1,1,1,"honolulu, hi, usa",Off-task / imaginative exploratory
+50,Karsyn Clifton,Mr R block1,1,"Generate a colonial style house, NC.",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+50,Karsyn Clifton,Mr R block1,2,"Generate a colonial style house, NC. No AC in may",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+50,Karsyn Clifton,Mr R block1,3,"Generate a colonial style house, NC. No AC in may. Window curtains, solar panels, non black roof",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+50,Karsyn Clifton,Mr R block1,4,"Generate a colonial style house, NC. No AC in may. Window curtains, non black roof",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+50,Karsyn Clifton,Mr R block1,5,"Generate a colonial style house, NC. black Window curtains, blue house ,",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+50,Karsyn Clifton,Mr R block1,6,"Generate a colonial style house, NC. window blinds, Blue house, basement",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+50,Karsyn Clifton,Mr R block1,7,"Generate a colonial style house, NC. window blinds, Blue house, basement, brick house with insulated walls, trees",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+50,Karsyn Clifton,Mr R block1,8,"Generate a colonial style house, NC. window blinds, Blue house, basement, brick house with insulated walls, trees, solar panels",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+50,Karsyn Clifton,Mr R block1,9,"Generate a colonial style house, NC. window blinds, Blue house, basement, brick house with insulated walls, trees, 2 solar panels",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+50,Karsyn Clifton,Mr R block1,10,"Generate a colonial style house, NC. window blinds, Blue house, basement, brick house with insulated walls, trees, solar panels,wind turbine",Site,0,0,1,1,0,"raleigh, nc, usa",Cumulative incremental
+51,Tommie Zimmerman,Mr R block1,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+52,Cayden Price,Ms T,1,Generate a colonial style house.in hawaii,Site,0,0,1,1,0,"honolulu, hi",Detail-descriptive
+53,Daniella Limas-Ayala,Ms T,1,Generate a colonial style house. Charlotte,Detail,0,0,1,0,0,"charlotte, nc",Detail-descriptive
+54,"Eduardo Flores Martinez ",Ms T,1,I want a building shaped as a diamond,General,0,0,0,0,0,"natick, ma",Mixed / low-evidence
+54,"Eduardo Flores Martinez ",Ms T,2,make a house with solar panels,General,0,0,0,0,0,"natick, ma",Mixed / low-evidence
+55,Gustavo Saucedo-Ramos,Ms T,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma, usa",Detail-descriptive
+56,"James Wilkins  ",Ms T,1,Generate a colonial style house. Nc Benson,Site,0,0,1,1,0,"natick, ma",Detail-descriptive
+57,"Jhamil Cortez",Ms T,1,Generate a 2 story colonial style house with trees and flowers,Detail,0,0,1,0,0,"natick, ma",Detail-descriptive
+58,"Kailyn cochran",Ms T,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma",Detail-descriptive
+59,Karmen Than Chan,Ms T,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma",Detail-descriptive
+60,Lexie,Ms T,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma",Detail-descriptive
+60,Lexie,Ms T,2,Generate a colonial style house. In Hawaii with solar panels on the roof,Site,0,0,1,1,0,"honolulu, hi",Detail-descriptive
+61,Marco Gonzalez,Ms T,1,basically make a 1 to 1 replica of new york EVERYTHING the same,Off-task,0,0,0,1,0,"new york, ny",Off-task / imaginative exploratory
+61,Marco Gonzalez,Ms T,2,basically make a 1 to 1 replica of new york EVERYTHING the same,Off-task,0,0,0,1,0,"natick, ma, usa",Off-task / imaginative exploratory
+61,Marco Gonzalez,Ms T,3,mkae a trailer house very effiecent and colorful,Off-task,0,0,0,0,1,"natick, ma, usa",Off-task / imaginative exploratory
+61,Marco Gonzalez,Ms T,4,make tilted towers from fortnite 1 to 1 replica,Off-task,0,0,0,0,1,"natick, ma, usa",Off-task / imaginative exploratory
+61,Marco Gonzalez,Ms T,5,make a building design of a pyramid,General,0,0,0,0,0,"natick, ma",Off-task / imaginative exploratory
+61,Marco Gonzalez,Ms T,6,make a house with two blocks next to eaceater and and one tall buidling between the two small balls together,Detail,0,0,1,0,0,"natick, ma",Off-task / imaginative exploratory
+61,Marco Gonzalez,Ms T,7,make a big ahh unique ouse,Detail,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+61,Marco Gonzalez,Ms T,8,make a only color red castle,Off-task,0,0,1,0,1,"natick, ma, usa",Off-task / imaginative exploratory
+61,Marco Gonzalez,Ms T,9,"Wide shot of Jeffrey Epstein's blue-domed white pavilion on Little St. James island, bright white stone, distinctive blue-and-white dome, Caribbean architecture, tropical vegetation surrounding the building, clear sky, aerial view, photorealistic.""",Off-task,0,0,1,0,1,"little saint james, u.s. virgin islands",Off-task / imaginative exploratory
+61,Marco Gonzalez,Ms T,10,"A pristine white, temple-like structure with a blue and white striped roof in the Caribbean, ultra-realistic, dramatic lighting, detailed texture, 35mm photography.""",Off-task,0,0,1,0,1,caribbean sea,Off-task / imaginative exploratory
+61,Marco Gonzalez,Ms T,11,make a femboy house,General,0,0,0,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+62,Mark Islas-Ramos,Ms T,1,Generate a colonial style house. in tel aviv Isreal,Detail,0,0,1,0,0,"tel aviv, israel",Detail-descriptive
+63,Nick Darcia-Castillo,Ms T,1,Make a generic house,Off-task,0,0,0,0,1,"natick, ma",Off-task / imaginative exploratory
+63,Nick Darcia-Castillo,Ms T,2,Make a big luxurious house,Off-task,0,0,1,0,1,"natick, ma",Off-task / imaginative exploratory
+63,Nick Darcia-Castillo,Ms T,3,freestyle a house,Off-task,0,0,0,0,1,"natick, ma",Off-task / imaginative exploratory
+63,Nick Darcia-Castillo,Ms T,4,Make the twin towers,Off-task,0,0,0,0,1,"natick, ma",Off-task / imaginative exploratory
+63,Nick Darcia-Castillo,Ms T,5,make a design of the temple on epstein's island with the gold roof,Off-task,0,0,1,0,1,"natick, ma",Off-task / imaginative exploratory
+63,Nick Darcia-Castillo,Ms T,6,make a dih shaped house,Off-task,0,0,0,0,1,"natick, ma",Off-task / imaginative exploratory
+63,Nick Darcia-Castillo,Ms T,7,make a freaky house😜,Off-task,0,0,0,0,1,"natick, ma",Off-task / imaginative exploratory
+64,Vanessa Beltran Bonilla,Ms T,1,Generate a colonial style house. NC Benson,Site,0,0,1,1,0,"benson, nc",Detail-descriptive
+65,William Thomas Goodman V,Ms T,1,"Generate a colonial style house in Alaska, USA",Site,0,0,1,1,0,"anchorage, alaska, usa",Cumulative incremental
+65,William Thomas Goodman V,Ms T,2,"Generate a colonial style house in Alaska, USA add solar panels",Site,0,0,1,1,0,"anchorage, alaska, usa",Cumulative incremental
+65,William Thomas Goodman V,Ms T,3,"Generate a colonial style house in Alaska, USA add solar panels improve",Site,0,0,1,1,0,"anchorage, alaska, usa",Cumulative incremental
+65,William Thomas Goodman V,Ms T,4,"Generate a colonial style house in Alaska, USA add solar panels improve more",Site,0,0,1,1,0,"anchorage, alaska, usa",Cumulative incremental
+66,Yaricsa Cruz Gonzalez,Ms T,1,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma, usa",Performance-oriented
+66,Yaricsa Cruz Gonzalez,Ms T,2,Generate a Netzero house.,Performance,0,1,0,0,0,"natick, ma, usa",Performance-oriented
+66,Yaricsa Cruz Gonzalez,Ms T,3,Generate a Netzero house In NC willow springs.,Performance,0,1,0,1,0,"willow spring, nc, usa",Performance-oriented
+66,Yaricsa Cruz Gonzalez,Ms T,4,Generate a Hacienda type of house located in Mexico,Site,0,0,0,1,0,"san miguel de allende, guanajuato, mexico",Performance-oriented
+66,Yaricsa Cruz Gonzalez,Ms T,5,Generate a Hacienda type of house located in Mexico with many windows,Site,0,0,1,1,0,"san miguel de allende, guanajuato, mexico",Performance-oriented
+67,Meredith Brown,Mr C,1,make a colonial style house with large windows and a garage and a pool,Off-task,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+67,Meredith Brown,Mr C,2,make a colonial style house with large windows,Detail,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+68,Jordan Bass,Mr R block1,1,Generate a colonial style house in Greece,Detail,0,0,1,0,0,"athens, greece",Detail-descriptive
+68,Jordan Bass,Mr R block1,2,Generate a colonial style house in Greece turn down heating,Detail,0,0,1,0,0,"athens, greece",Detail-descriptive
+68,Jordan Bass,Mr R block1,3,Generate a colonial style house in Greece turn down heating during the winter/fall months and turn up the AC in the summer/spring months,Detail,0,0,1,0,0,"athens, greece",Detail-descriptive
+68,Jordan Bass,Mr R block1,4,Generate a colonial style house in Greece. Make heating and AC and equal amount but make it low,Detail,0,0,1,0,0,"athens, greece",Detail-descriptive
+68,Jordan Bass,Mr R block1,5,Generate a colonial style house in Greece. Add solar panels to the roof of the house,Detail,0,0,1,0,0,"athens, greece",Detail-descriptive
+69,Ivan Cabrera-Jimenez,Mr R block4,1,Generate a colonial style house. that is blue,Detail,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+69,Ivan Cabrera-Jimenez,Mr R block4,2,a two story mansion with a bunch of cars in front of it,Detail,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+69,Ivan Cabrera-Jimenez,Mr R block4,3,make a big house colored white with alot of windows and a pool,Off-task,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+69,Ivan Cabrera-Jimenez,Mr R block4,4,make a big house with white stones as the walls with alot of windows and a pool,Off-task,0,0,1,0,0,"natick, ma, usa",Off-task / imaginative exploratory
+70,Alec Raymond,Ms T,1,"Generate a colonial style house in Miami, fl",Detail,0,0,1,0,0,"miami, fl",Site exploration
+70,Alec Raymond,Ms T,2,"make me a 2 story mansion in California, usa",Site,0,0,1,1,0,"los angeles, ca, usa",Site exploration
+70,Alec Raymond,Ms T,3,"make me a 1 story barn house in north carolina , usa",Site,0,0,0,1,0,"raleigh, nc, usa",Site exploration
+71,Kadence Smith,Ms T,1,Generate a farm style house.,Detail,0,0,1,0,0,"natick, ma, usa",Parameter-driven
+71,Kadence Smith,Ms T,2,Generate a colonial style house.,Detail,0,0,1,0,0,"natick, ma, usa",Parameter-driven
+71,Kadence Smith,Ms T,3,"Generate a colonial style house. insulation, basement, solar panels, blue house",Detail,0,0,1,0,0,"natick, ma, usa",Parameter-driven
+71,Kadence Smith,Ms T,4,"Generate a colonial style house. insulation, add basement, solar panels, blue house, increase R value a lot",Parameter,1,0,1,0,0,"natick, ma, usa",Parameter-driven
+71,Kadence Smith,Ms T,5,"Generate a colonial style house.make R values super high by insulation, add basement, solar panels, blue house, make u value super low by insulation",Parameter,1,0,1,0,0,"natick, ma, usa",Parameter-driven
+72,Logan Reed,Ms T,1,Generate a big house with a big door,Detail,0,0,1,0,0,"natick, ma",Detail-descriptive
+73,Tatiyana Morgan,Ms T,1,"Generate a colonial style house in Willow Spring, North Carolina",Site,0,0,1,1,0,"willow spring, north carolina",Cumulative incremental
+73,Tatiyana Morgan,Ms T,2,"Generate a colonial style house in Willow Spring, North Carolina with solar panels on both sides of the roof",Site,0,0,1,1,0,"willow spring, north carolina",Cumulative incremental
+73,Tatiyana Morgan,Ms T,3,"Generate a colonial style house in Willow Spring, North Carolina with solar panels on both sides of the roof and better insulation",Site,0,0,1,1,0,"willow spring, north carolina",Cumulative incremental
+73,Tatiyana Morgan,Ms T,4,"Generate a colonial style house in Willow Spring, North Carolina with solar panels on both sides of the roof and better insulation; remove a few windows",Site,0,0,1,1,0,"willow spring, north carolina",Cumulative incremental
+73,Tatiyana Morgan,Ms T,5,"Generate a colonial style house in Willow Spring, North Carolina with solar panels on both sides of the roof and better insulation; remove a few windows; position four window on both sides of the house",Site,0,0,1,1,0,"willow spring, north carolina",Cumulative incremental
+73,Tatiyana Morgan,Ms T,6,"Generate a colonial style house in Willow Spring, North Carolina with solar panels on both sides of the roof and better insulation; remove a few windows; position four window on both sides of the house; add a generator on the side of the house",Site,0,0,1,1,0,"willow spring, north carolina",Cumulative incremental
+73,Tatiyana Morgan,Ms T,7,"Generate a colonial style house in Willow Spring, North Carolina with solar panels on both sides of the roof and better insulation; remove a few windows; position four window on both sides of the house; insulate the roof",Site,0,0,1,1,0,"willow spring, north carolina",Cumulative incremental
+73,Tatiyana Morgan,Ms T,8,"Generate a colonial style house in Willow Spring, North Carolina with solar panels on both sides of the roof and better insulation; remove a few windows; position four window on both sides of the house; insulate the roof; make the house have a high R-value and a low U-value",Parameter,1,0,1,1,0,"willow spring, north carolina",Cumulative incremental
+74,Jose,Mr R block2,1,create me a colonial style house in reykjavik Iceland,Detail,0,0,1,0,0,"reykjavik, iceland",Performance-oriented
+74,Jose,Mr R block2,2,"create me a colonial style house in reykjavik Iceland, add solar panels on both sides of the roof , Install a programmable thermostat to automatically adjust temperatures. Replace all incandescent bulbs with LEDs, which use 90% less energy and add Insulated Cellular Shades windows",Parameter,1,0,1,0,0,"reykjavik, iceland",Performance-oriented
+74,Jose,Mr R block2,3,"create me a colonial style house in reykjavik Iceland, add solar panels on both sides of the roof , add a heating system set to 20 degrees Celsius with a cooling point at 20 degree Celsius as well and make the roof color white",Detail,0,0,1,0,0,"reykjavik, iceland",Performance-oriented
+74,Jose,Mr R block2,4,"create me a passive style house in reykjavik Iceland, add solar panels on both sides of the roof , add a heating system set to 20 degrees Celsius with a cooling point at 20 degree Celsius as well and make the roof color white",Detail,0,0,1,0,0,"reykjavik, iceland",Performance-oriented
+74,Jose,Mr R block2,5,"create me a passive style house in reykjavik Iceland, add solar panels on both sides of the roof , add a heating system set to 20 degrees Celsius with a cooling point at 20 degree Celsius as well and make the roof color white, add a HVAC system with a Heating setpoint (20 ℃) Cooling setpoint (25 ℃) and a AC coefficient of performance (4)",Parameter,1,0,1,0,0,"reykjavik, iceland",Performance-oriented
+74,Jose,Mr R block2,6,"create me a passive style house in reykjavik Iceland, add solar panels on both sides of the roof and add anything or change anything to make the net of the house 0 change things such as the colors of the house, adding a good HVAC system, change the size of the house or style things like that change whatever you need to do to make the net 0",Performance,0,1,1,0,0,"reykjavik, iceland",Performance-oriented
+74,Jose,Mr R block2,7,"create me a passive style house in reykjavik Iceland, add solar panels on both sides of the roof and add anything or change anything to make the net of the house 0 change things such as the colors of the house, adding a good HVAC system, change the size of the house or style or change the windows the location of the house, the date and time things like that chanoge or add whatever you need to do to make the net 0",Performance,0,1,1,0,0,"reykjavik, iceland",Performance-oriented
+74,Jose,Mr R block2,8,"create me a passive style house in medellin colombia, add solar panels on both sides of the roof and add anything or change anything to make the net of the house 0 change things such as the colors of the house, adding a good HVAC system, change the size of the house or style or change the windows the location of the house, the date and time things like that chanoge or add whatever you need to do to make the net 0",Performance,0,1,1,0,0,"medellín, colombia",Performance-oriented

@@ -1,0 +1,1736 @@
+What task to offload to GenAI in the writing feedback process? – 
+Effects of task-offloading approaches on EFL learners ’ writing 
+skill development
+Chun Lai
+a
+, Mengru Pan
+a , b , *
+, Kai Guo
+c
+, Yaqiong Cui
+d
+a
+Faculty of Education, The University of Hong Kong, Hong Kong, China
+b
+School of Foreign Language, Huainan Normal University, Anhui, China
+c
+Department of Curriculum and Instruction, The Chinese University of Hong Kong, Hong Kong, China
+d
+Department of Foreign Languages, University of Chinese Academy of Sciences, Beijing, China
+ARTICLE INFO
+Keywords:
+GenAI
+Feedback
+EFL writing
+Writing skills
+Task offloading
+ABSTRACT
+Generative artificial intelligence (GenAI) brings mixed blessings to learning, and it is important to 
+figure out ways to optimize the integration of GenAI that augments human intelligence. This 
+study explored different approaches to offloading tasks to GenAI in the writing feedback process 
+and the impact on student writing development. Adopting a quasi-experimental design, this study 
+compared 101 university English as a foreign language (EFL) students' writing skill development 
+under three GenAI task-offloading conditions: (1) GenAI-draft, learner-evaluate, and learner- 
+revise; (2) learner-draft, GenAI-evaluate, and learner-revise; and (3) learner-draft, learner-eval -
+uate, and learner-revise. ANCOVA analyses revealed that involving GenAI in the feedback process 
+led to greater writing gains, and that positioning GenAI as draft writer and learners as feedback 
+provider carried the most benefit. The findings draw attention to the nuances in task-offloading 
+approaches, and advocate offloading initial production to GenAI and onloading evaluation and 
+revision to learners. The study further revealed that learners in this condition exhibited greater 
+instances of interactive engagement (learning-oriented interaction in particular) with GenAI, 
+performed better in peer review tasks that tested the application of metacognitive knowledge of 
+argumentative writing, and reported higher cognitive engagement, deeper metacognition of 
+argumentative writing and of AI's limitations, as well as greater writing self-efficacy. These 
+psychological processes were influenced by various motivational, cognitive, and metacognitive 
+factors. A conceptual model of the psychological processing under this task offloading condition 
+and AI's role was proposed based on the research findings.
+1. Introduction
+Generative artificial intelligence (GenAI) brings mixed blessings for writing feedback. On the one hand, it boosts the customization, 
+interactivity, and ubiquity of feedback practices ( Ali et al., 2023 ; Jeon et al., 2023 ). GenAI feedback is recognized for being (1) 
+impersonal, reducing emotional stress during the feedback process ( Zou et al., 2025 ); (2) elaborative, enhancing learning opportunities 
+( Escalante et al., 2023 ; Lee & Moore, 2024 ); and (3) timely, boosting learner engagement and subsequent learning ( Alsofyani & 
+* Corresponding author. :The University of Hong Kong, Pokfulam Road, Room 668, Meng Wah Complex, Hong Kong, China.
+E-mail address: mengru56@connect.hku.hk (M. Pan). 
+Contents lists available at ScienceDirect
+Computers & Education
+journal homepag e: www.el sevier.com/loc ate/compe du
+https://doi.org/10.1016/j.compedu.2026.105675
+Received 11 October 2025; Received in revised form 28 May 2026; Accepted 29 May 2026  
+Computers & Education 252 (2026) 105675 
+Available online 30 May 2026 
+0360-1315/© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+( http://creativecommons.org/licenses/by-nc-nd/4.0/ ). 
+techniques for different English genres (i.e., expository, narrative, descriptive, and argumentative) taught by the same instructor. The 
+module for the argumentative genre lasted four weeks, during which students received instruction on constructing argument structure, 
+formulating logical claims, utilizing evidence and transitions, and addressing counterclaims. All participants were English majors, with 
+an average age of 20.39 years (SD = .88). Their English proficiency was of intermediate level (CEFR level B2), as evidenced by their 
+scores in the College English Test Band 4 (M = 485.29, SD = 40.58). The participants reported an average of seven months ’ prior 
+experience with GenAI tools, and their average frequency of GenAI use was between “ a few times per week ” and “ less than 30 min per 
+day ” . Only 25 students (24.8%) reported using GenAI tools on a daily basis. Appendix A summarizes the demographic characteristics of 
+participants.
+Before conducting this study, we obtained ethical approval from the institutional review board of the authors ’ university and 
+secured informed consent from all participating students.
+3.2. Research design
+The study employed a quasi-experimental design, assigning the three intact classes into three intervention conditions: Class 1 – the 
+GenAI as Feedback Receiver condition (GenAI-draft, learner-feedback, learner-revise); Class 2 – the GenAI as Feedback Provider 
+condition (learner-draft, GenAI-feedback, learner-revise); Class 3 - the No GenAI Involvement condition (learner-draft, learner- 
+feedback, learner-revise). Participants completed four out-of-class writing tasks using a structured worksheet with three phases – 
+drafting, evaluation, and revision. Fig. 1 illustrates the specific procedure across the three conditions.
+3.3. Research procedures
+Fig. 2 shows the research procedure. The study lasted seven weeks. In Week 1 (one week prior to the argumentative writing 
+module), all participants completed a pre-test on argumentative writing, and a pre-intervention questionnaire on prior GenAI expe -
+rience and writing self-efficacy in class, followed by a training that familiarized the participants with both the argumentative writing 
+assessment rubric and the platform that they would use during the intervention. This rubric, adapted from Nakkaew and 
+Fig. 2. Research procedures.
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+5 
+Adunyarittigun (2019) , assesses six key aspects of argumentative writing: introduction, reason and evidence, counterargument and 
+refutation, conclusion, organization and transitions, and language use (see Appendix B ). Each criterion in the rubric was explained to 
+the participants. To enhance active engagement with the rubric, an evaluation worksheet, containing a checklist for each criterion and 
+the justification for evaluation (see Appendix C ), was developed for students in Conditions 1 and 3. Participants were also introduced 
+to the Notion platform, a collaborative workspace that creates a structured environment for individual writing tasks and allows the 
+integration of external tools ( Osawa, 2023 ), chosen to facilitate students ’ workflow and streamline data collection (see Supplementary 
+Materials for the Notion page for each condition). Participants in Conditions 1 and 2 received additional training on using Kimi, a free 
+GenAI tool developed by Moonshot AI, chosen for its validated abilities to generate coherent, contextually relevant text while 
+providing high-quality writing feedback ( Jiang, 2025 ; Yao et al., 2025 ).
+From Week 2 to Week 5 (during the argumentative writing module), participants completed four out-of-class argumentative 
+writing tasks on the Notion platform, one task each week. The writing tasks were adapted from the GRE's ‘Analyze an Issue ’ task (see 
+https://www.ets.org/gre/revised_general/prepare/analytical_writing/issue/ ), carefully selected to elicit opinions on educational is -
+sues from different perspectives: parent/employer (praise positive actions and ignore negative ones), government (free education for 
+all), society (modern luxuries on character development), and university (interest-driven vs. job-oriented college majors) (see 
+Appendix D for the writing prompts). To encourage students to take the writing practice tasks seriously, these writing assignments 
+were incorporated into the course's participation score, with no teacher feedback nor in-class discussions on the writing products. 
+Participants in Condition 3 were instructed not to use any GenAI tools for writing assistance, and the instructor periodically checked 
+with the students and conducted qualitative reviews of their writing samples to identify any inconsistencies in writing style that might 
+suggest undeclared GenAI assistance.
+After the completion of the argumentative writing module, in Week 6, a post-test on argumentative writing skills and a post- 
+intervention questionnaire on writing self-efficacy were administered. In addition, all participants completed a peer review task.
+In Week 7, individual semi-structured interviews were conducted with five students from each condition.
+3.4. Data sources
+3.4.1. Pre-and post-test on argumentative writing skills
+Participants' argumentative writing performance was assessed via a 40-min in-class pre-test and post-test, with no access to GenAI 
+or any reference materials. The tasks were also selected from the GRE's ‘Analyze an Issue ’ assessment, deliberately focusing on edu -
+cation topics from the learner perspective (pre-test: long-term goals vs. instant fame in life; post-test: active questioning vs. passive 
+acceptance of teaching) to enhance the prompt comparability in genre, familiarity, difficulty, and rhetorical demands, and also 
+differentiate them from the prompts in the practice sessions (see Appendix D ). Two experienced writing instructors vetted the prompts 
+to ensure the equivalence in cognitive complexity, linguistic difficulty, and rhetorical requirements. GRE's ‘Analyze an Issue ” 
+assessment is a measure of analytical writing skills, which engages students to develop and support a position on the issue featured in 
+the prompt, requesting the formulation and expression of logically connected ideas supported with applicable examples. The construct 
+validity of this measure has been substantiated in previous research ( Breyer et al., 2014 ).
+3.4.2. Pre- and post-questionnaire on writing self-efficacy
+We assessed students ’ writing self-efficacy using seven researcher-developed, six-point Likert scale (1 = strongly disagree to 6 =
+strongly agree) items on the ideation and convention aspects of argumentative writing ( Bruning et al., 2013 ). The items were reviewed 
+by a writing research expert and pilot-tested with another group of undergraduate students to ensure clarity and reliability. The items 
+(see Appendix E ) demonstrated strong internal consistency in both pre- ( α = .88) and post-questionnaire ( α = .91).
+3.4.3. Peer review task
+Given that metacognitive knowledge of writing, being a conceptual element of feedback literacy ( Teng & Ma, 2024 ), is positively 
+associated with the quality of peer review ( Bui & Kong, 2019 ), and that performance metrics are advocated as concrete ways to capture 
+metacognitive control ( Zhang et al., 2024 ), we assessed students ’ peer-review performance, as a behavioral proxy of metacognitive 
+knowledge of argumentative writing, on Week 6, where they were instructed, in 25 min, to offer feedback on a peer essay on the same 
+topic written by a student from a previous cohort (see Appendix F ).
+3.4.4. GenAI conversation logs
+We collected conversation logs with Kimi during the four writing tasks from students in Conditions 1 and 2.
+3.4.5. Semi-structured interviews
+Fifteen students were invited to participate in individual semi-structured interviews in Chinese, their native language, each lasting 
+approximately 30 min. To capture a diverse range of perspectives, participants were selected using maximum variation sampling 
+within each condition to reflect varied writing performance. The interviews elicited students ’ overall perceptions of their experience, 
+and perceived impact, if any, on writing and self-efficacy and reasons thereof. Students from Conditions 1 and 2 were also invited to 
+share views on the role of GenAI in the process (see Appendix G for the protocol). The interview protocol was pilot-tested with three 
+students prior to the main interviews, leading to minor language refinements to enhance the clarity.
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+6 
+3.5. Data analysis
+To answer RQ1 on writing skill development, we evaluated the students ’ pre- and post-writing performance using the same adapted 
+six-aspect assessment rubric ( Nakkaew & Adunyarittigun, 2019 ) employed during the intervention (see Appendix B ). Each essay was 
+scored on a scale from 1 to 4 on each aspect, resulting in a maximum score of 24 for each essay. To ensure scoring reliability, the second 
+and third authors studied the rubric together and then independently coded 25% of the essays, with satisfactory inter-rater reliability: 
+introduction ( κ = .85), reason and evidence ( κ = .92), organization and transitions ( κ = .88), counterclaim and rebuttal ( κ = .91), 
+conclusion ( κ = .87), and language use ( κ = .90). All discrepancies were resolved through discussion. The remaining essays were then 
+scored independently by the second author. To further validate scoring consistency, a random subset of these independently scored 
+essays underwent a secondary review by the third author, with any remaining disagreements resolved through joint arbitration. 
+ANCOVA analysis was then conducted on the post-test score, using pre-test scores as the covariate.
+RQ2 examined the three psychological processes. To examine cognitive engagement, we measured both the qualitative dimension – 
+nature of cognitive processes attended to via interview responses, and quantitative dimension – interactive engagement with GenAI via 
+GenAI conversation logs ( Alam & Mohanty, 2024 ). GenAI conversation logs provided the behavioral indicators of interactive 
+engagement, and interview responses tapped further into learner voices on the nature of cognitive processes. We coded GenAI con -
+versation logs on the total number of GenAI prompts, indexing attempts of interactive engagement ( Chi and Wylie, 2014 ), and the 
+number of learning-oriented prompts, indexing the depth of interactive engagement ( Oliveira et al., 2025 ). Learning-oriented prompts 
+were operationalized as prompts that seek guidance and advice from GenAI for learning purposes (see Appendix H for the coding 
+scheme). Following the same reliability validation procedure, the prompts were coded by the second and third authors, and a reli -
+ability score of .93 was obtained for the coding, with all discrepancies resolved through discussion. The frequencies were compared 
+between Conditions 1 and 2 using Mann-Whitney U test due to the violation of the normality assumption. Thematic analysis was 
+conducted on the interview responses to shed light on the depth of cognitive processing attended to and the level of cognitive 
+engagement (see Appendix J for the coding scheme, which was derived inductively from the data).
+To examine metacognition, we assessed the participants' metacognitive knowledge of argumentative writing and of AI ( Brown, 
+1987 ; Teng, 2025a ) through both comparing students' peer review performance to examine learners' ability to apply metacognitive 
+knowledge of argumentative writing and analyzing interview responses to shed light on whether and how the experience impacted 
+both metacognition of argumentative writing and metacognition of AI as well as the influencing factors. The quality of students' peer 
+feedback was assessed using three key features from Kerman et al. ’ s ( 2024 ) evaluation framework that target metacognitive elements: 
+(1) identification (the identification and localization of issues in the essay), (2) justification (elaborations and justifications of the 
+identified issues), and (3) constructive (the inclusion of recommendations and action plans for further improvements). See Appendix I
+for the coding scheme. Each feedback comment (a full sentence) received a score for each feature, resulting in a maximum score of 6 for 
+each comment. The scores were then aggregated to provide an overall feedback quality score for each student. The coding was done by 
+the second and third authors, following the same reliability validation procedure as above. The inter-rater reliability scores for the 
+feedback quality coding were as follows: identification ( κ = .85), justification ( κ = .82), and constructiveness ( κ = .88). MANOVA 
+analysis and subsequent ANOVA analyses were conducted on the three dimensions. Thematic analysis on the interview responses shed 
+further light on metacognitive knowledge of argumentative writing and metacognition of AI interaction (see Appendix J for the coding 
+scheme).
+We examined writing self-efficacy by comparing survey responses for self-efficacy gains and analyzing interview responses to shed 
+light on how the experience impacted or failed to impact self-efficacy as well as the influencing factors. Composite scores were 
+calculated for self-efficacy based on pre- and post-questionnaire responses. ANCOVA analysis was conducted on the post-intervention 
+writing self-efficacy scores, controlling for pre-intervention scores.
+Thematic analysis was conducted on the interview data through an evolving process of coding and recoding ( Saldana, 2021 ) to 
+generate codes on the psychological processes in terms of the nature of cognitive engagement ( Alam & Mohanty, 2024 ), metacognition 
+of argumentative writing and of AI interaction ( Brown, 1987 ; Teng, 2025a ), and writing efficacy, as well as codes on the motivational, 
+cognitive, and metacognitive barriers to learning in the process ( Fiorella, 2023 ). Based on the interview responses and relevant 
+literature, we conducted structural coding to generate data segments of interest (e.g., segments on AI feedback). Each data segment 
+was then coded using in-vivo or summary codes. In the second-cycle analysis, we first assessed the utility of the codes, and recoded, 
+categorized or discarded codes through cross-participant comparison. We then conducted pattern coding to group codes with similar 
+meaning under analytical categories. For instance, codes like “ lengthy responses ” , “ rather tactful and indirect ” , and “ looking very 
+similar ” were grouped into the analytic category “ limitations of AI responses ” . Referring to relevant literature, provisional analytic 
+categories were further categorized into theoretical themes such as “ metacognition of AI feedback ” . Theoretical categories that 
+co-occurred were coded into provisional thematic categories and compared across cases to reveal potential relationships (e.g., 
+“ metacognition of AI feedback formed motivational barriers to learning ” ). The interview coding was done by the first and second 
+authors. They first coded one third of the data together to finalize the coding scheme, and then coded the rest independently. 
+Inter-rater reliability, calculated using Cohen's kappa, was .88, with all discrepancies resolved through discussion. See Appendix J for 
+the coding framework.
+4. Findings
+ANOVA analyses of pre-test scores (F = .18, p > .05), prior GenAI experience (F = .25, p = .78), and frequency of GenAI use (F =
+.83, p = .44) all showed no significant differences, indicating comparable initial writing abilities and AI experience across the three 
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+7 
+groups.
+4.1. Writing skill development across the three groups
+ANCOVA analysis revealed a significant difference across the three conditions on post-writing test performance: F (2, 97) = 26.63, 
+p < .001, partial η
+2 
+= .35. Post hoc comparisons using Bonferroni correction revealed that both Condition 1 (M = 18.21, SD = 2.21) and 
+Condition 2 (M = 16.30, SD = 1.70) performed significantly better than Condition 3 (M = 15.15, p = 1.79), indicating that incor -
+porating GenAI into the feedback process did lead to greater learning (see Table 1 ).
+Moreover, Condition 1 (M = 18.21, SD = 2.21) performed significantly better than Condition 2 (M = 16.30, SD = 1.70), indicating 
+that offloading the drafting task to GenAI for learners to evaluate and revise led to greater learning than offloading the feedback task to 
+GenAI.
+4.2. Psychological processes across the three groups
+4.2.1. Differences in cognitive engagement
+Mann-Whitney U tests on both the total number of GenAI prompts (U = 195; p < .001) and of learning-oriented prompts (U =
+398.5, p < .05) were statistically significant ( Table 2 ). Students in Condition 1 not only interacted significantly more with GenAI but 
+also inputted more prompts for clarification, guidance and advice from GenAI (Median = 20.50; IQR = 22 and Median = 10.50; IQR =
+16 respectively) than their counterparts in Condition 2 (Median = 9.00; IQR = 8 and Median = 8.00; IQR = 8 respectively).
+The interview responses further revealed that the three groups manifested different levels of cognitive engagement with the 
+assessment rubric and AI output. Participants from the GenAI as Feedback Receiver group (anonymized as P01-P05) reported inter -
+acting with AI-generated model text with a learning attitude, as P03 remarked: “ My first reaction was to acquire and curate materials 
+for writing. They perceived AI essays of high writing quality, which enhanced their willingness to engage in-depth with the texts (e.g., 
+“ AI-generated essays were at a higher level than mine, and I was more willing to study ” – P04). Perceiving AI essays as “ free of 
+grammatical errors, ” they reported being able to pay more attention to aspects like “ argumentation techniques ” (P02), “ sentence 
+structure variation ” (P04), and “ style of argumentation ” (P03). They further commented that revising these essays pushed them to 
+study the texts carefully (P02) and engage “ thoroughly ” and read in greater detail with a critical eye (P03). Evaluating AI essays in 
+reference to the assessment rubric boosted greater reflexivity towards the weaker aspects in their own writing (e.g., “ When assessing 
+the points, you would think of your previous essays – what needs attention and what needs to be improved ” – P04). Their cognitive 
+engagement was further reinforced by their metacognitive positioning of GenAI as a learning guide (e.g., “ guide me on how to write a 
+claim or organize arguments based on my idea ” – P02; “ It provides me with guidance. I can learn from it. ” – P04; “ Anything I am not 
+sure about, and it will explain for me. ” – P05), and a learning partner ( “ It is a learning partner who is at a higher level than me. ” – P03). 
+These learning-oriented positionings of AI made them engage deeply with AI output: All but one reported prompting AI to evaluate its 
+generated essay in reference to each criterion of the rubric, with the aim to “ engage AI to explain whether and how its essay achieved 
+each criterion" and they themselves “ judge the rationale provided ” (P02). P01 attributed this interaction style to her prior knowledge: 
+“ I know what a hook is. So I did not ask it to explain. But instead, I asked it to evaluate whether its essay contained a hook to see 
+whether I agree with its explanation. ” They reported further interaction with AI (e.g., “ challenge AI to elaborate ” – P01; “ question it 
+iteratively ” – P03) to seek elaborations on unfamiliar concepts in the rubric, discuss potential evidence to support a claim, and ask for 
+more sophisticated sentence structures. They further reported deliberate learning engagement with AI output ( “ I would remember and 
+use the vocabularies that frequently appeared in the texts ” – P02).
+In contrast, participants from the GenAI as Feedback Provider condition (anonymized as P06-P10) largely reported prompting 
+GenAI to directly revise the essay for them, despite being instructed to revise the essays on their own. Some recounted rephrasing 
+sophisticated language that did not reflect their level to avoid being spotted as plagiarism (P09). They attributed this performance- 
+oriented engagement with AI to cognitive barriers. For instance, P08 recounted lacking the language to make revisions on her own: 
+“ Limited language proficiency could not support me to make the revisions despite knowing what needed to be revised. ” Similarly, P10 
+reported “ asking AI to directly revise the essay for [him], ” and, when prompted why, he answered: “ I don't know how to revise. ” Yet, 
+although also asking AI to generate revision samples, P07 took a learning orientation: “ I asked it to provide examples that met the 
+criteria so that I could refer to when expanding my essay. ” She further reported engaging with the part of AI feedback that sounded 
+persuasive by “ seeking relevant information on Baidu [a popular internet browser in China]. ” This learning-oriented engagement was 
+Table 1 
+Differences in writing skill development.
+Pre-writing score 
+Mean (SD)
+Post-writing score 
+Mean (SD)
+Pairwise comparison
+Condition 1: 
+GenAI as Feedback Receiver (n = 34)
+14.09 (1.66) 18.21 (2.21) 1 > 2 *** 
+1 > 3 *** 
+2 > 3 *Condition 2: 
+GenAI as Feedback Provider (n = 33)
+14.15 (1.60) 16.30 (1.70)
+Condition 3: 
+No GenAI Involvement (n = 34)
+13.91 (1.80) 15.15 (1.79)
+Note. *** p < .001; * p < .05.
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+8 
+shaped by her metacognitive positioning of AI as a “ strategic advisor ” who “ broadens perspectives ” and provides suggestions and 
+samples for her judgement, unlike the others in this group who tended to view AI as a proxy tool (e.g., “ edit my language ” – P06; “ point 
+out my weak points and improve them for me ” – P10). Thus, cognitive barriers interplayed with metacognitive positioning of AI to 
+shape this group's cognitive engagement with the assessment rubric and AI output.
+All participants in the No GenAI Involvement group (anonymized as P11-P15) also reported that engaging with the assessment 
+rubric for self-evaluation heightened their self-reflection. But they remarked lacking specific guidance on each criterion (e.g., “ The 
+rubric only provided a template without explicit instructions on how to realize each criterion ” – P12). Consequently, they reported not 
+being able to engage with some criteria in depth due to the lack of “ detailed guidance ” : P13 expressed the difficulty of “ judging 
+whether a certain aspect needs further improvement ” ; and P14 felt that the rubric “ only provided him with a direction, ” and his ability 
+to make revision was constrained by his “ existing knowledge and vocabulary size ” .
+4.2.2. Differences in metacognition
+One-way MANOVA analysis revealed a significant difference in the quality of peer feedback across the three conditions (Wilks' Λ =
+.34, F (2,98) = 13.46, p < .001, partial η
+2 
+= .42), with a significant group effect in all three dimensions: problem identification (F =
+24.15, p < .001; partial η
+2 
+= .33), problem justification (F = 17.40, p < .001; partial η
+2 
+= .26), and constructive advice (F = 23.70, p <
+.001; partial η
+2 
+= .33). The findings suggest that participants across the three conditions varied in their abilities to apply metacognitive 
+knowledge of argumentative writing to assess peer essays. The interview responses further revealed differences in the depth of 
+metacognitive knowledge. All the interview participants, regardless of conditions, reported increased declarative metacognitive 
+knowledge about key elements of argumentative essay writing as a result of the assessment rubric, which, to them, provided “ detailed ” 
+and “ logical ” organizational structure that served as a “ guiding framework ” (P06) for subsequent writing and provided them with 
+“ clues on where to start ” (P12; P15) and ways to “ make the essay more comprehensive and logical ” (P02). Yet, participants across the 
+conditions reported varying depths of procedural and conditional metacognitive knowledge. The No GenAI Involvement group re -
+ported metacognitive knowledge at the principle level (e.g., “ use hooks that draw attention ” – P11) with a level of uncertainty, using 
+terms like “ somewhat unclear ” (P11) and “ fuzzy ” (P13), in specific techniques. Consequently, they regarded the acquired meta -
+cognitive knowledge as a “ reminder ” of things they “ didn't notice before ” (P11) and a “ general direction ” (P15). In contrast, partic -
+ipants in the two GenAI conditions reported greater details in metacognitive knowledge. The GenAI as Feedback Provider group 
+highlighted how the feedback from GenAI drew their attention to key characteristics like diversity – diverse viewpoints and varying 
+evidence – and the importance of cohesive and complex sentence structures. Participants in the GenAI as Feedback Receiver group 
+reported acquiring specific techniques from AI essays, such as transition words (P05) and “ discourses of rebuttal ” (P02), as well as 
+techniques of varying sentence structures and writing attractive introductions and conclusions (P01, P02, P05). They felt AI essays 
+provided concrete examples (P05), and their sophistication offered greater learning possibilities “ not constrained by one's own draft ” 
+(P01). They further noted AI's limitations in writing when evaluating AI essays – such as “ mechanically piecing together claims without 
+depth ” (P03) and “ lacking supporting details ” (P02) – which helped them derive a “ deeper ” understanding of key characteristics of a 
+good essay.
+Participants also reported various barriers that hindered learning. The barriers frequently brought up by participants from the No 
+GenAI Involvement group concerned values of the assessment rubric. They used words like “ simple, ” “ abstract, ” and “ rigid ” to describe 
+the rubric and complained about lacking specific guidance on individual elements (e.g., “ Each criterion is too general and abstract ” – 
+P14). Consequently, P13 interpreted the rubric as “ a writing formula ” and compared the evaluation-revision experience to “ a cloze 
+test ” . As a result, P12 perceived the whole evaluation-revision experience as providing “ great help on structure but less on techniques 
+and thinking ” . Participants in the GenAI as Feedback Provider group also reported motivational barriers that hindered learning, yet 
+pertaining to the limitations of AI feedback, such as “ lengthy responses ” (P08), “ repetitive ” (P06), and “ speaking in a rather tactful or 
+indirect manner, skipping some problems in my essays, which made me unaware of these problems for a long time ” (P09). These 
+perceived limitations reduced their cognitive engagement with the AI output ( “ Its revision made my essay very sophisticated, which 
+obviously was beyond my level. I asked it to get rid of that part ” – P08), limiting its contribution to the development of metacognitive 
+knowledge. Participants in the GenAI as Feedback Receiver group listed the homogeneity in AI output (e.g., “ its essays often followed 
+the same pattern ” – P05) as limiting the depth of metacognitive knowledge they could acquire through studying the model texts. 
+Evaluating AI essays made P03 discover problems with their organization and language use, which made her question their value: “ It 
+might not be that useful in helping develop deeper understanding. ” These motivational barriers further interacted with metacognitive 
+Table 2 
+Differences in student interaction with GenAI.
+Median (IQR) Mann-Whitney U Test
+Total amount of student prompts to GenAI Condition 1: 
+GenAI as Feedback Receiver (n = 34)
+20.50 (22) 195.00***
+Condition 2: 
+GenAI as Feedback Provider (n = 33)
+9.00 (8)
+Learning-oriented prompts Condition 1: 
+GenAI as Feedback Receiver (n = 34)
+10.50 (16) 398.50*
+Condition 2: 
+GenAI as Feedback Provider (n = 33)
+8.00 (8)
+Note. *** p < .01; * p < .05.
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+9 
+barriers, such as metacognitive attention ( “ I paid more attention to structure. When it indicated my tone was not strong enough, not 
+formal, I wouldn't pay much attention ” – P07), and strategic knowledge of AI prompts ( “ I can't get AI to understand my intention ” – 
+P02; “ It couldn't produce the version I wanted, maybe because my prompt was not clear ” – P08). Cognitive barriers, like background 
+knowledge, also were salient. Limited language proficiency made P04 take a more “ appreciative, ” rather than critical, stance when 
+analyzing AI model texts. For P11, as the assessment rubric “ only raised issues without providing solutions, ” limited language makes 
+her resort to “ fixed vocabularies or sentences ” to express a formal tone or “ seeking and regurgitating online templates ” to create 
+attractive hooks, which she felt made her essay rather “ rigid ” . Understanding of the assessment rubric was also listed as an influencing 
+factor. Most participants from the No GenAI Involvement group reported feeling “ bewildered ” and disoriented at initial exposures to 
+the rubric due to unfamiliarity with some key terms, and the high cognitive load made some “ give up paying attention to all the details 
+in the framework ” (P15). On the other hand, perceived prior knowledge in elements in the rubric made P14 perceive the rubric as 
+rather “ simple ” with limited potential for learning and made P10 feel that there was “ no need to probe deeper with GenAI ” . Moreover, 
+participants' cognitive abilities to appropriate AI feedback also constrained learning, as P08 pointed out that GenAI feedback contained 
+too much information that “ did not directly address what [she] wanted, ” which made her at a loss in how to proceed with revision 
+( “ After reading the suggestions, I still did not know how to revise ” ). This incapability made P10 choose to ask GenAI to revise for him, 
+which lowered his cognitive engagement: “ I didn't know how to revise. I used GenAI to revise many aspects, and I did not think much in 
+the process ” .
+Post hoc comparisons using Bonferroni correction ( Table 3 ) further revealed that the two AI groups outperformed the No GenAI 
+Involvement group in providing problem justification (Condition 1: M = 2.82, SD = .25; Condition 2: M = 1.91, SD = .25; Condition 3: 
+M = .77, SD = .25), and in offering constructive revision suggestions (Condition 1: M = 4.97, SD = .35; Condition 2: M = 4.18, SD =
+.36; Condition 3: M = 1.68, SD = .35). Yet, findings on problem identification were mixed, where Condition 2 (M = 1.85, SD = .35) did 
+not differ from Condition 3 (M = 1.18, SD = .35). The findings indicate that integrating GenAI into the feedback process contributed to 
+writing skill development through boosting the abilities to give explanations and provide constructive advice on problems identified in 
+essays, whereas its effect on the abilities of problem identification depended on how GenAI was integrated into the feedback process. 
+Moreover, Condition 1 outperformed Condition 2 in problem identification (M = 4.41, SD = .35 vs M = 1.18, SD = .35) and in problem 
+justification (M = 2.82, SD = .25 vs M = 1.91, SD = .25).
+The interview responses further revealed that the observed edge in problem justification and constructive advice among the two AI 
+groups might be due to interactivity with GenAI. Participants from the GenAI as Feedback Receiver group recounted that being able to 
+interact with GenAI helped them understand unfamiliar concepts in the assessment rubric (P04; P05). P02 further shared that “ asking 
+GenAI about its thinking process made [her] understand how to write rebuttal ” . Similarly, participants from the GenAI as Feedback 
+Provider group shared that GenAI enabled them to access “ explanations on confusing concepts ” (P06) and “ seek examples on how to 
+address the weak points identified by GenAI ” (P07). Thus, interaction with GenAI gave these two groups exposure to justification and 
+revision advice. Yet, the GenAI as Feedback Receiver group had higher instances of learning-oriented interaction with AI, which 
+accounts for their greater performance in problem justification.
+The mixed findings on problem identification resulted from the interplay of engagement in evaluation (or lack thereof) with GenAI 
+support (or lack thereof). Using the assessment rubric to evaluate essays made the participants “ notice aspects [they] didn't pay 
+attention to before ” (P04, P11). Yet, not having external support from AI, the majority of the participants from the No GenAI 
+Involvement condition found themself unable to identify specific problems: “ I'm not clear about some points in the rubric framework, 
+which made me unable to have a clear idea on the problems in my essay ” (P13); and “ I could identify problems on big issues, such as 
+the lack of a rebuttal or evidence to support a claim. But for the other aspects, I couldn't identify my problems ” (P14). This was 
+exacerbated by the lack of opportunities to interact with GenAI for elaboration or guidance, which made them unable to see the need 
+Table 3 
+Differences in essay evaluation ability.
+Mean (SD) Pairwise comparison
+Problem identification score Condition 1: 
+GenAI as Feedback Receiver (n = 34)
+4.41 (.35) 1 > 2*** 
+1 > 3*** 
+2 < 3Condition 2: 
+GenAI as Feedback Provider (n = 33)
+1.18 (.35)
+Condition 3: 
+No GenAI Involvement (n = 34)
+1.85 (.35)
+Problem justification score Condition 1: 
+GenAI as Feedback Receiver (n = 34)
+2.82 (.25) 1 > 2* 
+1 > 3*** 
+2 > 3***Condition 2: 
+GenAI as Feedback Provider (n = 33)
+1.91 (.25)
+Condition 3: 
+No GenAI Involvement (n = 34)
+.77 (.25)
+Constructive advice score Condition 1: 
+GenAI as Feedback Receiver (n = 34)
+4.97 (.35) 1 > 2 
+1 > 3*** 
+2 > 3***Condition 2: 
+GenAI as Feedback Provider (n = 33)
+4.18 (.36)
+Condition 3: 
+No GenAI Involvement (n = 34)
+1.68 (.35)
+Note . *** p < .001; * p < .05.
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+10 
+for revision. For instance, P11 commented: “ I need someone to tell me whether and why a certain aspect of my essay needs further 
+improvement ” . Similarly, P15 expressed the wish for “ a comprehensive analysis [of the rubric] so that [he] wouldn't feel lost in why 
+and how to improve ” . For the GenAI as Feedback Provider group, as the evaluation work was offloaded to AI, who helped “ identify 
+points [they] could not spot on [their] own ” (P07), they didn't get a chance to directly practice problem identification, which explained 
+why they performed the worst in this category.
+4.2.3. Differences in writing self-efficacy
+ANCOVA analysis on writing self-efficacy ( Table 4 ) revealed a significant difference across the three conditions (F (2, 97) = 5.40, p 
+< .01, partial η
+2 
+= .10), with significantly higher gains for Condition 1 (M = 4.74, SD = .55) and no significant differences between 
+Condition 2 (M = 4.42, SD = .53) and Condition 3 (M = 4.45, SD = .78).
+Although all three groups reported boosted writing self-efficacy, participants from the GenAI as Feedback Receiver condition 
+attributed it to the acquired metacognitive knowledge of argumentative writing and of AI. For some, seeing different writing tech -
+niques in GenAI-generated model texts (P01 and P03) and retrieving elaborative examples on specific criteria from GenAI (P04) 
+equipped them with metacognitive understanding that could guide future writing. For others, “ being able to improve ” GenAI- 
+generated essays made P01 and P02 believe in their abilities to write good essays. Perceiving that AI essays, though sounded 
+elegant, read like “ piecing data together, ” P02 believed that “ [she] may be able to write more lively essays, more humane essays ” .
+Participants from the GenAI as Feedback Provider condition reported rather divided views. On the one hand, the acquired met -
+acognitive knowledge of argumentative writing “ eased the writing task ” and could “ be transferred to new writing tasks ” (P06), 
+consequently making them “ feel more confident in writing a good argumentative essay ” (P09). Receiving “ positive remarks in GenAI 
+feedback ” also boosted self-efficacy (P07). On the other hand, performance-oriented engagement with AI for revision made them 
+uncertain about their progress, giving them “ a false sense of confidence ” (P09; P10). P09 elaborated: “ AI helped me make a better 
+revision, but I might have relied on it too much that my teacher wouldn't be able to see my real level when reading my revised essays ” .
+Similar mixed feelings were expressed by participants in the No GenAI Involvement group. Acquiring organizational structure from 
+the rubric gave them a sense of certainty (e.g., “ have a better idea on where and how to start, no longer feeling at a lost ” – P15; “ a 
+guarantee on meeting basic standards ” – P13) and a sense of achievement (e.g., “ seeing more and more boxes on the self-checklist 
+being ticked, I felt motivated and satisfied ” – P11). They consequently felt “ freer ” (P12 and P15) and “ bolder ” (P13) in writing. But 
+at the same time, they also expressed a sense of uncertainty about the metacognitive knowledge (e.g., “ I feel my hook is attractive, but 
+may not be perceived so by others ” – P11; “ I'm not sure whether I would be able to apply the framework during exam when the rubric is 
+no longer available ” – P13). P11 also pointed out that because the assessment rubric was fixed across the four writing tasks, she spotted 
+fewer and fewer problems, which might have given her a false sense of self-efficacy as “ there might still be many problems which 
+simply were not covered in the rubric ” . This false sense of self-efficacy reduced P12's cognitive engagement with the rubric, where she 
+reported “ skimming through ” and “ paying attention to only a few elements ” in later rounds.
+5. Discussion
+Driven by the observed decoupling of performance gains and writing development and the concerns over potential cognitive at -
+rophy in AI-assisted writing ( Fan et al., 2025 ; Henderson et al., 2025 ; Wang & Wang, 2025 ), this study explored ways to optimize 
+human-AI interaction that supports writing development from the angle of task offloading. It revealed that: (1) offloading either the 
+drafting or the evaluation task to GenAI led to greater writing development than no offloading; and (2) offloading the drafting task to 
+GenAI was most effective. Joining others ( Darvishi et al., 2024 ; Li & Tekwa, 2025 ), the study underscores the significance of task 
+design in boosting the learning potentials of human-AI interaction. Existing discourses on task design emphasize scaffolding – grad -
+ually shifting externalized support from GenAI towards internal monitoring ( Darvishi et al., 2024 ), and timing – involving GenAI only 
+after students have completed an initial draft independently ( Kosmyna et al., 2025 ; Li & Tekwa, 2025 ). This study drew attention to yet 
+another factor – the nature of task offloading, advocating offloading the generation tasks (e.g., drafting essays) to AI and onloading the 
+metacognitive tasks (e.g., evaluation) to learners as a way to counter potential cognitive atrophy in AI-assisted writing. This task 
+offloading condition was found to yield the greatest generative learning potential, adding to the nascent evidence on the develop -
+mental advantages of critiquing AI-generated texts ( Hong et al., 2025 ; Li, R., 2025 ).
+More importantly, this study revealed psychological mechanisms behind the greater learning potential of this task offloading 
+condition – deeper cognitive engagement, greater metacognitive awareness of argumentative writing and AI, and boosted writing self- 
+Table 4 
+Differences in the change of writing self-efficacy.
+Pre-writing efficacy 
+Mean (SD)
+Post-writing efficacy 
+Mean (SD)
+Pairwise comparison
+Condition 1: 
+GenAI as Feedback Receiver (n = 34)
+3.61 (.59) 4.74 (.55) 1 > 2 * 
+1 > 3 * 
+3 > 2Condition 2: 
+GenAI as Feedback Provider (n = 33)
+3.68 (.72) 4.42 (.53)
+Condition 3: 
+No GenAI Involvement (n = 34)
+3.79 (.53) 4.45 (.78)
+Note. * p < .05.
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+11 
+efficacy. Deeper cognitive engagement derived from the high-quality activation of the visualization mode conceptualized in the 
+Generative Sense Making framework ( Fiorella, 2023 ). The high-quality activation manifested in deeper cognitive engagement with the 
+visualization tool (the assessment rubric) due to heightened interaction with GenAI, learning-oriented interaction in particular, around 
+the rubric; and in additional concrete, enriched, and elaborated visualization resources (AI-generated model texts) accessible in this 
+condition, which enabled attention to higher-order aspects of writing during essay evaluation and revision. In contrast, the visuali -
+zation mode was rather limiting for the other two conditions due to either lacking opportunity or incentive to interact with GenAI or 
+being stuck dealing with lower-order issues, such as grammar and word choice, in their own drafts. Offloading the generation task to 
+GenAI while onloading the metacognitive task to learners lowers the intrinsic cognitive load of writing (i.e., the mental efforts in 
+lexical retrieval, grammatical encoding, and idea formulation) but maintains the germane cognitive load (i.e., the mental efforts 
+dedicated to constructing and automating schemas), which, according to Cognitive Load Theory ( Sweller, 2011 ), may induce thorough 
+and deep engagement with the learning task without feeling overwhelmed (e.g., Evans et al., 2024 ). Engaging in the metacognitive 
+task of providing feedback activates in-depth engagement with the content and comparison with alternatives, elevating reflexivity 
+( Nicol, 2012 ; Zong et al., 2021 ).
+High-quality activation of the visualization mode contributes to the activation of the explanation mode, i.e., the formulation of 
+underlying principles ( Fiorella, 2023 ). In this study, the elevated cognitive engagement with the assessment rubric was found to induce 
+deeper metacognitive knowledge of argumentative essay that was transferred to the peer review task. This finding makes sense, since 
+engagement with rubrics and model-text analysis are associated with the construction of internal schema and deeper metacognitive 
+awareness of writing ( Zeng et al., 2023 ; Zhang et al., 2024 ). Evaluating and revising AI essays led to metacognitive awareness of AI's 
+limitations in writing, which further augmented this group's metacognitive knowledge of argumentative essay. This finding aligns with 
+previous studies showing that critiquing and analyzing AI-generated compositions may enhance metalinguistic awareness of writing 
+and metacognitive understanding of genre structure ( Chambers & Owen, 2024 ; Li, R., 2025 ). This depth of metacognitive knowledge 
+was neither salient among the GenAI as Feedback Provider group whose task only involved the enacting mode (essay revision), nor 
+achievable among the No GenAI Involvement group who had no access to AI, leading to only fuzzy, surface-level metacognitive 
+knowledge that served as a reminder or a general direction at most.
+The acquired metacognitive knowledge on both argumentative essay and AI's limitations in writing further fueled this group's 
+writing self-efficacy, in contrast to the false sense of self-efficacy among the other two groups as a result of perceived reliance on AI or 
+perceived ambiguity in metacognitive knowledge. Previous research has suggested the link between AI literacy, critical evaluation of 
+AI technologies in particular, and writing self-efficacy (e.g., Pan & Zhang, 2025 ). This study further revealed that being able to 
+pinpoint and amend problems of the more capable peer that they regarded GenAI to be activated a strong sense of affirmation, freeing 
+the participants from the social pressure and obstacles often associated with peer feedback ( Martin & Sippel, 2021 ; Zhou et al., 2020 ).
+Taken together, the findings suggest a framework of psychological mechanisms underlying the learning potential of offloading 
+drafting to AI and onloading evaluation and revision to learners ( Fig. 3 ). The framework underscores three roles of GenAI in the 
+process: (1) as an interaction medium that enhances the level of cognitive engagement and deepens metacognitive knowledge of 
+argumentative essay; (2) as a draft provider that channels cognitive attention to higher-order aspects and raises metacognitive 
+awareness of AI's limitations in writing; and (3) as a feedback receiver that provides a source of affirmation for self-efficacy. This 
+process is shaped by an array of barriers identified through interview data in this study, including motivational barriers – perceived 
+Fig. 3. Psychological mechanisms behind the generative learning potentials of GenAI as Feedback Receiver task design and AI's roles.
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+12 
+limitations of the assessment rubric and of GenAI output; metacognitive barriers – metacognitive attention, metacognitive positioning 
+of AI, and strategic knowledge of AI interaction; and cognitive barriers – language proficiency, prior knowledge of the rubric, and 
+capacities to appropriate AI output.
+The findings contribute to the scholarly discussions on cognitive offloading (the use of external tools to reduce internal cognitive 
+demands) in human-AI interaction. Jose et al. (2025) differentiated assistive offloading (i.e., offloading that assists cognition) from 
+substitutive offloading (i.e., offloading that replaces cognition through auto-suggestion), and argued that the latter may induce shallow 
+engagement, illusion of competence, reduced agency, and encoding and retrieval decline. Findings from this study support the 
+conceptualized psychological differences induced by the level of cognitive offloading. Offloading drafting to AI and onloading eval -
+uation to the learner positions GenAI as a tool to assist the productive struggles in evaluation, which are associated with greater 
+engagement with the content, greater internalization of learning, and more reflexivity towards one's ideas ( Kapur, 2016 ; Pak, 2024 ). 
+Deeper cognitive engagement and critical reasoning, and greater metacognitive knowledge and reflexivity are conditions essential to 
+realizing the benefits of GenAI in writing development ( Zaheer et al., 2025 ). Adding to existing discourse, this study further revealed 
+that substitutive offloading of the generation task of drafting, when supplemented with critiquing and revision, was less detrimental to 
+learning than substitutive offloading of the metacognitive task of evaluation. The finding hence cautions that offloading essay eval -
+uation to AI for automatic feedback, a common practice in AI-assisted writing, might be suboptimal for learning. Thus, cognitive 
+offloading in human-AI interaction needs to consider not only the level of offloading but also the nature of tasks being offloaded.
+6. Implications
+The study has the following theoretical implications: First, the study adds nuances to cognitive offloading in human-AI interaction. 
+Though cognitive offloading reduces cognitive load and facilitates engagement and performance, existing literature cautions that 
+excessive or premature offloading may harm learning ( Hong et al., 2025 ; Jose et al., 2025 ; Kosmyna et al., 2025 ), underscoring the 
+level and timing of offloading. This study draws attention to yet another dimension of cognitive offloading – the type of task being 
+offloaded, advocating future research to examine the effects of task offloading in different learning contexts and among different 
+student populations. Second, the study conceptualizes three roles of GenAI in amplifying learning potentials of generative learning 
+tasks that activate visualization and enacting modes ( Fiorella, 2023 ), illustrating how it might empower cognitive, metacognitive, and 
+affective processes. Future research may examine these roles separately to understand the amplification potential of each. Moreover, 
+the extent to which each psychological mechanism contributes to writing development and how these mechanisms might interplay 
+remain unknown and deserve further research. Future research may also examine how the working mechanisms might differ when 
+learners provide feedback to GenAI versus to peers.
+The study has the following practical implications: First, the study advises caution regarding the widespread use of GenAI as 
+feedback provider, and urges exploration into alternative task-offloading approaches, such as using GenAI as writing text providers 
+( Grobe, 2023 ; Li, 2025 ), especially when the pedagogical purpose is to develop metacognitive awareness of writing. Second, the study 
+draws attention to an array of motivation, cognitive, and metacognitive barriers that may undermine the learning potential of 
+GenAI-assisted writing. Teachers hence need to create conditions in pedagogical design and learner interventions to help learners 
+overcome these barriers. In addition to enhancing prior knowledge, reducing the cognitive load in the task design, or providing explicit 
+instruction, scaffolded practice, and independent practice to support learners’ internal sense-making processes as recommended by 
+Fiorella (2023) , this study suggests the following instructional practices: (1) to design personally meaningful writing tasks that 
+incentivize learning-oriented interaction with GenAI; (2) to arrange collaborative work around GenAI feedback to enhance revision 
+skills; and (3) to implement learner training that helps learners build collaborative relationships with GenAI, position AI as a learning 
+guide and learning partner, and engage in proactive and reflective use of GenAI feedback in writing ( Yang et al., 2024 ; Zaheer et al., 
+2025 ; Zhan et al., 2025 ).
+7. Conclusions, limitations, and future research
+Adopting a quasi-experimental design, this study examined the effects of task offloading approaches on writing development. It 
+found that involving GenAI in the feedback loop facilitated learning and that offloading drafting to GenAI and onloading evaluation 
+and revision to learners carried the most benefit. The study further revealed higher cognitive engagement, deeper metacognition about 
+argumentative writing and AI, and boosted self-efficacy under this task offloading condition. The findings advocate greater attention to 
+task offloading in human-AI interaction.
+This study has several limitations that call for future research. First, this study was conducted in the argumentative writing context. 
+As students’ interaction with GenAI and abilities to reap the benefits may vary for different learning tasks and different types of writing 
+genres ( Liu et al., 2024 ; Vaccaro et al., 2024 ), the observed edge of positioning GenAI as draft producers for learners to evaluate and 
+revise needs to be investigated in different learning and writing contexts.
+Second, several sample-related limitations should be acknowledged. The small sample size of 101 participants across three 
+experimental conditions may have limited statistical power and increased the sensitivity of the results to sampling variability across 
+groups. Although we controlled for prior writing ability and self-efficacy, the groups may vary in other influencing factors such as task 
+motivation and AI prompt literacy. Future studies should employ a larger participant pool to verify the robustness of these findings. 
+Furthermore, the participants were sampled from a single university, predominantly female, and of intermediate-high English pro -
+ficiency. The demographic and institutional homogeneity may constrain the external validity of the results. Learners of different 
+language proficiency levels and gender benefit differently from feedback providing ( Cao et al., 2019 ; Lundstrom & Baker, 2009 ; Zeng 
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+13 
+& Ravindran, 2024 ), and language and prior knowledge are important cognitive barriers that affect learning potential. Future research 
+may replicate this study with diverse populations to further validate the preliminary observations from this study.
+Third, the research tools are limiting. The static assessment rubrics used in the intervention might have a diminishing impact on 
+learning over time, especially among the No GenAI Involvement condition, as revealed in interview responses. Future studies may 
+repeat the study with dynamic rubrics. Using a single GenAI tool, Kimi, with its unique algorithmic biases or functionalities and low AI 
+explainability (i.e., invisible chain of thought) at the time of the study might have constrained the power of AI and shaped AI inter -
+action behaviors. The findings hence need to be validated using more updated AI tools and allowing coordinated use of multiple AI 
+tools. This study used peer review performance as a behavioral proxy of metacognitive knowledge of argumentative writing. Although 
+peer review indexes domain knowledge – the groundwork for metacognitive knowledge – and could reasonably serve as a window into 
+metacognitive knowledge, it is a partial indicator at most and does not directly tap into metacognitive awareness of the argumentative 
+writing process. Future research may complement peer review measures with additional methods (e.g., self-report inventories and 
+think-alouds) on metacognitive reasoning to obtain a more complete picture.
+Fourth, the research design limits the findings. While the seven-week intervention, which included four writing tasks, contained 
+sufficient intensity to observe immediate effects, the short duration could not speak to sustained writing skill development, meta -
+cognitive development, and self-efficacy, as writing development, particularly at the argumentative level, requires extended practice 
+across diverse genres and contexts. Thus, the findings are preliminary at most. We recommended further research to employ a longer 
+intervention design to shed light on the evolving impact of task offloading conditions on writing skill development and psychological 
+processes across different types of writing tasks, genres, and contexts. Also, for the No GenAI Involvement condition, although we 
+implemented measures to prevent unauthorized GenAI usage, the prevalence of GenAI tools made absolute control impossible. Future 
+investigations may consider conducting the interventions in controlled environments, such as in class, to effectively monitor and 
+control for external GenAI usage. This study, although based on a mixture of behavioral and self-report data sources, relied primarily 
+on retrospective measures to shed light on psychological processes, which might not have fully captured these processes and could not 
+shed nuanced insights into cognitive processing and AI interaction. Future studies should consider incorporating process-tracing 
+measures to capture these processes in real time and log moment-by-moment AI interaction to conduct detailed analysis into psy -
+chological processes and interaction dynamics that underpin the learning gains. Moreover, due to the sample constraints, the study was 
+only able to create three conditions to compare the effects of cognitive offloading on drafting and on evaluation. To shed a 
+comprehensive light on cognitive offloading in writing feedback loop, future studies may add a fourth condition – cognitive offloading 
+on revising (learner draft, AI revise, learner evaluate the revision). Including this condition in the design would enable us to derive 
+nuanced insights into the respective effects of offloading the two generation tasks in writing (draft vs. revision).
+Finally, it should be noted that the influencing factors (e.g., motivational barriers, metacognitive barriers, and cognitive barriers) in 
+Fig. 3 were derived from the interview responses. Future studies are therefore needed to test their potential associations with the task 
+offloading effect through measuring them and including them in statistical analyses. Furthermore, the study focused on understanding 
+the aggregated effects of task offloading conditions. However, individual differences in AI literacy, prompt-engineering skills, and 
+prior experience with GenAI tools might have influenced the outcomes and could serve as potential confounding variables. Future 
+research should examine how these individual differences moderate the effects of task offloading approaches on writing development, 
+and discern differential learning trajectories or identify specific subgroups that might benefit more or less from distinct GenAI task 
+loading approaches.
+CRediT authorship contribution statement
+Chun Lai: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Project administration, 
+Methodology, Funding acquisition, Formal analysis, Data curation, Conceptualization. Mengru Pan: Writing – review & editing, 
+Writing – original draft, Software, Methodology, Investigation, Formal analysis, Data curation. Kai Guo: Writing – review & editing, 
+Visualization, Validation, Formal analysis, Data curation. Yaqiong Cui: Writing – review & editing, Conceptualization.
+Declaration of generative AI and AI-assisted technologies in the writing process
+During the preparation of this work the authors used ChatGPT in order to improve readability and language. After using this tool, 
+the authors reviewed and edited the content as needed and take full responsibility for the content of the publication.
+Funding details
+This study was funded by the Standing Committee on Language Education and Research of Hong Kong (Grant number: 1047-2050- 
+8080-9020-00052) awarded to the first author.
+Declaration of competing interest
+The authors report there are no competing interests to declare.
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+14 
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.compedu.2026.105675 .
+Appendix A. Demographic information of participants
+Class Age Gender English proficiency (CET-4 scores) The frequency of GenAI use 
+a
+Class 1 (N = 34) M = 20.18 Male = 3; Female = 31 M = 478.03; SD = 36.61 3.06
+Class 2 (N = 33) M = 20.55 Male = 9; Female = 24 M = 495.63; SD = 36.62 3.12
+Class 3 (N = 34) M = 20.44 Male = 3; Female = 31 M = 482.5; SD = 46.69 3.32
+Note . a. 1 = a few times per year; 2 = a few times per month; 3 = a few times per week; 4 = less than 30 min per day; 5 = less than 1 h per day; 6 = 1 h 
+to 3 h per day; 7 = more than 3 h per day.
+Appendix B. The argumentative writing evaluation rubric
+Aspects 4 points - Excellent 3 points - Good 2 points - Fair 1 point - Poor
+Introduction 
+Original hook engages the 
+reader's curiosity; background 
+information is relevant and 
+clearly develops into thesis; 
+thesis/claim is strong, clearly 
+stated.
+Engaging hook captures the 
+reader's curiosity; background 
+information is relevant and 
+leads to a strong, clear thesis.
+Hook is somehow 
+engaging; background 
+information is relevant 
+and leads to a clear thesis.
+Hook is weak; background 
+information is vague or not 
+clearly connected to the 
+thesis; thesis is unclear or 
+weak.
+No hook; background 
+information is irrelevant 
+or missing; thesis is 
+absent or poorly stated.
+Reason & Evidence 
+Two or more main points are 
+well developed with supporting 
+details, and all the evidence is 
+relevant and clearly connected 
+to the thesis.
+Two or more main points are 
+well developed with relevant 
+supporting details; all evidence 
+is clearly connected to the 
+thesis.
+Main points are developed 
+with supporting details; 
+evidence is mostly 
+relevant and connected to 
+the thesis.
+Main points are 
+underdeveloped or lack 
+supporting details; evidence 
+is somewhat relevant but 
+lacks clear connection to the 
+thesis.
+Main points are missing 
+or unclear; evidence is 
+irrelevant or absent.
+Counterargument & Refutation 
+Counterclaim is effectively 
+addressed; strong rebuttal is 
+supported by compelling 
+evidence and effectively refutes 
+counterclaim.
+Counterclaim is effectively 
+addressed; strong rebuttal is 
+supported by compelling 
+evidence that thoroughly 
+refutes the counterclaim.
+Counterclaim is 
+addressed; rebuttal is 
+present and supported by 
+some evidence but may 
+not fully refute the 
+counterclaim.
+Counterclaim is weakly 
+addressed; rebuttal is present 
+but lacks sufficient evidence 
+or clarity.
+Counterclaim is not 
+addressed or absent; 
+rebuttal is missing or 
+ineffective.
+Conclusion 
+Conclusion summarizes the 
+main topics without repeating 
+previous sentences; writer's 
+opinions and suggestions for 
+change are logical and well 
+thought out.
+Conclusion effectively 
+summarizes main topics 
+without repetition; writer's 
+opinions and suggestions are 
+logical and well thought out.
+Conclusion summarizes 
+main topics; opinions and 
+suggestions are logical but 
+may lack depth.
+Conclusion is vague or 
+repeats previous content; 
+opinions and suggestions are 
+unclear or poorly developed.
+Conclusion is missing or 
+does not summarize main 
+topics; no logical opinions 
+or suggestions provided.
+Organization & Transition 
+Ideas are coherently organized 
+into separate body paragraphs; 
+topic sentences are complete; 
+logical, compelling progression 
+of ideas in essay; effective, 
+mature, graceful transitions 
+exist throughout the essay.
+Ideas are coherently organized 
+into separate body paragraphs; 
+topic sentences are complete; 
+logical progression and 
+effective transitions enhance 
+the essay.
+Ideas are mostly 
+organized; topic sentences 
+are present; progression is 
+clear with generally 
+effective transitions.
+Organization is unclear; 
+topic sentences are 
+incomplete; progression of 
+ideas is weak; transitions are 
+lacking.
+Ideas are chaotic; topic 
+sentences are absent; no 
+logical progression or 
+transitions present.
+Language Use 
+Tone is formal; no personal 
+pronouns; no slang; strong 
+words appropriate to stance are 
+used; no repetition of major 
+words; punctuation, 
+capitalization, spelling and 
+usage are correct.
+Tone is formal with no 
+personal pronouns or slang; 
+strong, varied word choice 
+enhances the argument; 
+conventions (punctuation, 
+capitalization, spelling) are 
+correct.
+Tone is mostly formal; 
+word choice is 
+appropriate; few errors in 
+conventions that do not 
+interfere with 
+understanding.
+Tone is somewhat formal; 
+word choice is basic or 
+repetitive; several errors in 
+conventions that may hinder 
+understanding.
+Tone is informal; 
+inappropriate word 
+choice; frequent errors in 
+conventions that 
+significantly hinder 
+understanding.
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+15 
+Appendix C. The evaluation worksheet for Conditions 1 and 3
+Please evaluate the essay against the checklist (put a ✔ on 
+the items that are in place)
+Areas for 
+improvement
+Introduction Original hook engages the reader's curiosity ロ 1. Is there a hook in the introduction paragraph? 
+ロ 2. Is the hook successful in arousing your interest in 
+reading?
+​
+Thesis/claim is strong, clearly stated, and supported by 
+relevant background information
+ロ 1. Did the author provide the background information 
+that leads to the thesis? 
+ロ 2. Is the thesis/claim clearly stated? 
+ロ 3. Does the thesis state a significant and compelling 
+position?
+​
+Organization & 
+Transition
+Two or more main points are well developed with 
+relevant supporting details clearly connected to the 
+thesis
+ロ 1. Is each main point well supported by evidence? 
+ロ 2. Is the evidence relevant to each main point? 
+ロ 3. Did the author use different types of evidence to 
+support the main points?
+​
+Ideas are sequenced logically and coherently organized 
+into separate body paragraphs with clear topic 
+sentences
+ロ 1. Does each paragraph center around a main idea/ 
+point? 
+ロ 2. Does each paragraph start with a compelling topic 
+sentence for each idea/point? 
+ロ 3. Is the sequence of the main points logical and shows 
+a clear progression in deepening the argumentation? 
+ロ 4. Are the paragraph(s) well connected with one 
+another with transition words?
+​
+Counterclaim & 
+Rebuttal
+Strong rebuttal is supported by compelling evidence 
+and effectively refutes counter claim
+ロ 1. Is there a rebuttal to counter the main thesis/claim? 
+ロ 2. Are there relevant evidences to support the rebuttal 
+ロ 3. Is the rebuttal effective in refuting the main thesis/ 
+claim?
+​
+Conclusion A strong conclusion with summary of the main points 
+and writer's opinions and suggestions for change
+ロ 1. Did the conclusion effectively summarize the main 
+topics and thesis without repeating previous sentences? 
+ロ 2. Did the conclusion go beyond restating the thesis 
+and includes a call to action?
+​
+Language Use Language is formal, with strong words and no errors ロ 1. Are the tones formal and consistent without personal 
+pronouns and slang? 
+ロ 2. Are words appropriate and strong to the stance and 
+not too repetitive? 
+ロ 3. Are sentences strong and expressive with varied 
+structure? 
+ロ 4. Is the essay free of punctuation, capitalization, 
+spelling and grammar errors?
+​
+Appendix D. The writing prompts used in the pre- and post-tests and during the intervention
+Task prompts
+Pre-test “Young people should be encouraged to pursue long-term, realistic goals rather than seek immediate fame and recognition.” Discuss the extent to 
+which you agree or disagree with this statement and provide reasons for the position you take. In developing and supporting your position, you 
+should include relevant evidence. Write 300-500 words.
+Intervention ‘The best way to teach – whether as an educator, employer, or parent – is to praise positive actions and ignore negative ones.’ Discuss the extent to 
+which you agree or disagree with this statement and provide reasons for the position you take. In developing and supporting your position, you 
+should include relevant evidence. Write 300-500 words.
+‘Governments should offer college and university education free of charge to all students.’ Discuss the extent to which you agree or disagree with 
+this statement and provide reasons for the position you take. In developing and supporting your position, you should include relevant evidence. 
+Write 300-500 words.
+‘The luxuries and conveniences of contemporary life prevent people from developing into truly strong and independent individuals.’ Discuss the 
+extent to which you agree or disagree with this statement and provide reasons for the position you take. In developing and supporting your 
+position, you should include relevant evidence. Write 300-500 words.
+‘College students should be encouraged to pursue subjects that interest them rather than the courses that seem most likely to lead to jobs.’ Discuss 
+the extent to which you agree or disagree with this statement and provide reasons for the position you take. In developing and supporting your 
+position, you should include relevant evidence. Write 300-500 words.
+Post-test ‘Students should always question what they are taught instead of accepting it passively.’ Discuss the extent to which you agree or disagree with this 
+statement and provide reasons for the position you take. In developing and supporting your position, you should include relevant evidence. Write 
+300-500 words.
+Appendix EWriting self-efficacy questionnaire
+1. I can present well-rounded perspectives.
+2. I can support my claims with effective evidence.
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+16 
+3. I can present logical argumentation.
+4. I can clearly express my viewpoints.
+5. I can use precise language to make effective arguments.
+6. I can use persuasive language to articulate my arguments.
+7. I can effectively use language to convey ideas with clarity and logic.
+Appendix FPeer essay used in the peer review task
+In the education system, many students are encouraged to listen to their superiors and rarely question what they say. However, it is 
+my belief that students should sometimes question what they are taught, especially if they feel like their teacher is incorrect.
+To begin, if students just accept every concept they are taught throughout school, they will lose the ability to think freely for 
+themselves. For example, in my Literature class, my teacher encouraged us to speak up and give our opinions when discussing a piece 
+of literature. Each novel or poem we read, we always analyzed and discussed them in class. If my teacher had just told us about his 
+opinions on what the meaning of each novel was, and our class never gave our input, we would lose valuable thinking abilities. By 
+actively imputing our opinions, we gradually learned how to become more independent thinkers.
+However, there are some cases when students should not question what they are taught. A science class is an example of a situation 
+where students should limit what they question. Many concepts in science, such as the law of gravity, is static and will never change. 
+Students need to learn when it is an appropriate time to challenge what they are taught and when to accept what they are taught.
+On the basis of the points mentioned above, I neither agree nor disagree with the statement that students should always question 
+what they are taught instead of accepting it passively.
+Appendix G. Interview protocol for students in the three conditions
+Questions for students in 
+Condition 1
+• What's your overall perception of the process of evaluating and revising the GenAI-generated essay?
+• Did you find this process helpful in enhancing your argumentative writing? If yes, what aspects and how? And on what aspects 
+you didn't find it helpful and why not?
+• How did you find this arrangement in shaping your writing self-efficacy and writing development? In what aspects was this 
+arrangement helpful? In what aspects was it not helpful?
+• How did you perceive the role of GenAI in writing?
+Questions for students in 
+Condition 2
+• What's your overall perception of the process of seeking feedback from GenAI and revising your essay based on the feedback?
+• Did you find this process helpful in enhancing your argumentative writing? If yes, what aspects and how? And on what aspects 
+you didn't find it helpful and why not?
+• How did you find this arrangement in shaping your writing self-efficacy and writing development? In what aspects was this 
+arrangement helpful? In what aspects was it not helpful?
+• How did you perceive the role of GenAI in writing?
+Questions for students in 
+Condition 3
+• What's your overall perception of the process of evaluating and revising your essay based on the self-checklist?
+• Did you find this process helpful in enhancing your argumentative writing? If yes, what aspects and how? And on what aspects 
+you didn't find it helpful and why not?
+• How did you find this arrangement in shaping your writing self-efficacy and writing development? In what aspects was this 
+arrangement helpful? In what aspects was it not helpful?
+Appendix H. Coding framework for analyzing conversation logs
+Category Description Examples Condition 1 (N) Condition 2 (N)
+Task 
+1
+Task 
+2
+Task 
+3
+Task 
+4
+Task 
+1
+Task 
+2
+Task 
+3
+Task 
+4
+Prompt amount The total number of prompts a 
+student sends to GenAI.
+/ 217 250 227 212 63 81 80 83
+Learning-oriented 
+prompts
+Prompts that ask GenAI for 
+suggestions, guidance, feedback, 
+explanations, information, or 
+elaborations that create 
+opportunities for learning.
+What is a hook in an 
+introduction 
+paragraph? Please give 
+me an example of a 
+hook?
+160 162 129 105 61 78 68 67
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+17 
+Appendix I. Coding framework for analyzing quality of peer feedback
+Feature of 
+feedback
+Points Label Description
+Identification 0 Poor - not mentioned The comment did not include explicit identification of problem
+1 Average - mentioned but not localized The comment included identification of problem without localization of 
+identified problem
+2 Good - mentioned and localized The comment included explicit and localized identification of problem
+Justification 0 Poor - not mentioned The comment did not include elaborations and justifications of identified 
+problem
+1 Average - mentioned elaborated, but not justified The comment included elaborations but not justifications of identified 
+problem
+2 Good - mentioned elaborated and justified The comment included elaborations and justifications of identified problem
+Constructive 0 Poor - not mentioned The comment did not include any recommendations or action plans for 
+further improvements.
+1 Average - only recommendation is mentioned The comment included recommendations but not action plans for further 
+improvements.
+2 Good - both recommendation and action plan are 
+mentioned
+The comment included recommendations and action plans for further 
+improvements.
+Appendix J. Coding scheme of the psychological processes and barriers
+Themes Categories Sub-categories Descriptions Condition 1 Condition 2 Condition 3
+Counts 
+(N)
+Representative 
+quotes
+Counts 
+(N)
+Representative 
+quotes
+Count 
+(N)
+Representative 
+quotes
+Cognitive engagement Depth of 
+cognitive 
+processes 
+attended to
+Attention to 
+and deep 
+engagement 
+with AI output
+Carefully read 
+and process AI- 
+generated text or 
+feedback in detail 
+and/or with a 
+critical lens
+5 I took a more 
+critical lens when 
+reading its essays. 
+You would 
+carefully look for 
+its mistakes.
+2 I read the part AI 
+revised and 
+carefully savored 
+it, and did feel its 
+words were 
+excellent. 
+Judge whether 
+agreed with the 
+rationale AI 
+provided.
+/ /
+Reflexivity 
+towards one's 
+essay
+Engage in self- 
+reflection of one's 
+essay critically to 
+achieve a better 
+understanding of 
+one's strength and 
+weakness
+5 The rubric makes 
+you see what is 
+missing and 
+engage in self- 
+reflection. 
+When assessing the 
+points, you would 
+think of your 
+previous essays.
+0 / 5 Look at the form 
+and start to inspect 
+whether I touched 
+all the points. 
+I notice aspects I 
+didn't pay 
+attention to before.
+Shallow/ 
+Uncertain 
+engagement 
+with the 
+assessment 
+rubric
+Engage with the 
+assessment rubric 
+with uncertainty, 
+lacking clarity
+0 / 0 / 5 When assessing 
+my essay, I feel I'm 
+‘wrestling’ with the 
+assessment rubric. 
+I felt I wrote well, 
+but then it did not 
+look that well 
+either. 
+I hope it would 
+give me more 
+detailed 
+instructions.
+Level of 
+cognitive 
+engagement
+Learning- 
+oriented 
+engagement AI 
+output
+Engage with AI- 
+generated text or 
+feedback to learn
+4 I study AI's essays 
+to curate materials 
+for writing. 
+I would remember 
+and use the 
+vocabularies 
+frequently 
+appeared in its 
+texts.
+1 I study some new 
+perspectives from 
+AI feedback.
+/ /
+Learning- 
+oriented 
+Converse with AI 
+to seek for 
+5 I would ask AI 
+about its thinking 
+2 I often seek 
+examples on how 
+/ /
+(continued on next page)
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+18 
+(continued )
+Themes Categories Sub-categories Descriptions Condition 1 Condition 2 Condition 3
+Counts 
+(N) 
+Representative 
+quotes 
+Counts 
+(N) 
+Representative 
+quotes 
+Count 
+(N) 
+Representative 
+quotes
+conversation 
+with AI
+guidance, advice, 
+examples, etc. 
+that would 
+facilitate learning 
+or engage 
+iteratively with 
+AI
+process. 
+Referring to the 
+rubric, I would 
+evaluate AI's 
+essays and ask it 
+questions on 
+different aspects.
+to address the weak 
+points identified by 
+GenAI. 
+I would question it 
+iteratively.
+Performance- 
+oriented 
+conversation 
+with AI
+Converse with AI 
+to ask AI to 
+complete the task 
+for them
+2 I ask AI to revise 
+the essay based on 
+my feedback.
+5 I ask AI to directly 
+revise the essay for 
+me. 
+I ask AI to edit my 
+language.
+/ /
+Metacognition Metacognitive 
+knowledge of 
+argumentative 
+writing
+Awareness of 
+rudimentary 
+aspects of 
+metacognitive 
+knowledge
+Awareness of the 
+basic declarative 
+knowledge of 
+factors that 
+influence one's 
+writing 
+performance (e. 
+g., the key 
+elements; the 
+organizational 
+structure)
+5 Argumentation 
+flow is very clear.
+5 I sometimes would 
+only write the 
+claim without 
+evidences or only 
+use one sentence to 
+talk about the 
+evidences. It 
+reminds me to 
+include a list of 
+evidences.
+5 Using hooks that 
+draw my 
+attention.
+Awareness of 
+higher-order 
+aspects of 
+metacognitive 
+knowledge
+Awareness of the 
+procedural 
+(knowledge of 
+how to execute 
+specific skills) 
+and conditional 
+(knowledge of the 
+conditions to 
+apply various 
+cognitive actions) 
+aspects of writing
+5 While revising, I 
+would think about 
+what style of 
+argumentative 
+essay I want. It 
+forced me to think 
+deeper about 
+argumentative 
+writing.
+3 It showed me 
+different ways to 
+support my claims.
+1 The rubric 
+reminded me to 
+notice what I 
+didn't notice 
+before.
+Perceived 
+depth of 
+metacognitive 
+knowledge
+Negative 
+evaluative 
+judgement of the 
+depth and 
+transferability 
+one's 
+metacognitive 
+knowledge
+0 / 3 AI helped me make 
+a better revision, 
+but I might have 
+relied on it too 
+much that my 
+teacher wouldn't be 
+able to see my real 
+level when reading 
+my revised essays.
+5 I feel the hook is 
+attractive, but may 
+not be perceived so 
+by others.
+Positive/ 
+affirmative 
+evaluative 
+judgement about 
+transferring 
+procedural/ 
+conditional 
+metacognitive 
+knowledge
+4 I would remember 
+how it varies 
+sentence structures 
+as well as the 
+vocabularies it 
+frequently uses 
+and apply them in 
+my next writing.
+2 It helped us to think 
+from different 
+perspectives, 
+enhancing critical 
+thinking.
+1 The rubric 
+provides clues on 
+where to start 
+when I write my 
+own essay.
+Positive/ 
+affirmative 
+evaluative 
+judgement about 
+applying 
+declarative/ 
+rudimentary 
+metacognitive 
+knowledge
+5 The rubric 
+provides ways to 
+make the essay 
+more 
+comprehensive 
+and logical.
+5 That 
+organizational 
+framework made 
+me write faster.
+5 It gives a general 
+direction for 
+writing.
+​ Metacognition 
+of AI 
+interaction
+Metacognitive 
+awareness of 
+the limitations 
+of AI
+Awareness of the 
+limitations of the 
+feedback/advice 
+from AI
+1 Its essays often 
+followed the same 
+pattern
+5 It provided lengthy 
+responses with too 
+much information.
+/ /
+(continued on next page)
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+19 
+(continued )
+Themes Categories Sub-categories Descriptions Condition 1 Condition 2 Condition 3
+Counts 
+(N) 
+Representative 
+quotes 
+Counts 
+(N) 
+Representative 
+quotes 
+Count 
+(N) 
+Representative 
+quotes
+Awareness of the 
+limitations of 
+conversing with 
+AI
+3 It couldn't make 
+revisions based on 
+my feedback, 
+which made me 
+frustrated, feeling 
+that it couldn't get 
+my intention.
+4 It couldn't produce 
+the version I 
+wanted.
+/ /
+Awareness of the 
+weaknesses in AI- 
+generated essays
+5 It generated very 
+similar templates, 
+repeating a list of 
+frequently-used 
+words. 
+It reads like 
+piecing data 
+together.
+0 / / /
+Metacognitive 
+awareness of 
+the strength of 
+AI
+Awareness of the 
+strength of AI 
+interaction and 
+output
+5 Its essays are quite 
+elegant. 
+The words it used 
+were indeed 
+excellent.
+5 It could explain 
+any concepts I'm 
+not sure about.
+/ /
+Metacognitive 
+positioning of 
+AI
+Regarding AI as a 
+teacher/tutor or a 
+learning partner 
+during the 
+process to support 
+learning
+5 It's a learning 
+partner who is at a 
+higher level than 
+me.
+1 A strategic advisor. 
+It helps me broaden 
+perspectives.
+/ /
+Regarding AI as 
+an assistant to 
+provide direct 
+help on writing or 
+revision during 
+the process to 
+support 
+performance
+0 / 4 It plays more of an 
+assistant role. After 
+I complete an 
+essay, I ask it to 
+point out 
+weaknesses and 
+ask it to revise. 
+I am dominant, it 
+assists. When I 
+need assistance, I 
+ask it to provide 
+solutions.
+/ /
+Self-efficacy Positive self-efficacy Perception of 
+positive impact 
+on their writing 
+efficacy
+5 I may be able to 
+write more lively 
+essays, more 
+humane, if I write 
+seriously.
+3 I can write more 
+logical, engaging, 
+and persuasive 
+essays.
+2 Seeing more and 
+more boxes on the 
+self-checklist being 
+ticked in 
+subsequent 
+rounds, I felt 
+motivated and 
+satisfied.
+Negative self-efficacy Perception of no 
+or negative 
+impact on their 
+writing efficacy
+0 / 2 It helped me 
+complete the 
+writing, which did 
+not reflect my 
+ability.
+3 I'm not sure 
+whether I would be 
+able to apply the 
+framework during 
+exam when the 
+rubric is no longer 
+available.
+Barrier Motivational barriers Perceived limited 
+value of the 
+rubric and/or AI 
+output/ 
+conversation for 
+learning
+3 It might not be that 
+useful in helping 
+me develop deeper 
+understanding.
+4 I feel some 
+feedback from AI is 
+not very useful.
+5 I feel the rubric 
+only raised issues 
+without providing 
+solutions.
+Metacognitive barriers Perceived 
+hindrance of one's 
+metacognitive 
+attention, 
+strategic 
+knowledge of 
+interacting with 
+AI or learning 
+3 I can't get AI to 
+understand my 
+intention.
+4 I paid more 
+attention to 
+structure. When it 
+indicated my tone 
+was not strong 
+enough, not 
+formal, I wouldn't 
+pay much 
+3 Each criterion is 
+too general and 
+abstract.
+(continued on next page)
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+20 
+( continued )
+Themes Categories Sub-categories Descriptions Condition 1 Condition 2 Condition 3
+Counts 
+(N) 
+Representative 
+quotes 
+Counts 
+(N) 
+Representative 
+quotes 
+Count 
+(N) 
+Representative 
+quotes
+habits in 
+performing the 
+task
+attention. 
+It couldn't produce 
+the version I 
+wanted, maybe 
+because my prompt 
+was not clear.
+Cognitive barrier Perceived lack of 
+prior knowledge 
+or language 
+proficiency or 
+capacity of using 
+the rubric and AI 
+output to perform 
+the task
+2 I know what a 
+hook is.
+3 After reading the 
+suggestions, I still 
+did not know how 
+to revise.
+5 Sometimes, I feel 
+bewildered. 
+My vocabulary is 
+very limited.
+Data availability
+Data will be made available on request.
+References
+Alam, A., & Mohanty, A. (2024). Framework of self-regulated cognitive engagement (FSRCE) for sustainable pedagogy: A model that integrates SRL and cognitive 
+engagement for holistic development of students. Cogent Education, 11 (1), Article 2363157. https://doi.org/10.1080/2331186x.2024.2363157
+Alghazo, S., Rababah, G., El-Dakhs, D. A. S., & Mustafa, A. (2025). Engagement strategies in human-written and AI-generated academic essays: A corpus-based study. 
+Ampersand , Article 100237. https://doi-org.eproxy.lib.hku.hk/10.1016/j.amper.2025.100237 .
+Ali, F., Choy, D., Divaharan, S., Tay, H. Y., & Chen, W. (2023). Supporting self-directed learning and self-assessment using TeacherGAIA, a generative AI chatbot 
+application: Learning approaches and prompt engineering. Learning: Research and Practice, 9 (2), 135 – 147. https://doi.org/10.1080/23735082.2023.2258886
+Alsofyani, A. H., & Barzanji, A. M. (2025). The effects of ChatGPT-generated feedback on Saudi EFL learners' writing skills and perception at the tertiary level: A 
+mixed-methods study. Journal of Educational Computing Research, 63 (2), 431 – 463. https://doi.org/10.1177/07356331241307297
+Breyer, F. J., Attali, Y., Williamson, D. M., Ridolfi-McCulla, L., Ramineni, C., Duchnowski, M., & Harris, A. (2014). A study of the use of the e-rater ® scoring engine for 
+the analytical writing measure of the GRE ® revised general test. ETS Research Report Series, 2014 (2), 1 – 66. https://doi.org/10.1002/ets2.12022
+Brown, A. L. (1987). Metacognition, executive control, self-regulation, and other more mysterious mechanisms. In F. Weinert, & R. Kluwe (Eds.), Metacognition, 
+motivation and understanding (pp. 65 – 116). Erlbaum . 
+Bruning, R., Dempsey, M., Kauffman, D. F., McKim, C., & Zumbrunn, S. (2013). Examining dimensions of self-efficacy for writing. Journal of Educational Psychology, 
+105 (1), 25. https://doi.org/10.1037/a0029692
+Bui, G., & Kong, A. (2019). Metacognitive instruction for peer review interaction in L2 writing. Journal of Writing Research, 11 (2), 357 – 392. https://doi.org/10.17239/ 
+jowr-2019.11.02.05
+Cao, Z., Yu, S., & Huang, J. (2019). A qualitative inquiry into undergraduates' learning from giving and receiving peer feedback in L2 writing: Insights from a case 
+study. Studies In Educational Evaluation, 63 , 102 – 112. https://doi.org/10.1016/j.stueduc.2019.08.001
+Chambers, L., & Owen, W. J. (2024). The efficacy of GenAI tools in postsecondary education. Brock Education Journal, 33 (3), 57 – 74. https://doi.org/10.26522/ 
+brocked.v33i3.1178
+Chatterji, A., Cunningham, T., Deming, D. J., Hitzig, Z., Ong, C., Shan, C. Y., & Wadman, K. (2025). How people use ChatGPT (no. w34255) . National Bureau of 
+Economic Research. https://doi.org/10.3386/w34255
+Chi, M. T., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. Educational Psychologist, 49 (4), 219 – 243. https://doi. 
+org/10.1080/00461520.2014.965823
+Darvishi, A., Khosravi, H., Sadiq, S., Ga ˇsevi ´c, D., & Siemens, G. (2024). Impact of AI assistance on student agency. Computers & Education, 210 , 104967. https://doi. 
+org/10.1016/j.compedu.2023.104967 .
+Escalante, J., Pack, A., & Barrett, A. (2023). AI-generated feedback on writing: Insights into efficacy and ENL student preference. International Journal of Educational 
+Technology in Higher Education, 20 (1), 57. https://doi.org/10.1186/s41239-023-00425-2
+Evans, P., Vansteenkiste, M., Parker, P., Kingsford-Smith, A., & Zhou, S. (2024). Cognitive load theory and its relationships with motivation: A self-determination 
+theory perspective. Educational Psychology Review, 36 (1), 7. https://doi.org/10.1007/s10648-023-09841-2
+Fan, Y., Tang, L., Le, H., Shen, K., Tan, S., Zhao, Y., … Ga ˇsevi ´c, D. (2025). Beware of metacognitive laziness: Effects of generative artificial intelligence on learning 
+motivation, processes, and performance. British Journal of Educational Technology, 56 (2), 489 – 530. https://doi.org/10.1111/bjet.13544
+Fiorella, L. (2023). Making sense of generative learning. Educational Psychology Review, 35 (2), 50. https://doi.org/10.1007/s10648-023-09769-7
+Fiorella, L., & Mayer, R. E. (2015). Learning as a generative activity . Cambridge University Press. https://doi.org/10.1017/cbo9781107707085
+Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive – developmental inquiry. American Psychologist, 34 (10), 906 – 911. https://doi. 
+org/10.1037/0003-066x.34.10.906
+Gao, Y., & Liu, H. (2021). The benefits of providing peer feedback in English writing and its influencing factors. Technology Enhanced Foreign Language Education, 6 , 
+87 – 93. https://doi.org/10.1016/j.stueduc.2023.101252
+Gao, Y., Schunn, C. D. D., & Yu, Q. (2019). The alignment of written peer feedback with draft problems and its impact on revision in peer assessment. Assessment & 
+Evaluation in Higher Education, 44 (2), 294 – 308. https://doi.org/10.1080/02602938.2018.1499075
+Grobe, C. (2023). Why i'm not scared of ChatGPT . The Chronicle of Higher Education . 
+Guo, S., Latif, E., Zhou, Y., Huang, X., & Zhai, X. (2024). Using generative AI and multi-agents to provide automatic feedback. arXiv preprint arXiv:2411.07407 .
+Heil, J., Ifenthaler, D., Cooper, M., Mascia, M. L., Conti, R., & Penna, M. P. (2025). Students' perceived impact of GenAI tools on learning and assessment in higher 
+education: The role of individual AI competence. Smart Learning Environments, 12 (1), 37. https://doi.org/10.1186/s40561-025-00395-0
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+21 
+Henderson, M., Bearman, M., Chung, J., Fawns, T., Buckingham Shum, S., Matthews, K. E., & de Mello Heredia, J. (2025). Comparing generative AI and teacher 
+feedback: Student perceptions of usefulness and trustworthiness. Assessment & Evaluation in Higher Education , 1 – 16. https://doi.org/10.1080/ 
+02602938.2025.2502582
+Herbold, S., Hautli-Janisz, A., Heuer, U., Kikteva, Z., & Trautsch, A. (2023). A large-scale comparison of human-written versus ChatGPT-generated essays. Scientific 
+Reports, 13 (1), Article 18617. https://doi.org/10.1038/s41598-023-45644-9
+Hong, H., Vate-U-Lan, P., & Viriyavejakul, C. (2025). Cognitive offload instruction with generative AI: A quasi-experimental study on critical thinking gains in English 
+writing. Forum for Linguistic Studies, 7 (7), 325 – 334. https://doi.org/10.30564/fls.v7i7.10072
+Huang, J., & Mizumoto, A. (2024). Examining the effect of generative AI on students' motivation and writing self-efficacy. Digital Applied Linguistics, 1 , Article 102324. 
+https://doi.org/10.29140/dal.v1.102324
+Ironsi, C. S., & Solomon Ironsi, S. (2025). Experimental evidence for the efficacy of generative AI in improving students ’ writing skills. Quality assurance in education, 
+33 (2), 237 – 252. https://doi.org/10.1108/qae-04-2024-0065 .
+Jeon, J., Lee, S., & Choe, H. (2023). Beyond ChatGPT: A conceptual framework and systematic review of speech-recognition chatbots for language learning. Computers 
+& Education, 206 , Article 104898. https://doi.org/10.1016/j.compedu.2023.104898
+Jiang, Y. (2025). Interaction and dialogue: Integration and application of artificial intelligence in blended mode writing feedback. The Internet and Higher Education, 
+64 , Article 100975. https://doi.org/10.1016/j.iheduc.2024.100975
+Jiang, Y. L., Wu, Q., Yang, Y., Jian, C. L., & Zhao, J. (2026). Learner agency in revising GenAI-generated statements of purpose. British Journal of Educational 
+Technology , 1 – 19. https://doi.org/10.1111/bjet.70041 . 00 .
+Jin, F., Lin, C. H., & Lai, C. (2025). Modeling AI-assisted writing: How self-regulated learning influences writing outcomes. Computers in Human Behavior, 165 , Article 
+108538. https://doi.org/10.1016/j.chb.2024.108538
+Jose, B., Joseph, D., Mohan, V., Alexander, E., Varghese, S. K., & Roy, A. (2025). Outsourcing cognition: The psychological costs of AI-era convenience. Frontiers in 
+Psychology, 16 , Article 1645237. https://doi.org/10.3389/fpsyg.2025.1645237
+Kapur, M. (2016). Examining productive failure, productive success, unproductive failure, and unproductive success in learning. Educational Psychologist, 51 (2), 
+289 – 299. https://doi.org/10.1080/00461520.2016.1155457
+Kerman, N. T., Noroozi, O., Banihashem, S. K., Karami, M., & Biemans, H. J. (2024). Online peer feedback patterns of success and failure in argumentative essay 
+writing. Interactive Learning Environments, 32 (2), 614 – 626. https://doi.org/10.1080/10494820.2022.2093914
+Koltovskaia, S., Rahmati, P., & Saeli, H. (2024). Graduate students' use of ChatGPT for academic text revision: Behavioral, cognitive, and affective engagement. 
+Journal of Second Language Writing, 65 , Article 101130. https://doi.org/10.1016/j.jslw.2024.101130
+Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X. H., Beresnitzky, A. V., … Maes, P. (2025). Your brain on ChatGPT: Accumulation of cognitive debt when 
+using an AI assistant for essay writing task. arXiv preprint arXiv:2506.08872, 4 .
+Lee, S. S., & Moore, R. L. (2024). Harnessing Generative AI (GenAI) for automated feedback in higher education: A systematic review. Online Learning, 28 (3), 82 – 106. 
+https://doi.org/10.24059/olj.v28i3.4593
+Li, R. (2025). Critiquing ChatGPT compositions: Collaborative annotation as an approach to enhancing students' metalinguistic awareness of AI-generated writing. 
+Thresholds in Education, 48 (1), 7 – 24 .
+Li, S. (2025). Generative AI and second language writing. Digital Studies in Language and Literature, 2 (10), 122 – 152. https://doi.org/10.1515/dsll-2025-0007
+Li, M., & Tekwa, K. (2025). Timing AI intervention in the writing process for low proficiency learners: relationship with motivation, self-efficacy, and performance: 
+Timing AI intervention in the writing process for low proficiency learners: relationship with motivation, self-efficacy, and performance. European Journal of 
+Psychology of Education, 40 (4), 120. https://doi.org/10.1007/s10212-025-01030-9 .
+Lin, S., & Crosthwaite, P. (2024). The grass is not always greener: Teacher vs. GPT-assisted written corrective feedback. System, 127 , Article 103529. https://doi.org/ 
+10.1016/j.system.2024.103529
+Liu, M., Zhang, L. J., & Biebricher, C. (2024). Investigating students' cognitive processes in generative AI-assisted digital multimodal composing and traditional 
+writing. Computers & Education, 211 , Article 104977. https://doi.org/10.1016/j.compedu.2023.104977
+Lundstrom, K., & Baker, W. (2009). To give is better than to receive: The benefits of peer review to the reviewer's own writing. Journal of Second Language Writing, 18 
+(1), 30 – 43. https://doi.org/10.1016/j.jslw.2008.06.002
+Martin, I. A., & Sippel, L. (2021). Is giving better than receiving?: The effects of peer and teacher feedback on L2 pronunciation skills. Journal of Second Language 
+Pronunciation, 7 (1), 62 – 88. https://doi.org/10.1075/jslp.20001.mar
+Mohammad, T., Alzubi, A. A. F., Nazim, M., & Khan, S. I. (2023). Assessing the effectiveness of QuillBot-mediated instruction in enhancing EFL students' paraphrasing 
+skills. Journal of Theoretical and Applied Information Technology, 101 (24), 8349 – 8357. https://www.researchgate.net/publication/377363834 .
+Nakkaew, N., & Adunyarittigun, D. (2019). An initial development of an analytic rubric for assessing critical thinking in English argumentative essays of EFL colleges 
+students. Reflections, 26 (2), 51 – 74. https://doi.org/10.61508/refl.v26i2.241755
+Nicol, D. (2012). Resituating feedback from the reactive to the proactive. In D. Boud, & E. Molloy (Eds.), Feedback in higher and professional education (pp. 34 – 49). 
+Routledge . 
+Nicol, D., Thomson, A., & Breslin, C. (2014). Rethinking feedback practices in higher education: A peer review perspective. Assessment & Evaluation in Higher 
+Education, 39 (1), 102 – 122. https://doi.org/10.1080/02602938.2013.795518
+Ocampo, R., Bown, O., & Grace, K. (2025). Beyond chat: Collaborative editors enhance human involvement and agency when co-writing with large language models. 
+Retrieve online via https://computationalcreativity.net/iccc25/wp-content/uploads/papers/iccc25-ocampo2025beyond.pdf .
+Olinghouse, N. G., Graham, S., & Gillespie, A. (2015). The relationship of discourse and topic knowledge to fifth graders' writing performance. Journal of Educational 
+Psychology, 107 , 391 – 406. https://doi.org/10.1037/a0037549
+Oliveira, M., Zednik, C., Bombaerts, G., Sadowski, B., & Conijn, R. (2025). Assessing students' DRIVE: A framework to evaluate learning through interactions with 
+generative AI. Computers and Education: Artificial Intelligence , Article 100497. https://doi-org.eproxy.lib.hku.hk/10.1016/j.caeai.2025.100497 .
+Osawa, K. (2023). Integrating automated written corrective feedback into e-portfolios for second language writing: Notion and notion AI. RELC Journal, 55 (3), 
+881 – 887. https://doi.org/10.1177/00336882231198913
+Pajares, F., & Valiante, G. (2001). Gender differences in writing motivation and achievement of middle school students: A function of gender orientation? 
+Contemporary Educational Psychology, 26 (3), 366 – 381. https://doi.org/10.1006/Ceps.2000.1069
+Pajares, F., Valiante, G., & Cheong, Y. F. (2007). Writing self-efficacy and its relation to gender, writing motivation and writing competence: A developmental 
+perspective. In S. Hidi, & P. Boscolo (Eds.), Writing and motivation (pp. 141 – 159). Elsevier . 
+Pak, M. (2024). Productive failure and GenAI. Double Helix: A Journal of Critical Thinking and Writing, 12 (1), 1 – 3. https://doi.org/10.37514/dbh-j.2024.12.1.09
+Pan, Z., & Zhang, Y. (2025). Exploring L2 writing motivation in AI-mediated EFL contexts: The role of teacher affective support, AI literacy, and self-efficacy through 
+the lens of self-determination theory. Learning and Motivation, 92 , Article 102214. https://doi.org/10.1016/j.lmot.2025.102214
+Patchan, M. M., & Schunn, C. D. (2015). Understanding the benefits of providing peer feedback: How students respond to peers' texts of varying quality. Instructional 
+Science, 43 (5), 591 – 614. https://doi.org/10.1007/s11251-015-9353-x
+Rahimi, M., & Katal, M. (2012). Metacognitive strategies awareness and success in learning English as a foreign language: An overview. Procedia - Social and Behavioral 
+Sciences, 31 , 73 – 81. https://doi.org/10.1016/j.sbspro.2011.12.019
+Rakovi ´c, M., Marzouk, Z., Liaqat, A., Winne, P. H., & Nesbit, J. C. (2020). Fine grained analysis of students' online discussion posts. Computers & Education, 157 , Article 
+103982. https://doi.org/10.1016/j.compedu.2020.103982
+Rivera-Novoa, A., & Duarte Arias, D. A. (2025). Generative artificial intelligence and extended cognition in science learning contexts. Science & Education , 1 – 22. 
+https://doi.org/10.1007/s11191-025-00660-1
+Saldana, J. (2021). The Coding Manual for Qualitative Researchers (4th ed.). SAGE Publications . 
+Shi, H., & Aryadoust, V. (2024). A systematic review of AI-based automated written feedback research. ReCALL, 36 (2), 187 – 209. https://doi.org/10.1017/ 
+s0958344023000265
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+22 
+Sweller, J. (2011). Cognitive load theory. In J. P. Mestre, & B. H. Ross (Eds.), The psychology of learning and motivation (Vol. 55, pp. 37–76). Academic Press. https:// 
+doi.org/10.1016/B978-0-12-387691-1.00002-8. 
+Tan, J. S., & Chen, W. (2022). Peer feedback to support collaborative knowledge improvement: What kind of feedback feed-forward? Computers & Education, 187, 
+Article 104467. https://doi.org/10.1016/j.compedu.2022.104467
+Teng, F. (2020). Tertiary-level students' English writing performance and metacognitive awareness: A group metacognitive support perspective. Scandinavian Journal 
+of Educational Research, 64(4), 551–568. https://doi.org/10.1080/00313831.2019.1595712
+Teng, M. F. (2025a). Understanding EFL student writers' metacognitive awareness in utilizing ChatGPT. System. , Article 103848. https://doi.org/10.1016/j. 
+system.2025.103848
+Teng, M. F. (2025b). Metacognitive awareness and EFL learners' perceptions and experiences in utilizing ChatGPT for writing feedback. European Journal of Education, 
+60(1), Article e12811. https://doi.org/10.1111/ejed.12811
+Teng, M. F., & Ma, M. (2024). Assessing metacognition-based student feedback literacy for academic writing. Assessing Writing, 59, Article 100811. https://doi.org/ 
+10.1016/j.asw.2024.100811
+Vaccaro, M., Almaatouq, A., & Malone, T. (2024). When combinations of humans and AI are useful: A systematic review and meta-analysis. Nature Human Behaviour, 8 
+(12), 2293–2303. https://doi.org/10.1038/s41562-024-02024-1
+Wang, C., & Wang, Z. (2025). Investigating L2 writers' critical AI literacy in AI-assisted writing: An APSE model. Journal of Second Language Writing, 67, Article 
+101187. https://doi.org/10.1016/j.jslw.2025.101187
+Wu, Y., & Schunn, C. D. (2023). Passive, active, and constructive engagement with peer feedback: A revised model of learning from peer feedback. Contemporary 
+Educational Psychology, 73, Article 102160. https://doi.org/10.1016/j.cedpsych.2023.102160
+Wu, J., Wang, J., Lei, S., Wu, F., & Gao, X. (2025). The impact of metacognitive scaffolding on deep learning in a GenAI-supported learning environment. Interactive 
+Learning Environments, 1–18. https://doi.org/10.1080/10494820.2025.2479162
+Wu, Q., & Xu, A. (2025). Poe or Gemini for fostering writing skills in Japanese upper-intermediate learners: Uncovering the consequences on positive emotions, 
+boredom to write, academic self-efficacy and writing development. British Educational Research Journal. https://doi.org/10.1002/berj.4119
+Xu, X., Sun, F., & Hu, W. (2025). Integrating human expertise with GenAI: Insights into a collaborative feedback approach in translation education. System, 129, 
+Article 103600. https://doi.org/10.1016/j.system.2025.103600
+Yang, Y., Luo, J., Yang, M., Yang, R., & Chen, J. (2024). From surface to deep learning approaches with Generative AI in higher education: An analytical framework of 
+student agency. Studies in Higher Education, 49(5), 817–830. https://doi.org/10.1080/03075079.2024.2327003
+Yao, Y., Sun, Y., Zhu, S., & Zhu, X. (2025). A qualitative inquiry into metacognitive strategies of postgraduate students in employing ChatGPT for English academic 
+writing. European Journal of Education, 60(1), Article e12824. https://doi.org/10.1111/ejed.12824
+Yao, Y., Zhu, X., Xiao, L., & Lu, Q. (2025). Secondary school English teachers' application of artificial intelligence-guided chatbot in the provision of feedback on 
+student writing: An activity theory perspective. Journal of Second Language Writing, 67, Article 101179. https://doi.org/10.1016/j.jslw.2025.101179
+Zaheer, S., Ma, C., Zhu, Y., & Vasinda, S. (2025). GenAI in academic writing-empowering learners or redefining traditional pedagogical practices?: A systematic 
+review from 2019-2023. International Journal of Artificial Intelligence (AI) in Teaching and Learning, 1(1), 1–34. https://doi.org/10.4018/ijaitl.373582
+Zeng, X. M., & Ravindran, L. (2024). The effects of peer feedback provision and reception on lower-proficiency EFL learners' writing development. Studies In 
+Educational Evaluation, 83, Article 101422. https://doi.org/10.1016/j.stueduc.2024.101422
+Zeng, X., Ravindran, L., & Amini, M. (2023). Teaching critical thinking to Chinese students in EFL writing: A review. International Journal of Evaluation and Research in 
+Education, 12(3), 1735–1746. https://doi.org/10.11591/ijere.v12i3.24699
+Zhan, Y., Boud, D., Dawson, P., & Yan, Z. (2025). Generative artificial intelligence as an enabler of student feedback engagement: A framework. Higher Education 
+Research and Development, 44(5), 1289–1304. https://doi.org/10.1080/07294360.2025.2476513
+Zhang, Y., Schunn, C. D., & Wu, Y. (2024). Interconnecting peer feedback literacy: Exploring the relationship between providing and acting on peer feedback. Studies 
+In Educational Evaluation, 83, Article 101411. https://doi.org/10.1016/j.stueduc.2024.101411
+Zhou, J., Zheng, Y., & Tai, J. H. M. (2020). Grudges and gratitude: The social-affective impacts of peer assessment. Assessment & Evaluation in Higher Education, 45(3), 
+345–358. https://doi.org/10.1080/02602938.2019.1643449
+Zong, Z., Schunn, C. D., & Wang, Y. (2021). What aspects of online peer feedback robustly predict growth in students' task performance? Computers in Human Behavior, 
+124, Article 106924. https://doi.org/10.1016/j.chb.2021.106924
+Zou, B., Wang, C., He, H., Li, C., Purwanto, E., & Wang, P. (2025). Enhancing EFL writing with visualised GenAI feedback: A cognitive affective theory of learning 
+perspective on revision quality, emotional response, and human-computer interaction. Learning and Motivation, 91, Article 102158. https://doi.org/10.1016/j. 
+lmot.2025.102158
+Anonymized references
+Guo, K., & Wang, D. (2024). To resist it or to embrace it? Examining chatgpt's potential to support teacher feedback in EFL writing. Education and Information 
+Technologies, 29(7), 8435–8463. https://doi.org/10.1007/s10639-023-12146-0
+C. Lai et al.                                                                                                                                                                                                             Computers & Education 252 (2026) 105675 
+23 

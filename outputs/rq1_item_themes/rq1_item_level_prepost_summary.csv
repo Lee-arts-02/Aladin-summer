@@ -1,0 +1,25 @@
+sample,item,item_short,concept,pre_n,post_n,pre_correct_pct,post_correct_pct,gain_pct_points
+all_available,1,Sweater insulation,Insulation / R-value / U-value,124,74,64.51612903225806,72.97297297297297,8.456843940714908
+matched_only,1,Sweater insulation,Insulation / R-value / U-value,68,68,63.23529411764706,73.52941176470588,10.294117647058831
+all_available,2,R-value,Insulation / R-value / U-value,124,74,44.354838709677416,58.108108108108105,13.753269398430684
+matched_only,2,R-value,Insulation / R-value / U-value,68,68,32.35294117647059,58.82352941176471,26.47058823529412
+all_available,3,Doubling insulation,Insulation / R-value / U-value,124,74,61.29032258064516,67.56756756756756,6.277244986922403
+matched_only,3,Doubling insulation,Insulation / R-value / U-value,68,68,55.88235294117647,69.11764705882352,13.235294117647056
+all_available,4,U-value,Insulation / R-value / U-value,124,74,35.483870967741936,48.64864864864865,13.164777680906713
+matched_only,4,U-value,Insulation / R-value / U-value,68,68,25.0,50.0,25.0
+all_available,5,Window greenhouse effect,Windows / sunlight / radiant heat,124,74,60.483870967741936,58.108108108108105,-2.3757628596338343
+matched_only,5,Window greenhouse effect,Windows / sunlight / radiant heat,68,68,52.94117647058824,58.82352941176471,5.882352941176472
+all_available,6,Dark roof in hot climate,Windows / sunlight / radiant heat,124,74,75.0,63.51351351351351,-11.486486486486491
+matched_only,6,Dark roof in hot climate,Windows / sunlight / radiant heat,68,68,73.52941176470588,63.23529411764706,-10.294117647058831
+all_available,7,Close curtains,Windows / sunlight / radiant heat,124,74,74.19354838709677,72.97297297297297,-1.2205754141238034
+matched_only,7,Close curtains,Windows / sunlight / radiant heat,68,68,70.58823529411765,70.58823529411765,0.0
+all_available,8,Thermostat setback,HVAC / thermostat / energy use,124,74,54.03225806451613,66.21621621621621,12.183958151700091
+matched_only,8,Thermostat setback,HVAC / thermostat / energy use,68,68,47.05882352941176,64.70588235294117,17.647058823529417
+all_available,9,Thermostat above vent,HVAC / thermostat / energy use,124,74,37.096774193548384,41.891891891891895,4.795117698343504
+matched_only,9,Thermostat above vent,HVAC / thermostat / energy use,68,68,29.411764705882355,38.23529411764706,8.823529411764703
+all_available,10,Passive solar overhang,Solar / passive solar / net-zero,124,74,44.354838709677416,47.2972972972973,2.9424585876198783
+matched_only,10,Passive solar overhang,Solar / passive solar / net-zero,68,68,29.411764705882355,47.05882352941176,17.64705882352941
+all_available,11,Net-zero cold climate,Insulation / R-value / U-value,124,74,53.2258064516129,58.108108108108105,4.882301656495203
+matched_only,11,Net-zero cold climate,Insulation / R-value / U-value,68,68,45.588235294117645,58.82352941176471,13.235294117647062
+all_available,12,Solar panel orientation,Solar / passive solar / net-zero,124,74,41.12903225806452,52.702702702702695,11.573670444638179
+matched_only,12,Solar panel orientation,Solar / passive solar / net-zero,68,68,27.941176470588236,54.41176470588235,26.470588235294112

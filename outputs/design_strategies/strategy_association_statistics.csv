@@ -1,0 +1,29 @@
+comparison,test,statistic,df,p,effect_size,effect_size_label,note
+design_strategy_by_designer_profile,Chi-square,93.67997685185185,24,,0.5784214258648023,Cramer's V,Exploratory; p omitted because scipy is unavailable in the bundled runtime.
+parameter_specific_rate_with_gain,Spearman,-0.02574400028136419,,,-0.02574400028136419,rho,n=24; p omitted because scipy is unavailable in the bundled runtime.
+parameter_specific_rate_with_ENA_dim1_full,Spearman,-0.34570001420916635,,,-0.34570001420916635,rho,n=70; p omitted because scipy is unavailable in the bundled runtime.
+performance_outcome_rate_with_gain,Spearman,-0.08572477434113873,,,-0.08572477434113873,rho,n=24; p omitted because scipy is unavailable in the bundled runtime.
+performance_outcome_rate_with_overall_agency,Spearman,-0.39373077533382644,,,-0.39373077533382644,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+performance_outcome_rate_with_goal_setting,Spearman,-0.4022911406409068,,,-0.4022911406409068,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+performance_outcome_rate_with_self_adjustment,Spearman,-0.3296171265436078,,,-0.3296171265436078,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+performance_outcome_rate_with_ENA_dim1_full,Spearman,-0.13613286876232375,,,-0.13613286876232375,rho,n=70; p omitted because scipy is unavailable in the bundled runtime.
+visual_detail_rate_with_gain,Spearman,0.12193034876541665,,,0.12193034876541665,rho,n=24; p omitted because scipy is unavailable in the bundled runtime.
+visual_detail_rate_with_overall_agency,Spearman,0.24826602215210894,,,0.24826602215210894,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+visual_detail_rate_with_goal_setting,Spearman,0.06576467347139728,,,0.06576467347139728,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+visual_detail_rate_with_self_adjustment,Spearman,0.4503185059302255,,,0.4503185059302255,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+visual_detail_rate_with_ENA_dim1_full,Spearman,-0.3727371301603245,,,-0.3727371301603245,rho,n=70; p omitted because scipy is unavailable in the bundled runtime.
+distinct_site_count_with_gain,Spearman,-0.010430277596512017,,,-0.010430277596512017,rho,n=24; p omitted because scipy is unavailable in the bundled runtime.
+distinct_site_count_with_overall_agency,Spearman,0.001957175781909532,,,0.001957175781909532,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+distinct_site_count_with_goal_setting,Spearman,-0.07598966610806616,,,-0.07598966610806616,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+distinct_site_count_with_self_adjustment,Spearman,0.02106612756046358,,,0.02106612756046358,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+distinct_site_count_with_ENA_dim1_full,Spearman,-0.08417488578714954,,,-0.08417488578714954,rho,n=70; p omitted because scipy is unavailable in the bundled runtime.
+offtask_rate_with_gain,Spearman,-0.17614426863804059,,,-0.17614426863804059,rho,n=24; p omitted because scipy is unavailable in the bundled runtime.
+offtask_rate_with_overall_agency,Spearman,-0.5543110373000049,,,-0.5543110373000049,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+offtask_rate_with_goal_setting,Spearman,-0.8239938325886026,,,-0.8239938325886026,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+offtask_rate_with_self_adjustment,Spearman,-0.30504623872423076,,,-0.30504623872423076,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+offtask_rate_with_ENA_dim1_full,Spearman,0.07215747093585871,,,0.07215747093585871,rho,n=70; p omitted because scipy is unavailable in the bundled runtime.
+mean_prompt_jaccard_with_gain,Spearman,0.09600963385738635,,,0.09600963385738635,rho,n=24; p omitted because scipy is unavailable in the bundled runtime.
+mean_prompt_jaccard_with_overall_agency,Spearman,0.015789473684210527,,,0.015789473684210527,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+mean_prompt_jaccard_with_goal_setting,Spearman,0.10575922568075452,,,0.10575922568075452,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+mean_prompt_jaccard_with_self_adjustment,Spearman,0.20582897850527762,,,0.20582897850527762,rho,n=12; p omitted because scipy is unavailable in the bundled runtime.
+mean_prompt_jaccard_with_ENA_dim1_full,Spearman,-0.6840899127170247,,,-0.6840899127170247,rho,n=70; p omitted because scipy is unavailable in the bundled runtime.

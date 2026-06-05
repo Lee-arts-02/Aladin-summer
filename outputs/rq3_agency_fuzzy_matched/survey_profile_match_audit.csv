@@ -1,0 +1,39 @@
+﻿survey_row,survey_name,matched_profile_name,method,score,profile_index
+0,,,unmatched,0.0,
+1,,,unmatched,0.0,
+2,,,unmatched,0.0,
+3,,,unmatched,0.0,
+4,,,unmatched,0.0,
+5,,,unmatched,0.0,
+6,,,unmatched,0.0,
+7,,,unmatched,0.0,
+8,,,unmatched,0.0,
+9,,,unmatched,0.0,
+10,,,unmatched,0.0,
+11,,,unmatched,0.0,
+12,,,unmatched,0.0,
+13,,,unmatched,0.0,
+14,,,unmatched,0.0,
+15,,,unmatched,0.0,
+16,,,unmatched,0.0,
+17,,,unmatched,0.0,
+18,,,unmatched,0.0,
+19,,,unmatched,0.0,
+20,,,unmatched,0.0,
+21,Cheyenne Dolby ,,unmatched,0.0,
+22,Thomi Millage,Thomas Millage,manual_alias,1.0,17.0
+23,kyle ruiz,,unmatched,0.0,
+24,ivan,Ivan Cabrera-Jimenez,manual_alias,1.0,64.0
+25,jeremiah,Mia Martinez Alvarez,token_subset,0.23076923076923078,8.0
+26,Kylie Emery,Kylie Emery,exact,1.0,12.0
+27,Perry DeMoss,Perry Demoss,exact,1.0,15.0
+28,Miroslava Komleva,Miroslava Komleva,exact,1.0,14.0
+29,Maria A.,Maria Aguilar Ramirez,manual_alias,1.0,13.0
+30,Jayden Lapietra,Jayden LaPietra,exact,1.0,11.0
+31,Mia Martinez,Mia Martinez Alvarez,manual_alias,1.0,8.0
+32,McKenzie Anderson,McKenzie Anderson,exact,1.0,7.0
+33,mikayla uzoigwe,,unmatched,0.0,
+34,Tyler Murray,,unmatched,0.0,
+35,abisai lopez carrillo,Abisai Lopez Carrillo,exact,1.0,0.0
+36,Leslie Colunga Bronfield,Leslie Colunga Bronfield,exact,1.0,6.0
+37,Carlos Principe,Carlos Principe,exact,1.0,1.0

@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1058" height="538" viewBox="0 0 1058 538">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+.title { font-size: 18px; font-weight: 700; }
+.axis { font-size: 12px; fill: #36454f; }
+.small { font-size: 10px; fill: #4b5563; }
+.tick { stroke: #d0d7de; stroke-width: 1; }
+.frame { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="28" y="34" class="title">Design strategy signatures across process, uptake, and ENA indicators</text>
+<text x="293.0" y="62" text-anchor="middle" class="small">Parameter</text>
+<text x="293.0" y="75" text-anchor="middle" class="small">rate</text>
+<text x="389.0" y="62" text-anchor="middle" class="small">Performance</text>
+<text x="389.0" y="75" text-anchor="middle" class="small">rate</text>
+<text x="485.0" y="62" text-anchor="middle" class="small">Site</text>
+<text x="485.0" y="75" text-anchor="middle" class="small">count</text>
+<text x="581.0" y="62" text-anchor="middle" class="small">Visual</text>
+<text x="581.0" y="75" text-anchor="middle" class="small">rate</text>
+<text x="677.0" y="62" text-anchor="middle" class="small">Off-task</text>
+<text x="677.0" y="75" text-anchor="middle" class="small">rate</text>
+<text x="773.0" y="62" text-anchor="middle" class="small">Prompt</text>
+<text x="773.0" y="75" text-anchor="middle" class="small">retention</text>
+<text x="869.0" y="62" text-anchor="middle" class="small">Transform.</text>
+<text x="869.0" y="75" text-anchor="middle" class="small">uptake</text>
+<text x="965.0" y="62" text-anchor="middle" class="small">ENA dim1</text>
+<text x="233" y="124" text-anchor="end" class="axis">Cumulative incremental</text>
+<rect x="245" y="92" width="96" height="54" fill="rgb(251,243,228)" stroke="#ffffff"/>
+<text x="293.0" y="124" text-anchor="middle" class="small">0.01</text>
+<rect x="341" y="92" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="389.0" y="124" text-anchor="middle" class="small">0.00</text>
+<rect x="437" y="92" width="96" height="54" fill="rgb(248,242,226)" stroke="#ffffff"/>
+<text x="485.0" y="124" text-anchor="middle" class="small">1.06</text>
+<rect x="533" y="92" width="96" height="54" fill="rgb(44,95,45)" stroke="#ffffff"/>
+<text x="581.0" y="124" text-anchor="middle" class="small">1.00</text>
+<rect x="629" y="92" width="96" height="54" fill="rgb(251,244,228)" stroke="#ffffff"/>
+<text x="677.0" y="124" text-anchor="middle" class="small">0.00</text>
+<rect x="725" y="92" width="96" height="54" fill="rgb(49,99,50)" stroke="#ffffff"/>
+<text x="773.0" y="124" text-anchor="middle" class="small">0.63</text>
+<rect x="821" y="92" width="96" height="54" fill="rgb(44,95,45)" stroke="#ffffff"/>
+<text x="869.0" y="124" text-anchor="middle" class="small">0.51</text>
+<rect x="917" y="92" width="96" height="54" fill="rgb(219,221,200)" stroke="#ffffff"/>
+<text x="965.0" y="124" text-anchor="middle" class="small">-1.01</text>
+<text x="233" y="178" text-anchor="end" class="axis">Site exploration</text>
+<rect x="245" y="146" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="293.0" y="178" text-anchor="middle" class="small">0.00</text>
+<rect x="341" y="146" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="389.0" y="178" text-anchor="middle" class="small">0.00</text>
+<rect x="437" y="146" width="96" height="54" fill="rgb(44,95,45)" stroke="#ffffff"/>
+<text x="485.0" y="178" text-anchor="middle" class="small">3.75</text>
+<rect x="533" y="146" width="96" height="54" fill="rgb(85,124,81)" stroke="#ffffff"/>
+<text x="581.0" y="178" text-anchor="middle" class="small">0.81</text>
+<rect x="629" y="146" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="677.0" y="178" text-anchor="middle" class="small">0.00</text>
+<rect x="725" y="146" width="96" height="54" fill="rgb(120,149,112)" stroke="#ffffff"/>
+<text x="773.0" y="178" text-anchor="middle" class="small">0.41</text>
+<rect x="821" y="146" width="96" height="54" fill="rgb(127,155,119)" stroke="#ffffff"/>
+<text x="869.0" y="178" text-anchor="middle" class="small">0.30</text>
+<rect x="917" y="146" width="96" height="54" fill="rgb(122,151,114)" stroke="#ffffff"/>
+<text x="965.0" y="178" text-anchor="middle" class="small">0.17</text>
+<text x="233" y="232" text-anchor="end" class="axis">Detail-descriptive</text>
+<rect x="245" y="200" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="293.0" y="232" text-anchor="middle" class="small">0.00</text>
+<rect x="341" y="200" width="96" height="54" fill="rgb(251,244,229)" stroke="#ffffff"/>
+<text x="389.0" y="232" text-anchor="middle" class="small">0.00</text>
+<rect x="437" y="200" width="96" height="54" fill="rgb(244,238,222)" stroke="#ffffff"/>
+<text x="485.0" y="232" text-anchor="middle" class="small">1.12</text>
+<rect x="533" y="200" width="96" height="54" fill="rgb(48,98,49)" stroke="#ffffff"/>
+<text x="581.0" y="232" text-anchor="middle" class="small">0.98</text>
+<rect x="629" y="200" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="677.0" y="232" text-anchor="middle" class="small">0.00</text>
+<rect x="725" y="200" width="96" height="54" fill="rgb(221,222,202)" stroke="#ffffff"/>
+<text x="773.0" y="232" text-anchor="middle" class="small">0.10</text>
+<rect x="821" y="200" width="96" height="54" fill="rgb(183,195,168)" stroke="#ffffff"/>
+<text x="869.0" y="232" text-anchor="middle" class="small">0.17</text>
+<rect x="917" y="200" width="96" height="54" fill="rgb(72,115,70)" stroke="#ffffff"/>
+<text x="965.0" y="232" text-anchor="middle" class="small">0.77</text>
+<text x="233" y="286" text-anchor="end" class="axis">Parameter-driven</text>
+<rect x="245" y="254" width="96" height="54" fill="rgb(44,95,45)" stroke="#ffffff"/>
+<text x="293.0" y="286" text-anchor="middle" class="small">0.68</text>
+<rect x="341" y="254" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="389.0" y="286" text-anchor="middle" class="small">0.00</text>
+<rect x="437" y="254" width="96" height="54" fill="rgb(177,190,163)" stroke="#ffffff"/>
+<text x="485.0" y="286" text-anchor="middle" class="small">2.00</text>
+<rect x="533" y="254" width="96" height="54" fill="rgb(44,95,45)" stroke="#ffffff"/>
+<text x="581.0" y="286" text-anchor="middle" class="small">1.00</text>
+<rect x="629" y="254" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="677.0" y="286" text-anchor="middle" class="small">0.00</text>
+<rect x="725" y="254" width="96" height="54" fill="rgb(44,95,45)" stroke="#ffffff"/>
+<text x="773.0" y="286" text-anchor="middle" class="small">0.64</text>
+<rect x="821" y="254" width="96" height="54" fill="rgb(151,172,140)" stroke="#ffffff"/>
+<text x="869.0" y="286" text-anchor="middle" class="small">0.25</text>
+<rect x="917" y="254" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="965.0" y="286" text-anchor="middle" class="small">-1.41</text>
+<text x="233" y="340" text-anchor="end" class="axis">Performance-oriented</text>
+<rect x="245" y="308" width="96" height="54" fill="rgb(210,214,192)" stroke="#ffffff"/>
+<text x="293.0" y="340" text-anchor="middle" class="small">0.14</text>
+<rect x="341" y="308" width="96" height="54" fill="rgb(44,95,45)" stroke="#ffffff"/>
+<text x="389.0" y="340" text-anchor="middle" class="small">0.31</text>
+<rect x="437" y="308" width="96" height="54" fill="rgb(177,190,163)" stroke="#ffffff"/>
+<text x="485.0" y="340" text-anchor="middle" class="small">2.00</text>
+<rect x="533" y="308" width="96" height="54" fill="rgb(97,133,92)" stroke="#ffffff"/>
+<text x="581.0" y="340" text-anchor="middle" class="small">0.74</text>
+<rect x="629" y="308" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="677.0" y="340" text-anchor="middle" class="small">0.00</text>
+<rect x="725" y="308" width="96" height="54" fill="rgb(147,169,136)" stroke="#ffffff"/>
+<text x="773.0" y="340" text-anchor="middle" class="small">0.33</text>
+<rect x="821" y="308" width="96" height="54" fill="rgb(112,144,105)" stroke="#ffffff"/>
+<text x="869.0" y="340" text-anchor="middle" class="small">0.34</text>
+<rect x="917" y="308" width="96" height="54" fill="rgb(142,165,132)" stroke="#ffffff"/>
+<text x="965.0" y="340" text-anchor="middle" class="small">-0.07</text>
+<text x="233" y="394" text-anchor="end" class="axis">Off-task / imaginative exploratory</text>
+<rect x="245" y="362" width="96" height="54" fill="rgb(220,221,201)" stroke="#ffffff"/>
+<text x="293.0" y="394" text-anchor="middle" class="small">0.11</text>
+<rect x="341" y="362" width="96" height="54" fill="rgb(202,209,185)" stroke="#ffffff"/>
+<text x="389.0" y="394" text-anchor="middle" class="small">0.08</text>
+<rect x="437" y="362" width="96" height="54" fill="rgb(133,159,123)" stroke="#ffffff"/>
+<text x="485.0" y="394" text-anchor="middle" class="small">2.58</text>
+<rect x="533" y="362" width="96" height="54" fill="rgb(81,122,78)" stroke="#ffffff"/>
+<text x="581.0" y="394" text-anchor="middle" class="small">0.82</text>
+<rect x="629" y="362" width="96" height="54" fill="rgb(44,95,45)" stroke="#ffffff"/>
+<text x="677.0" y="394" text-anchor="middle" class="small">0.51</text>
+<rect x="725" y="362" width="96" height="54" fill="rgb(133,159,124)" stroke="#ffffff"/>
+<text x="773.0" y="394" text-anchor="middle" class="small">0.37</text>
+<rect x="821" y="362" width="96" height="54" fill="rgb(178,191,164)" stroke="#ffffff"/>
+<text x="869.0" y="394" text-anchor="middle" class="small">0.18</text>
+<rect x="917" y="362" width="96" height="54" fill="rgb(110,142,103)" stroke="#ffffff"/>
+<text x="965.0" y="394" text-anchor="middle" class="small">0.31</text>
+<text x="233" y="448" text-anchor="end" class="axis">Mixed / low-evidence</text>
+<rect x="245" y="416" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="293.0" y="448" text-anchor="middle" class="small">0.00</text>
+<rect x="341" y="416" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="389.0" y="448" text-anchor="middle" class="small">0.00</text>
+<rect x="437" y="416" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="485.0" y="448" text-anchor="middle" class="small">1.00</text>
+<rect x="533" y="416" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="581.0" y="448" text-anchor="middle" class="small">0.00</text>
+<rect x="629" y="416" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="677.0" y="448" text-anchor="middle" class="small">0.00</text>
+<rect x="725" y="416" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="773.0" y="448" text-anchor="middle" class="small">0.00</text>
+<rect x="821" y="416" width="96" height="54" fill="rgb(253,245,230)" stroke="#ffffff"/>
+<text x="869.0" y="448" text-anchor="middle" class="small">0.00</text>
+<rect x="917" y="416" width="96" height="54" fill="rgb(44,95,45)" stroke="#ffffff"/>
+<text x="965.0" y="448" text-anchor="middle" class="small">1.11</text>
+</svg>

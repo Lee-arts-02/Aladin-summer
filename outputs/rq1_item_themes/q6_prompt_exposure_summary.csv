@@ -1,0 +1,11 @@
+prompt_feature,n_iteration_prompts,pct_iteration_prompts,n_unique_students
+roof,166,41.60401002506266,29
+color_or_visible_color,106,26.56641604010025,22
+dark_or_black,42,10.526315789473683,8
+hot_sunny_climate,2,0.5012531328320802,2
+radiant_or_absorption_mechanism,9,2.2556390977443606,3
+roof + dark/black,34,8.521303258145362,4
+roof + hot/sunny climate,1,0.2506265664160401,1
+dark/black + hot/sunny climate,1,0.2506265664160401,1
+roof + dark/black + hot/sunny climate,1,0.2506265664160401,1
+roof + radiant/absorption mechanism,9,2.2556390977443606,3

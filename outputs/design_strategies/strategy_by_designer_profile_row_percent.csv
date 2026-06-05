@@ -1,0 +1,8 @@
+primary_design_strategy,AI-guided technical optimizers,Technical prompt composers with limited uptake,Visual-spatial generators,Off-task but technically iterative designers,Off-task weak-coupling explorers
+Cumulative incremental,0.75,0.1875,0.0,0.0625,0.0
+Site exploration,0.375,0.25,0.0,0.0,0.375
+Detail-descriptive,0.20833333333333334,0.125,0.6666666666666666,0.0,0.0
+Parameter-driven,0.6666666666666666,0.3333333333333333,0.0,0.0,0.0
+Performance-oriented,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.0,0.0
+Off-task / imaginative exploratory,0.0,0.0,0.08333333333333333,0.5833333333333334,0.3333333333333333
+Mixed / low-evidence,0.0,1.0,0.0,0.0,0.0

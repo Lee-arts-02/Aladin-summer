@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="540" viewBox="0 0 1020 540">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+.title { font-size: 18px; font-weight: 700; }
+.axis { font-size: 12px; fill: #36454f; }
+.small { font-size: 10px; fill: #4b5563; }
+.tick { stroke: #d0d7de; stroke-width: 1; }
+.frame { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="28" y="34" class="title">Exploratory agency patterns by design strategy</text>
+<line x1="80" y1="385.0" x2="840" y2="385.0" class="tick"/>
+<text x="72" y="389.0" text-anchor="end" class="small">1</text>
+<line x1="80" y1="305.0" x2="840" y2="305.0" class="tick"/>
+<text x="72" y="309.0" text-anchor="end" class="small">2</text>
+<line x1="80" y1="225.0" x2="840" y2="225.0" class="tick"/>
+<text x="72" y="229.0" text-anchor="end" class="small">3</text>
+<line x1="80" y1="145.0" x2="840" y2="145.0" class="tick"/>
+<text x="72" y="149.0" text-anchor="end" class="small">4</text>
+<line x1="80" y1="65.0" x2="840" y2="65.0" class="tick"/>
+<text x="72" y="69.0" text-anchor="end" class="small">5</text>
+<circle cx="165.0" cy="158.3" r="4.5" fill="#1B4965"/>
+<circle cx="355.0" cy="105.0" r="4.5" fill="#1B4965"/>
+<circle cx="545.0" cy="105.0" r="4.5" fill="#1B4965"/>
+<circle cx="735.0" cy="225.0" r="4.5" fill="#1B4965"/>
+<polyline points="165.0,158.3 355.0,105.0 545.0,105.0 735.0,225.0" fill="none" stroke="#1B4965" stroke-width="1.6" opacity="0.75"/>
+<circle cx="170.0" cy="78.3" r="4.5" fill="#2A9D8F"/>
+<circle cx="360.0" cy="145.0" r="4.5" fill="#2A9D8F"/>
+<circle cx="550.0" cy="115.0" r="4.5" fill="#2A9D8F"/>
+<circle cx="740.0" cy="185.0" r="4.5" fill="#2A9D8F"/>
+<polyline points="170.0,78.3 360.0,145.0 550.0,115.0 740.0,185.0" fill="none" stroke="#2A9D8F" stroke-width="1.6" opacity="0.75"/>
+<circle cx="175.0" cy="171.7" r="4.5" fill="#E76F51"/>
+<circle cx="365.0" cy="145.0" r="4.5" fill="#E76F51"/>
+<circle cx="555.0" cy="95.0" r="4.5" fill="#E76F51"/>
+<circle cx="745.0" cy="198.3" r="4.5" fill="#E76F51"/>
+<polyline points="175.0,171.7 365.0,145.0 555.0,95.0 745.0,198.3" fill="none" stroke="#E76F51" stroke-width="1.6" opacity="0.75"/>
+<circle cx="180.0" cy="145.0" r="4.5" fill="#8AB17D"/>
+<circle cx="370.0" cy="145.0" r="4.5" fill="#8AB17D"/>
+<circle cx="560.0" cy="75.0" r="4.5" fill="#8AB17D"/>
+<circle cx="750.0" cy="185.0" r="4.5" fill="#8AB17D"/>
+<polyline points="180.0,145.0 370.0,145.0 560.0,75.0 750.0,185.0" fill="none" stroke="#8AB17D" stroke-width="1.6" opacity="0.75"/>
+<circle cx="185.0" cy="134.6" r="4.5" fill="#6D597A"/>
+<circle cx="375.0" cy="140.6" r="4.5" fill="#6D597A"/>
+<circle cx="565.0" cy="105.0" r="4.5" fill="#6D597A"/>
+<circle cx="755.0" cy="208.7" r="4.5" fill="#6D597A"/>
+<polyline points="185.0,134.6 375.0,140.6 565.0,105.0 755.0,208.7" fill="none" stroke="#6D597A" stroke-width="1.6" opacity="0.75"/>
+<text x="175.0" y="420" text-anchor="middle" class="small">Cumulative</text>
+<text x="175.0" y="432" text-anchor="middle" class="small">incremental</text>
+<text x="365.0" y="420" text-anchor="middle" class="small">Site exploration</text>
+<text x="555.0" y="420" text-anchor="middle" class="small">Detail-descriptive</text>
+<text x="745.0" y="420" text-anchor="middle" class="small">Off-task /</text>
+<text x="745.0" y="432" text-anchor="middle" class="small">imaginative</text>
+<text x="745.0" y="444" text-anchor="middle" class="small">exploratory</text>
+<circle cx="870" cy="71" r="5" fill="#1B4965"/>
+<text x="884" y="75" class="small">goal_setting</text>
+<circle cx="870" cy="93" r="5" fill="#2A9D8F"/>
+<text x="884" y="97" class="small">self_adjustment</text>
+<circle cx="870" cy="115" r="5" fill="#E76F51"/>
+<text x="884" y="119" class="small">responsible_action</text>
+<circle cx="870" cy="137" r="5" fill="#8AB17D"/>
+<text x="884" y="141" class="small">motivation</text>
+<circle cx="870" cy="159" r="5" fill="#6D597A"/>
+<text x="884" y="163" class="small">overall_agency</text>
+<text x="20" y="225.0" transform="rotate(-90 20 225.0)" text-anchor="middle" class="axis">Mean agency score (1-5)</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="470" viewBox="0 0 920 470">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+.title { font-size: 18px; font-weight: 700; }
+.axis { font-size: 12px; fill: #36454f; }
+.small { font-size: 10px; fill: #4b5563; }
+.tick { stroke: #d0d7de; stroke-width: 1; }
+.frame { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="30" y="32" class="title">Prompt-based design strategy distribution</text>
+<text x="268" y="92" text-anchor="end" class="axis">Cumulative incremental</text>
+<rect x="280" y="70" width="360.0" height="34" rx="3" fill="#3C6E71"/>
+<text x="648.0" y="92" class="axis">16</text>
+<text x="268" y="144" text-anchor="end" class="axis">Site exploration</text>
+<rect x="280" y="122" width="180.0" height="34" rx="3" fill="#3C6E71"/>
+<text x="468.0" y="144" class="axis">8</text>
+<text x="268" y="196" text-anchor="end" class="axis">Detail-descriptive</text>
+<rect x="280" y="174" width="540.0" height="34" rx="3" fill="#3C6E71"/>
+<text x="828.0" y="196" class="axis">24</text>
+<text x="268" y="248" text-anchor="end" class="axis">Parameter-driven</text>
+<rect x="280" y="226" width="135.0" height="34" rx="3" fill="#3C6E71"/>
+<text x="423.0" y="248" class="axis">6</text>
+<text x="268" y="300" text-anchor="end" class="axis">Performance-oriented</text>
+<rect x="280" y="278" width="67.5" height="34" rx="3" fill="#3C6E71"/>
+<text x="355.5" y="300" class="axis">3</text>
+<text x="268" y="352" text-anchor="end" class="axis">Off-task / imaginative exploratory</text>
+<rect x="280" y="330" width="270.0" height="34" rx="3" fill="#3C6E71"/>
+<text x="558.0" y="352" class="axis">12</text>
+<text x="268" y="404" text-anchor="end" class="axis">Mixed / low-evidence</text>
+<rect x="280" y="382" width="22.5" height="34" rx="3" fill="#3C6E71"/>
+<text x="310.5" y="404" class="axis">1</text>
+<text x="280" y="442" class="axis">Number of students/projects</text>
+</svg>

@@ -1,0 +1,65 @@
+Exploring the role of conceptual knowledge and representational 
+competence in an augmented reality physics environment
+Kozlova Zoya
+a , *
+, Edelsbrunner Peter A.
+a
+, Warkentin Max
+b
+, 
+Hoyer Christoph
+b
+, Küchemann Stefan
+b
+, Kuhn Jochen
+b
+, Hofer Sarah I.
+a
+a
+Department of Psychology, Ludwig-Maximilians-Universit ¨at München, Munich, Germany
+b
+Chair of Didactics of Physics, Ludwig-Maximilians-Universit ¨at München, Munich, Germany
+ARTICLE INFO
+Keywords:
+Augmented reality
+Prior knowledge
+Individual differences
+Physics education
+ABSTRACT
+Prior knowledge plays a crucial role in learning in STEM education. The potential interplay be -
+tween components of the prior knowledge, such as representational competence and conceptual 
+understanding, remains remarkably underexplored. Even less is known about how these re -
+lationships unfold in augmented reality (AR)-supported learning environments, which offer 
+unique affordances, such as visualizing the invisible, that may shape the role of prior knowledge 
+in new ways.
+Using a sample of N = 203 high school students, we examined how prior knowledge of physics 
+concepts and representations influenced subsequent knowledge of both concepts and represen -
+tations in AR-supported and traditional learning environments. Learners in the AR condition 
+acquired more conceptual knowledge than those in the traditional condition. A cross-lagged path 
+analysis revealed a consistent, unidirectional relationship from prior representational competence 
+to subsequent conceptual knowledge, when controlling for prior conceptual knowledge for both 
+instructional conditions. These results indicate that representational competence is a robust 
+predictor of conceptual learning, independently of the learning environment.
+What role does previously gained knowledge play in the acquisition of new knowledge across domains? To what extent does this 
+relationship depend on the learning environment? These longstanding questions lie at the heart of understanding individual learning 
+mechanisms.
+Prior research has consistently demonstrated that existing knowledge serves as a crucial foundation for future learning, guiding the 
+integration of new information ( Alexander & Murphy, 1999 ; Bittermann et al., 2023 ; Carey, 2000 ). Domain-specific prior knowledge is 
+a significant determinant of learning outcomes ( Alexander & Judy, 1988 ; Witherby & Carpenter, 2022 ). This relationship holds across 
+different types of knowledge - declarative, procedural, or mixed - as well as across a range of subject domains and educational levels 
+( Simonsmeier et al., 2022 ). Simonsmeier et al. (2022) confirmed in a meta-analysis that prior knowledge is strongly correlated with 
+posttest performance ( r = 0.53), and this effect was consistent even when controlling for intelligence or study design. Recent work by 
+Schneider and Simonsmeier (2025) highlights that it is not just the presence of prior knowledge that matters. In other words, it is the 
+characteristics of this knowledge, such as its accuracy, coherence, and relevance to the learning task, that determine whether it fa -
+cilitates or hinders learning. However, such findings primarily stem from studies conducted in traditional learning environments, such 
+* Corresponding author. Leopoldstr. 13, 80802, München, Germany.
+E-mail address: zoya.kozlova@psy.lmu.de (K. Zoya). 
+Contents lists available at ScienceDirect
+Computers & Education
+journal homepag e: www.el sevier.com/loc ate/compe du
+https://doi.org/10.1016/j.compedu.2026.105658
+Received 28 July 2025; Received in revised form 13 April 2026; Accepted 1 May 2026  
+Computers & Education 252 (2026) 105658 
+Available online 14 May 2026 
+0360-1315/© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license 
+( http://creativecommons.org/licenses/by/4.0/ ). 

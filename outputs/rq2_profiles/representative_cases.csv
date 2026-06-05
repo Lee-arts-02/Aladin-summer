@@ -1,0 +1,13 @@
+﻿student_id,Name,class,designer_profile,n_iterations,technical_parameter_density,performance_goal_density,energy_reasoning_density,AI_reasoning_uptake_rate,transformative_uptake_rate,off_task_ratio,profile_prob
+55,Gustavo Saucedo-Ramos,Ms T,Prompt-driven visual designers,1,0.0,0.0,0.007751937984496124,0.0,0.0,0.0,0.9999999906969812
+52,Cayden Price,Ms T,Prompt-driven visual designers,1,0.0,0.0,0.0072992700729927005,0.0,0.0,0.0,0.999999990534743
+62,Mark Islas-Ramos,Ms T,Prompt-driven visual designers,1,0.0,0.0,0.0125,0.0,0.0,0.0,0.9999999940875455
+61,Marco Gonzalez,Ms T,Off-task / weakly coupled explorers,11,0.0,0.0,0.008547008547008548,0.5,0.0,0.18181818181818182,0.9999966588663202
+2,Daniela Perez Barron,Mr C,Off-task / weakly coupled explorers,9,0.02127659574468085,0.0070921985815602835,0.013245033112582781,1.0,0.125,0.2222222222222222,0.9731046749279438
+17,Peyton Booe ,Mr R block4,Off-task / weakly coupled explorers,4,0.0,0.0,0.014084507042253521,0.3333333333333333,0.0,0.25,0.999983728660448
+32,Nathalia SanMiguel,Mr R block2,AI-guided technical optimizers,7,0.1111111111111111,0.037037037037037035,0.030837004405286344,1.0,0.5,0.0,0.9999949277893616
+9,Victor Villalobos Flores,Mr C,AI-guided technical optimizers,6,0.10752688172043011,0.053763440860215055,0.021696252465483234,1.0,0.6,0.0,0.999996980327343
+39,Alexa Arenas Perez,Mr R block1,AI-guided technical optimizers,4,0.10344827586206896,0.06896551724137931,0.03309692671394799,1.0,0.6666666666666666,0.0,0.9999970083180272
+1,Carlos Principe,Mr C,Selective reflective designers,5,0.06930693069306931,0.06930693069306931,0.045454545454545456,1.0,0.25,0.4,1.0
+29,Lihan Juarez Rangel,Mr R block2,Selective reflective designers,7,0.08312342569269521,0.028967254408060455,0.016467065868263474,1.0,0.3333333333333333,0.2857142857142857,1.0
+7,McKenzie Anderson,Mr C,Selective reflective designers,5,0.08571428571428572,0.04285714285714286,0.013461538461538462,1.0,0.5,0.2,1.0

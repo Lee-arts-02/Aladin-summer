@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="470" viewBox="0 0 980 470">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+.title { font-size: 18px; font-weight: 700; }
+.axis { font-size: 12px; fill: #36454f; }
+.small { font-size: 10px; fill: #4b5563; }
+.tiny { font-size: 9px; fill: #4b5563; }
+.tick { stroke: #d0d7de; stroke-width: 1; }
+.frame { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="28" y="34" class="title">Concept-theme pre/post correct rates</text>
+<line x1="90" y1="345.0" x2="870" y2="345.0" class="tick"/>
+<text x="82" y="349.0" text-anchor="end" class="small">0%</text>
+<line x1="90" y1="289.0" x2="870" y2="289.0" class="tick"/>
+<text x="82" y="293.0" text-anchor="end" class="small">20%</text>
+<line x1="90" y1="233.0" x2="870" y2="233.0" class="tick"/>
+<text x="82" y="237.0" text-anchor="end" class="small">40%</text>
+<line x1="90" y1="177.0" x2="870" y2="177.0" class="tick"/>
+<text x="82" y="181.0" text-anchor="end" class="small">60%</text>
+<line x1="90" y1="121.0" x2="870" y2="121.0" class="tick"/>
+<text x="82" y="125.0" text-anchor="end" class="small">80%</text>
+<line x1="90" y1="65.0" x2="870" y2="65.0" class="tick"/>
+<text x="82" y="69.0" text-anchor="end" class="small">100%</text>
+<rect x="125.0" y="220.6" width="36" height="124.4" fill="#9CA3AF"/>
+<rect x="167.0" y="171.2" width="36" height="173.8" fill="#0F766E"/>
+<text x="164.0" y="370" text-anchor="middle" class="small">Insulation /</text>
+<text x="164.0" y="382" text-anchor="middle" class="small">R-value / U-value</text>
+<text x="164.0" y="413" text-anchor="middle" class="tiny">Q1, Q2, Q3, Q4, Q11</text>
+<rect x="320.0" y="264.7" width="36" height="80.3" fill="#9CA3AF"/>
+<rect x="362.0" y="202.9" width="36" height="142.1" fill="#0F766E"/>
+<text x="359.0" y="370" text-anchor="middle" class="small">Solar / passive</text>
+<text x="359.0" y="382" text-anchor="middle" class="small">solar / net-zero</text>
+<text x="359.0" y="413" text-anchor="middle" class="tiny">Q10, Q12</text>
+<rect x="515.0" y="161.1" width="36" height="183.9" fill="#9CA3AF"/>
+<rect x="557.0" y="165.2" width="36" height="179.8" fill="#0F766E"/>
+<text x="554.0" y="370" text-anchor="middle" class="small">Windows / sunlight</text>
+<text x="554.0" y="382" text-anchor="middle" class="small">/ radiant heat</text>
+<text x="554.0" y="413" text-anchor="middle" class="tiny">Q5, Q6, Q7</text>
+<rect x="710.0" y="237.9" width="36" height="107.1" fill="#9CA3AF"/>
+<rect x="752.0" y="200.9" width="36" height="144.1" fill="#0F766E"/>
+<text x="749.0" y="370" text-anchor="middle" class="small">HVAC / thermostat /</text>
+<text x="749.0" y="382" text-anchor="middle" class="small">energy use</text>
+<text x="749.0" y="413" text-anchor="middle" class="tiny">Q8, Q9</text>
+<rect x="760" y="30" width="14" height="14" fill="#9CA3AF"/><text x="780" y="42" class="small">Pre</text>
+<rect x="825" y="30" width="14" height="14" fill="#0F766E"/><text x="845" y="42" class="small">Post</text>
+</svg>

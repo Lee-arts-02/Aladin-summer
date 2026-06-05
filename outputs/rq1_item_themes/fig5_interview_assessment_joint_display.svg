@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="608" viewBox="0 0 1250 608">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+.title { font-size: 18px; font-weight: 700; }
+.axis { font-size: 12px; fill: #36454f; }
+.small { font-size: 10px; fill: #4b5563; }
+.tiny { font-size: 9px; fill: #4b5563; }
+.tick { stroke: #d0d7de; stroke-width: 1; }
+.frame { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="28" y="34" class="title">Interview themes triangulated with item-level assessment patterns</text>
+<text x="30" y="66" class="axis" font-weight="700">Theme</text>
+<text x="210" y="66" class="axis" font-weight="700">Items</text>
+<text x="295" y="66" class="axis" font-weight="700">Pre -> Post</text>
+<text x="430" y="66" class="axis" font-weight="700">Interview evidence</text>
+<text x="860" y="66" class="axis" font-weight="700">Interpretation</text>
+<rect x="24" y="64" width="1202" height="114" fill="#f8fafc" stroke="#d0d7de"/>
+<text x="30" y="82" class="small">Insulation / R-value /</text>
+<text x="30" y="95" class="small">U-value</text>
+<text x="210" y="82" class="small">Q1, Q2, Q3, Q4, Q11</text>
+<text x="295" y="82" class="small">44.4% -> 62.1%</text>
+<text x="295" y="98" class="tiny">gain +17.6 pp</text>
+<text x="430" y="82" class="tiny">Student1, Recording 2: you have to take insulation into</text>
+<text x="430" y="95" class="tiny">consideration to like help save energy. | Enil, Recording 5: I</text>
+<text x="430" y="108" class="tiny">learned about like insulation like or like R values, like when</text>
+<text x="430" y="121" class="tiny">you add insulation, the r value increases.</text>
+<text x="860" y="82" class="tiny">Interviews showed uptake of insulation vocabulary, and</text>
+<text x="860" y="95" class="tiny">item gains were positive for R-value, U-value, and</text>
+<text x="860" y="108" class="tiny">cold-climate insulation, but Q3 declined sharply,</text>
+<text x="860" y="121" class="tiny">suggesting confusion about proportional/inverse</text>
+<text x="860" y="134" class="tiny">relationships.</text>
+<rect x="24" y="186" width="1202" height="114" fill="#ffffff" stroke="#d0d7de"/>
+<text x="30" y="204" class="small">Solar / passive solar /</text>
+<text x="30" y="217" class="small">net-zero</text>
+<text x="210" y="204" class="small">Q10, Q12</text>
+<text x="295" y="204" class="small">28.7% -> 50.7%</text>
+<text x="295" y="220" class="tiny">gain +22.1 pp</text>
+<text x="430" y="204" class="tiny">Maria: you can save a lot of energy, if you like, install</text>
+<text x="430" y="217" class="tiny">solar panels on your room ... you collect energy from the sun.</text>
+<text x="430" y="230" class="tiny">| McKenzie, Recording 4: The solar panels can bring down the</text>
+<text x="430" y="243" class="tiny">energy level of the net.</text>
+<text x="860" y="204" class="tiny">Students described solar panels as reducing net energy,</text>
+<text x="860" y="217" class="tiny">and assessment gains were especially visible for</text>
+<text x="860" y="230" class="tiny">solar-panel orientation.</text>
+<rect x="24" y="308" width="1202" height="114" fill="#f8fafc" stroke="#d0d7de"/>
+<text x="30" y="326" class="small">Windows / sunlight /</text>
+<text x="30" y="339" class="small">radiant heat</text>
+<text x="210" y="326" class="small">Q5, Q6, Q7</text>
+<text x="295" y="326" class="small">65.7% -> 64.2%</text>
+<text x="295" y="342" class="tiny">gain -1.5 pp</text>
+<text x="430" y="326" class="tiny">Carlos, Recording 5: It like in the software, you can meet</text>
+<text x="430" y="339" class="tiny">with a big window.</text>
+<text x="860" y="326" class="tiny">Students noticed windows in the design environment, but</text>
+<text x="860" y="339" class="tiny">assessment results were mixed; Q6 declined, suggesting</text>
+<text x="860" y="352" class="tiny">color/radiant absorption may not have been</text>
+<text x="860" y="365" class="tiny">consolidated.</text>
+<rect x="24" y="430" width="1202" height="114" fill="#ffffff" stroke="#d0d7de"/>
+<text x="30" y="448" class="small">HVAC / thermostat /</text>
+<text x="30" y="461" class="small">energy use</text>
+<text x="210" y="448" class="small">Q8, Q9</text>
+<text x="295" y="448" class="small">38.2% -> 51.5%</text>
+<text x="295" y="464" class="tiny">gain +13.2 pp</text>
+<text x="430" y="448" class="tiny">Raul, Recording 4: Depending on the location of where you put</text>
+<text x="430" y="461" class="tiny">the building at, it differs on how much ac and how much heater</text>
+<text x="430" y="474" class="tiny">you use. | Enil, Recording 5: I realized like our country, we</text>
+<text x="430" y="487" class="tiny">use like a lot of like energy like on heaters and like ac and</text>
+<text x="430" y="500" class="tiny">stuff.</text>
+<text x="860" y="448" class="tiny">Students connected location to heating and AC use, and</text>
+<text x="860" y="461" class="tiny">thermostat-related items improved modestly.</text>
+</svg>

@@ -1,0 +1,120 @@
+item,assessment_type,answer,is_correct,count,pct
+1,Pre,"No, it acts as an insulator that slows down the loss of your own body heat.",True,43,63.23529411764706
+1,Pre,"Yes, it absorbs heat from the air and pumps it into your skin.",False,13,19.11764705882353
+1,Pre,"Yes, wool has a high chemical energy that it releases.",False,6,8.823529411764707
+1,Pre,I don't know.,False,5,7.352941176470588
+1,Pre,"No, it actually cools you down by reflecting sunlight.",False,1,1.4705882352941178
+1,Post,"No, it acts as an insulator that slows down the loss of your own body heat.",True,50,73.52941176470588
+1,Post,"Yes, wool has a high chemical energy that it releases.",False,7,10.294117647058824
+1,Post,"Yes, it absorbs heat from the air and pumps it into your skin.",False,6,8.823529411764707
+1,Post,I still don't know.,False,5,7.352941176470588
+2,Pre,It has high thermal conductivity.,False,29,42.64705882352941
+2,Pre,It has high thermal resistance.,True,22,32.35294117647059
+2,Pre,I don't know.,False,12,17.647058823529413
+2,Pre,It reflects 100% of visible light.,False,4,5.882352941176471
+2,Pre,It generates heat when it gets cold.,False,1,1.4705882352941178
+2,Post,It has high thermal resistance.,True,40,58.8235294117647
+2,Post,It has high thermal conductivity.,False,12,17.647058823529413
+2,Post,I still don't know.,False,7,10.294117647058824
+2,Post,It generates heat when it gets cold.,False,6,8.823529411764707
+2,Post,It reflects 100% of visible light.,False,3,4.411764705882353
+3,Pre,Heat loss is inversely proportional to R-value.,True,38,55.88235294117647
+3,Pre,I don't know.,False,16,23.529411764705884
+3,Pre,Doubling insulation makes the house too heavy.,False,8,11.764705882352942
+3,Pre,Insulation doesn't work after the first layer.,False,5,7.352941176470588
+3,Pre,Attics don't actually lose heat.,False,1,1.4705882352941178
+3,Post,Heat loss is inversely proportional to R-value.,True,47,69.11764705882354
+3,Post,Doubling insulation makes the house too heavy.,False,9,13.235294117647058
+3,Post,I still don't know.,False,6,8.823529411764707
+3,Post,Attics don't actually lose heat.,False,5,7.352941176470588
+3,Post,Insulation doesn't work after the first layer.,False,1,1.4705882352941178
+4,Pre,I don't know.,False,20,29.41176470588235
+4,Pre,The window is more effective at keeping heat inside.,True,17,25.0
+4,Pre,The window allows more heat to escape.,False,15,22.058823529411764
+4,Pre,The window is thinner and more fragile.,False,9,13.235294117647058
+4,Pre,The window has no insulation properties at all.,False,7,10.294117647058824
+4,Post,The window is more effective at keeping heat inside.,True,34,50.0
+4,Post,I still don't know.,False,12,17.647058823529413
+4,Post,The window allows more heat to escape.,False,9,13.235294117647058
+4,Post,The window has no insulation properties at all.,False,8,11.764705882352942
+4,Post,The window is thinner and more fragile.,False,5,7.352941176470588
+5,Pre,Visible light enters and is converted to infrared radiation that cannot easily escape.,True,36,52.94117647058823
+5,Pre,Plants inside the house release heat during photosynthesis.,False,13,19.11764705882353
+5,Pre,I don't know.,False,8,11.764705882352942
+5,Pre,"The glass acts as a vacuum, preventing all heat from entering.",False,6,8.823529411764707
+5,Pre,"Glass reflects all incoming sunlight, keeping the inside cool.",False,5,7.352941176470588
+5,Post,Visible light enters and is converted to infrared radiation that cannot easily escape.,True,40,58.8235294117647
+5,Post,Plants inside the house release heat during photosynthesis.,False,11,16.176470588235293
+5,Post,I still don't know.,False,9,13.235294117647058
+5,Post,"Glass reflects all incoming sunlight, keeping the inside cool.",False,5,7.352941176470588
+5,Post,"The glass acts as a vacuum, preventing all heat from entering.",False,3,4.411764705882353
+6,Pre,Dark colors absorb more radiant energy from the sun.,True,50,73.52941176470588
+6,Pre,Dark colors have a higher specific heat.,False,7,10.294117647058824
+6,Pre,I don't know.,False,6,8.823529411764707
+6,Pre,Dark roofs are more likely to leak water.,False,3,4.411764705882353
+6,Pre,Dark colors promote more convection in the attic.,False,2,2.9411764705882355
+6,Post,Dark colors absorb more radiant energy from the sun.,True,43,63.23529411764706
+6,Post,Dark colors have a higher specific heat.,False,10,14.705882352941176
+6,Post,I still don't know.,False,8,11.764705882352942
+6,Post,Dark roofs are more likely to leak water.,False,4,5.882352941176471
+6,Post,Dark colors promote more convection in the attic.,False,3,4.411764705882353
+7,Pre,To block radiant energy from the sun.,True,48,70.58823529411765
+7,Pre,To allow convection currents to cool the glass.,False,7,10.294117647058824
+7,Pre,To increase the humidity inside the room.,False,6,8.823529411764707
+7,Pre,I don't know.,False,5,7.352941176470588
+7,Pre,To prevent heat from leaving the house via conduction.,False,2,2.9411764705882355
+7,Post,To block radiant energy from the sun.,True,48,70.58823529411765
+7,Post,I still don't know.,False,8,11.764705882352942
+7,Post,To prevent heat from leaving the house via conduction.,False,8,11.764705882352942
+7,Post,To increase the humidity inside the room.,False,2,2.9411764705882355
+7,Post,To allow convection currents to cool the glass.,False,2,2.9411764705882355
+8,Pre,Turn it down; you save energy every minute the house is at a lower temperature.,True,32,47.05882352941177
+8,Pre,Leave it constant; it takes 'too much energy' to heat the house back up.,False,15,22.058823529411764
+8,Pre,I don't know.,False,11,16.176470588235293
+8,Pre,Leave it constant so the furniture doesn't get 'cold',False,6,8.823529411764707
+8,Pre,It makes no difference to the total bill.,False,4,5.882352941176471
+8,Post,Turn it down; you save energy every minute the house is at a lower temperature.,True,44,64.70588235294117
+8,Post,I still don't know.,False,8,11.764705882352942
+8,Post,Leave it constant; it takes 'too much energy' to heat the house back up.,False,6,8.823529411764707
+8,Post,Leave it constant so the furniture doesn't get 'cold',False,5,7.352941176470588
+8,Post,It makes no difference to the total bill.,False,5,7.352941176470588
+9,Pre,The rest of the house will remain too cold.,True,20,29.41176470588235
+9,Pre,The electricity in the house will short circuit.,False,16,23.529411764705884
+9,Pre,I don't know.,False,12,17.647058823529413
+9,Pre,The rest of the house will become too hot.,False,10,14.705882352941176
+9,Pre,The furnace will run forever without stopping.,False,10,14.705882352941176
+9,Post,The rest of the house will remain too cold.,True,26,38.23529411764706
+9,Post,The rest of the house will become too hot.,False,15,22.058823529411764
+9,Post,I still don't know.,False,11,16.176470588235293
+9,Post,The furnace will run forever without stopping.,False,11,16.176470588235293
+9,Post,The electricity in the house will short circuit.,False,5,7.352941176470588
+10,Pre,Calculating the exact length of roof overhangs (eaves).,True,20,29.41176470588235
+10,Pre,I don't know.,False,15,22.058823529411764
+10,Pre,Installing the furnace in the attic instead of the basement.,False,15,22.058823529411764
+10,Pre,Painting the exterior of the house bright red.,False,12,17.647058823529413
+10,Pre,Using dark-colored carpets throughout the entire house.,False,6,8.823529411764707
+10,Post,Calculating the exact length of roof overhangs (eaves).,True,32,47.05882352941177
+10,Post,Installing the furnace in the attic instead of the basement.,False,11,16.176470588235293
+10,Post,I still don't know.,False,9,13.235294117647058
+10,Post,Using dark-colored carpets throughout the entire house.,False,8,11.764705882352942
+10,Post,Painting the exterior of the house bright red.,False,8,11.764705882352942
+11,Pre,Using better insulation to prevent heat loss.,True,31,45.588235294117645
+11,Pre,I don't know.,False,15,22.058823529411764
+11,Pre,Installing the largest possible furnace available.,False,10,14.705882352941176
+11,Pre,Building the house entirely underground.,False,7,10.294117647058824
+11,Pre,Using single-pane glass to let more light in.,False,5,7.352941176470588
+11,Post,Using better insulation to prevent heat loss.,True,40,58.8235294117647
+11,Post,Building the house entirely underground.,False,8,11.764705882352942
+11,Post,Installing the largest possible furnace available.,False,8,11.764705882352942
+11,Post,I still don't know.,False,7,10.294117647058824
+11,Post,Using single-pane glass to let more light in.,False,5,7.352941176470588
+12,Pre,To maximize production during late-afternoon peak demand.,True,19,27.941176470588236
+12,Pre,I don't know.,False,17,25.0
+12,Pre,"West is the direction of the wind, which cools the panels.",False,14,20.58823529411765
+12,Pre,The sun is stronger in the afternoon.,False,13,19.11764705882353
+12,Pre,Because west-facing panels don't get hot.,False,5,7.352941176470588
+12,Post,To maximize production during late-afternoon peak demand.,True,37,54.411764705882355
+12,Post,I still don't know.,False,13,19.11764705882353
+12,Post,"West is the direction of the wind, which cools the panels.",False,8,11.764705882352942
+12,Post,The sun is stronger in the afternoon.,False,7,10.294117647058824
+12,Post,Because west-facing panels don't get hot.,False,3,4.411764705882353

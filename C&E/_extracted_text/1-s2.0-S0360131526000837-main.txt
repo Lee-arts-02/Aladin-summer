@@ -1,0 +1,1339 @@
+Interacting and reflecting together in VR-mediated group learning: 
+Immersive and observational experiences in shared mixed reality
+☆
+Tingting Yang
+a , *
+, Ikseon Choi
+b , **
+, Heng Luo
+c
+a
+STEMM Education and Outreach Department, St. Jude Children's Research Hospital, Memphis, TN, USA
+b
+Nell Hodgson Woodruff School of Nursing, Emory University, Atlanta, GA, USA
+c
+Faculty of Artificial Intelligence in Education, Central China Normal University, Wuhan, China
+ARTICLE INFO
+Keywords:
+Immersive virtual reality
+VR-mediated group learning
+Group reflection
+Group learning
+Immersive experience
+Observational experience
+Case study
+ABSTRACT
+Immersive Virtual Reality (VR) is increasingly used in education to simulate real-world scenarios 
+and support experiential learning. However, limited access to VR equipment remains a barrier to 
+widespread adoption. This case study explores how VR can be effectively integrated into group 
+learning by distributing roles among learners: a Performer, who interacts directly within the 
+immersive VR environment, and Observers, who engage from outside the headset. Conducted in 
+the context of a pedestrian safety training program, the study involved 45 second- and third-grade 
+students in nine small groups. Through observation data analysis, the study identified distinct 
+patterns in how Performers and Observers engaged in the VR simulation and reflection process. 
+Performers exhibited real-time decision-making under pressure, while Observers demonstrated 
+meta-cognitive awareness and collaborative sense-making. During the post-assessments, no sta -
+tistically significant differences in safety knowledge or behavioral performance were found be -
+tween Performers and Observers; the need for future studies with larger samples remained. The 
+study identifies a four-stage guided reflection process that enabled groups to synthesize individual 
+and shared experiences. Additionally, the study conceptualizes a Shared Mixed Reality learning 
+space, where virtual and physical worlds are merged through peer collaboration and group 
+reflection. These findings offer implications for future research and practice in VR-mediated 
+group learning and reflection, highlighting VR's adaptability to resource-limited educational 
+settings.
+1. Introduction
+Learning through concrete experiences is essential for students ’ meaning making and knowledge construction ( Dewey, 1933 ; Kolb, 
+1984 ), particularly for children whose abstract reasoning is still developing ( Piaget & Inhelder, 1972 ). Virtual Reality (VR) is emerging 
+as a promising educational tool to provide such experiences by offering immersive and authentic environments that overcome barriers 
+of distance, cost, safety, and accessibility ( Radianti et al., 2020 ; Santilli et al., 2025 ). In particular, immersive VR enables students to 
+navigate, manipulate virtual objects, and engage socially in three-dimensional digital worlds ( Cummings & Bailenson, 2016 ; Shi et al., 
+☆
+We have no conflicts of interests to disclose.
+* Corresponding author. STEMM Education and Outreach Department, 262 Danny Thomas Place, Memphis, TN, 38105, USA.
+** Corresponding author. Nell Hodgson Woodruff School of Nursing, Emory University, 1520 Clifton Rd., NE, Atlanta, GA, 30322, , USA.
+E-mail addresses: Tingting.Yang@stjude.org (T. Yang), ike.choi@emory.edu (I. Choi). 
+Contents lists available at ScienceDirect
+Computers & Education
+journal homepag e: www.el sevier.com/loc ate/compe du
+https://doi.org/10.1016/j.compedu.2026.105644
+Received 2 July 2025; Received in revised form 14 April 2026; Accepted 15 April 2026  
+Computers & Education 251 (2026) 105644 
+Available online 16 April 2026 
+0360-1315/© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+activities to capture students' perspectives on VR-mediated group learning, and researchers ’ field notes were collected as supple -
+mentary data. All video and interview recordings were transcribed verbatim.
+Following the VR-mediated group learning, students completed a knowledge test and a VR-based behavior assessment. The 
+knowledge test was a ten-item pen-and-paper measure evaluating students' understanding of traffic signals and decision-making in 
+various situations. The behavioral assessment evaluated students ’ actions at 11 decision-making points in the VR program.
+3.5. Observation data analysis
+This study employed an inductive data analysis approach to analyze the nine group cases. As a bottom-up approach, the inductive 
+data analysis process allowed the data to speak for itself through the researcher's in-depth investigation of the raw data ( Bendassolli, 
+2013 ). There were no preconceived hypotheses or theories used in the analysis process. In general, data analysis progressed in four 
+steps adjusted by Braun and Clarke's (2006) thematic analysis procedure, including generating initial codes, identifying pattern codes, 
+identifying themes, and defining themes. The four steps merge related procedures from the original six-step guide and focused on the 
+theme generation. A qualitative data analysis program, NVivo Version 12, was used to store, organize, and manage the data collected 
+in this study.
+3.5.1. Step 1. Generate initial codes
+The first step involved identifying and labeling initial behavior codes from video data, organized by group case. Three guiding 
+decisions shaped the coding process (1) Codes were categorized by role (e.g., Performer , Observer , and Facilitator ): to support role-based 
+analysis; (2) Coding units were short, distinct behavioral episodes due to the time-based nature of video data; and (3) Behaviors were 
+coded separately for the group VR simulation and the group reflection, aligned with the research questions. An intercoder agreement 
+procedure was used to ensure reliability of code generation ( Lincoln & Guba, 1985 ), with the first author conducted initial coding and 
+the second author independently coded two randomly selected cases. Initial percent agreement was 85%, which increased to 97 – 98% 
+following discussion and consensus resolution. The first author then coded the remaining cases, with a final spot-check confirming 97% 
+agreement. As a result, 103 behavior codes were identified from the group VR simulation phase (28 for Performers, 75 for Observers, 
+see Appendix B ), and 148 codes from group reflections phase (32 for Performers, 54 for Observers, 47 for the Facilitator, 15 for the 
+group as a unit, see Appendix C ).
+3.5.2. Step 2. Identify pattern codes
+In Step 2, the initial codes were aggregated into pattern codes through iterative discussions between the two coders ( Bazeley, 
+2013 ). This step aimed to synthesize the data into meaningful categories that captured the roles' actions across the learning phases. In 
+the VR-mediated group simulation phase, the Performer's behaviors were grouped into five categories, the Observer's behaviors fell 
+into six (see Appendix B ). Off-task behaviors were excluded to maintain focus on actions related to the research questions. During the 
+group reflection phase, twelve pattern codes were identified, with Facilitator, Performer, and Observer behaviors each grouped into 
+four categories (see Appendix C ). The initial codes and pattern identification set the foundation for further analysis and theme gen -
+eration ( Yin, 2018 ).
+3.5.3. Step 3. Identify and review themes
+Guided by research questions, the researchers generate themes based on continuous discussion and negotiation in Step 3. Three 
+themes emerged to represent the Performer's experience in VR-mediated group simulation, and six themes were identified to show the 
+Observer's experience (RQ1). Four stages of group reflection emerged from the pattern codes, indicating how the Performer, Observer, 
+and Facilitator collaboratively recall, analyze, and learn from the VR experiences (RQ2).
+3.5.4. Step 4. Define themes and produce the report
+The final step was defining and naming themes, which mainly focused on finalizing the themes and associated definitions. The four 
+steps of thematic analysis, along with Appendices B and C , captured the progression from initial codes to patterns that informed the 
+final theme generation. Based on continuous discussions and negotiations between researchers, this step yielded findings that 
+Fig. 2. Two Group Activities: Group VRSimulation and Group Reflection.
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+5 
+addressed the research questions.
+3.6. Outcome data analysis
+Two types of learning outcomes were analyzed (RQ3). The knowledge test consisted of ten multiple-choice items on safe pedestrian 
+behavior. Each student's score was calculated by dividing the number of correct answers by the total number of questions, resulting in a 
+score between 0 (0% accuracy) and 1 (100% accuracy). For the behavioral outcome, a safe pedestrian behavior rubric was applied to 
+assess students' actions at the 11 decision-making points in VR. Scores were determined by dividing the number of safe actions by the 
+total decision-making points, yielding a safety score ranging from 0 (0% safe decision) to 1 (100% safe decisions).
+Two trained raters independently scored the recorded behaviors using the rubric. Interrater reliability was assessed using Cohen's 
+kappa, indicating high agreement between raters ( k = 0.94, p < .001). The few discrepant decision-making points were resolved 
+through a second review and discussion until consensus was reached, and the agreed final pedestrian performance scores were used for 
+data analysis.
+Given the VR-mediated group learning setting, the four Observers within each group shared the same VR simulation and group 
+reflection experience. Analyses were therefore conducted at the group level to preserve the independent assumption. The mean 
+learning outcome scores of the four Observers were computed and paired with the corresponding Performer's scores, yielding nine 
+matched pairs for analysis ( n = 9). Wilcoxon signed-ranked tests with continuity correction were then used to compare the learning 
+outcomes between the Performer and Observer roles. ( Field, 2013 ). Data analysis was conducted using R (version 4.4.0; R Core Team, 
+2024 ) in the RStudio integrated development environment (version 2024.4.1.748; Posit Team, 2024 ).
+4. Results
+4.1. RQ1: Role-based experiences in VR-mediated group simulation: Performer versus observer
+4.1.1. Performer in the virtual spotlight
+In the VR-mediated group simulation, the Performer's behaviors were grouped into five categories: (a) Spontaneous Action, (b) 
+Independent (Conscious) Action, (c) Responsive Action, (d) Influenced Action, and (e) Active Interaction with Others (see Appendix B ). 
+Three themes emerged from the pattern codes to capture the Performer's experience. Firstly, the Performer's role involved both benefits 
+and drawbacks. Their Independent Actions (e.g., interact with objects in VR) indicated the Performer's access and control over the 
+virtual environment, while certain Spontaneous and Responsive Actions revealed a loss of awareness of physical surroundings (e.g., 
+lose balance). Meanwhile, the role of Performer carried implicit responsibilities. Their behaviors were largely driven by the goal of 
+completing the VR tasks in the presence of others, whether through Spontaneous Actions (e.g., respond to the VR stimuli), Conscious 
+Action (e.g., make decisions), or Active Interaction with Others (e.g., seek help). Furthermore, the Performer actions and decision- 
+making in VR were affected by Observers in the group setting. Their behaviors were shaped both unconsciously (e.g., spontaneous 
+reaction to directions) and consciously (e.g., actively ask for others' suggestion).
+Empowerment. The Performer navigated a dynamic landscape of gains and losses inherent in immersive VR technology. They 
+enjoyed full access to multimodal experiences and hold significant control over the virtual world. Accordingly, the Performer role 
+empowered the student to make decisions in VR to shape the outcomes and directions of the virtual scenarios. However, this immersion 
+came at the cost of disconnecting from the physical world. The Performer's actions in Group Case #3 demonstrated her autonomy in 
+VR, while also revealing reduced awareness of her physical surroundings: 
+… as the pedestrian traffic light turned to green in the virtual city, the Performer immediately initiated movement towards the 
+crossroad. Stepping forward with purpose, she intent to cross the road within the simulated environment. In her attempt to 
+navigate the virtual environment, she momentarily lost balance, prompting her to regain stability in the physical world … as she 
+moved in the virtual city, physically she was moving toward the edge of the VR working station and almost hit a chair. The 
+safety guide directed her into the center of the zone. (extraction and description of the Performer ’ s actions from Group Case #3)
+Responsibility. With the privilege of access and control in VR, the Performer role took unspoken responsibilities that required 
+efforts and focus to fulfill. When a student volunteered or was assigned to this role, they had to wear the VR headset and use controllers 
+to interact with the virtual world. The role carried to a tacit expectation: completing tasks in the VR program with their peers 
+observing. This expectation led to a list of duties and requirements. The student needed to orient and adjust themself in the virtual 
+environments, overcoming any difficulties caused by the setting (e.g., can't see one's physical environment and learning how to 
+navigate the virtual space). To complete tasks in the virtual city, the Performer needed to apply certain pedestrian knowledge and 
+make decisions in complex situations. Importantly, the Performer was not isolated in their actions; they were accompanied by a safety 
+guide, four peer Observers from the same class, and researchers collecting data. The presence of these individuals could lead to un -
+predictable factors, such as pressure, distraction, or assistance, affecting the Performer's experience. For instance, in Group Case #1, 
+one Performer struggled during the task: 
+… suddenly, the Performer couldn ’ t move forward in the virtual city. She tried stepping forward and waving her arms as 
+directed, but she couldn ’ t get into the crosswalk even though the traffic light was green. Her peers were chatting, and the safety 
+guide tried to direct her somewhere she couldn ’ t see in the physical world. The guide left to check the VR program, leaving her 
+standing still, facing her peers with the headset on. The four Observers chatted and laughed and turned silent …
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+6 
+Influence. With peer Observers involved, the Performer's actions and decision-making were inevitably influenced. Since the 
+learning group consisted of classmates, pre-existing social relationships could affect the group dynamic. The mere presence of Ob -
+servers could lead to changes in the Performer's behavior, as they became more self-conscious and aware of being watched. This 
+awareness can cause subtle shifts in the Performer's actions. Moreover, the Performer often actively seek input from Observers, inviting 
+them to contribute to their decision-making process. For example, in Group Case #3, the Performer asked for confirmation from the 
+Observers before acting, “can I go (cross the road) now?” Beyond invited involvement, Observers could directly influence the Per -
+former's decisions by offering advice or sharing information. In Group Case #5, Observers guided the Performer, suggesting specific 
+actions that reflected their own ideas and preferences, “go forward, you'll see a parking lot!” The presence of multiple Observers can 
+also create additional layers of intervention, as their conversations or interactions may indirectly impact the Performer's choices. For 
+instance, the Performer's decision-making can be distracted by the discussions happening between Observers, further complicating 
+their experience in the simulation.
+4.1.2. Observers in the virtual periphery
+The Observer's behaviors fell into six categories: (a) Engaged Observation, (b) Spontaneous Action, (c) Responsive Action, (d) 
+Proactive Action, (e) Interaction with Performer, and (f) Interaction with Other Observers (see Appendix B for details). Six themes 
+emerged from the pattern codes to represent the Observer's experience. Specifically, the Observer obtained the sense of mental im -
+mersion through engaged observations (e.g., the Observer reacts spontaneously to the virtual stimuli). The Observer interacted with 
+the virtual environment through Interaction with Performer. By helping the Performer complete the VR tasks, the Observer gained a 
+sense of ownership in VR experience (e.g., think actively about solving problems in VR, prevent others from disturbing the Performer). 
+Furthermore, the Observer possessed the flexibility to shift perspectives between the real and virtual worlds. With multiple observers 
+in the group settings, the Observer played different roles and was influenced by the presence and actions of other Observers.
+Engagement. The Observers were found highly engaged in the VR simulation even though they didn't have direct access to VR. The 
+Observer obtained a sense of mental immersion in VR through engaged observation. Observers displayed spontaneous reactions to the 
+virtual environment stimuli, using body language to simulate movements (e.g., Group Case #1, #6, the Observers stand up to step 
+forward and wave hands, imitating the moving actions in VR). Additionally, they mentally placed themselves in the VR environment, 
+often verbalizing thoughts as if they were the ones acting in VR. For example, one Observer remarked, “only if I can walk faster (in VR)” 
+while watching the Performer cross a road (Group Case #2).
+Influence. Another approach the Observer used to engage with the virtual world was by influencing the Performer's actions. 
+Although they had no direct control over the VR program, the Observer shaped the experience by verbally guiding the Performer. They 
+often provided real-time directions or suggestions to influence decision-making, actively participating in the task completion. For 
+example, in Group Case #9, Observers urged the Performer to “run! Go faster, faster!” before the traffic light changed, showcasing how 
+their input altered the course of the simulation. This indirect interaction allowed Observers to engage meaningfully with the VR 
+content, despite not being physically immersed.
+Role Shifting. Additionally, the Observer benefited from the ability to shift perspectives between the virtual and real worlds. Unlike 
+the Performer who was fully immersed in VR, the Observer watched the simulation on a desktop while remaining aware of their 
+physical surroundings. This awareness allowed them to discuss strategies with peers and plan their own actions in VR from outside the 
+headset. By observing the Performer's actions and mentally engaging with the task, they could actively participate through indirect 
+influence while imagining their future performance in similar situations. In Group Case #7, Observers demonstrated their engagement 
+by combining mental immersion, influencing the Performer's actions, and shifting perspectives between the virtual and real worlds. 
+… As the Performer approached the road, he paused to check both sides for approaching vehicles. Observing the VR display 
+from the desktop, one Observer commented, “I would look up to check the traffic signal.” In response, the Performer looked up, 
+and the traffic light shown green, signaling it was safe to cross … (Researcher memo: this moment exemplifies how the Ob -
+server’s input influenced the Performer’s actions, bridging their own perspective with the virtual world and actively engaging in 
+the simulation process).
+Multiple Roles. Though all engaged in group VR simulation, the Observers were different. The analysis revealed that Observers 
+played varied roles throughout the simulation. Some were passive bystanders, merely watching without much involvement (Group 
+Case #4), while others imagined themselves in the simulation, mimicking actions as if they were co-players (Group Case #2). Certain 
+Observers acted as directors, influencing the Performer's actions to reflect their preferences (Group Case #7), while others disrupted 
+the process with distracting behaviors (Group Case #3). Many also took on the role of helpers, guiding the Performer to successfully 
+complete the assignment (Group Case #9).
+Shared Ownership. Notably, the Observer developed a sense of ownership by helping the Performer accomplish the assignment. 
+Although there was no pre-determined rule regarding how the group worked together, most group cases showed collaboration in 
+completing the simulation tasks. Specifically, the Observer supported the Performer in completing the assignment by providing 
+suggestions/directions (e.g., Group Case #9), encouragement (e.g., Group Case #2), and efforts to prevent disruption and promote the 
+process (e.g., Group Case #3). Finishing the VR simulation became not merely the Performer's mission but a shared and collaborative 
+experience for the Observers.
+Interaction Between Observers. Since there was more than one Observer in a group, Observers interacted with each other as well as 
+with the Performer. Different interactive behaviors were found between Observers, suggesting the Observer's experience was also 
+influenced by others who shared the same role in the group. For example, Observers were found to share their observed information 
+and opinions with each other. Furthermore, when an Observer directs others' attention to their focus, he influences other Observers' 
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+7 
+information-taking from their perspective. Meanwhile, Observers were also found to interact with each other during the simulation, 
+including discussing the Performer's actions and exchanging opinions on the VR tasks. Additionally, Observers were found to 
+encourage or prevent other Observers' actions in the group, leading to unique experiences created by the interactions.
+4.1.3. Behavioral comparison of two roles in VR-mediated group simulation
+Based on the identified pattern codes of the Performer's and Observer's actions ( Appendix B ), shared behavioral patterns across both 
+roles were subsequently compared. Accordingly, five categories of behavioral patterns were identified to compare the two roles' ac -
+tions in VR-mediated group simulation, including (a) Spontaneous Action, (b) Responsive Action, (c) Independent/Proactive Action, 
+(d) Influenced Action, and (e) Interactive Action (see Table 1 ).
+Although the Performer and Observer had different access to the VR program—one was fully immersed in VR with control, and the 
+other saw the virtual world from projection—they both had active and responsive actions to the virtual world. The Performer actively 
+engaged with and responded to virtual objects to accomplish tasks within the VR program, while the Observer reacted to the virtual 
+environment indirectly, often directing the Performer to act as they themselves might in VR. This dynamic led Observers to partially 
+perceive the Performer as their avatar, shaping the experience through guidance and feedback. Accordingly, both roles displayed 
+spontaneous, responsive, active decision-making actions toward the tasks in VR. Meanwhile, interactive behaviors between the two 
+roles also happened in VR-mediated group learning, where they were connected through the real-time projection of the VR program 
+and free communication between each other. Both roles were aware of their role differences compared to others in the group, and they 
+were motivated and cognitively engaged in problem-solving within the VR program. Additionally, both roles’ behaviors and actions 
+were influenced by others, resulting in a co-constructed and shared experience in the group rather than an independent one.
+The difference between the two roles' behaviors was also apparent. Since the Performer was the only person simulated in VR, the 
+role was exposed more to the virtual world, triggering various spontaneous actions during the simulation process. Meanwhile, since the 
+Performer had the control and implicit duty to accomplish tasks in VR, the role enacted more conscious and independent actions than 
+the Observer. Furthermore, the Performer was the only person in the group who could actually make an impact on the virtual world, 
+therefore, endured others' presence and active involvement to enact influenced behaviors. In contrast, the Observer's behaviors were 
+based upon their notice of the Performer's actions and the virtual world projected on the screen. The two roles had different goals when 
+they joined the group with assigned roles and resources, and they used various means to enact their thoughts and impact the virtual 
+environment.
+4.2. RQ2: Group reflection on the VR-mediated group experience
+The inductive data analysis identified four distinct stages of group reflection, indicating how the Performer and Observers reflected 
+on their unique and shared experiences with the guidance of the Facilitator. The three roles shown specific behaviors during each 
+stage. These patterns aligned closely across roles and were guided by the Facilitator's scaffolding. Final emerged themes with 12 role- 
+specific actions (four core actions by three roles) is presented in Table 2 (see Appendix C for initial codes). Specifically, the first stage, 
+Guided Retrospection and Description of Experience, focused on reviewing critical experiences for further analysis. The Performer and 
+Observer shared their individual and collective experience, and the Facilitator provided guidance for the group to recall critical details 
+and their thoughts during the experience. The second stage, Guided Analysis and Evaluation of Experience, suggested the group's 
+deliberation on their VR experience. The Performer and Observer evaluated and analyzed their individual and shared VR experiences 
+with the support of the Facilitator. The third stage, Guided Group Exploration and Discussion, indicated the group's guided teamwork 
+in examining and reconsidering their VR simulation experience. The final stage is Learning and Conclusion, which indicated the 
+group's meaning-making and future decisions from the group reflection. These stages demonstrate that the group, despite having 
+different roles, engaged in a structured and collaborative process to reflect on both immersive and observational experiences. While 
+these stages provide partial answers to RQ2, additional findings from the analysis offer valuable insights into the dynamics of group 
+Table 1 
+The Performer’ and Observer's behaviors in VR-Mediated group simulation.
+Behavior Performer Observer
+Spontaneous React to the VR environment React to the VR environment
+React to the Observers' intervention React to the Performer's actions
+Navigate in the virtual environment Imagine walking in VR
+Lost balance in the physical environment ​
+Responsive Respond to the Guider's direction Respond to the Guider's direction
+Respond to the Observers' comments/requests Respond to the Performer's needs/requests
+​ Respond to other Observers' actions
+Independent/Proactive Have control to act as one wishes Influence the Performer to act
+Conscious decision-making in specific situations Conscious decision-making in specific situations
+Actively interact with the virtual objects Engaged observation 
+Comment/think aloud regarding one's observation
+Influenced Act to get others' attention Act to get others' attention
+Act according to others' direction/suggestion Enact or stop certain actions due to others' encouragement or prevention
+Interactive Actively interact with Observers Actively interact with the Performer
+​ Actively interact with Observers
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+8 
+Table 2 
+Twelve role-specific actions across four group reflection stages.
+Group Reflection 
+Stage Implemented
+Core Action Emerged Facilitator Performer Observer
+Stage 1: Retrospection Guidance on retrospection Recall and describe one's 
+experience
+Recall and describe one's 
+experience
+Guided 
+Retrospection 
+and 
+Description of 
+Experience
+Review of critical 
+experiences
+• Helps the group to return to and 
+discuss their VR experience. 
+Students are guided to recall what 
+they saw, heard, thought, and did 
+in critical events that need further 
+analysis. • Identifies critical 
+information and leads for detailed 
+description, e.g., “ what did you 
+notice when you crossed the 
+street? ” “ I saw you stopped here, 
+right? What happened? ” or “ I 
+heard you say, ‘run, there is a 
+flashing light ’ what did you think 
+at that moment? ”
+• Indicates and describes what 
+they noticed, thought, and did 
+during the VR simulation. The 
+Performer also uses body language 
+or gestures to represent what 
+happened in the experience. For 
+example, “ I saw the pedestrian 
+traffic light is red at that time. “ , “ I 
+was thinking I can't go (crossing 
+the road). ”
+• Indicates and describes their 
+observations and actions during 
+the Performer 's VR experience, 
+recalling what they noticed, 
+thought, and did during the VR 
+simulation. • Uses body language 
+or gestures to represent what 
+happened during the experience. •
+Describes and comments on the 
+Performer 's action. For example, “ I 
+saw you (the Performer ) dashed 
+into the street. “ , “ the traffic light 
+was red for a while, but no car was 
+on the road. ”
+Stage 2: Analysis Support on experience analysis 
+and reconsideration
+Analysis and (re)think about 
+one's experience
+Analysis and (re)think about 
+one's experience
+Guided Analysis 
+and Evaluation 
+of Experience
+Careful examination 
+of experiences and 
+consideration of 
+potential solutions
+• Asks individuals and the group to 
+interpret critical signals/events, 
+explain their opinions and actions, 
+and make decisions in specific 
+situations. • Asks questions to 
+trigger students' analysis and 
+reconsideration of their experience 
+and observation. Questions 
+include: “ what does it mean when 
+the traffic light flashes? “ , “ Why did 
+you act like that? ” and “ what if you 
+rushed into the road at that 
+moment? ”
+• Analyzes and thinks about the 
+experience to review their 
+knowledge and actions. The 
+thinking process includes 
+interpreting critical signals/ 
+events, explaining their opinions 
+and actions, and making decisions 
+in specific situations. For example, 
+“ the flashing light means no time 
+to cross the road ” and “ I would 
+wait for another green light. ”
+• Analyzes and thinks about their 
+observations and experience to 
+review their knowledge and 
+construct meanings. The thinking 
+process includes interpreting 
+critical signals/events, explaining 
+their opinions and actions, and 
+making decisions in specific 
+situations. For example, “ the 
+flashing green light means it will 
+turn to red light soon, ” and “ he 
+was so close to the school bus. If 
+the driver didn't see him, he would 
+be hit to death. ”
+Stage 3: Collaboration Facilitation on teamwork/group 
+discussion
+Make meanings with others Make meanings with others
+Guided Group 
+Exploration 
+and Discussion
+Interaction and 
+teamwork for the 
+shared goal of 
+learning
+• Guides the group to participate in 
+the discussion to share opinions 
+and exchange ideas. • Leads the 
+group to focus on the topic, 
+creating a collaborative group 
+atmosphere and inducing 
+discussion with the involvement of 
+group members. For example, the 
+Facilitator directs the group's 
+attention to the topic, “ do you 
+agree with that? (turns to two 
+Observers who are not paying 
+attention) ” and “ let's look at this 
+first, okay? ” The Facilitator invites 
+everyone to participate in the 
+discussion, “ What do you think? 
+( Facilitator turns to those who did 
+not answer the question) ” , “ what 
+would you do if you were there? ”
+• Constructs meanings 
+collaboratively from the 
+analytical discussion with others. 
+• Shares their opinions as well as 
+responds to others' others' 
+thoughts. The interactive 
+meaning-making process includes 
+expressing agreement/ 
+disagreement, complimenting/ 
+challenging others' perspectives, 
+and responding to others' ideas 
+with actions/illustrations. For 
+example, “ (responding to one 
+Observer's comment, the Performer 
+said) I would do the same. ”
+• Constructs meanings 
+collaboratively from the 
+analytical discussion with others. 
+• Shares their opinions as well as 
+respond to others' others' 
+thoughts. The interactive 
+meaning-making process includes 
+expressing agreement/ 
+disagreement, complimenting/ 
+challenging others' perspectives, 
+and responding to others' ideas 
+with actions/illustrations. For 
+example, “ I would not do like that 
+(hurry up to cross the street). I 
+would wait for another green light 
+to cross the street. ”
+Stage 4: Knowledge 
+Construction
+Support on knowledge 
+construction and learning 
+transfer
+Construct understanding and 
+personal decisions
+Construct understanding and 
+personal decisions
+Learning and 
+Conclusion
+New understanding 
+and conceptual 
+change
+• Supports the group in 
+understanding and coming up with 
+safe pedestrian knowledge and 
+behaviors in specific situations. •
+Helps the group construct 
+meanings and decision-making 
+regarding what they experienced 
+in the VR program. For example, 
+the Facilitator suggests and 
+summarizes safe solutions in a 
+specific condition, “ so, we need to 
+• Concludes with safe pedestrian 
+knowledge or decision-making in 
+specific situations. • Acquires 
+understanding and potential 
+behaviors from experience, such 
+as predicting consequences from 
+hypothetical situations and 
+making decisions in a given 
+situation. • Links the VR 
+experience to their real-life 
+situations and generates their 
+• Concludes with safe pedestrian 
+knowledge or decision-making in 
+specific situations. • Acquires 
+understanding and potential 
+behaviors from experience, such 
+as predicting consequences from 
+hypothetical situations and 
+making decisions in situations. •
+Links the VR experience to their 
+real-life situations and generates 
+their conclusions to other contexts 
+( continued on next page )
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+9 
+reflection.
+4.2.1. Facilitator in group reflection
+Essential Role. The importance of the Facilitator in guiding group reflection became evident, especially for students lacking 
+experience in teamwork and reflective practices. The Facilitator led the reflection by asking prompt questions and providing feedback, 
+ensuring students stayed focused on critical experiences. Additionally, the Facilitator shown three critical skills: knowledge of the 
+subject matter being reflected upon, an understanding of reflective processes to foster meaningful discussions, and the ability to create 
+a supportive environment for collaboration and teamwork. The direct and observational experiences were connected due to the Fa -
+cilitator's deliberate guidance.
+Challenging Position. Practical challenges were identified in the Facilitator's role. One challenge is that students may become 
+overly dependent on the Facilitator's guidance, which can limit their autonomy and active participation in the reflection process. 
+Additionally, the Facilitator's position of authority, particularly when there is power or knowledge imbalances, can affect group dy -
+namics and hinder open dialogue. Lastly, managing group reflection, especially in larger groups, proved demanding. The Facilitator 
+found it difficult to balance multiple students' inputs, handle conflicts, and maintain focus on various topics, as demonstrated by the 
+memo. 
+I think I was playing an essential role in the group reflection as the students relied on my guidance to review and analyze their 
+experiences … it was stressful when five children in the group talked to me at the same time, especially when they were focusing 
+on different things. They all wanted my attention, but I could only lead one topic at a time. I found myself forgetting to follow up 
+with other topics after letting one child share their opinion first, let alone handling conflicts or disagreements between different 
+individuals (Facilitator’s memo and reflecting notes).
+4.2.2. Performer in group reflection
+Social Pressure. The group reflection was a different experience for the Performer compared to VR simulation. The Performer 
+experienced social pressure due to being the focus of the reflection process, as their actions were central to the discussion. This 
+spotlight could cause discomfort, especially when Observers were critical or judgmental. For example, in Group Case #2, the Observers 
+critiqued the Performer's risky behavior in VR during their group debriefing, leading the Performer to withdraw emotionally and 
+become less engaged in the discussion. The Facilitator had to intervene to reintegrate the Performer into the group dialogue. Addi -
+tionally, Observers often overlooked the Performer's retrospection, interrupting or answering questions on their behalf, which 
+diminished the Performer's opportunity to reflect openly.
+Cognitive Load. The Performer faced a high cognitive load from being fully immersed in VR, which might hinder their ability to 
+recall their experiences accurately for meaningful reflection during the discussion. Immersive environments provided complex, 
+multimodal stimuli, making it difficult for the Performer to focus on key details during reflection. In Group Case #5, for instance, the 
+Performer missed critical cues noticed by the Observers. Furthermore, Performers sometimes struggled to remember details from the 
+VR experience, as seen when one Performer in Group Case #2 was unable to recall specific events, despite wanting to contribute to the 
+discussion, “I think I remember it, but I just can't recall it at the moment.” This highlights the cognitive demands placed on the 
+Performer during both the VR simulation and the reflection process. A few extractions from the group reflection videos show the 
+challenges the Performer faced: 
+The Facilitator faced toward the Performer and asked, “what color was the traffic light when you crossed the road?” The 
+Performer looked back to the Facilitator, lifting her face in thought but remaining silent. Before she could respond, another 
+student, who had been an Observer during the VR simulation, interjected, “It (the traffic light) was flashing before you arrived at 
+the corner.” The Facilitator redirected the question to the Performer, “Do you remember that?” The Performer, lowering her 
+head and voice, quietly replied, “No.” (Group Case # 5)
+… to answer the question “what did you see on the first street you cross?“, the Performer replied, “a school bus.” an Observer 
+quickly corrected her, saying, “That happened on the third road, not at the beginning.” (Group Case #2).
+Table 2 (continued )
+Group Reflection 
+Stage Implemented 
+Core Action Emerged Facilitator Performer Observer
+check both sides on the road to 
+ensure the vehicle stops when we 
+cross the street.”
+conclusions to other contexts and 
+illustrates a better individual 
+understanding. For example, “(the 
+Performer compliments what the 
+Facilitator mentioned) you still 
+need to check on both sides of the 
+road (beyond traffic light), if you 
+don't check, there could be cars.”
+and illustrate a better individual 
+understanding. For example, “(an 
+Observer concluded) so you have 
+to continue crossing the street in 
+that situation (where the traffic 
+light started flashing when you in 
+the middle of the road).”
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+10 
+4.2.3. Observers in group reflection
+Ownership. The Observer got a unique position in group reflection. They shared a sense of ownership over the VR simulation 
+experience, though they were not the one simulating. They often interrupt the Performer to answer questions or share details from 
+their own perspective. For example, in Group Case #6, an Observer used first-person language to describe the Performer's actions, 
+saying, “ I didn't see the traffic light, so I thought it was okay to cross. ” Observers also fill in details the Performer missed, such as when 
+one Observer noted, “ It was flashing before you arrived at the corner ” (Group Case #5). Additionally, they challenge the Performer's 
+recollections, as seen when an Observer corrected the Performer's memory of a school bus in Group Case #2.
+Role Awareness. Even though showing ownership on the VR experience, the Observer remained aware of the differences between 
+their role and the Performer's. Observers often compared themselves to the Performer, judging their actions and offering alternative 
+decisions. For example, when the Performer stated that he would cross the road when the vehicles had stopped, the Observer dis -
+agreed, stating, “ I would not do that. It is still risky. I would check the traffic light and vehicles. ” (Group Case #4). While discussing the 
+Performer's behaviors, the Observer planned for their own VR experience. For instance, when the group debated whether the Per -
+former's action was safe in VR, one Observer looked around and said aloud, “ I will do something like this …” (Group Case #2).
+Social Dynamics. Notably, there was a lack of social rules governing how Observers interact with others in the group. They 
+frequently interrupted both the Performer and other participants to share their perspectives, often without realizing the impact. For 
+example, in Group Case #1, when the Facilitator asked the Performer about her actions in a particular situation, the Observer 
+interrupted and said, “ She was waiting there because the traffic light showed red. ” Observers also struggled to handle differing 
+opinions, sometimes causing tension, as in Group Case #2 when an Observer's comments upset the Performer. In some cases, Observers 
+even retracted their suggestions after being challenged by peers (Group Case #3). For example, one Observer explained their thought 
+process for a specific situation, stating, “ I would cross the road when the flashing light comes on. ” Another Observer disagreed, 
+questioning, “ Who said that? ” In response, the first Observer denied their statement, claiming, “ I didn't say that. ”
+4.3. RQ3: Learning outcomes from the VR-mediated group learning
+4.3.1. The Performers' and observers ’ knowledge test
+Both the Performer and Observer groups completed a knowledge test following the VR-mediated group learning to examine 
+learning outcome related to pedestrian knowledge acquisition. Given the design of the group learning, four Observers within each 
+group case shared the same VR simulation and group reflection experience. Therefore, analyses were conducted at the group level to 
+preserve the independent assumption. For each of the nine group cases, the mean knowledge test score of the four Observers was 
+computed and paired with the corresponding Performer's score, yielding nine matched pairs for analysis ( n = 9). A Wilcoxon signed- 
+ranked test with continuity correction was used to examine the difference between the Performer and Observer groups' learning 
+outcome, considering the small sample size limits the reliability of the normality assumption required for parametric testing ( Field, 
+2013 ).
+The Wilcoxon signed-ranked test revealed no statistically significant difference in knowledge test between the Performer ( M = 0.86, 
+SD = 0.13) and Observer groups ( M = 0.75, SD = 0.23), V = 30.5, p = .093, pseudomedian = 0.125, 95% CI [   0.050, 0.288]. The 
+positive pseudomedian, the direction of the V statistic, and a confidence interval leaning predominantly positive collectively suggested 
+a pattern in which Performers tended to score higher than the mean of their groups ’ Observers across the nine groups. Although the 
+difference did not reach statistical significance at α = .05, a large effect size was observed ( r = 0.574, 95% CI [0.08, 0.89]). This suggest 
+that the non-significant p-value is likely attributable to insufficient statistical power given the small sample of nine paired groups 
+( Cumming, 2014 ). These findings indicate that while no statistically significant differences in knowledge acquisition were found in this 
+study, a potential advantage for Performers that requires further investigation with larger samples.
+4.3.2. The Performers' and Observers ’ behavior performance in VR
+Both the Performer and Observer groups completed a VR-based behavior performance assessment following VR-mediated group 
+learning to examine their application of pedestrian safety behaviors. As analyses were conducted at the group level, the mean behavior 
+performance score of the four Observers within each group was computed and paired with the corresponding Performer's score, 
+yielding nine matched pairs ( n = 9). A Wilcoxon signed-ranked test with continuity correction was used to examine the difference 
+between the Performer and Observer groups' behavior performance in VR after the group learning ( Field, 2013 ).
+The Wilcoxon signed-rank test revealed no statistically significant difference in behavior performance between the Performer ( M =
+0.73, SD = 0.22) and Observer ( M = 0.77, SD = 0.11) groups, V = 15, p = .726, pseudomedian =   0.023, 95% CI [   0.223, 0.125]. The 
+near-zero pseudomedian and a confidence interval symmetrically crossing zero indicated no consistent directional pattern observed 
+across the nine groups, suggesting that Performers and Observers did not demonstrate statistically significant difference in pedestrian 
+behavior assessment. Meanwhile, a small effect size was observed ( r = 0.119, 95% CI [0.00, 0.72]), indicating a negligible difference 
+between the two roles in behavior performance.
+While the results indicated no statistically significant differences in behavior performance between Performer and Observer groups, 
+a non-significant p-value does not provide evidence that the two groups are equivalent ( Lakens, 2017 ). The confidence interval 
+crossing zero, combined with the small sample size, indicates that the current data cannot definitively determine whether the groups 
+are truly equivalent or meaningfully different. However, the small effect size suggests that any practical difference, if present, is likely 
+minimal.
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+11 
+4.3.3. The Performer ’ and Observer's satisfaction and perceived learning experience
+The closing interviews with the forty-five students provided valuable insights into their satisfaction and perceived learning ex -
+periences during the VR-mediated group learning activities. Overall, both Performers and Observers expressed positive feedback, 
+enjoying the VR experience and recognizing its relevance to real-life situations.
+For Performers, six out of nine preferred simulating the VR program with peers present, citing the support and suggestions they 
+received during the activity. As one Performer shared, “ I preferred group experience when others were around. They (the Observers) 
+could give me suggestions like when I didn't notice the traffic light, they told me to go ” (Group Case #3). In contrast, three Performers 
+expressed a preference for experiencing the VR alone, mainly due to concerns about peer interruption and discomfort of being observed 
+by others. For example, one Performer mentioned, “ I prefer experiencing the VR by myself. They would laugh at me. I don't like that ” 
+(Group Case #4). However, all Performers reported enjoying the group reflection, valuing the opportunity to discuss the VR experience 
+with their peers. Many highlighted the benefits of peer interaction, both in terms of fun and learning. One Performer noted, “ I like 
+discussing the experience with others because they would help me correct my mistakes (risky behaviors). I like to reflect with others 
+because they would also learn things ” (Group Case #2).
+Observers reported similar experiences to Performers, with twenty-four indicating that they preferred engaging with the VR 
+program themselves rather than observing. One Observer explained, “ I prefer playing the program by myself than observing. It will be 
+more fun. I like the scenes (in VR). I can do whatever I want ” (Group Case #9). Five Observers preferred watching others due to 
+personal discomfort with VR, citing reasons such as dizziness or fear. For example, one Observer shared, “ I dare not play the VR 
+program. I am afraid of being hit (by cars in the virtual world) ” (Group Case #4).
+5. Discussion and conclusion
+This study investigated how learners engage, reflect, and construct knowledge in VR-mediated group learning through distinct 
+roles: the Performer immersed in simulation and the Observer interacting from the periphery. By analyzing nine group cases, we 
+explored the dynamics between these roles during simulation and reflection. The findings offered insights into how different forms of 
+participation shape learning experiences in immersive environments.
+5.1. The discovery of immersive VR-mediated group learning space
+The immersive VR-mediated learning groups were formed by two roles with different resources and constraints. The Performers' 
+and Observers' experiences in such a group setting can be explained using a learning space combining different types of realities (see 
+Fig. 3 ). The blue area (A) represents the exclusive Virtual Reality, where Performers navigate without any physical world influence. In 
+the nine group cases, Performers navigated in exclusive Virtual Reality when they received no intervention from their physical sur -
+roundings. For example, their Spontaneous and Responsive Actions to the virtual environment. In contrast, the exclusive Physical 
+Reality indicates the space Observers positioned without knowledge of the virtual environment (the yellow area, C). The Observers ’ 
+Proactive, Responsive, and Interactive behaviors occurred in physical reality with others from the physical world.
+Importantly, the group setting created a novel learning space where the boundaries between the virtual and physical worlds blurred 
+by a projected display. Observers in the physical environment were able to watch and understand what Performers were experiencing 
+in VR. Thus, students from virtual and physical realities were able to communicate and collaborate. We define the overlapped space as 
+Fig. 3. Immersive VR-mediated Group Learning Space Combining Different Spaces 
+Notes. The triangle represents the Performer's actions, and the circle represents Observer's actions. Different fill patterns denote distinct types of 
+behaviors, and the connecting lines between shapes indicate that they are the same type of behavior.
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+12 
+Shared Mixed Reality (SMR) in this study (the green area, B). For example, in Group Case #9, the Performer completed VR tasks in the 
+presence of Observers. In SMR, the Performer was immersed in the virtual world while physically sharing the same space with peers. 
+The Observers watched the Performer's actions and corresponding consequences in VR via a projected display. When the traffic light in 
+the virtual scene turned red, the Observers called out, “Run! Go faster, faster!”, prompting the Performer to respond accordingly. In this 
+interaction, the Performer (re)acted consciously and unconsciously to others from their physical surroundings. As a results, the Ob -
+servers impacted the virtual space by actively influencing the Performer's actions in VR. Thus, the SMR space provided a chance for 
+those who were not immersed in VR to enact their thoughts in the virtual world. Accordingly, dynamic group interactions occurred due 
+to the co-existence and overlapping of the virtual and physical spaces.
+The discovery of immersive VR-mediated learning space offers several implications for future research. First, the study identified 
+SMR as a shared space where learners exchange their physical and virtual experiences to achieve mutual awareness and interaction. 
+Such a definition aligns with Benford et al.’s (1998) suggestion of Mixed Reality (MR), defining it as a shared space based on con -
+structing and integrating transparent boundaries between real and virtual spaces. However, as Speicher et al. (2019) found from their 
+interview with experts and literature review, the definition of MR is highly fragmented and diverse. Multiple terms are found to be used 
+interchangeably with MR (e.g., augmented reality, virtual reality), and the MR experience is not clearly described and defined in 
+studies. Accordingly, there is a need for further research to better define and characterize the notion of MR experiences. For example, 
+unlike forms of MR that blend physical and virtual worlds for individuals, SMR is a specific form of MR that emphasizes interaction and 
+mutual awareness between two or more individuals who have similar yet distinct experiences from virtual and physical realities. 
+Second, the study highlights the potential of collaborative learning in VR-mediated environments, where one student engages in VR 
+while others observe. This setup offers effective and interactive learning opportunities despite the limited availability of VR tech -
+nology. The finding of SMR contributes to the interactions and exchanges of experience across physical and virtual experiences. 
+Further research is needed to explore the nature of collaboration within these environments, particularly the different layers of group 
+and sub-group interactions.
+The VR-mediated group learning space also has some implications for instructional design. Specifically, the study revealed the 
+importance of authentic and engaged learning situations, rather than the direct use of VR technology, in triggering mental immersion 
+and cognitive engagement. Therefore, schools with limited resources of immersive VR equipment and resources can organize group 
+learning activities to benefit more students with the observational learning mode. Additionally, the practice of VR-mediated group 
+learning requires further considerations of effective scaffolding. Due to the division of labor and combination of multiple realities in 
+VR-mediated group learning, students in such a learning environment need support to overcome challenges and collaborate with 
+others. For example, instead of focusing solely on virtual or physical experiences, educators and instructional designers could 
+intentionally design SMR experiences to connect and support learners in resource-demanding environments. This study examined the 
+intervention of guided group reflection on students’ interactions and learning outcomes, while more instructional strategies need to be 
+designed and examined to support collaborative learning in VR-mediated group settings.
+5.2. The four stages of group reflection
+The study demonstrates four stages of group reflection, including (guided) retrospection and description of the experience, (guided) 
+analysis and evaluation of the experience, (guided) group exploration and discussion, and (guided) learning and conclusion. 
+Noticeably, the four stages are not sequential but interrelated. Fig. 4 suggests the relationship between the group reflection stages 
+found in this study. Since group reflection is an activity accomplished by a group of learners rather than an individual, group in -
+teractions and communications play a central role in the process. Therefore (Guided) Group Exploration and Discussion (e.g., Facil -
+itator invites Performer or Observer to share, discuss, or debate on their opinions), co-exists with and influences the other three stages 
+of group reflection. The (Guided) Retrospection and Description of the experience (e.g., Facilitator asks Performer or Observer to recall 
+what they saw/heard/thought) is the first step in the group reflection process, which allows the group to share their individual and 
+shared impressions on the experience. The (Guided) Analysis and Evaluation of the experience (e.g., Facilitator prompts Performer or 
+Observer to interpret/analyze what they saw/heard/thought) is a critical stage in the group reflection process, helping the group 
+examine and reconsider their knowledge and behaviors during the experience. Finally, the (Guided) Learning and Conclusion (e.g., 
+Facilitator supports Performer or Observer to summarize/conclude what they learn) is the last stage in the process, which suggests the 
+results of group reflection, such as new understanding and plan for future behaviors.
+Notably, the finding of the four stages of group reflection provides experimental support for the statement that reflection proceeds 
+with systematic phases rather than a causal thinking process ( Yang & Choi, 2023 ). Reflection has been disentangled into multiple 
+stages or phases by a number of scholars ( Atkins & Murphy, 1993 ; Bain et al., 2002 ; Boud et al., 1985 ; Boyd & Fales, 1983 ; Dewey, 
+1933 ; Gibbs, 1988 ; Korthagen & Vasalos, 2005 ; Rodgers, 2002 ). The group reflection stages found in this study validate the general 
+Fig. 4. The Relationship between the Four Stages of Group Reflection.
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+13 
+process of reflection while highlighting the unique characteristics of the group environment. Regardless of the social environment, the 
+general reflection process includes retrospection, re-evaluation, critical analysis, and reorientation for thinking and action ( Finlay, 
+2008 ; Koole et al., 2011 ). The group reflection has one more stage of (Guided) Group Exploration and Discussion , which reveals the 
+unique characteristics of the group environment while adding to the complexity of the reflection process.
+The findings of the four group reflection stages in this study have some implications for group reflection research and practice. 
+Specifically, the four stages of (guided) group reflection require further investigation and validation in different learning contexts. 
+Findings revealed in this specific study need further investigation in different contexts for generalization. This study also confirmed a 
+couple of theoretical justifications for group reflection. For instance, the findings revealed that learners had varying focal points during 
+their VR simulation experiences, which facilitated analysis on collective experiences. Moreover, the study demonstrated that in -
+dividuals could identify their misconceptions and overcome limitations through group reflection. These findings align with the 
+theoretical perspectives that suggest group environments offer opportunities for reflection and can assist individuals in achieving what 
+they may not be able to accomplish alone ( Eshuis et al., 2019 ; Johnson & Johnson, 1999 ; Vygotsky, 1978 ).
+The findings from the group reflection stage also have implications for instructional design and reflective practice. The study 
+confirmed the need for scaffolding to support group reflection, particularly for young learners who may lack collaboration and 
+reflection skills. Future practices should focus on strategies to guide different stages of group reflection. Additionally, the stages of 
+group reflection emphasized the importance of Guided Group Exploration and Collaboration, suggesting that teachers should prioritize 
+practical facilitation strategies. Challenges such as a lack of shared understanding or social rules can hinder reflection, so educators 
+could create strategies to foster open, collaborative environments that support meaningful group reflection.
+5.3. Similar experiences and learning outcomes obtained by different roles
+The study found that learners achieved similar experiences and learning outcomes despite their different access to VR. Both 
+Performers and Observers were mentally immersed, cognitively engaged, and demonstrated motivation, agency, and ownership in 
+problem-solving. Despite their role differences, both groups were aware of the team dynamic, actively interacting with peers and 
+influenced by each other's presence. This suggests that VR-mediated group learning, where peers observe one student's VR simulation, 
+can provides immersive and engaging experiences for all participants regardless of role. Post-activity assessments indicated no sta -
+tistically significant differences in safety knowledge or behavioral performance between Performers and Observers, although the large 
+effect size observed for the knowledge test ( r = 0.574, p = .093) suggests the study was likely underpowered to detect a meaningful 
+difference in knowledge acquisition. Nonetheless, these findings are broadly consistent with social cognitive theory ( Bandura, 1986 ), 
+which posits that observational learning can be as effective as direct experiential learning when supported by guided reflection. Rather 
+than claiming equivalence of learning outcomes, the current findings suggest that the Observer did not demonstrably disadvantage the 
+Performer under this design. This finding, however, requires cautious interpretation given the small sample of nine groups ( Lakens, 
+2017 ).
+Two key factors contributed to these similar learning outcomes. Firstly, the SMR space connected the Performer in the virtual world 
+with Observers in the physical space, fostering collaboration and shared experiences ( Benford et al., 1998 ). This connection 
+encouraged both Performer and Observer to demonstrate high levels of ownership and engagement in VR simulation. However, 
+distinct challenges emerged in this process: Observers couldn't directly enact their thoughts in VR, while Performers sometimes 
+struggled with the disconnect between virtual and real worlds. The second essential factor was the guided reflection process. Guided 
+reflection enabled both roles, whether through direct interaction with VR or observation, to learn from their experiences and integrate 
+their insights into shared understandings ( Yang & Choi, 2023 ). These two factors are interconnected in contributing to comparable 
+learning experiences for Performers and Observers. SMR promotes shared experiences and interactions, which becomes foundations 
+for meaningful group reflection. Guided reflection, in turn, helps learners analyze and transfer their shared experiences into 
+co-constructed understanding. Challenges also emerged in the group reflection process, as Performers faced social pressure from peer 
+judgment, while Observers found it challenging to navigate differing opinions. Addressing these role-specific challenges with tailored 
+support, such as structured facilitation strategies for Observers and social-emotional scaffolding for Performers, may further enhance 
+the effectiveness of VR-mediated group learning.
+5.4. Implication
+The findings of this study have some implications for research on VR-mediated group learning. The study supports the notion that 
+observational experiences can be as effective as immersive ones, but success depends on well-designed instructional strategies, such as 
+creating Shared Mixed Reality spaces and incorporating guided group reflection. Additionally, the study revealed distinct challenges 
+associated with role assignments, such as Performers' reduced awareness of the physical environment and Observers ’ limited 
+engagement in the virtual world. Addressing these challenges with targeted support can improve learning outcomes. Further research 
+could explore scaffolding techniques to enhance collaborative learning, particularly in settings with limited access to technology.
+The findings of this study also have practical implications for designing VR-mediated group learning. Designing group learning 
+environments with limited VR resources can help address programmatic issues, such as equipment shortages, limited time for class 
+activities, and teacher overloads, enabling schools and organizations with fewer resources to serve more students. However, 
+instructional design is crucial to ensure that learners with varying access to resources achieve similar outcomes. The study shows that 
+observational learning in shared physical and virtual spaces, combined with group reflection, can be effective, although a few chal -
+lenges remain. For example, different roles and divisions of labor in VR-mediated group learning present unique challenges. The 
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+14 
+findings indicate that Performers faced social pressure during group reflection, which can hinder their participation. Facilitators 
+should be attentive to such challenges and create a supportive environment that fosters collaboration and equitable learning experiences 
+for all participants.
+5.5. Limitations and future directions
+This study focused on a specific VR-mediated group learning context, examining how learners experience, reflect, and construct 
+knowledge through two distinct roles — Performer and Observer. While the findings contribute to the theoretical understanding and 
+practical design of VR-mediated group learning, the scope was limited to nine group cases. Although the current study examined the 
+learning outcomes of the two roles (RQ3), the small sample size limits the generalizability of the findings and statistical power to detect 
+differences. For example, while no statistically significant differences were observed between Performers and Observers in knowledge 
+acquisition and VR behavior performance, a large effect size for knowledge ( r = 0.574, p = .093) and a small effect size for performance 
+( r = 0.119, p = .726) suggested uncertainty in the estimates. Larger sample sizes in future research would allow for more precise 
+evaluation of potential role-specific differences.
+Another limitation concerns the procedure used to assign students to the Performer and Observer roles. In this study, role 
+assignment was based on voluntary selection, with random assignment employed in cases where no student volunteered. This 
+approach introduces a potential self-selection bias, as students who volunteered for the Performer role may have differed from their 
+Observer peers in characteristics that might be relevant to the study outcomes. For example, volunteers may have possessed greater 
+technological familiarity with immersive VR environments, higher motivation toward the learning tasks, or greater willingness to 
+perform in front of peers, which could influence how they engage and interact with others in the VR-mediated group learning setting. 
+However, this cannot be confirmed without baseline measures of factors such as VR experience, motivation, or social confidence. 
+Future studies could employ fully randomized role assignment to eliminate self-selection bias and strengthen causal inference 
+regarding the differential effects of the Performer and Observer roles in VR-mediated group learning.
+In this study, VR-mediated group learning was designed to integrate a shared mixed-reality space with guided group reflection. 
+Although these components can be described as two phases, they are inherently interconnected, with experiences in simulation 
+potentially shaping the quality and depth of subsequent reflection. Therefore, students' experiences in group VR exposure and sub -
+sequent group reflection jointly contributed to their learning outcomes. Future studies can examine the two group learning phases 
+separately, as well as in combination, to further examine their individual and combined contributions to learning. Meanwhile, future 
+research could further explore how these phases interact over time to influence both individual and collective learning. Investigating 
+this connection can provide a more integrated understanding of how immersive VR experiences, when paired with structured 
+reflection, support meaningful learning in group settings. For example, future studies could investigate how factors such as group 
+cohesion, peer relationships, and role distribution influence learning processes and outcomes. Finally, the study's focus on young 
+learners in a Chinese cultural context highlights the need for further research across diverse learning environments and cultural 
+settings to ensure generalizability.
+CRediT authorship contribution statement
+Tingting Yang: Writing – review & editing, Writing – original draft, Visualization, Validation, Project administration, Method -
+ology, Investigation, Formal analysis, Data curation, Conceptualization. Ikseon Choi: Writing – review & editing, Validation, Su -
+pervision, Resources, Project administration, Methodology, Investigation, Conceptualization. Heng Luo: Writing – review & editing, 
+Validation, Supervision, Project administration, Investigation, Conceptualization.
+Declaration of generative AI and AI-assisted technologies in the manuscript preparation process
+During the preparation of this work, the authors used ChatGPT (OpenAI) and Claude (Anthropic) to refine language, improve 
+clarity, and ensure grammatical accuracy in selected sections of the manuscript. After using these tools, the authors reviewed and 
+edited all content as needed and take full responsibility for the content of the published article.
+Appendix A. Overview of the Group Cases and Participants
+# Grade Members Selection of Roles A Glimpse of the Group
+1 2nd One girl and 
+four boys
+The girl was randomly assigned as 
+Performer , as no one volunteered
+VR simulation (8:29 min): the Performer acted quietly in VR, and Observers were 
+engaged by interacting with each other but not with the Performer . 
+Group reflection (8:37 min): active discussions guided by the Facilitator . The 
+Performer and Observers share experiences and opinions based on the prompt 
+questions.
+2 2nd Two girls and 
+three boys
+One girl volunteered to be the 
+Performer . 
+VR simulation (4:06 min): active interactions between the two roles, with the 
+Performer sharing and asking for helps and the Observers responding and directing 
+the Performer 
+( continued on next page )
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+15 
+(continued )
+# Grade Members Selection of Roles A Glimpse of the Group
+The other girl had VR experience 
+before.
+Group reflection (16:56 min): active discussions guided by the Facilitator. Observers 
+interrupt the Performer to share their observations and opinions actively.
+3 2nd One girl and 
+four boys
+One boy volunteered to be the 
+Performer.
+VR simulation (5:18 min): the Performer attempted to interact with Observers while 
+he acted to finish VR tasks, while Observers interacted with each other but not with 
+the Performer 
+Group reflection (9:31 min): active discussion guided by the Facilitator. The 
+Performer and Observers talk through their experiences and opinions based on the 
+prompt questions.
+4 2nd Four girls and 
+one boy
+One girl volunteered to be the 
+Performer; she had VR experience 
+before.
+VR simulation (3:41 min): the Performer acted quietly and confidently, and others 
+engaged in observing with few interactions 
+Group reflection (9:55 min): discussion led by the Facilitator, with the Performer 
+sharing actively and Observers listening most of the time
+5 3rd Four girls and 
+one boy
+One girl was randomly assigned as 
+Performer, as no one volunteered
+VR simulation (3:33 min): few interactions in the group with the Performer quietly 
+acting and others engaging in observing 
+Group reflection (7:15 min): discussion led by the Facilitator. The group responded 
+to questions and prompts but not actively sharing opinions.
+6 3rd One girl and 
+four boys
+One boy volunteered to be the 
+Performer; he had VR experience before
+VR simulation (4:10 min): the Performer talked throughout the VR simulation, and 
+the Observers engaged in watching with few interactions with others. 
+Group reflection (7:51 min): active discussion guided by the Facilitator, with the 
+Performer actively sharing and others passively responding.
+7 3rd Two girls and 
+three boys
+One boy was randomly assigned as 
+Performer, as no one volunteered
+VR simulation (3:33 min): few interactions during the VR simulation, with the 
+Performer acting quietly and others engaged in observing 
+Group reflection (8:48 min): active discussions guided by the Facilitator. The 
+Performer and Observers share experiences and opinions together, with few 
+interruptions to others' sharing
+8 3rd Two girls and 
+three boys
+One girl was randomly assigned as 
+Performer, as no one volunteered
+VR simulation (4:11 min): few interactions during the VR simulation, with the 
+Performer acting quietly and others engaged in observing 
+Group reflection (15:34 min): active discussions guided by the Facilitator. The 
+Performer and Observers share experiences and opinions together, with few 
+interruptions to others' sharing
+9 3rd Three girls and 
+two boys
+One boy was randomly assigned as 
+Performer, as no one volunteered
+VR simulation (3:51 min): the Performer searched for help and acted according to 
+others' directions. Observers actively interacted with others. 
+Group reflection (10:34 min): active discussions guided by the Facilitator. The 
+Performer remains relatively quiet while the Observers answer questions and share 
+their opinions on behalf of the Performer.
+Appendix B. Results of Open Codes and Category for the VR Simulation Phase
+Category | Open Code Frequency
+Case Code
+Role: Performer (5 categories excluding off-task actions, 28 codes)
+1. Spontaneous action/reaction in VR 9 214
+Chuckle while performing in VR 1 2
+Think out loud with their thoughts in VR 2 23
+Have control in VR to act as they want 6 15
+Have control in VR to obtain balance on their own 3 5
+Have control in moving freely in VR 9 157
+Lose balance with a certain action in VR 1 3
+Unaware of the physical environment 4 9
+2. Independent (conscious) action to accomplish the assignment 9 199
+Actively interact with virtual objects 2 4
+Freely explore the VR environment (not related to accomplishing the assignment) 1 4
+Navigate in the virtual environment 9 97
+Interact with the virtual environment to accomplish the assignment 9 69
+Make safe decisions to complete the assignment 9 19
+Not follow the Observers' direction (make their own decisions) 2 4
+Not follow the VR guidance (make his own decision) 1 1
+The Performer's previous experience hinders his action in VR 1 1
+3. Responsive actions in VR 9 27
+Respond to the Guider's facilitation (reply to the Guider's question) 6 19
+Look around to check objects mentioned by Observers 2 3
+Reply to the Observers' comments 3 5
+4. Influenced actions in VR 9 39
+Act according to the Observers' request 3 3
+Act with the information provided by Observers 2 2
+Follow the Guider's direction 9 25
+(continued on next page)
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+16 
+(continued )
+Category | Open Code Frequency
+Case Code
+Follow the Observers' direction 4 9
+5. Active interaction with others 6 18
+Ask for confirmation of her desired action 2 2
+Seek out help 4 4
+Share her interactions with the virtual environment 2 5
+Share out loud what they see in VR 3 7
+Others (Off-task) 2 7
+Ask questions about the VR program 2 4
+Comment on the VR program 1 3
+Role: Observer (6 categories excluding interrelated and off-task actions, 75 codes)
+1. Engaged (conscious) observation 9 336
+Look at the Performer 9 79
+Look at the screen 9 174
+Look at the Performer and screen 9 65
+Observers have different focuses for their observation 5 18
+2. Spontaneous Action/Reaction during Observation 9 80
+Imagine performing (mimic walking) in VR 7 18
+Point to the Performer 3 11
+Point to the screen 6 24
+Think aloud, imagining he has control in VR 1 1
+Think aloud, interpreting the virtual object 1 1
+Think aloud, preparing for his own VR experience 1 1
+Think aloud regarding the virtual scene 2 2
+Think aloud as they are in VR 3 13
+Use body language (gesture) to indicate the direction in VR 5 7
+Use gestures to illustrate something to another Observer 2 2
+3. Responsive Action/Reaction during Observation 5 43
+Laugh out loud with the Performer's response to their direction 2 4
+Laugh after the Performer seeks help (with no action) 2 2
+Look at the Observer who directs the Performer 2 2
+Look at the Performer after the Performer makes certain actions in VR 3 13
+Look at the Performer after the Performer seeks help 1 1
+Reply to the Performer's question 3 7
+Respond to other Observers' suggestions on the virtual scene 2 4
+Respond to the Guider's facilitation (on behalf of the Performer) 3 6
+Respond to the Performer's share with the virtual scene 1 1
+Respond to the virtual scene with physical actions 2 3
+4. Proactive Actions 5 37
+Comment on the Performer's action in VR 4 7
+Comment on the task in VR (think like a Performer) 1 4
+Describe the virtual scene 5 20
+Predict/guess what happens next in VR 1 4
+Predict/guess the Performer's following action in VR 1 2
+5. Active Interactions with the Performer 6 65
+Ask the Performer about their virtual experience 1 1
+Direct the Performer not to act 3 5
+Direct the Performer to act 6 39
+Encourage the Performer 2 2
+Provide information to the Performer 5 10
+Share strategies with the Performer 1 1
+Suggest the Performer how to act 2 3
+Talk with the Performer regarding the virtual scene ​ ​
+Warn the Performer of dangerous situations or behavior 3 4
+6. Active Interactions with other Observers 6 45
+Challenge other Observers' direction on the Performer's action 2 3
+Discuss the Performer's action in VR with other Observers 1 2
+Discuss the virtual scene with other Observers 2 4
+Illustrate something to another Observer with a gesture 1 1
+Look at another Observer after observing something 2 9
+Look at another Observer after the Performer makes a decision in VR 1 3
+Prevent others from disturbing the Performer 1 2
+Whisper to another Observer 7 21
+Simultaneous and Interrelated Actions 7 90
+Chuckle while interacting with other Observers 1 1
+Chuckle while observing the Performer 5 14
+Chuckle while observing the screen 3 3
+Look at the Performer and laugh out loud 2 2
+Look at the Performer and predict the following VR scene 1 1
+(continued on next page)
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+17 
+(continued )
+Category | Open Code Frequency
+Case Code
+Look at the Performer and smile 1 2
+Look at the screen and comment on the Performer's action 1 1
+Look at the screen and describe the virtual scene 3 9
+Look at the screen and direct the Performer to act 4 13
+Look at the screen and discuss with other Observers 4 7
+Look at the screen and imagine performing in VR 3 5
+Look at the screen and predict the Performer's action in VR 1 2
+Look at the screen and provide information to the Performer 2 3
+Look at the screen and reply to the Performer's question 1 1
+Look at the screen and suggest to the Performer how to act 1 1
+Look at the screen and talk with the Performer regarding the virtual scene 1 1
+Look at the screen and think aloud about the virtual scene 2 2
+Look at the screen and warn the Performer of a dangerous situation 3 3
+Look at the screen and whisper to another Observer 2 4
+Talk to another Observer while mimicking performing in VR 1 1
+Point to the Performer and whisper to another Observer 1 1
+Point to the screen and describe the virtual event 5 6
+Point to the screen and direct the Performer to act 1 1
+Point to the screen and discuss with other Observers 2 2
+Point to the screen and indicate the virtual object 1 2
+Point to the screen and use gestures to indicate a direction 2 2
+Others (Off-task) 3 6
+Off-task attention 2 2
+Off-task conversation between Observers 1 3
+Off-task interaction between Observers 1 1
+Appendix C. Results of Open Codes and Category for the Group Reflection Phase
+Category|Open code, frequency Frequency
+Case Code
+Role: Facilitator (4 categories, 47 codes)
+1. Guidance on Retrospection 9 305
+Ask the Performer to recall what they saw 9 35
+Ask the Performer to recall what they heard 8 14
+Ask the Performer to recall what they did in specific situations 9 36
+Ask the Performer's thoughts during the experience 9 30
+Ask the Observer to recall what they see 6 10
+Ask the Observers' observation of the Performer's action 3 7
+Ask Observers' actions during the Performer's VR simulation 2 2
+Ask the Observer's thoughts on the experience 5 11
+Ask the group to recall detailed information 6 7
+Ask the Observer to recall detailed information 6 14
+Ask the Performer to recall detailed information 9 56
+Lead further retrospection with critical cues 7 12
+Guide on retrospection by describing the VR scenario 9 31
+Guide on retrospection by describing the Performer's action 6 19
+Guide on retrospection by describing the group's action 2 3
+Repeat the Observer's description of their observation 3 6
+Repeat the Performer's description of the VR experience 8 12
+2. Facilitation of Analysis and Explanation of Experience 9 153
+Ask the group to interpret a critical sign or signal 9 29
+Ask the Performer to interpret a critical sign or signal 5 8
+Ask the Observer to interpret a critical sign or signal 6 9
+Ask the group's opinion on hypothetical questions 9 24
+Ask the Performer to answer hypothetical questions 8 10
+Ask the Observer to answer hypothetical questions 4 6
+Ask for decisions in a specific situation 9 42
+Ask the Performer to explain certain behavior in VR 7 13
+Ask the Performer to further elaborate on certain decision-making 3 5
+Ask the Observer to further elaborate on certain decision-making 4 7
+3. Support on Knowledge construction and Transfer 9 104
+Ask about the resource of mentioned knowledge 1 2
+Ask about daily behaviors beyond the VR experience 3 4
+Clarify unclear/incomplete descriptions mentioned in the group 2 2
+(continued on next page)
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+18 
+(continued )
+Category|Open code, frequency Frequency
+Case Code
+Confirm the group's prediction in specific situations 2 3
+Guide on safe pedestrian behaviors 9 51
+Guide on pedestrian knowledge 9 32
+Explain the reason for certain safe pedestrian behaviors 2 2
+Summarize the safe pedestrian behavior or solution 6 8
+4. Facilitation on Teamwork 9 131
+Diagnose reasons for possible issues 5 8
+Direct attention to a certain topic 9 25
+Direct attention to those who are interrupted by others 3 4
+Induce discussion by asking for agreement on certain opinions 2 3
+Induce discussion by asking others' thoughts 9 46
+Solicit all opinions in the group 2 3
+Invite Observers to participate in the discussion 8 23
+Invite Performer to participate in the discussion 3 8
+Induce discussion by contrasting different opinions in the group 4 5
+Induce discussion by interpreting the Performer's action in VR 2 2
+Induce discussion by suggesting ideas not mentioned by the group 1 1
+Explain possible reasons for issues in a given situation 2 3
+Role: Performer (4 categories, 32 codes)
+1. Retrospection and Description of the Experience 9 211
+Describe what they heard (by answering questions) 6 11
+Describe what they saw 9 39
+Simply indicate what they saw by answering questions 1 6
+Describe what happens in the VR scenario 5 15
+Describe what happens to them in VR 2 2
+Describe what they did in VR 8 30
+Indicate what they did by simply answering questions 3 8
+Exhibit what they did with body language/gestures 2 4
+Describe their thoughts in specific situations 9 22
+Can't illustrate their thought during VR (respond with silence or not know) 2 3
+Indicate that they thought about nothing during VR 1 4
+Point to a location on the map to indicate detailed information about their VR experience 6 19
+Indicate heir confusion in a specific situation in VR 2 3
+Forget detailed information in VR (cognitive load) 2 6
+Miss critical cues in VR 3 6
+Notice critical cues in VR 9 33
+2. Analysis and Thinking about the Experience 8 25
+Explain their actions in VR 4 10
+Interpret a critical sign (by answering questions) 5 9
+Interpret a critical sign with further explanation 4 4
+Share heir daily pedestrian practice in a specific situation 1 2
+3. Knowledge Construction and Decision Making 9 41
+Make their decision in a given situation 9 21
+Elaborate their decision-making by answering questions 1 1
+Explain their decision-making in a given situation 2 2
+Predict results from hypothetical behaviors 9 17
+4. Interactive and Collaborative Meaning-making 5 16
+Agree with others' decision-making in a given situation 2 2
+Suggest alternative decision-making in a given situation 1 1
+Complement others' opinions 1 1
+Complement safe decision-making in a given situation 1 3
+Complement the knowledge discussed in the group 1 2
+Agree with others' prediction from hypothetical behaviors 3 3
+Try to answer about their VR experience but is interrupted 2 3
+Being upset when Observers' comment on their actions 1 1
+Role: Observer (4 categories, 54 codes)
+1. Retrospection and Description of the Experience 9 194
+Describe what they saw on the screen 9 33
+Simply indicates what they saw by answering questions 5 7
+Indicate what they saw beside the Performer's description 3 6
+Describe what they heard from VR 2 2
+Describe the Performer's actions in VR 7 22
+Describe situational information related to the Performer's action 6 13
+Describe details that the Performer didn't remember 2 2
+Mimic the Performer's actions in VR to indicate what they see 1 3
+Describe their actions during the Performer's VR simulation 4 5
+Describe their thoughts during the Performer's VR simulation 4 4
+Answer they thought nothing during the Performer's VR simulation 5 6
+(continued on next page)
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+19 
+(continued )
+Category|Open code, frequency Frequency
+Case Code
+Describe their related experiences (for those who had VR experience) 1 3
+Point to a location on the map to indicate their observation in VR 6 27
+Comment on another Observer's thoughts on the Performer's actions 1 2
+Comment on the Performer's actions in VR 3 7
+Have limited VR experience with audio modality 4 7
+Answer questions regarding the VR events on behalf of the Performer 3 10
+Miss critical cues in VR 3 6
+Notice critical cues in VR 9 19
+Notice the Performer's actions in VR 6 10
+2. Analysis and Thinking about the Experience 9 80
+Interpret a critical sign (by answering questions) 9 28
+Interpret the Performer's actions in VR 3 5
+Analyze safe pedestrian decisions in a specific situation 2 3
+Can't explain their decision-making (respond with silence or do not know) 2 2
+Try to explain their decision-making but is interrupted 1 1
+Can't interpret a critical sign (by answering questions) 2 2
+Explain their decision-making in a given situation 5 10
+Predict results from hypothetical actions 9 29
+3. Knowledge Construction and Decision Making 9 64
+Ask questions related to their decision-making in a given situation 1 1
+Complement others' interpretation of a critical sign or signal 2 5
+Complement the knowledge discussed in the instruction stage 2 5
+Complement the safe behavior discussed in the instruction stage 3 4
+Make one's decision in a given situation 9 39
+Plan for one's own VR experience later 1 3
+Share one's daily pedestrian practice regarding a specific situation 3 3
+Suggest alternative actions in a given situation 2 3
+Summarize safe pedestrian behaviors in the discussion 1 1
+4. Interactive and Collaborative Meaning-making 9 67
+Agree with others' decision-making in a given situation 8 15
+Agree with others' interpretation of a critical sign or signal 5 7
+Agree with others' prediction from hypothetical behaviors 5 6
+Agree with the Performer's description of the VR scenario 3 5
+Challenge others' opinion by showing disagreement 2 3
+Challenge others' opinion by predicting potential results 2 2
+Challenge others' interpretation by showing disagreement 2 3
+Challenge others' decision-making by suggesting alternative situations 2 3
+Challenge the instruction by suggesting a hypothetical situation 1 2
+Challenge the Performer's retrospection 1 1
+Comment on others' decision-making in a specific situation 1 1
+Complement on others' analysis 4 7
+Deny their previous suggestion after getting challenged 1 1
+Interrupt the Performer to explain the Performer's actions in VR 1 2
+Interrupt the Performer to describe their own experience instead 3 3
+Interrupt the Performer's retrospection and describes what they saw 2 3
+Interrupt others to explain a certain decision making 2 2
+The Group as A Unit (15 codes) ​ ​
+The group complements the safe behaviors suggested in specific situations 2 2
+The group interprets a critical sign by answering questions 6 8
+The group interprets a critical sign by linking to a safety formula 1 1
+The group predicts the same results from hypothetical behaviors 9 13
+The group predicts different results from hypothetical behaviors 2 3
+The group shares their daily pedestrian practice by answering questions 2 7
+The group suggests the same decisions regarding a specific situation 5 11
+The group suggests different decisions regarding a specific situation 3 6
+The group agrees with the safe pedestrian behaviors suggested by the Facilitator 9 17
+Observers' different focuses in observation 2 3
+Observers' inconsistent experiences in catching cues in VR 1 1
+Performer and Observers' inconsistent experiences in catching cues in VR 2 2
+The group discusses the VR program (not related to the reflecting activity) 2 5
+The group's off-task attention 3 10
+The group's off-task interactions 2 4
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+20 
+Data availability
+Data will be made available on request.
+References
+Ai-Lim Lee, E., Wong, K. W., & Fung, C. C. (2010). How does desktop virtual reality enhance learning outcomes? A structural equation modeling approach. Computers 
+and Education, 55 (4), 1424 – 1442. https://doi.org/10.1016/j.compedu.2010.06.006
+Al Sabei, S. D., & Lasater, K. (2016). Simulation debriefing for clinical judgment development: A concept analysis. Nurse Education Today, 45 , 42 – 47. https://doi.org/ 
+10.1016/j.nedt.2016.06.008
+Atkins, S., & Murphy, K. (1993). Reflection: A review of the literature. Journal of Advanced Nursing, 18 (8), 1188 – 1192. https://doi.org/10.1046/j.1365- 
+2648.1993.18081188.x
+Bain, J. D., Mills, C., Ballantyne, R., & Packer, J. (2002). Developing reflection on practice through journal writing: Impacts of variations in the focus and level of 
+feedback. Teachers and Teaching: Theory and Practice, 8 (2), 171 – 196. https://doi.org/10.1080/13540600220127368
+Bandura, A. (1986). Social foundations of thought and action: A social cognitive theory . Prentice Hall . 
+Bandura, A. (2004). Health promotion by social cognitive means. Health Education & Behavior, 31 (2), 143 – 164 .
+Bazeley, P. (2013). Qualitative data analysis: Practical strategies . Sage . 
+Bendassolli, P. F. (2013). Theory building in qualitative research: Reconsidering the problem of induction. Forum for Qualitative Social Research, 14 (1). https://doi. 
+org/10.17169/fqs-14.1.1851
+Benford, S., Greenhalgh, C., Reynard, G., Brown, C., & Koleva, B. (1998). Understanding and constructing shared spaces with mixed-reality boundaries. ACM 
+Transactions on Computer-Human Interaction, 5 (3), 185 – 223. https://doi.org/10.1145/292834.292836
+Boud, D., Keogh, R., & Walker, D. (1985). Promoting reflection in learning: A model. In D. Boud, R. Keogh, & D. Walker (Eds.), Reflection: Turning experience into 
+learning (pp. 18 – 40). Routledge . 
+Boyd, E. M., & Fales, A. W. (1983). Reflective learning: Key to learning from experience. Journal of Humanistic Psychology, 23 (2), 99 – 117. https://doi.org/10.1177/ 
+0022167883232011
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology, 3 (2), 77 – 101 .
+Brodsky, A. E. (2008). Researcher as instrument. In L. M. Given (Ed.), Sage encyclopedia of qualitative research methods, 2 p. 766). Sage . 
+Clar `a, M., Mauri, T., Colomina, R., & Onrubia, J. (2019). Supporting collaborative reflection in teacher education: A case study. European Journal of Teacher Education, 
+42 (2), 175 – 191. https://doi.org/10.1080/02619768.2019.1576626
+Crandall, B., Klein, G. A., & Hoffman, R. R. (2006). Working minds: A practitioner's guide to cognitive task analysis . Mit Press. https://doi.org/10.7551/mitpress/ 
+7304.001.0001
+Creswell, J. W., & Creswell, J. D. (2018). Research design: Qualitative, quantitative, and mixed methods approaches . Sage . 
+Cumming, G. (2014). The new statistics: Why and how. Psychological science, 25 (1), 7 – 29. https://doi.org/10.1177/095679761350496
+Cummings, J. J., & Bailenson, J. N. (2016). How immersive is enough? A meta-analysis of the effect of immersive technology on user presence. Media Psychology, 19 
+(2), 272 – 309. https://doi.org/10.1080/15213269.2015.1015740
+Dalgarno, B., & Lee, M. J. (2010). What are the learning affordances of 3-D virtual environments? British Journal of Educational Technology, 41 (1), 10 – 32. https://doi. 
+org/10.1111/j.1467-8535.2009.01038.x
+Decker, S., Fey, M., Sideras, S., Caballero, S., Boese, T., Franklin, A. E., & Borum, J. C. (2013). Standards of best practice: Simulation standard VI: The debriefing 
+process. Clinical Simulation in Nursing, 9 (6), S26 – S29. https://doi.org/10.1016/j.ecns.2013.04.008
+Dewey, J. (1933). How we think: A restatement of the relation of reflective thinking to the educative process . D. C. Heath and Company . 
+Dreifuerst, K. T. (2009). The essentials of debriefing in simulation learning: A concept analysis. Nursing Education Perspectives, 30 (2), 109 – 114 .
+Eshuis, E. H., ter Vrugte, J., Anjewierden, A., Bollen, L., Sikken, J., & de Jong, T. (2019). Improving the quality of vocational students' collaboration and knowledge 
+acquisition through instruction and joint reflection. International Journal of Computer-Supported Collaborative Learning, 14 (1), 53 – 76. https://doi.org/10.1007/ 
+s11412-019-09296-0
+Field, A. (2013). Discovering statistics using IBM SPSS statistics . Sage . 
+Finlay, L. (2008). Reflecting on “ reflective practice. ” . PBPL Paper, 52 , 1 – 27 .
+Gaba, D. M., Howard, S. K., Fish, K. J., Smith, B. E., & Sowb, Y. A. (2001). Simulation-based training in anesthesia crisis resource management (ACRM): A decade of 
+experience. Simulation & Gaming, 32 (2), 175 – 193. https://doi.org/10.1177/104687810103200206
+Gardner, R. (2013). Introduction to debriefing. Seminars in Perinatology, 37 (3), 166 – 174 .
+Gibbs, G. (1988). Learning by doing: A guide to teaching and learning methods. Further education unit .
+Grossman, R. (2009). Structures for facilitating student reflection. College Teaching, 57 (1), 15 – 22. https://doi.org/10.3200/CTCH.57.1.15-22
+Hamilton, D., McKechnie, J., Edgerton, E., & Wilson, C. (2021). Immersive virtual reality as a pedagogical tool in education: A systematic literature review of 
+quantitative learning outcomes and experimental design. Journal of Computers in Education, 8 , 1 – 32. https://doi.org/10.1007/s40692-020-00169-2
+Huang, W., Walkington, C., & Nathan, M. J. (2023). Coordinating modalities of mathematical collaboration in shared VR environments. International Journal of 
+Computer-Supported Collaborative Learning, 18 , 163 – 201. https://doi.org/10.1007/s11412-023-09397-x
+Johnson, D. W., & Johnson, R. T. (1999). Making cooperative learning work. Theory into Practice, 38 (2), 67 – 73. https://doi.org/10.1080/00405849909543834
+Jongbloed, J., Chaker, R., & Lavou ´e, E. (2024). Immersive procedural training in virtual reality: A systematic literature review. Computers and Education . , Article 
+105124. https://doi.org/10.1016/j.compedu.2024.105124
+Klein, G. A., Calderwood, R., & MacGregor, D. (1989). Critical decision method for eliciting knowledge. IEEE Transactions on Systems, Man, and Cybernetics, 19 , 
+462 – 472. https://doi.org/10.1109/21.31053
+Kolb, D. A. (1984). Experiential learning: Experience as the source of learning and development . Prentice-Hall . 
+Koole, S., Dornan, T., Aper, L., Scherpbier, A., Valcke, M., Cohen-Schotanus, J., & Derese, A. (2011). Factors confounding the assessment of reflection: A critical 
+review. BMC Medical Education, 11 , 104. https://doi.org/10.1186/1472-6920-11-104
+Korthagen, F., & Vasalos, A. (2005). Levels in reflection: Core reflection as a means to enhance professional growth. Teachers and Teaching, 11 (1), 47 – 71. https://doi. 
+org/10.1080/1354060042000337093
+Kuchera-Morin, J., Wright, M., Wakefield, G., Roberts, C., Adderton, D., Sajadi, B., … Majumder, A. (2014). Immersive full-surround multi-user system design. 
+Computers & Graphics, 40 , 10 – 21. https://doi.org/10.1016/j.cag.2013.12.004
+Kwon, C. (2019). Verification of the possibility and effectiveness of experiential learning using HMD-based immersive VR technologies. Virtual Reality, 23 (1), 
+101 – 118. https://doi.org/10.1007/s10055-018-0364-1
+Lakens, D. (2017). Equivalence tests: A practical primer for t tests, correlations, and meta-analyses. Social Psychological and Personality Science, 8 (4), 355 – 362. https:// 
+doi.org/10.1177/1948550617697177
+Lederman, L. C. (1992). Debriefing: Toward a systematic assessment of theory and practice. Simulation & Gaming, 23 (2), 145 – 160. https://doi.org/10.1177/ 
+1046878192232003
+Lincoln, Y. S., & Guba, E. G. (1985). Naturalistic inquiry . Sage . 
+Luo, H., Yang, T., Kwon, S., Li, G., Zuo, M., & Choi, I. (2021). Performing versus observing: Investigating the effectiveness of group debriefing in a VR-based safety 
+education program. Computers & Education, 175 , 104316. https://doi.org/10.1016/j.compedu.2021.104316 .
+Luo, H., Yang, T., Kwon, S., Zuo, M., Li, W., & Choi, I. (2020). Using virtual reality to identify and modify risky pedestrian behaviors amongst Chinese children. Traffic 
+Injury Prevention, 21 (1), 108 – 113 .
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+21 
+Maas, M. J., & Hughes, J. M. (2020). Virtual, augmented and mixed reality in K–12 education: A review of the literature. Technology, Pedagogy and Education, 29(2), 
+231–249. https://doi.org/10.1080/1475939X.2020.1737210
+Makransky, G., & Petersen, G. B. (2021). The cognitive affective model of immersive learning (CAMIL): A theoretical research-based model of learning in immersive 
+virtual reality. Educational Psychology Review, 33, 937–958. https://doi.org/10.1007/s10648-020-09586-2
+Office of Science and Technology Policy. (2023). 2022 progress report on the implementation of the federal science, technology, engineering, and mathematics 
+(STEM) education strategic plan. https://www.whitehouse.gov/ostp/news-updates/2023/01/31/nstc-2022-progress-report-on-the-implementation-of-the- 
+federal-stem-education-strategic-plan/ .
+Park, W., Heo, H., Park, S., & Kim, J. (2019). A study on the presence of immersive user interface in collaborative virtual environments application. Symmetry, 11(4), 
+476. https://doi.org/10.3390/sym11040476
+Paulsen, L., & Davidsen, J. (2025). Activity-based collaborative virtual reality: Conceptualising immersive virtual reality for collaborative learning. International 
+Journal of Computer-Supported Collaborative Learning. https://doi.org/10.1007/s11412-025-09446-7
+Piaget, J., & Inhelder, B. (1972). Psychology of the child. Basic Books . 
+Posit Team. (2024). RStudio: Integrated development environment for R. Posit: PBC. http://www.posit.co/ . 
+R Core Team. (2024). R: A language and environment for statistical computing (Version 4.4.0. R Foundation for Statistical Computing. https://www.R-project.org/ . 
+Radianti, J., Majchrzak, T. A., Fromm, J., & Wohlgenannt, I. (2020). A systematic review of immersive virtual reality applications for higher education: Design 
+elements, lessons learned, and research agenda. Computers and Education, 147, Article 103778. https://doi.org/10.1016/j.compedu.2019.103778
+Reynolds, M., & Vince, R. (2017). Organizing reflection: An introduction. In Organizing reflection (pp. 15–28). Routledge . 
+Rodgers, C. (2002). Defining reflection: Another look at John Dewey and reflective thinking. Teachers College Record, 104(4), 842–866. https://doi.org/10.1111/ 
+1467-9620.00181
+Russell, T. (2005). Can reflective practice be taught? Reflective Practice, 6(2), 199–204. https://doi.org/10.1080/14623940500105833
+Sandars, J. (2009). The use of reflection in medical education: AMEE Guide No. 44. Medical Teacher, 31(8), 685–695. https://doi.org/10.1080/01421590903050374
+Santilli, T., Ceccacci, S., Mengoni, M., & Giaconi, C. (2025). Virtual vs. traditional learning in higher education: A systematic review of comparative studies. Computers 
+and Education, 227, Article 105214. https://doi.org/10.1016/j.compedu.2024.105214
+SAVE Group. (2019, October 21–25). A scenario-based authentic virtual environment for children’s pedestrian safety education program (SAVE4Children): Its design, 
+implementation, and potential impacts [Invited presentation]. Association for Educational Communications and Technology Annual Convention. Las Vegas, NV, United 
+States .
+Savoldelli, G. L., Naik, V. N., Park, J., Joo, H. S., Chow, R., & Hamstra, S. J. (2006). Value of debriefing during simulated crisis management: Oral versus video-assisted 
+oral feedback. The Journal of the American Society of Anesthesiologists, 105(2), 279–285 .
+Shi, A., Wang, Y., & Ding, N. (2022). The effect of game–based immersive virtual reality learning environment on learning outcomes: Designing an intrinsic integrated 
+educational game for pre–class learning. Interactive Learning Environments, 30(4), 721–734. https://doi.org/10.1080/10494820.2019.1681467
+Silseth, K., Steier, R., & Arnseth, H. C. (2024). Exploring students' immersive VR experiences as resources for collaborative meaning making and learning. International 
+Journal of Computer-Supported Collaborative Learning, 19, 11–36. https://doi.org/10.1007/s11412-023-09413-0
+Speicher, M., Hall, B. D., & Nebeling, M. (2019). What is mixed reality?. In Proceedings of the 2019 CHI conference on human factors in computing systems (pp. 1–15). 
+https://doi.org/10.1145/3290605.3300767
+Suh, A., & Prophet, J. (2018). The state of immersive technology research: A literature analysis. Computers in Human Behavior, 86, 77–90. https://doi.org/10.1016/j. 
+chb.2018.04.019
+Tannenbaum, S. I., & Cerasoli, C. P. (2013). Do team and individual debriefs enhance performance? A meta-analysis. Human Factors and Ergonomics Society, 55(1), 
+231–245. https://doi.org/10.1177/0018720812448394
+Vygotsky, L. (1978). Mind in society: The development of higher psychological processes. Harvard University Press . 
+Yang, T., & Choi, I. (2023). Reflection as a social phenomenon: A conceptual framework toward group reflection research. Educational Technology Research and 
+Development. https://doi.org/10.1007/s11423-022-10164-2 .
+Yin, R. K. (2018). Case study research and applications (6th ed.). Sage . 
+T. Yang et al.                                                                                                                                                                                                           Computers & Education 251 (2026) 105644 
+22 

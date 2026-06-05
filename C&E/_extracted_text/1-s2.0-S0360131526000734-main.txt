@@ -1,0 +1,1368 @@
+Robot-assisted speaking practice (RASP): Learner affection, 
+engagement, outcomes, and their interplay
+Ruofei Zhang
+a
+, Di Zou
+b , *
+, Haoran Xie
+c
+, Gary Cheng
+d
+a
+Centre for English and Additional Languages, Lingnan University, Hong Kong Special Administrative Region of China
+b
+Department of English and Communication, The Hong Kong Polytechnic University, Hong Kong Special Administrative Region of China
+c
+Division of Artificial Intelligence, School of Data Science, Lingnan University, Hong Kong Special Administrative Region of China
+d
+Department of Mathematics and Information Technology, The Education University of Hong Kong, Hong Kong Special Administrative Region of 
+China
+ARTICLE INFO
+Keywords:
+EFL speaking
+Robot-assisted language learning
+Social robot
+Technology-enhanced language learning
+ABSTRACT
+Robots are increasingly utilised in language education to physically accompany learners, simulate 
+natural communication through verbal and non-verbal cues, and thereby engage students in 
+various academic tasks, demonstrating potential in improving learner affection, engagement, and 
+language proficiency. So far, research on using robots specifically for developing English as a 
+Foreign Language (EFL) speaking skill, along with associated learner affection and engagement, 
+remains limited, despite the significance of developing EFL speaking skills and setting-specific 
+exploration of learner affection and engagement. To address this gap, we employed a NAO 
+robot to assist 49 Chinese undergraduate students in EFL speaking practice over eight sessions, 
+examining their affection, engagement, outcomes, and the interplay among these factors within 
+the robot-assisted speaking practice (RASP). Data collection included interviews and pre- and 
+post-questionnaires and speaking tests. Findings indicated positive learner affection, deep 
+engagement, and satisfactory EFL speaking proficiency outcomes compared to the baselines. 
+While learner affection significantly enhanced engagement with RASP, neither affection nor 
+engagement had a statistically significant impact on EFL speaking outcomes. Based on these re -
+sults, we identified the advantages of robots over alternative technologies, peers, and teachers as 
+the interlocutor in assisting speaking practice among adult learners, thereby enriching the robot- 
+assisted language learning framework. We recommend implementing RASP to foster under -
+graduate EFL speaking development, particularly with a high-quality robot voice and speech 
+recognition system.
+1. Introduction
+Rapid advancements in robotics have stimulated growing scholarly interest in robot-assisted learning across domains, including 
+language education ( Atman Uslu et al., 2023 ). As educational tools, robots are tangible machines capable of physically interacting with 
+learners ( Derakhshan et al., 2024 ), adopting diverse social roles ( van den Berghe et al., 2019 ), and simulating natural face-to-face 
+communication (Deng et al., 2024), thus supporting a wide range of language pedagogical tasks, such as delivering instructional 
+* Corresponding author. HHB914, PolyU Hung Hom Bay Campus, 8 Hung Lok Road, Hung Hom, Kowloon, Hong Kong Special Administrative 
+Region of China.
+E-mail addresses: ruofeizh@gmail.com (R. Zhang), dizoudaisy@gmail.com (D. Zou), hrxie@ln.edu.hk (H. Xie), chengks@eduhk.hk (G. Cheng). 
+Contents lists available at ScienceDirect
+Computers & Education
+journal homepag e: www.el sevier.com/loc ate/compe du
+https://doi.org/10.1016/j.compedu.2026.105635
+Received 13 May 2025; Received in revised form 13 December 2025; Accepted 7 April 2026  
+Computers & Education 251 (2026) 105635 
+Available online 11 April 2026 
+0360-1315/© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+( http://creativecommons.org/licenses/by-nc-nd/4.0/ ). 
+researchers believe that these combined features make NAO a powerful tool for supporting a variety of learning tasks, including EFL 
+speaking practice ( Shin & Shin, 2015 ).
+Research has indicated the overall effectiveness of robot assistance in developing language proficiency and explained it through 
+various theories ( Derakhshan et al., 2024 ), such as the theory of immediacy behaviours. Immediacy behaviours refer to verbal and 
+non-verbal communication techniques and actions that demonstrate closeness among people, such as sharing personal anecdotes, 
+offering prompt feedback, praising and encouraging, maintaining eye contact, nodding, and enacting gestures ( Finn & Schrodt, 2012 ). 
+In language learning, this theory argues that teachers' immediacy behaviours can reduce physical and psychological distance between 
+teachers and students, thereby enhancing learners’ affection, engagement, and overall language learning efficiency ( Hu & Wang, 
+2023 ). Robots can perform immediacy behaviours by being physically present with students and employing various verbal and 
+non-verbal communication techniques via synthesised voice, gestures, body movements, and LED eye movements ( Derakhshan et al., 
+2024 ), thus bridging the psychological and physical distances with learners ( Lee & Lee, 2022 ). Consequently, language learners are 
+more likely to perceive robots as social agents, develop affective attachment to them, and thus have better affection and deeper 
+engagement ( van den Berghe et al., 2019 ). For example, Wang et al. (2013) had 31 elementary learners practise EFL speaking with 
+robots, finding that students, especially the low-proficient ones, felt a connection with the robot and perceived it as a peer. Feeling 
+comfortable interacting with the robot, students demonstrated deep engagement in the practice and achieved satisfactory outcomes 
+( Wang et al., 2013 ). Hence, robots may improve affection, engagement, and outcomes in language learning by performing immediacy 
+behaviours.
+The embodied learning theory has also been used to analyse robot-assisted language learning ( Khazaie & Derakhshan, 2024 ; Pruss, 
+2022 ), which emphasises the deep connection between cognitive processes and bodily experiences in learning ( Anttila & Svendler 
+Nielsen, 2019 ; Anttila, 2018 ). In language learning, the theory posits that multisensory and physical interactions with language 
+learning materials and tasks, such as having face-to-face Q&A sessions in the target language, could enhance cognitive engagement in 
+language learning and thus increase the efficiency of developing language knowledge and skills ( Jusslin et al., 2022 ). From this 
+perspective, robots are highly promising due to their tangibility and ability to display eye gaze, gestures, and body movements, thereby 
+offering embodied experiences of natural language use ( Derakhshan et al., 2024 ). For example, Khazaie and Derakhshan (2024)
+investigated robot-assisted EFL learning for medical purposes over 15 weeks, where a robot presented virtual patients' histories and 
+needs audibly and visually in EFL and required the students to understand patients' situations and select appropriate medical sug -
+gestions. Formative assessments demonstrated the significant effectiveness of robot assistance in developing EFL listening and reading, 
+regardless of learners’ language proficiency levels. The researchers explained that robot-assisted language learning provided embodied 
+experiences of applying language knowledge and skills in medical settings, which enhanced cognitive processes supporting 
+comprehension. Hence, robots may improve learner engagement and outcomes in language learning by bringing about bodily ex -
+periences of natural language use.
+Robot-assisted language learning can also be explained through the affective filter theory ( Derakhshan et al., 2024 ), which 
+highlights the importance of positive learner affection in processing and developing language knowledge and skills ( Sheen, 2008 ). 
+From this perspective, robot-assisted language learning appears promising. Learners have overall positive affection in robot-assisted 
+language learning, exhibiting reduced anxiety, increased comfort, higher self-efficacy, and stronger motivation ( Lin et al., 2022 ), 
+attributed to robots' multimodal, non-judgemental, supportive communicative manners ( Lin et al., 2022 ; Randall, 2019 ), as well as 
+learners’ intrinsic curiosity about robots ( van den Berghe et al., 2019 ). For example, Alemi et al. (2015) found that 30 students learning 
+EFL vocabulary through robot-assisted language learning reported significantly higher levels of confidence, fun, and satisfaction, 
+compared to 16 students using traditional methods, attributing this to the novelty and enjoyment of robot interactions. Alemi et al. 
+(2017) noted similar positive affection among 19 EFL learners after a robot-assisted language learning programme, highlighting the 
+supportive environment created by robots. Hence, robot-assisted language learning may facilitate language development by improving 
+learner affection ( Derakhshan et al., 2024 ).
+Supported by these theoretical frameworks, many researchers have argued for robots' overall advantages over 2D technologies in 
+assisting language learning with empirical evidence. For example, in comparison with chatbot-assisted learning, Derakhshan et al. 
+(2025) compared robot-assisted language learning with chatbot-assisted learning in a 16-session programme focused on developing 
+EFL speaking for medical purposes. Learners interacted with a robot in medical role-plays, listening to reports, making medical 
+suggestions, and giving medical-themed commands in EFL. When students' utterances exhibited sufficient accuracy and fluency, the 
+robot would perform actions following their orders. The control group completed the same tasks through oral conversations with a 
+chatbot. The researchers found that robot-assisted language learning was significantly more effective than chatbot-assisted learning in 
+developing EFL speaking for medical purposes and fostering enjoyment in communication, attributing this to robots’ greater ability to 
+elicit learner empathy and enhance engagement. Similarly, based on a 15-week experiment, Khazaie and Derakhshan (2024) found a 
+significant advantage of robot-assisted learning over online learning in developing EFL listening and reading skills. Meta-analyses by 
+Lee and Lee (2022) and Wu and Li (2024) also reported a medium-sized average effect of robot-assisted language learning compared to 
+traditional or other technology-mediated learning conditions.
+Despite its overall usefulness, robot-assisted language learning does not always lead to significant language development. Its 
+effectiveness may vary across different language skills. Lee and Lee (2022) found that robot-assisted language learning is most effective 
+in developing vocabulary, owing to robots' advantages in delivering language knowledge. Additionally, the type of robot involved in 
+the learning may significantly affect learning outcomes, as different robotic models, features, and functions influence the educational 
+process in distinct ways. For instance, Randall (2019) suggests that anthropomorphic robots, which excel at emulating human 
+communication, may be particularly effective for language learning. Age is also considered an important factor influencing the 
+effectiveness of robot-assisted language learning. Research shows that young learners, such as kindergartners and elementary students, 
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+6 
+benefit more from robot-assisted language learning than secondary and adult students due to greater interest and engagement 
+( Derakhshan et al., 2024 ; Lee & Lee, 2022 ). The robot's role in language learning activities also influences effectiveness. Robot-assisted 
+language learning is generally more effective when robots function as peers rather than teachers ( Lee & Lee, 2022 ; van den Berghe 
+et al., 2019 ). This is because learners tend to feel more confident, experience greater social comfort, and develop a stronger sense of 
+relatedness with peer robots, leading to deeper engagement in robot-assisted language learning ( Randall, 2019 ).
+2.5. Existing studies and research gaps
+Drawing on extensive prior research, we have identified several key factors central to EFL speaking practice and robot-assisted 
+language learning. In terms of EFL speaking practice, it is a crucial means of developing speaking proficiency ( Bailey, 2003 ) and 
+involves dynamics among the learner ( Subject ), speaking tasks ( Object ), and interlocutors ( Community ) ( Engestr ¨om, 2001a ; Harmer, 
+2007 ) from the perspective of activity theory. Traditionally, interlocutors are teachers or peers who manage the conversational flow 
+and offer language input and feedback; however, challenges such as large class sizes and interlocutors ’ language proficiency often 
+constrain this support ( Dao, 2020 ). Two principal factors influence the academic outcomes of speaking practice. One is learner 
+engagement, encompassing behavioural, cognitive, emotional, and social dimensions ( Philp et al., 2010 ), widely acknowledged as 
+vital for language development ( Hiver et al., 2020 ). In the context of EFL speaking practice, deeper engagement leads to better 
+development in speaking proficiency ( Zhang et al., 2020 ). The other principal factor is learner affection. From the perspective of 
+activity theory, learner affection in EFL speaking practice can be analysed from the aspects of the learner ( Subject ), speaking tasks 
+( Object ), and interlocutors ( Community ) ( Engestr ¨om, 2001a ; Harmer, 2007 ), comprising self-efficacy ( Peng & Woodrow, 2010 ), social 
+comfort ( Archbell & Coplan, 2022 ), and task perception ( Wesely, 2012 ). Positive affective states promote engagement ( Zeinivand 
+et al., 2015 ) and improvements in speaking proficiency ( Mahripah, 2013 ; Sheen, 2008 ), although excessive confidence or social 
+comfort may sometimes hinder progress ( Klassen, 2006 ).
+In terms of robot-assisted language learning, it involves learners developing language knowledge and skills through interacting 
+with robots ( Lin et al., 2022 ). In this context, robots physically accompany learners and perform immediacy behaviours, assign 
+learning tasks, recognise learner oral output, provide high-quality language input and feedback, and deliver supportive, 
+non-judgemental communication ( Randall, 2019 ). Empirical research has demonstrated the effectiveness of robots in assisting various 
+language learning activities, including speaking practice (e.g., Lee et al., 2011 ), and improving learner affection, engagement, and 
+language learning outcomes ( Derakhshan et al., 2024 ; Randall, 2019 ), theoretically grounded in frameworks, such as immediacy 
+behaviour theory, embodied learning theory, and affective filter theory.
+Despite a substantial body of research, several gaps persist. Firstly, although developing speaking skills is a fundamental goal in EFL 
+education ( Harmer, 2007 ; Suban, 2021 ), and robots hold considerable promise in supporting speaking practice and proficiency 
+development, research specifically addressing robot-assisted development of speaking skills remains limited ( Derakhshan et al., 2024 ; 
+Randall, 2019 ). Existing studies in this direction are mainly for elementary education and presenting mixed findings. For example, Lee 
+et al. (2011) engaged 24 elementary EFL learners in 17 sessions of robot-assisted language learning, where robots provided pro -
+nunciation training, feedback, and role-play interactions; their pre- and post-test results indicated significant improvements in 
+speaking proficiency. Conversely, Hong (2016) found no significant gains in speaking proficiency among 25 elementary learners using 
+robot-assisted learning compared to 27 peers in conventional classrooms. Similarly, In and Han (2015) observed no significant 
+improvement in speaking skills and noted potential negative impacts on learner intonation attributed to the robot's unnatural speech 
+patterns. Given the considerable variation in speaking practice topics and complexity across educational levels, alongside these 
+conflicting results, the generalisability of existing findings is limited. To develop a more comprehensive understanding of the effec -
+tiveness of robots in assisting speaking practice and developing speaking proficiency, further empirical research appears meaningful, 
+particularly at educational levels beyond elementary, to inform future implementation strategies.
+Secondly, investigation of learner engagement in robot-assisted language learning remains limited. Previous studies have shown 
+that robot assistance can improve language learning outcomes by fostering deep cognitive engagement (e.g., Khazaie & Derakhshan, 
+2024 ; Shin & Shin, 2015 ). However, learner engagement is multidimensional, encompassing cognitive, behavioural, emotional, and 
+social aspects that often interrelate ( Philp & Duchesne, 2016 ). It is possible that robot-assisted language learning fosters learner 
+engagement across multiple dimensions, collectively contributing to its effectiveness. Moreover, research has shown that learner 
+engagement may mediate the impacts of learner affection on language learning outcomes (e.g., Mahripah, 2013 ; Zeinivand et al., 
+2015 ), which may apply to robot-assisted language learning. Supporting our hypothesis, Wang et al. (2013) observed that EFL learners 
+experiencing more social comfort in robot-assisted language learning tended to be more engaged in academic tasks and achieve better 
+learning outcomes. Nonetheless, the interplay among learner affection, engagement, and outcomes remains underexplored in 
+robot-assisted language learning. Given the importance of learner engagement in language learning ( Philp & Duchesne, 2016 ), it 
+appears necessary to investigate learner engagement in robot-assisted language learning from different dimensions and examine its 
+interplay with learner affection and outcomes, so as to provide a deeper understanding of robot-assisted language learning and inform 
+its effective implementation.
+2.6. Conceptual framework: RASP
+To address research gaps, we propose RASP as a promising method to develop EFL speaking proficiency. Grounded in activity 
+theory, RASP comprises three main elements ( Fig. 2 ): (a) the EFL learner ( Subject ); (b) the speaking practice ( Object ), specifically, Q & A 
+sessions ( Lin et al., 2022 ); and (c) a robot and peer learners as interlocutors ( Community ). The three elements interact. The speaking 
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+7 
+practice ( Object ) involves the learner ( Subject ), the robot, and peers ( Community ) in EFL Q & A sessions as interlocutors. The robot 
+( Community ) initiates the practice ( Object ), introduces the task to the learner ( Subject ) ( Randall, 2019 ), and participates in the Q & A 
+sessions ( Object ) by asking questions, sharing personal anecdotes, and encouraging learner output (Deng et al., 2024). Following 
+discussions with peers ( Community ), the learner ( Subject ) answers questions, which are then supported by linguistic scaffolding, and 
+encouragement from the robot and peers ( Community ) ( van den Berghe et al., 2019 ). Eventually, the speaking practice ( Object ) may 
+lead to the development of EFL speaking proficiency ( Outcome ).
+RASP may enhance EFL speaking proficiency comprehensively across multiple dimensions, including coherence, fluency, lexical 
+resource, grammatical range and accuracy, and pronunciation ( Chen, 2025 ), by fostering learner affection and engagement, while 
+controlling for learners ’ baseline levels ( Fig. 3 ).
+Regarding learner affection, robots can create a supportive, non-threatening, and enjoyable environment for speaking practice ( Lin 
+et al., 2022 ; Randall, 2019 ) by enabling multisensory communications ( Alemi et al., 2015 , 2017 ) and creating physical and mental 
+immediacy ( Lee & Lee, 2022 ). Positive learner affection in RASP is reflected on three dimensions: (a) social comfort ( Archbell & 
+Coplan, 2022 ), reflecting learners ’ ease and confidence in interactions with peers and robots ( Community ); (b) EFL speaking 
+self-efficacy ( Peng & Woodrow, 2010 ), reflecting learner confidence ( Subject ) in practice; and (c) task perception ( Aubrey et al., 2022 ), 
+concerning motivation, interest, and perceived usefulness of the practice ( Object ). According to affective filter theory ( Sheen, 2008 ), 
+learners with better affection in RASP process language knowledge and skills more efficiently, thereby achieving better EFL speaking 
+development.
+Regarding learner engagement, it reflects on four dimensions in RASP: (a) behavioural engagement ( Gobert et al., 2015 ), such as 
+listening to and answering the robot's questions; (b) cognitive engagement ( Plass et al., 2015 ), involving the recall of language 
+knowledge and response planning; (c) emotional engagement ( Philp & Duchesne, 2016 ), including sense of belonging and enjoyment 
+during practice; and (d) social engagement ( Svalberg, 2009 ), encompassing interactions with the robot and peers. Robots can provide 
+bodily experiences of face-to-face EFL speaking practice and thus foster deep learner engagement in speaking practice, following the 
+embodied learning theory ( Derakhshan et al., 2024 ). Moreover, robot assistance can further enhance learner engagement by fostering 
+positive learner affection, following the theory of planned behaviour ( Ajzen, 2005 ) and the expectancy-value theory ( Wigfield & 
+Eccles, 2000 ). Deeper engagement in RASP should lead to better outcomes in terms of EFL speaking proficiency, aligning with the 
+engagement theories ( Hiver et al., 2020 ) and the noticing hypothesis ( Schmidt, 2012 ).
+By developing, implementing, and investigating RASP among EFL university students, this study aims to elucidate the mechanisms 
+through which robots assist with speaking practices as the interlocutor and facilitate speaking proficiency development via learner 
+affection and engagement at the higher educational level. In doing so, the study may contribute to a more comprehensive under -
+standing of the application and effectiveness of robots in assisting EFL speaking practice and proficiency enhancement ( Derakhshan 
+et al., 2024 ; Randall, 2019 ). Furthermore, we explored the multidimensional nature of learner engagement, including cognitive, 
+behavioural, emotional, and social dimensions, and its interaction with learner affection and learning outcomes within robot-assisted 
+language learning contexts, an essential area that remains underexplored. Ultimately, this research aims to generate evidence-based 
+insights to inform the design and effective implementation of RASP interventions and advance theoretical understanding of 
+robot-assisted language learning and EFL speaking development.
+Fig. 2. Elements of RASP in light of the activity theory.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+8 
+3. Method
+We adopted a concurrent triangulation mixed-methods approach, simultaneously collecting, analysing, and interpreting skill test 
+scores, questionnaire responses, and interview transcripts for cross-validation and corroboration (see Riazi & Farsani, 2023 ). To 
+control for baseline factors, we administered pre- and post-questionnaires and tests to examine learner affection, engagement, and 
+outcomes of RASP.
+3.1. Participants
+Through convenience sampling, we recruited a total of 50 undergraduate Chinese students in a university of Hong Kong. All 
+students were required to achieve an IELTS score of 6.5 for graduation and had voluntarily enrolled in an English-medium course 
+designed to prepare them for the IELTS test, indicating strong motivation to enhance their EFL proficiency. Students completed an 
+online pre-treatment survey collecting demographic information, their needs for developing EFL speaking proficiency, and their 
+perceptions and prior experiences with technology-enhanced learning, EFL speaking practices, and robot-assisted learning.
+Based on the survey, all students reported strong needs for developing EFL speaking proficiency and some experiences with 
+technology-enhanced learning and conventional EFL speaking practices, including self-regulated, peer-based, or teacher-led methods. 
+None had prior experience with robot-assisted learning. After excluding one student who reported technophobia, the final cohort 
+comprised 49 participants (22 females and 27 males), aged 18 to 23.
+Before the intervention, each participant signed a consent form affirming that (a) their personal information would remain 
+confidential, (b) their performance and participation would not affect their academic standing, and (c) they could withdraw from the 
+study at any time without consequence.
+3.2. Instruments
+3.2.1. Practice materials
+We developed 50 sets of practice materials, each consisting of one Q & A session ( Lin et al., 2022 ) and linguistic scaffolding (Deng 
+et al., 2024). Each Q & A session included three authentic IELTS speaking questions sourced from the British Council website ( https:// 
+takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/speaking ). Each session focused on a specific theme (e. 
+g., the use of technology) to establish a coherent context for speaking activities, as recommended by Lin et al. (2022) . The questions 
+were sequenced from lower to higher levels of complexity, aiming to scaffold learners and facilitate steady progress. For example: 
+● Question One: “ What kind of technology do you often use in your daily life? ”
+Fig. 3. Underlying mechanism of the effectiveness of RASP.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+9 
+● Question Two: “ How has technology changed the way people communicate? ”
+● Question Three: “ Do you think rapid technological development could negatively impact society? Why or why not? ”
+The linguistic scaffolding was aligned with the Q & A session. Two experts with over five years of IELTS teaching experience 
+reviewed all question sets. For each question, they selected two vocabulary words, phrases, or sentence structures to enhance learners ’ 
+responses. For instance, for the question regarding negative societal impacts, they recommended the terms “ exacerbate ” and “ detri -
+mental effects. ” The first author then developed instructional explanations and usage examples for each term, consulting the Longman 
+Dictionary of Contemporary English Online ( https://www.ldoceonline.com/ ). The following is an example instruction of “ detrimental 
+effects ” :
+To further enhance your answer, you may include the phrase “ detrimental effects, ” which refers to harmful or damaging conse -
+quences. For example, you could say, “ The rapid development of technology could have detrimental effects on employment and 
+privacy in the future. ”
+Two experts in IELTS preparation and EFL education subsequently validated the reliability and suitability of the linguistic scaf -
+folding for supporting university students ’ EFL academic speaking development.
+3.2.2. NAO: Robot for assisting speaking practices
+We employed a NAO robot to implement RASP due to NAO's evidenced usefulness in supporting EFL learning activities (e.g., Shin & 
+Shin, 2015 ). Supporting synthesised voice and speech recognition, NAO can serve as the robot interlocutor ( Community ) in RASP that 
+initiates and participates in the practice ( Objec t) and interacts with learners ( Subject ) by introducing academic tasks, asking questions, 
+encouraging learner output, and giving feedback and linguistic scaffolding ( Deng et al., 2024 ; Lin et al., 2022 ; Randall, 2019 ). These 
+functionalities directly contribute to the development of EFL speaking proficiency ( Outcome ), aligning with our proposed RASP 
+framework.
+Furthermore, NAO's capabilities align with the theoretical framework of RASP. NAO's human-like torso, articulated limbs, LED 
+eyes, and multimodal communication systems facilitate multisensory interaction and bodily speaking experiences, thereby enhancing 
+learner engagement and outcomes following embodied learning theory ( Khazaie & Derakhshan, 2024 ; Pruss, 2022 ). Its capacity to 
+perform complex physical gestures and non-verbal social cues affords both physical and psychological immediacy ( Randall, 2019 ), 
+which, consistent with immediacy behaviour theory ( Finn & Schrodt, 2012 ), fosters improved learner affection, engagement, and 
+academic performance. Additionally, NAO can support multimodal, supportive, and non-judgemental communicative style following 
+pre-programmed models, so as to stimulate learner curiosity and positive affection ( Shin & Shin, 2015 ; Valagkouti et al., 2022 ), further 
+enhancing learning outcomes as explained by affective filter theory ( Derakhshan et al., 2024 ). Collectively, these features position 
+NAO as a highly effective tool for implementing the RASP framework.
+Using Choregraphe, the official programming software for NAO, we designed and executed NAO's interactive behaviours for each 
+RASP session. Each RASP session, lasting approximately 15 min, was based on one of the 50 practice material sets. For each session, 
+NAO greeted the students and introduced the task. Upon receiving affirmative responses such as “ Ready ” or “ OK, ” NAO initiated the 
+Q & A by sequentially asking three questions and encouraging learners to discuss their answers with peers ( “ You may discuss the answer 
+with peers. ” ). After recognising learner responses, NAO acknowledged their contributions ( “ Wow! You made a very good point! ” ), 
+provided immediate feedback ( “ Your answer is very good! ” ) and encouragement ( “ Well done! ” ), and related personally to their an -
+swers ( “ Like you, I also want to study abroad, perhaps majoring in classical music. ” ). Additionally, NAO offered linguistic scaffolding 
+and prompted students to apply the new vocabulary or structures in a subsequent attempt ( “ Please try to answer the question again, 
+using the new word! ” ). Once all three questions had been asked and answered twice, NAO concluded the session. Throughout the 
+interaction, NAO used synthesised speech, gestures, body movements, and LED signals in a vivid and flexible manner.
+3.2.3. Pre- and post-tests on EFL speaking proficiency
+To evaluate RASP outcomes while controlling for baseline levels, we conducted pre- and post-tests of learners' EFL speaking 
+proficiency. Following the IELTS test format, participants completed individual face-to-face speaking assessments lasting approxi -
+mately 10 min with the first author as examiner, who possesses extensive experience in assessing IELTS speaking tests. During the 
+assessment, participants responded to three questions without access to reference materials. All questions were sourced from an 
+authentic IELTS question bank ( https://ieltsbank.com/product/ielts-questionbank-premium ), ensuring high reliability, consistency, 
+and validity. Participants ’ performances were video-recorded with their consent.
+3.2.4. Pre- and post-questionnaires on learner affection
+To assess learner affection in RASP while controlling for baseline factors, we administered a pre-questionnaire measuring affection 
+in conventional EFL speaking practices and a post-questionnaire focusing on RASP. The questionnaires used a 10-point Likert scale, 
+chosen for its accuracy, reliability, and suitability for advanced analytical techniques like Partial Least Squares Structural Equation 
+Modelling (PLS-SEM) ( Dawes, 2008 ). The questionnaire comprised 17 items across three dimensions of learner affection identified in 
+our literature review: social comfort, EFL speaking self-efficacy, and task perceptions ( Appendix A ).
+Items 1 – 3 addressed social comfort and were adapted from Connor et al. ’ s (2001) abbreviated Social Phobia Inventory scale. For 
+example: “ In EFL speaking practice, fear of embarrassment causes me to avoid doing things or interacting with peers. ”
+Items 4 – 12 assessed EFL speaking self-efficacy and were adapted from Gan et al. ’ s (2022) scale on self-efficacy in EFL performance 
+among Chinese university students (Cronbach's alpha ≥ 0.86). An example item is: “ I can speak English fluently in EFL speaking 
+practices. ”
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+10 
+Items 13 – 17 focused on task perceptions and were adapted from Ghani et al. ’ s (2019) validated scale (Cronbach's alpha = 0.85). An 
+example item is: “ Developing English speaking via EFL speaking practices is a good idea. ”
+3.2.5. Pre- and post-questionnaires on learner engagement
+To measure learner engagement with RASP while controlling for baseline factors, we administered a pre-questionnaire on learner 
+engagement in conventional EFL speaking practices and a post-questionnaire focusing on RASP. The questionnaire consisted of 12 
+items rated on a 10-point Likert scale, covering four dimensions of learner engagement: behavioural engagement, cognitive 
+engagement, emotional engagement, and social engagement ( Appendix B ).
+Behavioural engagement (Items 1 – 3) and cognitive engagement (Items 4 – 6) items were adapted from Reeve (2013) (Cronbach's 
+alpha > 0.84). An example item is: “ In EFL speaking practices, I work as hard as I can. ”
+Emotional engagement (Items 7 – 9) and social engagement (Items 10 – 12) items were adapted from Deng et al. (2020) (Cronbach's 
+alpha > 0.7; factor loadings > 0.70; AVE > 0.55). An example item is: “ I find EFL speaking practices interesting. ”
+3.2.6. Interview questions
+We conducted semi-structured interviews based on four groups of questions aligned with the research questions: 
+RQ1:
+● How do you feel about RASP? Why would you have such feelings?
+RQ2:
+● To what degree do you feel engaged in RASP? Why would you have such feelings?
+RQ3:
+● Do you believe your EFL speaking skills have improved through RASP? Why would/wouldn't you believe so?
+RQ4:
+● How do you think your affection towards RASP influences your engagement and EFL speaking development? Please explain the 
+reason(s).
+● Does your engagement in RASP influence your EFL speaking development? Why or why not?
+These interview questions were refined and validated through a pilot study involving five students and expert recommendations, 
+confirming their credibility.
+3.3. Procedures
+The experiment was conducted over eight weeks ( Fig. 4 ). In Week One, we collected and analysed students ’ biographical survey 
+responses to select eligible participants. After obtaining signed consent forms, we conducted a 15-min orientation covering EFL 
+speaking practices, robot-assisted language learning, learner affection, and engagement. Participants then completed pre- 
+Fig. 4. Experimental workflow.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+11 
+questionnaires on their affection and engagement in conventional speaking practices (approximately 10 min).
+In Week Two, participants completed the 10-min pre-test on EFL speaking.
+From Week Three to Week Six, participants attended two 15-min RASP sessions per week (eight sessions in total) following 
+Randall's (2019) recommendations. Organised in groups of two to four, the students practiced speaking by interacting with NAO and 
+group members ( Fig. 5 ). A research assistant provided technical support throughout.
+In Week Seven, participants spent approximately 10 min completing the post-questionnaires on affection and engagement in RASP.
+In Week Eight, participants completed a 10-min EFL speaking post-test. Two days later, ten participants were randomly selected for 
+15-min semi-structured interviews conducted in conversational Chinese, their native language. We briefly re-explained the concepts of 
+learner affection and engagement before asking participants to reflect on their RASP experiences and respond to specific questions.
+3.4. Data analyses
+3.4.1. Qualitative analysis
+The authors collaboratively transcribed and analysed the interview data. We repeatedly reviewed the transcripts to familiarise 
+ourselves with the content and developed initial codes aligned with the research questions: 
+● RQ1: Learner perceptions and reasons for affection in RASP.
+● RQ2: Learner perceptions and reasons for engagement in RASP.
+● RQ3: Learner perceptions and reasons for EFL speaking proficiency outcomes from RASP.
+● RQ4: Learner perceptions and reasons for the interplay between affection, engagement, and EFL speaking proficiency outcomes.
+The research team analysed the transcripts using the established coding scheme, noting the frequency of key ideas and identifying 
+representative quotations. We compared coding results and resolved discrepancies through discussion. Finally, we collaboratively 
+translated the coding outcomes and quotations into English.
+3.4.2. Qualitative rigour
+We applied several techniques to ensure the trustworthiness of the qualitative part of our study, following Shenton (2004) .
+Before the interviews, we piloted the interview questions with five students and revised them based on expert recommendations to 
+confirm their clarity and alignment with the research aims.
+Before data analysis, the research team critically reflected on their backgrounds and potential biases as experts in technology- 
+enhanced language learning and fluent Chinese speakers. This reflection heightened our awareness of subjective interpretations 
+that might overemphasise RASP's positive impacts while underrecognising negative feedback or challenges reported by participants.
+During data analysis, the research team jointly coded three transcripts to develop and agree upon a consistent coding scheme. 
+Fig. 5. Students engaging in RASP.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+12 
+Following the scheme, we individually analysed the remaining transcripts, noting the frequency of key ideas and identifying repre -
+sentative quotations. Individual coding results were compared, and discrepancies were resolved through discussion, ensuring inter -
+pretative consistency. The procedures for data collection, transcription, coding, and analysis were documented for tracking.
+After data analyses, interviewees were invited to review and confirmed the results of our analyses, validating the data accuracy.
+Finally, we provide thick descriptions of the participants, interview context, and the semi-structured interview protocol, allowing 
+readers to assess the applicability of findings to similar educational settings.
+Collectively, these methodological strategies ensured the qualitative components of the study adhered to rigorous standards, 
+strengthening the validity and reliability of insights into learners ’ experiences with robot-assisted speaking practice.
+3.4.3. Quantitative analysis
+This study involved two types of quantitative data: test scores and survey responses. All 49 participants completed the pre-test, 
+while one participant missed the post-test. The first author and an experienced IELTS instructor independently scored participants' 
+video-recorded performances based on IELTS criteria: coherence and fluency, lexical resource, grammatical range and accuracy, and 
+pronunciation, each rated from 1 (minimal) to 9 (expert). The comparison of scores revealed high inter-rater reliability (Cohen's Kappa 
+= 0.80), with any differences resolved through discussion.
+For the questionnaire surveys, the authors collaboratively cleaned the data by removing incomplete and straight-lining responses, 
+following Meade and Craig (2012) . After cleaning, 43 valid pre- and post-questionnaire responses remained for social comfort and EFL 
+speaking self-efficacy. For task perceptions and learner engagement, 41 pre-questionnaire and 43 post-questionnaire responses were 
+valid.
+To address RQs 1 to 3, we conducted descriptive analyses focusing on means and standard deviations of questionnaire and test 
+scores. Further investigation involved paired-sample t-tests via SPSS to identify differences between RASP and baselines in EFL 
+speaking proficiency, learner affection, and engagement.
+For RQ4, we performed PLS-SEM using the SEMinR package in R (R Core Team, 2019) to investigate relationships within our 
+proposed two-level RASP model ( Appendix C , Table 1 ). Level 1 comprised three primary variables with corresponding baseline 
+controls: (a) “ Learner affection in RASP, ” controlled by “ Baseline learner affection in conventional speaking practices ” ; (b) “ Learner 
+engagement in RASP, ” controlled by “ Baseline learner engagement in conventional speaking practices ” ; and (c) “ Learning outcomes of 
+RASP in EFL speaking proficiency, ” controlled by “ Baseline EFL speaking proficiency. ” “ Learner affection in RASP ” influences 
+“ Learning outcomes of RASP in EFL speaking proficiency ” directly and indirectly via “ Learner engagement in RASP. ” At Level 2, all 
+Level-1 variables were reflected by indicators identified in the literature review, measured through questionnaire or test results. Path 
+coefficient significance was assessed using standard bootstrapping with 10,000 subsamples (two-tailed, α = .05).
+To further clarify RQ4, we conducted multiple linear regression analyses in SPSS to evaluate the predictive power of relationships 
+identified as significant by the PLS-SEM analysis.
+3.4.4. Quantitative rigour
+Our sample size was sufficient according to rules of thumb: (a) at least 30 observation pairs for paired-sample t-tests; (b) at least ten 
+times the largest number of indicators per variable for PLS-SEM; and (c) at least ten observations per predictor for multiple linear 
+regressions.
+The data demonstrated linearity and homoscedasticity, evidenced by the random distribution of points in scatterplots and align -
+ment along the diagonal in P-P plots ( Field, 2018 ). Skewness (   1.94 to 0.83) and kurtosis (   6.81 to 1.79) values confirmed data 
+normality ( Byrne, 2010 ), verifying the suitability of our data for paired-sample t-tests and multiple linear regression analyses ( Field, 
+2018 ). Additionally, the data were appropriate for PLS-SEM analysis, which does not require adherence to specific distributional 
+assumptions ( Hair Jr et al., 2021 ).
+No issues of multicollinearity were identified, as Pearson correlation coefficients between all pairs of indicators were below 0.88, 
+confirming data suitability for multiple linear regression ( Field, 2018 ).
+For the PLS-SEM measurement model, we assessed validity and reliability according to Hair Jr et al. ’ s (2021) guidelines 
+( Appendix C , Tables 2 – 4 ). The model exhibited strong internal consistency reliability (rho A > 0.70), adequate discriminant validity 
+(HTMT < 0.90), robust convergent validity (AVE > 0.50), absence of collinearity issues (VIF < 5.00), and acceptable indicator reliability 
+(most loadings exceeding 0.708). Although loadings for “ Baseline EFL speaking proficiency ” and “ Behavioural engagement ” and 
+“ Cognitive engagement ” as indicators of “ Baseline learner engagement in conventional speaking practices ” were slightly low (between 
+0.40 and 0.70), these indicators were retained due to the model's overall high reliability and validity.
+Data analyses were independently conducted by members of the research team, resulting in excellent inter-rater reliability (Cohen's 
+Kappa = 0.95). Any discrepancies were resolved through collaborative discussions.
+4. Results
+4.1. Learner affection in RASP
+On a 10-point scale (1 = very low/negative; 10 = very high/positive), learners reported relatively high social comfort during RASP 
+( M = 7.08, SD = 2.42), exceeding the baseline level ( M = 5.74, SD = 2.22); moderately high EFL speaking self-efficacy during RASP ( M 
+= 6.29, SD = 1.69), above the baseline ( M = 5.09, SD = 1.63); and overall positive task perceptions towards RASP ( M = 6.39, SD =
+1.99), slightly below baseline ( M = 6.67, SD = 1.54) ( Fig. 6 ).
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+13 
+Paired-sample t-tests ( Table 1 ) indicated that learners ’ social comfort in RASP was significantly higher than baseline, t (38) = 3.58, 
+p < .001, whereas EFL speaking self-efficacy and task perceptions did not differ significantly.
+Triangulated with quantitative results, our interviews showed that most participants felt positive affection in RASP, highlighting 
+improved social comfort and EFL self-efficacy. They attributed these improvements to NAO's non-judgemental attitudes and consistent 
+encouragement, which alleviated their usual nervousness during speaking activities. One participant stated, “ NAO kept encouraging 
+me like a friend … I felt more relaxed when speaking English to NAO. ” Additionally, interviewees reported that RASP helped them 
+focus on the task, reducing concerns about personal language limitations or peer judgements. One participant remarked, “ I usually feel 
+nervous about my speaking accuracy when talking in English with peers … I don't want to sound foolish. But [in RASP], I focused 
+entirely on answering NAO's questions and forgot how my classmates might judge my speaking. ”
+However, some students reported negative affection in RASP, mainly due to NAO's technical limitations. Several interviewees cited 
+instances where NAO misrecognised their speech and led to delays or interruptions, which made them feel “ anxious ” and “ reluctant ” . 
+NAO's synthesised voice also posed comprehension challenges, with some interviewees describing it as “ strange and incomprehen -
+sible, ” which negatively impacted their task perceptions of RASP.
+Fig. 6. Learner affection in RASP against the baselines.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+14 
+4.2. Learner engagement in RASP
+On a scale from 1 (very low) to 10 (very high), learners reported high behavioural engagement ( M = 7.20, SD = 1.63) and 
+moderately high cognitive ( M = 6.78, SD = 1.54), emotional ( M = 6.49, SD = 2.06), and social engagement ( M = 6.10, SD = 1.93) with 
+RASP ( Fig. 7 ). By comparison, baseline scores for conventional speaking practice were lower in behavioural ( M = 6.91, SD = 1.37), 
+cognitive ( M = 6.50, SD = 1.32), and social engagement ( M = 5.71, SD = 1.79), but slightly higher emotional engagement ( M = 6.59, 
+SD = 1.47).
+Paired-sample t-tests ( Table 2 ) revealed no significant differences in learner engagement between RASP and the baseline.
+Interviewees generally confirmed high engagement in RASP, often citing the perception of “ being heard and responded to. ” They 
+highlighted NAO's attentiveness, timely feedback, and interactive gestures as factors that enhanced motivation and concentration. One 
+participant noted, “ Usually, peers pay little attention … However, NAO listened carefully, which really encouraged me to try harder. ” 
+Another interviewee commented, “ NAO is like a friend willing to listen. When NAO was looking at me and nodding, I felt I was heard 
+and understood. ”
+Additionally, learners expressed excitement about using NAO as a novel learning tool, with one stating, “ I've never learnt with a 
+robot before, it's very exciting. ” However, most participants acknowledged that their initial interest waned after two to three sessions, 
+with engagement levels “ returning to those typical of conventional speaking activities ” .
+4.3. RASP outcomes in terms of EFL speaking proficiency
+On a scale from 1 (minimal) to 9 (expert), learners exhibited moderately high speaking proficiency levels after RASP: coherence and 
+fluency ( M = 6.58, SD = 1.05), lexical resource ( M = 6.31, SD = 0.72), grammatical range and accuracy ( M = 6.62, SD = 0.73), and 
+pronunciation ( M = 6.46, SD = 0.71) ( Fig. 8 ). In comparison, baseline proficiency levels were lower: coherence and fluency ( M = 5.86, 
+SD = 1.10), lexical resource ( M = 6.04, SD = 0.58), grammatical range and accuracy ( M = 5.80, SD = 0.74), and pronunciation ( M =
+6.14, SD = 0.65).
+Paired-sample t-tests ( Table 3 ) indicated significant improvements in EFL speaking proficiency as a result of RASP, in coherence 
+and fluency ( t (47) = 6.40, p < .001), lexical resource ( t (47) = 2.72, p = .009), grammatical range and accuracy ( t (47) = 9.08, p < .001), 
+and pronunciation ( t (47) = 3.67, p < .001).
+Corroborating the test results, all interviewees reported improvements in their speaking proficiency, attributing these gains to the 
+semi-formal, real-time interactions with NAO and the high-quality language input that NAO offered. Participants noted that NAO's 
+questioning, feedback, and language delivery were “ very professional ” and “ close to authentic IELTS speaking examiners ” . The robot's 
+physical presence enhanced its role as a “ real interlocutor, ” prompting learners to take practice “ more seriously ” than peer-based or 
+self-regulated speaking activities. One student remarked, “ I took the practice with NAO as seriously as practicing with my English 
+teacher. ”
+Moreover, several participants highlighted NAO's effectiveness in conveying language knowledge, noting that its “ engaging hand 
+gestures ” and “ eye contact ” made language knowledge “ memorable ” and “ easy to understand. ” However, the quality of NAO's syn -
+thesised voice posed comprehension challenges, with one stating, “ Sometimes, NAO's pronunciation can be quite strange and hard to 
+understand. I cannot really learn from it. ”
+4.4. Interactions among learner affection, engagement, and outcome of RASP
+Our PLS-SEM analysis, based on Hair Jr et al. ’ s (2021) criteria, demonstrated moderate-to-large predictive power for the proposed 
+model, explaining significant variance in learner affection ( R
+2 
+= 0.31), engagement ( R
+2 
+= 0.74), and EFL speaking proficiency out -
+comes ( R
+2 
+= 0.58) of RASP ( Fig. 9 ). Significant paths are: “ Learner affection in RASP ” to “ Learner engagement in RASP ” ( β = 0.86, t =
+10.62, 95% BCCI = [0.68, 1.00], f
+2 
+= 1.76); “ Baseline learner affection in conventional speaking practices ” to “ Learner affection in 
+RASP ” ( β = 0.55, t = 5.56, 95% BCCI = [0.35, 0.74], f
+2 
+= 0.44); and “ Baseline EFL speaking proficiency ” to “ Outcomes of RASP in EFL 
+speaking proficiency ” ( β = 0.78, t = 11.51, 95% BCCI = [0.63, 0.90], f
+2 
+= 1.22). These results suggest that learners with positive 
+affection in conventional speaking practices maintained favourable affection in RASP, which in turn significantly enhanced their 
+engagement. Additionally, baseline proficiency levels were strong predictors of improved speaking proficiency after RASP.
+To further explore the significant link between learner affection and engagement identified by PLS-SEM, we conducted multiple 
+linear regressions. Results ( Appendix D ) revealed significant effects of learner affection on all four dimensions of learner engagement in 
+RASP: behavioural ( R
+2 
+= 0.66, F (3, 39) = 25.55, p < .001), cognitive ( R
+2 
+= 0.59, F (3, 39) = 18.59, p < .001), emotional ( R
+2 
+= 0.81, F (3, 
+39) = 54.72, p < .001), and social engagement ( R
+2 
+= 0.46, F (3, 39) = 11.02, p < .001). Power analyses conducted with G*Power 
+Table 1 
+Paired-sample t-tests on the differences between learner affection in RASP and the baselines.
+M SD 95% CI t df Two-Sided p
+Social comfort 1.23 2.16 (-1.94-, 0.53) 3.578 38 < 0.001**
+EFL speaking self-efficacy 1.32 5.33 (-0.40, 3.05) 1.552 38 0.129
+Task perceptions   0.37 2.29 (-1.14, 0.39)   0.990 36 0.329
+** p < .001.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+15 
+Fig. 7. Learner engagement in RASP against the baseline.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+16 
+indicated very strong statistical power ( > 0.88), and independence of predictors was confirmed (Durbin-Watson values between 1 and 
+3). Specifically ( Table 4 ), more positive task perceptions significantly predicted higher behavioural ( B = 0.57, t = 4.98, p < .001), 
+cognitive ( B = 0.40, t = 3.38, p = .002), emotional ( B = 0.83, t = 7.60, p < .001), and social engagement ( B = 0.39, t = 2.27, p = .029) 
+in RASP ( Fig. 10 ).
+Triangulating these quantitative findings, interviewees confirmed that positive learner affection significantly enhanced their 
+engagement in RASP. One interviewee commented, “ I felt relaxed and confident when practising English with NAO, so I could engage 
+in the practice for longer … The dialogues with NAO closely resembled authentic IELTS speaking tests, which is very useful. So I 
+worked hard in the [RASP]. ”
+Notably, some interviewees reported that their improved affection in RASP positively influenced their engagement in speaking 
+practice outside the classroom. One participant stated, “ I felt overall more comfortable talking with NAO than my classmates … so I 
+practiced speaking harder (in RASP compared to conventional speaking practices). ” One learner noted feeling “ more comfortable and 
+motivated ” to engage in peer-based EFL practice after participating in RASP.
+Conflicting with the PLS-SEM results, interviewees also perceived that their enhanced affection and engagement in RASP 
+contributed to speaking proficiency improvement. One participant commented, “ RASP was helpful. I concentrated deeply … I learned 
+many new words and became better at generating and expressing ideas smoothly. ” However, another interviewee mentioned being 
+more engaged with NAO itself than with the academic content, suggesting that high engagement might not have directly contributed to 
+improvements in speaking proficiency, stating that: “ I focused on talking with NAO, not the practice. ”
+5. Discussions
+5.1. Learner affection in RASP
+Our statistical data and interview results indicate that learners generally held positive affection in RASP, consistent with previous 
+robot-assisted language learning research ( Lin et al., 2022 ; van den Berghe et al., 2019 ). Notably, learners reported significantly 
+greater social comfort in RASP compared to conventional speaking practices, primarily due to RASP's more supportive and relaxed 
+environment. Our interviewees appreciated NAO's non-judgemental attitudes, perceived relatedness with NAO, and described it as 
+“ like a friend ” , which largely improved their affective experience during speaking practice. Our findings extend Zhang et al. (2026)
+arguments for the positive impacts of non-academic socialising with learning agents on language learner affection. It also support Lee 
+and Lee's (2022) argument for the usefulness of robots in enacting mental immediacy, creating supportive learning environments, and 
+improving learner emotions. Based on these findings, we recommend that researchers and educators integrate robots into EFL speaking 
+practices to foster supportive environments and enhance learner affection.
+Moreover, our participants contributed their relaxed experiences and positive affection in RASP to NAO's immediate and positive 
+feedback. Interviewees identified fear of negative evaluation as a major source of social anxiety during speaking activities. However, in 
+RASP, learners felt liberated from such fears, as NAO exclusively offered encouragement and praise, leading to increased relaxation, 
+confidence, and motivation. Also observed by Alemi et al. (2017) , this phenomenon aligns with self-determination theory ( Deci & 
+Ryan, 2012 ), which posits that praise enhances learners' awareness of their progress and competence, thus reducing anxiety and 
+improving affection. Our findings show that students value robots' feedback in speaking practices and can develop awareness of 
+progress and experience reduced anxiety due to immediate and positive robot feedback. These findings indicate learners' perceptions 
+of robots' social role in speaking practice, consistent with prior observations ( van den Berghe et al., 2019 ).
+Another contributing factor to learners' positive affection in RASP, particularly regarding social comfort, was decreased self- 
+consciousness and reduced awareness of peer judgement. Prior studies have established a negative correlation between self- 
+consciousness and social comfort ( Bortolan, 2022 ; Higa et al., 2008 ). Supporting these findings, our interviewees indicated that 
+negative affection in conventional speaking practices stemmed from heightened self-consciousness and concern about peer evaluation. 
+In contrast, learners engaged in RASP reported diminished self-awareness, as their focus shifted entirely to skill improvement. This 
+shift significantly enhanced their social comfort and overall affection. This phenomenon aligns with flow theory ( Csikszentmihalyi 
+et al., 2014 ), which argues that real-time interactions and immediate feedback can induce states of intense concentration, intrinsic 
+enjoyment, reduced self-consciousness, and diminished awareness of distractions, such as peer judgement, in learning. It is possible 
+that robots trigger learners ’ flow states in RASP, decrease their self-consciousness and awareness of peer judgement, and thereby 
+improve their affection. So far, analysis of robot-assisted language learning from the perspective of the flow theory remains limited, 
+which appears a promising direction for future research.
+Despite these positive aspects, we found no statistically significant differences between RASP and conventional speaking practices 
+concerning task perceptions and EFL speaking self-efficacy. The significant relationship identified by our PLS-SEM analysis between 
+Table 2 
+Paired-sample t-tests on the differences between learner engagement in RASP and the baselines.
+M SD 95% CI t df Two-Sided p
+Behavioural engagement 0.29 1.81 (-0.31, 0.89) 0.969 36 0.339
+Cognitive engagement 0.33 1.64 (-0.21, 0.88) 1.239 36 0.223
+Emotional engagement   0.12 1.94 (-0.76, 0.53)   0.367 36 0.716
+Social engagement 0.34 1.87 (-0.28, 0.97) 1.111 36 0.274
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+17 
+Fig. 8. RASP outcomes in terms of EFL speaking proficiency compared against their baselines.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+18 
+baseline affection in conventional speaking practices and affection in RASP suggests the stability of language learners' affection across 
+different contexts, echoing Zhang et al. ’ s (2024) observations regarding null results in technology-enhanced language learning 
+research. Furthermore, technical limitations of NAO, such as inadequate speech recognition and low-quality synthesised voice, 
+negatively affected learners' experiences and affection in RASP, corroborating Lin et al. ’ s (2022) findings. Thus, future RASP imple -
+mentations should consider improved speech recognition technology and voice quality to enhance learner affection.
+5.2. Learner engagement in RASP
+Our data and interview findings validate the high learner engagement with RASP, particularly in terms of behavioural engagement, 
+aligning with earlier robot-assisted language learning research ( Lee & Lee, 2022 ; Randall, 2019 ). A significant factor driving this 
+engagement was learners ’ initial curiosity and interest in novel learning technologies, supporting intrinsic motivation theory ( Deci & 
+Ryan, 2013 ), which posits that engagement increases when driven by internal factors like curiosity. However, we also observed a sharp 
+decline in curiosity and interest after two to three sessions as familiarity with the technology increased, providing empirical support for 
+previously reported novelty effects in robot-assisted language learning ( van den Berghe et al., 2019 ).
+Another contributor to high engagement was learners' perception of being heard and valued in RASP. Interviewees reported that 
+Table 3 
+Paired-sample t-tests on the differences between RASP outcomes and learner baselines in terms of EFL speaking proficiency.
+M SD 95% CI t df Two-Sided p
+Coherence and fluency   0.75 0.81 (0.51, 0.99) 6.398 47 < 0.001**
+Lexical resource   0.29 0.74 (0.08, 0.51) 2.721 47 0.009*
+Grammatical range and accuracy   0.85 0.65 (0.67, 1.04) 9.077 47 < 0.001**
+Pronunciation   0.33 0.63 (0.15, 0.52) 3.665 47 < 0.001**
+* p < .05; ** p < .001.
+Fig. 9. Summary of the working model.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+19 
+NAO actively listened to their responses and provided immediate, multimodal feedback through gestures, voice, and body language. 
+Such responsive interactions fostered a sense of being understood and valued, an experience rarely found in conventional self- 
+regulated or peer-based speaking practices, enhancing learner engagement, as admitted by our interviewees. These findings reso -
+nate with the person-centred approach ( Greene, 2017 ), which emphasises the importance of learners feeling valued as a key driver of 
+motivation and engagement. This phenomenon can also be explained through Self-Determination Theory ( Deci & Ryan, 2012 ), which 
+emphasises that fulfilling learners ’ basic psychological needs, autonomy, competence, and relatedness, enhances intrinsic motivation 
+and engagement. Feeling valued and heard satisfies the need for relatedness and supports autonomy, fostering ownership and 
+accountability. Consequently, students become more committed to their learning goals, as they perceive their contributions as 
+meaningful and their learning as personally relevant. Thus, our study demonstrates that RASP can effectively engage learners by 
+fostering a sense of recognition and accountability.
+However, our analysis revealed no statistically significant differences between RASP and conventional speaking practices in terms 
+of learner engagement, contradicting some robot-assisted language learning studies (e.g., Shin & Shin, 2015 ). One possible explanation 
+is that in our study, although NAO emulated face-to-face speaking practice using rich body movements and gestures, it did not trigger 
+learners to use body movements and gestures as well. Instead, most of our learners remained largely still during RASP. Hence, unable 
+to trigger their bodily actions sufficiently, NAO may not enable deep cognitive engagement, according to the embodied learning theory 
+( Khazaie & Derakhshan, 2024 ; Pruss, 2022 ). So far, research in this direction remains limited. We call for further research into 
+strategies for eliciting greater learner bodily engagement in RASP.
+Another possible explanation for the insignificant differences in learner engagement lies in the distinct mechanisms underlying 
+engagement in RASP versus conventional speaking practices. Our PLS-SEM results indicated no significant influence of learner 
+engagement in conventional speaking practices on engagement in RASP, suggesting that learners engage through different 
+Table 4 
+Parameter estimates of the relationships between learner affection and engagement in RASP.
+Models B SE ( B ) β t Sig.
+Predictors Outcomes
+(Constant) Behavioural engagement in RASP 4.124 0.943 ​ 4.371 < 0.001**
+Social comfort in RASP   0.130 0.078   0.194   1.666 0.104
+EFL speaking self-efficacy in RASP   0.007 0.132   0.007   0.055 0.957
+Task perceptions in RASP 0.569 0.114 0.694 4.981 < 0.001**
+(Constant) Cognitive engagement in RASP 3.466 0.986 ​ 3.514 0.001*
+Social comfort in RASP   0.094 0.082   0.148   1.149 0.257
+EFL speaking self-efficacy in RASP 0.174 0.138 0.191 1.267 0.213
+Task perceptions in RASP 0.404 0.119 0.520 3.384 0.002*
+(Constant) Emotional engagement in RASP 1.589 0.900 ​ 1.765 0.085
+Social comfort in RASP   0.124 0.075   0.146   1.667 0.104
+EFL speaking self-efficacy in RASP 0.015 0.126 0.013 0.122 0.904
+Task perceptions in RASP 0.829 0.109 0.798 7.600 < 0.001**
+(Constant) Social engagement in RASP 2.418 1.416 ​ 1.708 0.096
+Social comfort in RASP   0.111 0.117   0.140   0.947 0.350
+EFL speaking self-efficacy in RASP 0.259 0.198 0.227 1.312 0.197
+Task perceptions in RASP 0.390 0.171 0.401 2.273 0.029*
+* p < .05; ** p < .001.
+Fig. 10. Impacts of task perceptions of RASP on learner engagement in RASP.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+20 
+mechanisms in RASP compared to traditional activities. This phenomenon was noted by Zhang et al. (2024) who argued against 
+analysing learner engagement and behaviours in different learning settings in the same way. Given that no prior research has explicitly 
+investigated these distinct engagement patterns, this area merits further exploration.
+5.3. RASP outcomes in terms of EFL speaking proficiency
+Our quantitative results and interview data demonstrate significant improvements in learners' EFL speaking outcomes after RASP, 
+even when controlling for baseline proficiency. These findings align with previous research ( Lin et al., 2022 ), providing empirical 
+support for the effectiveness of RASP. Interviewees attributed this effectiveness to NAO's role as a professional interlocutor, a role often 
+absent in conventional speaking practices. NAO was perceived as a professional interlocutor “like a real English tutor.” Interacting with 
+NAO, learners perceived a strong sense of authenticity and formality of the speaking practice, which motivated increased effort and 
+persistence. These findings echo Lee et al. (2011) . Our results also support previous insights regarding learners anthropomorphising 
+robots and assigning them social roles in educational contexts ( van den Berghe et al., 2019 ). Furthermore, our study aligns with the 
+sociocultural theory ( Vygotsky, 1978 ), which highlights the importance of communication with an attentive, professional interlocutor 
+for enhancing language learning outcomes.
+Additionally, NAO's multimodal approach to knowledge delivery contributed to improved speaking proficiency. Interviewees 
+found NAO's vivid presentation of language knowledge, through gestures, body movements, and voice, effective for language 
+acquisition. This finding corroborates previous studies highlighting educational robots' ability to give linguistic scaffolding effectively 
+via multisensory communications ( Lin et al., 2022 ; Randall, 2019 ). Hence, our study reinforces the pedagogical advantages of robots in 
+language education ( Lee & Lee, 2022 ).
+5.4. Interplay among learner affection, engagement, and outcome of RASP
+Our PLS-SEM analysis reveals significant positive effects of learners’ affection, particularly task perceptions, on their engagement in 
+RASP. Interview data corroborate these findings, reinforcing expectancy-value theory ( Wigfield & Eccles, 2000 ) and the theory of 
+planned behaviour ( Ajzen, 2005 ). They also extend the affective filter theory and prior research on the positive influence of learner 
+affection in EFL speaking education ( Nagle, 2021 ) to robot-assisted contexts. Future research aimed at enhancing learner engagement 
+in RASP may focus on improving affection in this learning approach.
+However, not all findings are in line with previous EFL speaking studies (e.g., Zeinivand et al., 2015 ). Our PLS-SEM analysis showed 
+no significant impact of learner affection and engagement in RASP on EFL speaking outcomes. This may be because learners, enjoying 
+high social comfort, became engrossed in entertaining social interactions with the robot and peers, paying insufficient attention to 
+linguistic development. Our interview data support this, with some participants admitting they focused more on interacting with NAO 
+rather than on language learning in RASP. Also observed in previous technology-enhanced language learning studies ( Ke et al., 2016 ; 
+Philp et al., 2010 ; Zhang et al., 2024 ), such misalignment of learner attention and interest with their academic goals can lead to limited 
+language learning progress, despite learners’ positive affection and deep engagement in the practice. Hence, future RASP practitioners 
+should carefully monitor whether engaged learners focus on language development or become distracted by social interactions, to 
+ensure effective implementation.
+Another possible explanation is the discrepancy between learners’ self-reported and actual engagement. Heemskerk and Malmberg 
+(2020) found that students often underestimated their engagement in self-report surveys, particularly their cognitive and behavioural 
+engagement. Similarly, our participants might have inaccurately assessed their own engagement on questionnaires, potentially leading 
+to the statistically insignificant relationships. Future research should adopt mixed-methods approaches for a more comprehensive 
+evaluation of learner engagement in RASP.
+Moreover, learners’ improved affection in RASP may have indirectly improved speaking proficiency by increasing engagement in 
+speaking practice beyond RASP. Our quantitative and qualitative data revealed that after experiencing RASP, our learners had better 
+affection and deeper engagement in self-regulated and peer-based speaking practice outside class. Such extracurricular engagement 
+may have contributed more to EFL speaking development than the eight-session RASP intervention, potentially explaining the 
+insignificant direct effect of learner affection and engagement in RASP on speaking outcomes. Therefore, future studies should 
+consider learner affection and engagement in out-of-class speaking activities to better understand their impact on RASP outcomes.
+6. Implications
+Our study contributes to the theories of robot-assisted language learning in several respects. First, our RASP targets speaking 
+proficiency development among intermediate-level young adults in higher education and demonstrates overall effectiveness. Although 
+earlier research reported mixed results regarding robots' effectiveness in developing speaking skills ( Lee & Lee, 2022 ) and suggested 
+younger learners benefit more from robot-assisted language learning than adults ( Derakhshan et al., 2024 ), our study provides 
+quantitative and qualitative evidence for robots’ significant effectiveness in improving speaking proficiency among adult learners, 
+even after controlling for the novelty effect and baseline factors. Our findings also indicate that RASP may enhance learner affection 
+and engagement in extracurricular speaking practices, both self-regulated and peer-based, potentially supporting long-term EFL 
+speaking development. Hence, educators are recommended to implement RASP to improve EFL speaking skills in the long term among 
+adult learners at the higher educational level.
+Second, we found a limited impact of RASP on learner affection and engagement, contrary to prior claims ( Derakhshan et al., 2024 ; 
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+21 
+Randall, 2019 ). By examining RASP dynamics through both objective and subjective measures, we found that learner affection and 
+engagement across multiple dimensions initially increased, then declined before stabilising. Notably, emotional engagement exhibited 
+a slight decrease over the course of RASP, likely due to the diminishing novelty effect after two to three sessions. We also identified the 
+hard-to-change nature of learner characteristics and learners ’ insufficient bodily actions in RASP, which further constrained the 
+positive effects of this learning method on affection and engagement. Our findings underscore the complex, multidimensional, and 
+dynamic nature of learner affection and engagement within robot-assisted language learning contexts, which future research should 
+carefully consider. Based on these insights, we also recommend that educators pay particular attention to fostering and sustaining 
+learner affection and engagement when implementing RASP.
+Third, our study underscores the usefulness of activity theory in analysing RASP. Through this theoretical lens, we identified the 
+dynamic between learners ( Subject ), the speaking practice task ( Object ), and robot and peer interlocutors ( Community ). We illuminate 
+variations in learner affection across different elements of RASP. We found that robot assistance can substantially enhance learner 
+affection towards interlocutors in speaking activities ( Community ), while learners' affection towards themselves ( Subject ) and the 
+practice task ( Object ) remained relatively stable. Building on these findings, educators may consider employing RASP to engage 
+learners with high social anxiety in speaking practice. Our results thus support Lin et al. ’ s (2022) argument for the high adaptability of 
+robot-assisted learning across diverse language learning theories. With reference to our conceptual framework, researchers are 
+encouraged to leverage activity theory further to explore aspects such as learner engagement with various elements of RASP. It is 
+important to note that our study focuses primarily on the three central elements of activity theory, Subject , Object , and Community , 
+while the expanded versions of the theory comprise a more complex, dynamic network that includes additional elements, such as 
+artefacts, rules, and division of labour ( Engestr ¨om, 2001b ). Future research could further refine our conceptual framework of RASP 
+and extend the analysis by incorporating these additional elements, thereby achieving a more comprehensive understanding of this 
+learning approach.
+Our study has also provided rich practical implications by illuminating robots' strong potential as qualified interlocutors in 
+speaking practice, a role that is crucial yet often insufficiently fulfilled in real-life EFL settings ( Bailey, 2003 ). With voice synthesis and 
+recognition systems, robot interlocutors can assign academic tasks, ask questions, provide feedback, and deliver linguistic scaffolding, 
+aligning with prior expectations regarding educational robots' potentials ( Deng et al., 2024 ; Lin et al., 2022 ). Compared to other 
+technologies like multimedia, animated characters, and chatbots, robots, particularly anthropomorphic ones like NAO, afford the 
+physical presence and non-verbal, multisensory communicative cues, thereby having more capability of emulating human face-to-face 
+interactions and adopting natural social roles ( van den Berghe et al., 2019 ). These features may lead learners to experience a stronger 
+sense of “ real ” with robot interlocutors, as reflected in interviewees ’ descriptions of NAO as “ like a friend ” and “ close to authentic 
+IELTS speaking examiners. ” Consequently, robot interlocutors can create a strong sense of authenticity in speaking practice ( van den 
+Berghe et al., 2019 ), which is essential for the practice effectiveness in developing speaking proficiency ( Lin et al., 2022 ). Therefore, 
+robots may be more useful than other technologies in serving as the interlocutor in speaking practice, contributing to better EFL 
+speaking development.
+Robot interlocutors also hold some advantages over human interlocutors in speaking practice. At the linguistic level, robot in -
+terlocutors are perceived as “ very professional ” for offering high-quality language input via feedback and scaffolding, according to our 
+interview results. Such high-quality language input is the prerequisite for effective speaking practice, aligning with Schmidt's (2012)
+and Ellis's (2019) argument. Hence, compared to peer interlocutors who generally lack language proficiency ( Dao, 2020 ), robot in -
+terlocutors appear better in facilitating EFL speaking development. At the emotional level, our finding showed robot interlocutors' 
+usefulness in bridging mental and physical immediacy with learners, creating a comfortable, supportive environment for speaking 
+practice, and thus improving learner affection and engagement, consistent with previous arguments ( Lee & Lee, 2022 ; Randall, 2019 ). 
+In contrast, peer interlocutors and teacher interlocutors can cause strong self-awareness and anxiety about judgement and negative 
+feedback in learners, thus reducing learner affection and engagement in speaking practice ( Archbell & Coplan, 2022 ). Therefore, robot 
+interlocutors may foster greater learner affection and engagement compared to peer or teacher interlocutors, a distinction that is 
+especially significant given the crucial role of positive affect ( Mahripah, 2013 ) and deep engagement ( Ding & Zhu, 2025 ) in effective 
+EFL speaking practice.
+Nonetheless, robot interlocutors remain far from perfect. Our interviews revealed NAO's inadequate speech recognition and low- 
+quality synthesised voice, which negatively impacted learners' experiences and affection towards RASP. NAO's limited speech 
+recognition also hampers its ability to identify and correct learners' speech errors, a critical function in speaking education 
+( Gumbaridze, 2013 ). NAO ’ low-quality synthesised voice may reinforce mispronunciations and hinder language comprehension ( In & 
+Han, 2015 ). Such technical limitations likely constrained RASP's effectiveness in developing EFL speaking proficiency. As inadequate 
+speech recognition and low-quality synthesised voice are common issues among educational robots ( Lin et al., 2022 ), our findings 
+regarding NAO's limitations may generalise across RASP contexts and robot types. Future practitioners should take these constraints 
+into consideration. To address the limitations, we suggest employing an advanced speech recognition system and AI-generated robot 
+voices to enhance learners' experiences and efficiency in RASP.
+Moreover, our interviewees reported difficulties processing language knowledge alongside real-time interactions with the robot 
+interlocutor in RASP, a phenomenon frequently observed in EFL speaking practice ( Gomez, 2021 ). Providing knowledge notes out -
+lining key language concepts during RASP may help address the problem, which can scaffold learners during speaking practice and 
+serve as takeaways for further study ( Mirahmadi & Alavi, 2016 ). Hence, we recommend that educators provide EFL learners with 
+knowledge notes during RASP, allowing learners to review and process new language knowledge at their own pace and enhancing both 
+the efficiency and effectiveness of RASP.
+Overall, our study demonstrates the significant effectiveness of robots as interlocutors in supporting EFL speaking practice, 
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+22 
+surpassing other technologies and human interlocutors, and highlights their considerable potential in language education more 
+broadly. In light of the urgent global challenge of teacher shortages ( Symeonidis et al., 2025 ), we recommend that policymakers 
+endorse the integration of robotics and related educational tools and materials into language curricula as a viable solution. To 
+maximise the efficiency of RASP and other robot-assisted learning implementations, we further advise the inclusion of professional 
+development programmes that prepare language teachers to effectively design, implement, and manage robot-assisted learning en -
+vironments. Additionally, we suggest prioritising funding for advanced educational robots equipped with features such as high-quality 
+voice synthesis and speech recognition, which may further enhance the effectiveness of RASP and similar applications, in line with Lin 
+et al.’s (2022) recommendations.
+7. Conclusions and limitations
+This study proposed a RASP framework grounded in activity theory, the affective filter theory, embodied learning theory, 
+expectancy-value theory, the noticing hypothesis, and engagement theories. We investigated the process and effects of this learning 
+method using a mixed-methods approach. Findings revealed positive learner affection, deep engagement, and satisfactory EFL 
+speaking proficiency outcomes of RASP. While affection significantly enhanced engagement, neither affection nor engagement had a 
+statistically significant impact on learning outcomes. These findings were interpreted through self-determination theory, flow theory, 
+sociocultural theory, person-centred learning theory, and expectancy-value theory.
+Despite triangulation of subjective and objective data, our findings may not be generalised across samples. This study examined a 
+single cohort of Chinese EFL students from one higher educational institution who had overall intermediate language proficiency and 
+experience with conventional EFL speaking practice and technology-enhanced learning but no prior exposure to robot-assisted lan -
+guage. This highly homogeneous cohort, although reflective of learners sharing comparable backgrounds, restricted the examination 
+of factors such as target language, digital literacy, prior training, educational history, and cultural identity. These factors may influence 
+the experiences and outcomes of RASP, as individuals’ situational, developmental, and cultural contexts play a considerable role in 
+language learning processes ( Horwitz, 1999 ). For instance, our participants demonstrated upper-intermediate levels of engagement in 
+RASP, not significantly differing from that in conventional speaking practice. This finding may not be extended to elementary and 
+secondary EFL education since younger students generally exhibit greater willingness to engage with robot-assisted learning ( Randall, 
+2019 ). Additionally, students with different sociocultural backgrounds may adhere to different social norms, resulting in varied levels 
+and forms of engagement in RASP. Researchers observed that compared to those with western cultural backgrounds, Chinese EFL 
+students tend to speak less and initiate conversations less frequently in interactions ( Li & Jia, 2006 ; Zheng, 2021 ). By this logic, 
+learners with western cultural backgrounds may have deeper engagement in RASP than our participants. To deepen the understanding 
+of RASP and broaden the scope of research in this area, future studies should consider a larger, more diverse population with various 
+situational, developmental, and cultural backgrounds when investigating learner affection, engagement, and outcomes of RASP.
+Researchers and educators may also be particularly mindful of robot types when applying our findings. Drawing on the literature (e. 
+g., Randall, 2019 ; Shin & Shin, 2015 ), we selected the NAO robot for our study due to its capabilities in physical interactions and 
+non-verbal social cues, which closely align with the requirements of our RASP framework. However, given the considerable variation 
+in design and functionality among different robot models ( Randall, 2019 ), our results may not be directly generalisable to RASP 
+implementations involving other robots. For instance, interviews revealed that some students reported increased engagement through 
+eye contact with NAO, a feature absent in certain robots such as Scribble, which lack LED eye-gaze capabilities. Consequently, RASP 
+implementations utilising robots without such eye-gaze functionality may not elicit the same level of learner engagement observed 
+with NAO. Moreover, NAO's programming environment, Choregraphe, does not support adaptive feedback or personalised learning 
+pathways, whereas other platforms, such as the pocket robot partner described by Yorita et al. (2013) , offer these advanced func -
+tionalities. Considering the documented benefits of adaptive feedback and personalised learning in enhancing the efficacy of 
+robot-assisted language learning ( Randall, 2019 ), RASP implementations using robots with these capabilities may yield superior EFL 
+speaking outcomes compared to NAO-based interventions. Similarly, recent advancements have seen an increasing number of 
+educational robots equipped to recognise learner behaviours and emotions and respond with appropriate feedback ( Schiavo et al., 
+2024 ; Zhao et al., 2025 ), features beyond the current scope of NAO. Given the significant impact of behaviour and emotion recognition 
+on improving learner affection in EFL speaking practice ( Chen & Lee, 2011 ), this limitation may have constrained the effectiveness of 
+RASP in our study. Future research should explore RASP employing diverse robot types and systematically compare their effectiveness 
+to deepen understanding of this learning approach and improve its generalisability across varied technological contexts.
+Our study has limitations. First, it focused solely on EFL speaking proficiency as the outcome of RASP, while other skills and 
+knowledge may also be developed. Interviewees reported improvements in idea generation and organisation from RASP, which 
+warrant further exploration in future studies. Second, we relied heavily on self-reported data for learner affection and engagement. 
+While valuable, objective measures such as structured observations ( Heemskerk & Malmberg, 2020 ) or eye-tracking data ( Zhang et al., 
+2025a ) could provide a more comprehensive understanding. Future research should integrate both self-reported and objective data in 
+exploring learner affection and engagement in RASP.
+Robot-assisted learning is gaining popularity across disciplines. This study explored the use of robots in developing EFL speaking 
+among undergraduates, offering insights into its potential in language education and beyond. To further unlock the capabilities of this 
+learning method, we encourage research integrating various state-of-the-art technologies into robot-assisted learning of EFL speaking. 
+For example, adaptive feedback and personalised learning pathways, features not supported by NAO's official software in our study, 
+may enhance the effectiveness of robot-assisted learning ( Randall, 2019 ). Future research could further investigate the potential of 
+RASP by incorporating these functionalities into robot-assisted language learning. Additionally, Khazaie and Derakhshan (2024)
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+23 
+integrated augmented reality technology into robot-assisted learning of EFL listening and reading, enabling learners to visualise an 
+educational robot in various medical scenarios via mobile devices. Their results showed that the integration of augmented reality 
+improved the effectiveness of robot-assisted language learning by enhancing students' comprehension. This impact may be extended to 
+EFL speaking development. Artificial intelligence technology also appears promising in this direction. For example, Derakhshan et al. 
+(2025) incorporated Artificial intelligence technology into robot-assisted learning of EFL speaking for medical purposes, where 
+Artificial Intelligence analysed and evaluated students' speaking quality and directed robot responses. Considering the great potential 
+of Artificial intelligence technology, future research may further leverage it, for instance, by generating personalised conversational 
+content for real-time, free-flow learner-robot interactions.
+CRediT authorship contribution statement
+Ruofei Zhang: Writing – original draft, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Di Zou: 
+Writing – review & editing, Validation, Supervision, Methodology, Conceptualization. Haoran Xie: Validation, Supervision, Software, 
+Resources, Project administration, Methodology, Conceptualization. Gary Cheng: Visualization, Validation, Supervision, Software, 
+Resources, Project administration.
+Ethics declarations
+I confirm that all the research meets ethical guidelines and adheres to the legal requirements of the study country.
+Declaration of generative AI generative-ai
+Generative AI and AI-assisted technologies (ChatGPT) have only been used to check the grammar of the manuscript.
+Funding
+The research was conducted without any external funding or financial support.
+Conflict of interest
+None.
+Appendix A. Learner affection in RASP
+To what extent do the following statements reflect your actual situation? 
+Please rate them on a scale from 1 to 10: 
+1 = Completely untrue, not related to me at all 
+10 = Completely true, exactly like me
+Social comfort (adapted from Connor et al., 2001 )
+1. In RASP, fear of embarrassment causes me to avoid interacting with classmates.* [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+2. In RASP, I avoid to be the center of attention.* [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+3. In RASP, being embarrassed or looking stupid are among my worst fears.* [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+EFL speaking self-efficacy (adapted from Gan et al., 2022 )
+4. I can speak English fluently. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+5. I can communicate with NAO and classmates in English. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+6. I can try to keep a high level of self-confidence in RASP. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+7. I can understand and participate in the most complex, difficult questions in RASP. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+8. I can understand the most complex, difficult speech by my classmates and NAO in speaking practices. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+9. I can master the speaking skills and language knowledge learned and practiced in RASP. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+10. I can NOT use the speaking skills and language knowledge learned and practiced in RASP for real-life or authentic IELTS 
+tests.*
+[1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+11. I can do very well in RASP. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+( continued on next page )
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+24 
+( continued )
+To what extent do the following statements reflect your actual situation? 
+Please rate them on a scale from 1 to 10: 
+1 = Completely untrue, not related to me at all 
+10 = Completely true, exactly like me
+12. I can do a good job of participating in RASP fully in English. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+Task perceptions (adapted from Ghani et al., 2019 )
+13. Developing English proficiency through RASP is a good idea. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+14. I feel positive towards RASP. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+15. I believe that RASP help me to be more engaged in developing English proficiency. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+16. I generally favour RASP for developing English proficiency. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+17. I believe that it is a good idea for me to have RASP for my future English study. [1] [2] [3] [4] [5] [6] [7] [8] [9] 
+[10]
+* Reversed item.
+Appendix B. Learner engagement in RASP
+To what extent do the following statements reflect your actual situation? 
+Please rate them on a scale from 1 to 10: 
+1 = Completely untrue, not related to me at all 
+10 = Completely true, exactly like me
+Behavioural engagement (adapted from Skinner et al., 2009 )
+1. In RASP, I engage in each question very carefully. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+2. I try hard to speak well in RASP. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+3. In RASP, I DON ’ T work as hard as I can.* [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+Cognitive engagement (adapted from Skinner et al., 2009 )
+4. I try to make different knowledge points and speaking strategies fit together and use them in RASP. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+5. I try to relate new language skills and knowledge to what I already know and use them in RASP. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+6. In RASP, I make up my own example answers to help me master important speaking skills and knowledge points. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+Emotional engagement (adapted from Deng et al., 2020 )
+7. I was inspired to further develop my English proficiency in RASP. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+8. I found RASP interesting. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+9. I enjoyed learning, speaking, and listening English in RASP. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+Social engagement (adapted from Deng et al., 2020 )
+10. I often responded to my classmates and NAO in EFL speaking practices. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+11. In RASP, I regularly discuss with my classmates on knowledge points and speaking skills. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+12. In RASP, I shared learning materials (e.g., notes, vocabulary definitions, grammar knowledge) with my classmates. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+*Reversed item.
+Appendix C. Indicators of the validity and reliability of the PLS-SEM analysis
+Table 1 
+Measurement of RASP model
+Level one Level two Measures
+Learner affection in RASP Social comfort in RASP Post-questionnaire results on “ Social comfort ”
+EFL speaking self-efficacy in RASP Post-questionnaire results on “ EFL speaking 
+self-efficacy ”
+Task perceptions in RASP Post-questionnaire results on “ Task 
+perceptions ”
+Learner engagement in RASP Behavioural engagement in RASP Post-questionnaire results on “ Behavioural 
+engagement ”
+Cognitive engagement in RASP Post-questionnaire results on “ Cognitive 
+engagement ”
+Emotional engagement in RASP Post-questionnaire results on “ Emotional 
+engagement ”
+Social engagement in RASP Post-questionnaire results on “ Social 
+engagement ”
+( continued on next page )
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+25 
+Table 1 ( continued )
+Level one Level two Measures
+Learning outcomes of RASP in EFL speaking 
+proficiency
+Coherence and fluency after RASP Post-test results on “ Coherence and fluency ”
+Lexical resource after RASP Post-test results on “ Lexical resource ”
+Grammatical range and accuracy after RASP Post-test results on “ Grammatical range and 
+accuracy ”
+Pronunciation after RASP Post-test results on “ Pronunciation ”
+Baseline learner affection in conventional speaking 
+practices
+Baseline social comfort in conventional speaking 
+practices
+Pre-questionnaire results on “ Social comfort ”
+Baseline EFL speaking self-efficacy in conventional 
+speaking practices
+Pre-questionnaire results on “ EFL speaking 
+self-efficacy ”
+Baseline task perceptions in conventional speaking 
+practices
+Pre-questionnaire results on “ Task 
+perceptions ”
+Baseline learner engagement in conventional 
+speaking practices
+Baseline behavioural engagement in conventional 
+speaking practices
+Pre-questionnaire results on “ Behavioural 
+engagement ”
+Baseline cognitive engagement in conventional speaking 
+practices
+Pre-questionnaire results on “ Cognitive 
+engagement ”
+Baseline emotional engagement in conventional 
+speaking practices
+Pre-questionnaire results on “ Emotional 
+engagement ”
+Baseline social engagement in conventional speaking 
+practices
+Pre-questionnaire results on “ Social 
+engagement ”
+Baseline EFL speaking proficiency Baseline coherence and fluency Pre-test results on “ Coherence and fluency ”
+Baseline lexical resource Pre-test results on “ Lexical resource ”
+Baseline grammatical range and accuracy Pre-test results on “ Grammatical range and 
+accuracy ”
+Baseline pronunciation Pre-test results on “ Pronunciation ”
+Table 2 
+Indicators for the reliability and validity of the PLS-SEM measurement model
+Variables Indicators Factor 
+loadings
+rhoA AVE
+Learning outcomes of RASP in EFL speaking proficiency Coherence and fluency after RASP 0.820 0.857 0.689
+Lexical resource after RASP 0.842
+Grammatical range and accuracy after RASP 0.843
+Pronunciation after RASP 0.816
+Learner affection in RASP Social comfort in RASP 0.813 0.826 0.739
+EFL speaking self-efficacy in RASP 0.872
+Task perceptions in RASP 0.892
+Learner engagement in RASP Behavioural engagement in RASP 0.867 0.915 0.783
+Cognitive engagement in RASP 0.904
+Emotional engagement in RASP 0.927
+Social engagement in RASP 0.840
+Baseline EFL speaking proficiency Baseline coherence and fluency 0.804 0.820 0.601
+Baseline lexical resource 0.688
+Baseline grammatical range and accuracy 0.877
+Baseline pronunciation 0.720
+Baseline learner affection in conventional speaking 
+practices
+Baseline social comfort in conventional speaking practices   0.756 0.780 0.534
+Baseline EFL speaking self-efficacy in conventional speaking 
+practices
+0.434
+Baseline task perceptions in conventional speaking practices 0.712
+Baseline learner engagement in conventional speaking 
+practices
+Baseline behavioural engagement in conventional speaking 
+practices
+0.554 0.802 0.609
+Baseline cognitive engagement in conventional speaking 
+practices
+0.463
+Baseline emotional engagement in conventional speaking 
+practices
+0.763
+Baseline social engagement in conventional speaking practices 0.757
+Table 3 
+The heterotrait-monotrait ratio of correlations (HTMT) indicating the discriminant validity of the measurement models of PLS-SEM (to be continued)
+Learning outcomes of 
+RASP in EFL speaking 
+proficiency
+Baseline learner 
+engagement in 
+conventional speaking 
+practices
+Learner 
+engagement in 
+RASP
+Baseline EFL 
+speaking 
+proficiency
+Baseline learner affection 
+in conventional speaking 
+practices
+Learning outcomes of RASP 
+in EFL speaking 
+proficiency
+. ​ ​ ​ ​
+Baseline learner 
+engagement in 
+0.747 . ​ ​ ​
+( continued on next page )
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+26 
+Table 3 ( continued )
+Learning outcomes of 
+RASP in EFL speaking 
+proficiency 
+Baseline learner 
+engagement in 
+conventional speaking 
+practices 
+Learner 
+engagement in 
+RASP 
+Baseline EFL 
+speaking 
+proficiency 
+Baseline learner affection 
+in conventional speaking 
+practices
+conventional speaking 
+practices
+Learner engagement in 
+RASP
+0.887 0.606 . ​ ​
+Baseline EFL speaking 
+proficiency
+0.376 0.345 0.193 . ​
+Baseline learner affection in 
+conventional speaking 
+practices
+0.795 0.828 0.732 0.322 .
+Learning outcomes of RASP 
+in EFL speaking 
+proficiency
+0.229 0.353 0.091 0.880 0.359
+Table 4 
+Variance inflation factors (VIF) indicating the collinearity of the PLS-SEM structural model
+Predictors Outcomes
+Learner engagement in 
+RASP
+Learning outcomes of RASP in EFL speaking 
+proficiency
+Learner affection in 
+RASP
+Learner affection in RASP 1.543 4.201 n/a
+Baseline learner engagement in conventional speaking 
+practices
+1.543 n/a n/a
+Learner engagement in RASP n/a 4.033 n/a
+Baseline EFL speaking proficiency n/a 1.099 n/a
+Baseline learner affection in conventional speaking 
+practices
+n/a n/a 1.003
+Appendix D. Model estimates of multiple regression
+Table 1 
+Estimates of the model from learner affection in learner engagement in RASP
+Models R
+2
+R
+2
+change
+F
+change
+Sig. F
+change
+Durbin-Watson
+Predictors Outcomes
+Social comfort in RASP Behavioural engagement in RASP 0.663 0.663 25.547 < 0.001** 1.767
+EFL speaking self-efficacy in RASP
+Task perceptions in RASP
+Social comfort in RASP Cognitive engagement in RASP 0.589 0.589 18.593 < 0.001** 2.109
+EFL speaking self-efficacy in RASP
+Task perceptions in RASP
+Social comfort in RASP Emotional engagement in RASP 0.808 0.808 54.718 < 0.001** 2.380
+EFL speaking self-efficacy in RASP
+Task perceptions in RASP
+Social comfort in RASP Social engagement in RASP 0.459 0.459 11.018 < 0.001** 2.549
+EFL speaking self-efficacy in RASP
+Task perceptions in RASP
+** p < .001.
+Data availability
+The participants of this study did not give written consent for their data to be shared publicly, so due to the sensitive nature of the 
+research supporting data is not available.
+References
+Ajzen, I. (2005). Affections, personality and behaviour . UK: McGraw-hill education . 
+Alemi, M., Meghdari, A., & Ghazisaedy, M. (2015). The impact of social robotics on L2 learners' anxiety and attitude in English vocabulary acquisition. International 
+Journal of Social Robotics, 7 , 523 – 535. https://doi.org/10.1007/s12369-015-0286-y
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+27 
+Alemi, M., Meghdari, A., & Haeri, N. S. (2017). Young EFL learners' attitude towards RALL: An observational study focusing on motivation, anxiety, and interaction. In 
+International conference on social robotics (pp. 252 – 261). Cham: Springer International Publishing . 
+Amoah, S., & Yeboah, J. (2021). The speaking difficulties of Chinese EFL learners and their motivation towards speaking the English language. Journal of Language and 
+Linguistic Studies, 17 (1), 56 – 69. https://search.informit.org/doi/abs/10.3316/informit.220198786765725 .
+Anttila, E.. The potential of dance as embodied learning. https://escholarship.org/uc/item/3s7118mr .
+Anttila, E., & Svendler Nielsen, C. (2019). Dance and the quality of life at schools: A Nordic affiliation. In K. Bond (Ed.), Dance and the quality of life (pp. 327 – 346). 
+Springer. https://doi.org/10.1007/978-3319-95699-2_19 . 
+Archbell, K. A., & Coplan, R. J. (2022). Too anxious to talk: Social anxiety, academic communication, and students' experiences in higher education. Journal of 
+Emotional and Behavioral Disorders, 30 (4), 273 – 286. https://doi.org/10.1177/10634266211060079
+Atman Uslu, N., Yavuz, G.
+¨
+O., & Koçak Usluel, Y. (2023). A systematic review study on educational robotics and robots. Interactive Learning Environments, 31 (9), 
+5874 – 5898. https://doi.org/10.1080/10494820.2021.2023890
+Aubrey, S., King, J., & Almukhaild, H. (2022). Language learner engagement during speaking tasks: A longitudinal study. RELC Journal, 53 (3), 519 – 533. https://doi. 
+org/10.1177/0033688220945418
+Bailey, K. M. (2003). Speaking. In D. Nunan (Ed.), Practical English language teaching (pp. 47 – 66). McGraw-Hill/Contemporary . 
+Banli, S. (2020). How to handle with EFL learners' negative attitudes towards speaking English. Focus on ELT Journal, 2 (2), 30 – 40. https://doi.org/10.14744/ 
+felt.2020.00028
+Bortolan, A. (2022). Social anxiety, self-consciousness, and interpersonal experience. Empathy, Intersubjectivity, and the Social World: The Continued Relevance of 
+Phenomenology. Essays in Honour of Dermot Moran, 9 , 303. https://doi.org/10.1515/9783110698787-016
+Brown, G., & Yule, G. (1983). Teaching the spoken language, 2 . Cambridge university press . 
+Byrne, B. M. (2010). Structural equation modeling with AMOS: Basic concepts, applications, and programming (2nd ed.). Mahwah, NJ: Erlbaum . 
+Chen, Z. (2025). What shapes communicative adequacy in second language speaking performance? The contributions of complexity, accuracy, fluency, and 
+pronunciation. Vigo International Journal of Applied Linguistics , (22), 65 – 90. https://doi.org/10.35869/vial.v0i22.4882
+Chen, C. M., & Lee, T. H. (2011). Emotion recognition and communication for reducing second-language speaking anxiety in a web-based one-to-one synchronous 
+learning environment. British Journal of Educational Technology, 42 (3), 417 – 440. https://doi.org/10.1111/j.1467-8535.2009.01035.x
+Connor, K. M., Kobak, K. A., Churchill, L. E., Katzelnick, D., & Davidson, J. R. (2001). Mini-SPIN: A brief screening assessment for generalized social anxiety disorder. 
+Depression and Anxiety, 14 (2), 137 – 140. https://doi.org/10.1002/da.1055
+Csikszentmihalyi, M., Abuhamdeh, S., & Nakamura, J. (2014). Flow. In Flow and the foundations of positive psychology: The collected works of Mihaly Csikszentmihalyi 
+(pp. 227 – 238). Netherlands: Springer. Dordrecht .
+Dao, P. (2020). Effect of interaction strategy instruction on learner engagement in peer interaction. System, 91 , Article 102244. https://doi.org/10.1016/j. 
+system.2020.102244
+Dawes, J. (2008). Do data characteristics change according to the number of scale points used? An experiment using 5-point, 7-point and 10-point scales. International 
+Journal of Market Research, 50 (1), 61 – 104. https://doi.org/10.1177/147078530805000106
+Deci, E. L., & Ryan, R. M. (2012). Self-determination theory. Handbook of Theories of Social Psychology, 1 (20), 416 – 436. https://www.torrossa.com/en/resources/an/ 
+5017496#page = 437 .
+Deci, E. L., & Ryan, R. M. (2013). Intrinsic motivation and self-determination in human behavior . Springer Science & Business Media . 
+Deng, R., Benckendorff, P., & Gannaway, D. (2020). Learner engagement in MOOCs: Scale development and validation. British Journal of Educational Technology, 51 
+(1), 245 – 262. https://doi.org/10.1111/bjet.12810
+Deng, Q., Fu, C., Ban, M., & Iio, T. (2024). A systematic review on robot-assisted language learning for adults. Frontiers in Psychology, 15 , 1471370. https://doi.org/10. 
+3389/fpsyg.2024.1471370 .
+Derakhshan, A., Teo, T., & Khazaie, S. (2025). Investigating the usefulness of artificial intelligence-driven robots in developing empathy for English for medical 
+purposes communication: The role-play of Asian and African students. Computers in Human Behavior, 162 . https://doi.org/10.1016/j.chb.2024.108416
+Derakhshan, A., Teo, T., Saeedy Robat, E., Janebi Enayat, M., & Jahanbakhsh, A. A. (2024). Robot-assisted language learning: A meta-analysis. Review of Educational 
+Research . , Article 00346543241247227. https://doi.org/10.3102/00346543241247227
+Ding, Y., & Zhu, J. (2025). Mobile based peer feedback in EFL speaking: Learners' motivation, behavioral engagement in feedback provision, and achievement. Asian- 
+Pacific Journal of Second and Foreign Language Education, 10 (1), 10.10.1186/s40862-024-00314-9 .
+D ¨ornyei, Z. (2014). The psychology of the language learner: Individual differences in second language acquisition . Routledge . 
+Ellis, N. C. (2019). Essentials of a theory of language cognition. The Modern Language Journal, 103 , 39 – 60. https://doi.org/10.1111/modl.12532
+Engestr ¨om, Y. (2001a). Making expansive decisions: An activity-theoretical study of practitioners building collaborative medical care for children. In Decision making: 
+Social and creative dimensions (pp. 281 – 301). Dordrecht: Springer. https://doi.org/10.1007/978-94-015-9827-9_14 . 
+Engestr ¨om, Y. (2001b). Expansive learning at work: Toward an activity theoretical reconceptualisation. Journal of Education and Work, 14 (1), 133 – 156. https://doi. 
+org/10.1080/13639080020028747
+Field, A. (2018). Discovering statistics using IBM SPSS statistics (5
+th 
+ed . London: SAGE Publications Ltd . 
+Finn, A. N., & Schrodt, P. (2012). Students' perceived understanding mediates the effects of teacher clarity and nonverbal immediacy on learner empowerment. 
+Communication Education, 61 (2), 111 – 130. https://doi.org/10.1080/03634523.2012.656669
+Gan, Z., Yan, Z., & An, Z. (2022). Development and validation of an EFL speaking self-efficacy scale in the self-regulated learning context. Journal of Asia TEFL, 19 (1), 
+35. https://doi.org/10.18823/asiatefl.2022.19.1.3.35
+Ghani, M. T. A., Hamzah, M., Ramli, S., Ab, W., Daud, A. W., Romli, T. R. M., & Mokhtar, N. N. M. (2019). A questionnaire-based approach on technology acceptance 
+model for mobile digital game-based learning. Journal of Global Business and Social Entrepreneurship (GBSE), 5 (14), 11 – 21. http://www.gbse.my/V5%20NO.14% 
+20(MARCH%202019)/Paper-199-.pdf .
+Gibbes, M., & Carson, L. (2014). Project-based language learning: An activity theory analysis. Innovation in Language Learning and Teaching, 8 (2), 171 – 189. https://doi. 
+org/10.1080/17501229.2013.793689
+Gobert, J. D., Baker, R. S., & Wixon, M. B. (2015). Operationalising and detecting disengagement within online science microworlds. Educational Psychologist, 50 (1), 
+43 – 57. https://doi.org/10.1080/00461520.2014.999919
+Gomez, Y. C. (2021). How do Japanese EFL learners fail to engage in a Collaborative Dialogue in a Group Project? International Journal of Curriculum Development and 
+Practice, 24 (1), 31 – 45. https://doi.org/10.18993/jcrdaen.24.1_31
+Greene, R. R. (2017). Carl Rogers and the person-centered approach. In Human behavior theory and social work practice (pp. 113 – 132). Routledge . 
+Gumbaridze, J. (2013). Error correction in EFL speaking classrooms. Procedia - Social and Behavioral Sciences, 70 , 1660 – 1663. https://doi.org/10.1016/j. 
+sbspro.2013.01.237
+Hair Jr, J. F., Hult, G. T. M., Ringle, C. M., Sarstedt, M., Danks, N. P., & Ray, S. (2021). Partial least squares structural equation modeling (PLS-SEM) using R: A workbook . 
+Springer Nature . 
+Harmer, J. (2007). The practice of English language teaching (4
+th 
+ed . Pearson Education Limited . 
+Heemskerk, C. H. H. M., & Malmberg, L. (2020). Students' observed engagement in lessons, instructional activities, andlearning experiences. Frontline Learning 
+Research, 8 (6). https://doi.org/10.14786/flr.v8i6.613 , 38, 58.
+Higa, C. K., Phillips, L. K., Chorpita, B. F., & Daleiden, E. L. (2008). The structure of self-consciousness in children and young adolescents and relations to social 
+anxiety. Journal of Psychopathology and Behavioral Assessment, 30 , 261 – 271. https://doi.org/10.1007/s10862-008-9079-z
+Hiver, P., Al-Hoorie, A. H., & Mercer, S. (2020). Student engagement in the Language classroom. Multilingual Matters . https://doi.org/10.21832/9781788923613
+Hong, H. S. (2016). The effects of listening comprehension on ESL learners' English language proficiency. Malaysian Journal of ELT Research, 12 (2), 15 – 30 .
+Horwitz, E. K. (1999). Cultural and situational influences on foreign language learners' beliefs about language learning: A review of BALLI studies. System, 27 (4), 
+557 – 576. https://doi.org/10.1016/S0346-251X(99)00050-0
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+28 
+Hsieh, Y. H., Lin, Y. C., & Hou, H. T. (2015). Exploring elementary-school students' engagement patterns in a game-based learning environment. Journal of Educational 
+Technology & Society, 18 (2), 336 – 348. https://www.jstor.org/stable/10.2307/jeductechsoci.18.2.336 .
+Hu, L., & Wang, Y. (2023). The predicting role of EFL teachers' immediacy behaviors in students' willingness to communicate and academic engagement. BMC 
+Psychology, 11 (1), 318. https://doi.org/10.1186/s40359-023-01378-x
+In, J., & Han, J. (2015). The acoustic-phonetics change of English learners in robot assisted learning. In Proceedings of the tenth annual ACM/IEEE international 
+conference on human-robot interaction extended abstracts (pp. 39 – 40). https://doi.org/10.1145/2701973.2702003
+Jusslin, S., Korpinen, K., Lilja, N., Martin, R., Lehtinen-Schnabel, J., & Anttila, E. (2022). Embodied learning and teaching approaches in language education: A mixed 
+studies review. Educational Research Review, 37 , Article 100480. https://doi.org/10.1016/j.edurev.2022.100480
+Ke, F., Xie, K., & Xie, Y. (2016). Game-based learning engagement: A theory-and data-driven exploration. British Journal of Educational Technology, 47 (6), 1183 – 1201. 
+https://doi.org/10.1111/bjet.12314
+Khan, R. M. I., Radzuan, N. R. M., Farooqi, S. U. H., Shahbaz, M., & Khan, M. S. (2021). Learners' perceptions on WhatsApp integration as a learning tool to develop 
+EFL vocabulary for speaking skill. International Journal of Language Education, 5 (2), 1 – 14. https://eric.ed.gov/?id = EJ1313267 .
+Khazaie, S., & Derakhshan, A. (2024). Extending embodied cognition through robot's augmented reality in English for medical purposes classrooms. English for Specific 
+Purposes . https://doi.org/10.1016/j.esp.2024.03.001
+Khazaie, S., Derakhshan, A., & Karbasi, M. (2025). Exploring the potentials of the telepresence robot-assisted medical college Persian productive skills education 
+among Middle Eastern students. In H. Saeli (Ed.), Handbook of teaching and learning Persian as a second language . Springer. https://doi.org/10.1007/978-981-97- 
+1818-4_33-1 . 
+Klassen, R. M. (2006). Too much confidence. In F. Pajares, & T. Urdan (Eds.), Self-efficacy beliefs of adolescents (pp. 181 – 200). Greenwich, Conn .
+Lee, H., & Lee, J. H. (2022). The effects of robot-assisted language learning: A meta-analysis. Educational Research Review, 35 , Article 100425. https://doi.org/ 
+10.1016/j.edurev.2021.100425
+Lee, S., Noh, H., Lee, J., Lee, K., Lee, G. G., Sagong, S., & Kim, M. (2011). On the effectiveness of robot-assisted language learning. ReCALL, 23 (1), 25 – 58. https://doi. 
+org/10.1017/S0958344010000273
+Li, X., & Jia, X. (2006). Why don't you speak up?: East Asian students' participation patterns in American and Chinese ESL classrooms. Intercultural Communication 
+Studies, 15 (1), 192 – 206. https://media.sciltp.com/articles/sciltp/ics/2006/19-Xiaoshi-Li-Xuerui-Jia.pdf .
+Li, R., Meng, Z., Tian, M., Zhang, Z., & Xiao, W. (2021). Modelling Chinese EFL learners' flow experiences in digital game-based vocabulary learning: The roles of 
+learner and contextual factors. Computer Assisted Language Learning, 34 (4), 483 – 505. https://doi.org/10.1080/09588221.2019.1619585
+Lin, V., Yeh, H. C., & Chen, N. S. (2022). A systematic review on oral interactions in robot-assisted language learning. Electronics, 11 (2), 290. https://doi.org/10.3390/ 
+electronics11020290
+Mahripah, S. (2013). EFL learners' affection in the improvement of their English performance. LITERA, 12 (2), 287 – 299 .
+Meade, A. W., & Craig, S. B. (2012). Identifying careless responses in survey data. Psychological Methods, 17 (3), 437 – 455. https://doi.org/10.1037/a0028085
+Mirahmadi, S. H., & Alavi, S. M. (2016). The role of traditional and virtual scaffolding in developing speaking ability of Iranian EFL learners. International Journal of 
+English Linguistics, 6 (2), 43 – 56. https://pdfs.semanticscholar.org/b54a/1ad3b600eab6c8be4323df3cc042385d3019.pdf .
+Nagle, C. (2021). Using Expectancy Value Theory to understand motivation, persistence, and achievement in university-level foreign language learning. Foreign 
+Language Annals, 54 (4), 1238 – 1256. https://doi.org/10.1111/flan.12569
+Nunan, D. (2015). Teaching English to speakers of other languages: An introduction . Routledge . 
+Peng, J., & Woodrow, L. (2010). Willingness to communicate in English: A model in the Chinese EFL classroom context. Language Learning, 60 (4), 834 – 876 .
+Perttula, A., Kiili, K., Lindstedt, A., & Tuomi, P. (2017). Flow experience in game-based learning – a systematic literature review. International Journal of Serious Games, 
+4 (1), 57 – 72. https://doi.org/10.17083/ijsg.v4i1.151
+Philp, J., & Duchesne, S. (2016). Exploring engagement in tasks in the language classroom. Annual Review of Applied Linguistics, 36 , 50 – 72. https://doi.org/10.1017/ 
+S0267190515000094
+Philp, J., Walter, S., & Basturkmen, H. (2010). Peer interaction in the foreign language classroom: What factors foster a focus on form? Language Awareness, 19 (4), 
+261 – 279. https://doi.org/10.1080/09658416.2010.516831
+Plass, J. L., Homer, B. D., & Kinzer, C. K. (2015). Foundations of game-based learning. Educational Psychologist, 50 (4), 258 – 283. https://doi.org/10.1080/ 
+00461520.2015.1122533
+Pruss, E. T. H. E. L. (2022). The effect of embodiment on adaptive robot assisted language learning . Netherlands: Tilburg University. Bachelor Thesis http://arno.uvt.nl/ 
+show.cgi?fid = 161984 .
+Randall, N. (2019). A survey of robot-assisted language learning (RALL). ACM Transactions on Human-Robot Interaction (THRI), 9 (1), 1 – 36. https://doi.org/10.1145/ 
+3345506
+Rastelli, S. (2018). Neurolinguistics and second language teaching: A view from the crossroads. Second Language Research, 34 (1), 103 – 123. https://doi.org/10.1177/ 
+0267658316681377
+Reeve, J. (2013). How students create motivationally supportive learning environments for themselves: The concept of agentic engagement. Journal of Educational 
+Psychology, 105 (3), 579 – 595. https://doi.org/10.1037/a0032690
+Riazi, A. M., & Farsani, M. A. (2023). Mixed-methods research in applied linguistics: Charting the progress through the second decade of the twenty-first century. 
+Language Teaching , 1 – 40. https://doi.org/10.1017/S0261444823000332
+Schiavo, F., Campitiello, L., Todino, M. D., & Di Tore, P. A. (2024). Educational robots, emotion recognition and ASD: New horizon in special education. Education 
+Sciences, 14 (3), 258. https://doi.org/10.3390/educsci14030258
+Schmidt, R. (2012). Attention, awareness, and individual differences in language learning. Perspectives on Individual Characteristics and Foreign Language Education, 6 
+(27), 27 – 49. https://doi.org/10.1515/9781614510932
+Sheen, Y. (2008). Recasts, language anxiety, modified output, and L2 learning. Language Learning, 58 (4), 835 – 874. https://doi.org/10.1111/j.1467-9922.2008.00480. 
+x
+Shenton, A. K. (2004). Strategies for ensuring trustworthiness in qualitative research projects. Education for Information, 22 (2), 63 – 75. https://doi.org/10.3233/EFI- 
+2004-22201
+Shin, J. E., & Shin, D. H. (2015). Robot as a facilitator in language conversation class. In Proceedings of the tenth annual ACM/IEEE international conference on human- 
+robot interaction extended abstracts (pp. 11 – 12). https://doi.org/10.1145/2701973.2702062
+Skinner, E. A., Kindermann, T. A., & Furrer, C. J. (2009). A motivational perspective on engagement and disaffection: Conceptualization and assessment of children ’ s 
+behavioral and emotional participation in academic activities in the classroom. Educational and psychological measurement, 69 (3), 493 – 525. https://doi.org/10. 
+1177/0013164408323233 .
+Suban, T. S. (2021). Teaching speaking: Activities to promote speaking skills in EFL classrooms. Lectio: Journal of Language and Language Teaching, 1 (1), 41 – 50. 
+https://www.journal.unwira.ac.id/index.php/LECTIO/article/view/888 .
+Svalberg, A. M. L. (2009). Engagement with language: Interrogating a construct. Language Awareness, 18 , 242 – 258. https://doi.org/10.1080/09658410903197264
+Symeonidis, V., Guberman, A., & Cooper, R. (2025). Addressing teacher shortages in an international context: Implications for the quality and status of teacher 
+education. European Journal of Teacher Education, 48 (1), 1 – 8. https://doi.org/10.1080/02619768.2025.2447968
+Valagkouti, I. A., Troussas, C., Krouska, A., Feidakis, M., & Sgouropoulou, C. (2022). Emotion recognition in human – robot interaction using the NAO robot. Computers, 
+11 (5), 72. https://doi.org/10.3390/computers11050072
+van den Berghe, R., Verhagen, J., Oudgenoeg-Paz, O., van der Ven, S., & Leseman, P. (2019). Social robots for language learning: A review. Review of Educational 
+Research, 89 (2), 259 – 295. https://doi.org/10.3102/0034654318821286
+Vygotsky, L. S. (1978). In M. Cole, V. John-Steiner, S. Scribner, & E. Souberman (Eds.), Mind in Society: The development of higher psychological processes . Cambridge, 
+MA: Harvard University Press . 
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+29 
+Wang, L., & Wu, X. (2020). Influence of affective factors on learning ability in second language acquisition. Revista Argentina de Clinica Psicologica, 29(2), 1232. 
+https://doi.org/10.24205/03276716.2020.365
+Wang, Y. H., Young, S. S. C., & Jang, J. S. R. (2013). Using tangible companions for enhancing learning English conversation. Journal of Educational Technology & 
+Society, 16(2), 296–309. https://www.jstor.org/stable/10.2307/jeductechsoci.16.2.296 .
+Wesely, P. M. (2012). Learner affection, perceptions, and beliefs in language learning. Foreign Language Annals, 45(s1), s98–s117. https://doi.org/10.1111/j.1944- 
+9720.2012.01181.x
+Wigfield, A., & Eccles, J. S. (2000). Expectancy–value theory of achievement motivation. Contemporary Educational Psychology, 25(1), 68–81. https://doi.org/ 
+10.1006/ceps.1999.1015
+Wu, X., & Li, R. (2024). Effects of robot-assisted language learning on English-as-a-foreign-language skill development. Journal of Educational Computing Research, 62 
+(4), 1010–1034. https://doi.org/10.1177/07356331231226171
+Yorita, A., Botzheim, J., & Kubota, N. (2013). Self-efficacy using fuzzy control for long-term communication in robot-assisted language learning. In 2013 IEEE/RSJ 
+international conference on intelligent robots and systems (pp. 5708–5715). IEEE. https://doi.org/10.1109/IROS.2013.6697183. 
+Zeinivand, T., Azizifar, A., & Gowhary, H. (2015). The relationship between attitude and speaking proficiency of Iranian EFL learners: The case of Darrehshehr city. 
+Procedia - Social and Behavioral Sciences, 199, 240–247. https://doi.org/10.1016/j.sbspro.2015.07.512
+Zhang, X., Dai, S., & Ardasheva, Y. (2020). Contributions of (de) motivation, engagement, and anxiety to English listening and speaking. Learning and Individual 
+Differences, 79, Article 101856. https://doi.org/10.1016/j.lindif.2020.101856
+Zhang, R., & Zou, D. (2023). A review of research on technology-enhanced peer feedback for second language writing based on the activity theory framework. 
+Education and Information Technologies, 28(6), 6727–6753. https://doi.org/10.1007/s10639-022-11469-8
+Zhang, R., Zou, D., & Cheng, G. (2024). Technology-enhanced language learning with null and negative results since 2000: A systematic review based on the activity 
+theory. Education and Information Technologies, 29(4), 5017–5077. https://doi.org/10.1007/s10639-023-11993-1
+Zhang, R., Zou, D., & Cheng, G. (2026). Non-academic learner socialisation with ChatGPT and its influences on learning English argumentative writing logic. 
+Education and Information Technologies, 31(1), 99–142. https://doi.org/10.1007/s10639-025-13776-2 .
+Zhang, R., Zou, D., Xie, H., & Wang, F. L. (2025b). Engagements with GPT responses and learner prompts in ChatGPT-based learning of English argumentative writing 
+logic and their impacts. Computers and Education: Artificial Intelligence, 100489. https://doi.org/10.1016/j.caeai.2025.100489 .
+Zhao, M., Gong, L., & Din, A. S. (2025). A review of the emotion recognition model of robots. Applied Intelligence, 55(6), 364. https://doi.org/10.1007/s10489-025- 
+06245-3
+Zheng, Y. (2021). The comparison in polite Language between Western culture and Chinese culture. In 2021 7th annual international conference on network and 
+information systems for computers (ICNISC) (pp. 532–535). IEEE. https://doi.org/10.1109/ICNISC54316.2021.00101. 
+Zhang, R., Zou, D., Cheng, G., & Xie, H. (2025a). Flow in ChatGPT-based logic learning and its influences on logic and self-efficacy in English argumentative writing. 
+Computers in Human Behavior, 162, Article 108457. 10.1016/j.chb.2024.108457.
+Ruofei Zhang is a lecturer of Centre for English and Additional Languages at Lingnan University. Her research interests include educational technology, chatbot-based 
+language learning, game-based language learning, self-regulated language learning, and artificial intelligence in language education. She has published around 40 
+research papers in international journals, conferences and books, including Computer Assisted Language Learning, and Computers in Human Behavior, and System.
+Di Zou is an Associate Professor of Department of English and Communication at The Hong Kong Polytechnic University. Her research interests include second language 
+acquisition, educational technology, and artificial intelligence in language education. She has led and collaborated on more than 20 research projects that explore the 
+pedagogical potential of digital tools in language classrooms. She has published around 200 research papers in international journals, conferences and books, including 
+Computers & Education, Computer Assisted Language Learning, and Computers in Human Behavior. She has obtained the World's Top 2% Scientists by Stanford University.
+Prof. Haoran Xie received a Ph.D. degree in Computer Science from City University of Hong Kong and an Ed.D degree in Digital Learning from the University of Bristol. 
+He is currently a Professor and the Person-in-Charge at the Division of Artificial Intelligence, Director of LEO Dr David P. Chan Institute of Data Science, and the 
+Associate Dean of the School of Data Science, Lingnan University, Hong Kong. He is the Editor-in-Chief of Natural Language Processing Journal, Computers & Education: 
+X Reality, Computers & Education: Artificial Intelligence, and Artificial Intelligence in Language Education; and the Co-Editor-in-Chief of Knowledge Management & E- 
+Learning. His research interests include natural language processing, large language models, language learning, and AI in education. He has published around 500 
+research publications, including more than 300 journal articles. His Google Scholar citation is more than 32,000 with the h-index of 70 and i10-index of 258. He has 
+obtained 30 research awards including the World's Top 2% Scientists by Stanford University, Top 0.5% Highly Ranked Scholar, and Best Computer Science Scientists.
+Gary Cheng is the Director of the Centre for Learning, Teaching and Technology and an Associate Professor of the Department of Mathematics and Information 
+Technology at The Education University of Hong Kong. He has been involved in research projects funded by EdUHK and the Research Grant Council of Hong Kong on a 
+range of topics mainly related to technology enhanced learning. His research interests include Artificial Intelligence in Education, Learning Analytics, Information 
+Technology Supported L2 Learning, ePortfolio-mediated Learning, Computer Programming Education, Online Learning Management System, and e-Assessment.
+R. Zhang et al.                                                                                                                                                                                                          Computers & Education 251 (2026) 105635 
+30 
