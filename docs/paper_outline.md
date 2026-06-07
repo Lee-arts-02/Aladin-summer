@@ -2,7 +2,7 @@
 
 Working title:
 
-Human-AI Design Reasoning and Student Agency in GenAI-supported Sustainable Building Design
+Coupling Human and AI Reasoning: Student Agency and Designer Identity in GenAI-Enabled Design Learning
 
 ## Core Argument
 
