@@ -50,6 +50,7 @@ def rows_from_table(tbl) -> list[list[str]]:
 
 
 def clean_heading(text: str) -> str:
+    text = re.sub(r"(\d+)\.\s+(\d+)", r"\1.\2", text)
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -91,6 +92,50 @@ def html_table(rows: list[list[str]], caption: str | None) -> str:
     return "\n".join(out)
 
 
+def mcnemar_table_html() -> str:
+    rows = [
+        ("1", "12", "5", "0.143463", "ns"),
+        ("2", "24", "6", "0.001431", "**"),
+        ("3", "15", "6", "0.078354", "ns"),
+        ("4", "21", "4", "0.000911", "***"),
+        ("5", "15", "11", "0.557197", "ns"),
+        ("6", "7", "14", "0.189247", "ns"),
+        ("7", "10", "10", "1.000000", "ns"),
+        ("8", "18", "6", "0.022656", "*"),
+        ("9", "14", "8", "0.286279", "ns"),
+        ("10", "19", "7", "0.028959", "*"),
+        ("11", "19", "10", "0.136046", "ns"),
+        ("12", "22", "4", "0.000534", "***"),
+    ]
+    out = [
+        "        <table>",
+        "          <caption>Table 4. McNemar's test results for question-level improvements.</caption>",
+        "          <thead>",
+        "            <tr>",
+        "              <th>Question</th>",
+        "              <th>Wrong to correct</th>",
+        "              <th>Correct to wrong</th>",
+        "              <th><em>p</em>-value</th>",
+        "              <th>Significance</th>",
+        "            </tr>",
+        "          </thead>",
+        "          <tbody>",
+    ]
+    for row in rows:
+        out.append("            <tr>")
+        for cell in row:
+            out.append(f"              <td>{cell}</td>")
+        out.append("            </tr>")
+    out.extend(
+        [
+            "          </tbody>",
+            "        </table>",
+            '        <p class="table-note">Note. * <em>p</em> &lt; .05, ** <em>p</em> &lt; .01, *** <em>p</em> &lt; .001; ns = not significant. Questions with significant improvement: 2, 4, 8, 10, and 12.</p>',
+        ]
+    )
+    return "\n".join(out)
+
+
 def extract_images(doc: Document) -> dict[str, str]:
     ASSET_DIR.mkdir(parents=True, exist_ok=True)
     rel_to_path: dict[str, str] = {}
@@ -119,7 +164,7 @@ def extract_images(doc: Document) -> dict[str, str]:
 
 def supplemental_discussion() -> list[str]:
     return [
-        '        <h2>5   Discussion</h2>',
+        '        <h2>5 Discussion</h2>',
         '        <h3>5.1 Conceptual learning in GenAI-CAD design</h3>',
         html_paragraph(
             "The first research question asked whether interacting with a GenAI-based CAD tool could improve students' conceptual understanding of sustainable building design. The results provide affirmative evidence: students demonstrated statistically significant gains from pre- to post-test, with the largest improvements concentrated in concepts that were directly actionable within the design task. This pattern suggests that GenAI-supported CAD activity can support conceptual learning when students encounter scientific ideas as design levers rather than as decontextualized facts."
@@ -157,6 +202,24 @@ def supplemental_discussion() -> list[str]:
     ]
 
 
+PROMOTED_SUBHEADINGS = {
+    "Learning Objectives",
+    "Core Activity Supported by Aladdin",
+    "Generate a design solution",
+    "Analyze the design solution",
+    "Iteratively Improve the Design Solution",
+    "Document interaction with AI",
+    "Reflection",
+    "Pre- and Post-Test",
+    "Interview Design",
+    "Student Learning Agency Survey",
+}
+
+
+def should_promote_paragraph(text: str) -> bool:
+    return text in PROMOTED_SUBHEADINGS or text.startswith("Cluster 1:") or text.startswith("Cluster 2:") or text.startswith("Cluster 3:")
+
+
 def build_body(doc: Document, rel_to_path: dict[str, str]) -> str:
     blocks = list(doc.element.body.iterchildren())
     lines: list[str] = []
@@ -175,13 +238,31 @@ def build_body(doc: Document, rel_to_path: dict[str, str]) -> str:
                 for rid in rids:
                     figure_no += 1
                     src = rel_to_path[rid]
-                    pending_figure = f'        <figure>\n          <img src="{html.escape(src)}" alt="Figure {figure_no} from the manuscript draft">'
-                    lines.append(pending_figure)
+                    caption = None
+                    j = i + 1
+                    while j < len(blocks):
+                        if blocks[j].tag == qn("w:p"):
+                            candidate = p_text(blocks[j])
+                            if candidate:
+                                caption = candidate if candidate.startswith("Figure") else None
+                                break
+                        elif blocks[j].tag == qn("w:tbl"):
+                            break
+                        j += 1
+                    if caption and "Item-level significance" in caption:
+                        lines.append(mcnemar_table_html())
+                        i = j
+                    else:
+                        fig = f'        <figure>\n          <img src="{html.escape(src)}" alt="Figure {figure_no} from the manuscript draft">'
+                        if caption:
+                            fig += f"\n          <figcaption>{html.escape(caption)}</figcaption>"
+                            i = j
+                        fig += "\n        </figure>"
+                        lines.append(fig)
                 i += 1
                 continue
 
-            if text.startswith("Figure") and lines and lines[-1].startswith("        <figure>"):
-                lines[-1] += f"\n          <figcaption>{html.escape(text)}</figcaption>\n        </figure>"
+            if text.startswith("Figure"):
                 i += 1
                 continue
 
@@ -217,6 +298,8 @@ def build_body(doc: Document, rel_to_path: dict[str, str]) -> str:
             elif style == "Heading2":
                 lines.append(f"        <h3>{html.escape(clean_heading(text))}</h3>")
             elif is_subheading_text(text):
+                lines.append(f"        <h4>{html.escape(clean_heading(text))}</h4>")
+            elif should_promote_paragraph(text):
                 lines.append(f"        <h4>{html.escape(clean_heading(text))}</h4>")
             elif text.startswith("Table "):
                 pending_caption = text
@@ -291,12 +374,22 @@ def build_html(body: str) -> str:
     main {{ padding: 28px 56px 60px; }}
     h2 {{
       font-size: 24px;
-      margin: 34px 0 12px;
-      border-bottom: 1px solid var(--rule);
-      padding-bottom: 6px;
+      margin: 34px 0 14px;
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 5px;
+      font-weight: 700;
     }}
-    h3 {{ font-size: 20px; margin: 28px 0 8px; }}
-    h4 {{ font-size: 18px; margin: 20px 0 6px; font-style: italic; }}
+    h3 {{
+      font-size: 20px;
+      margin: 28px 0 8px;
+      font-weight: 700;
+    }}
+    h4 {{
+      font-size: 17px;
+      margin: 18px 0 6px;
+      font-weight: 700;
+      font-style: italic;
+    }}
     p {{ margin: 9px 0; text-align: justify; }}
     table {{
       width: 100%;
@@ -365,7 +458,11 @@ def main() -> None:
     doc = Document(DOCX)
     rel_to_path = extract_images(doc)
     body = build_body(doc, rel_to_path)
-    OUT.write_text(build_html(body), encoding="utf-8", newline="\n")
+    html_text = build_html(body)
+    OUT.write_text(html_text, encoding="utf-8", newline="\n")
+    for asset in ASSET_DIR.glob("*"):
+        if asset.as_posix() not in html_text:
+            asset.unlink()
     print(f"wrote {OUT} with {len(rel_to_path)} images")
 
 

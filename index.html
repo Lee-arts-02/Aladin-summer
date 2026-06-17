@@ -55,12 +55,22 @@
     main { padding: 28px 56px 60px; }
     h2 {
       font-size: 24px;
-      margin: 34px 0 12px;
-      border-bottom: 1px solid var(--rule);
-      padding-bottom: 6px;
+      margin: 34px 0 14px;
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 5px;
+      font-weight: 700;
     }
-    h3 { font-size: 20px; margin: 28px 0 8px; }
-    h4 { font-size: 18px; margin: 20px 0 6px; font-style: italic; }
+    h3 {
+      font-size: 20px;
+      margin: 28px 0 8px;
+      font-weight: 700;
+    }
+    h4 {
+      font-size: 17px;
+      margin: 18px 0 6px;
+      font-weight: 700;
+      font-style: italic;
+    }
     p { margin: 9px 0; text-align: justify; }
     table {
       width: 100%;
@@ -99,13 +109,6 @@
       font-size: 13px;
       color: var(--muted);
       margin-top: 8px;
-      text-align: left;
-    }
-    .table-note {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 13px;
-      color: var(--muted);
-      margin-top: -12px;
       text-align: left;
     }
     .references { font-size: 14px; text-align: left; }
@@ -184,45 +187,49 @@
 
         <h3>3.2 Learning Environment and Procedure - Aladdin</h3>
 
-        <p>Learning Objectives</p>
+        <h4>Learning Objectives</h4>
 
         <p>Aladdin is a GenAI-enabled computer-aided design (CAD) tool that helps learners visualize scientific concepts and operationalize inquiry practices in engineering design (Xie et al., 2023). In this activity, learners use GenAI to design an eco-friendly house with the goal of reducing energy consumption as much as possible. The activity enhances inquiry in design by engaging learners in the process of generating design ideas, analyzing energy performance through simulation, and revising their solutions toward the net-zero goal. Through this process, learners practice using GenAI in engineering design, a critical skill aligned with the Next Generation Science Standards (NGSS). By assessing, refining, and changing their designs with GenAI, learners can also develop an understanding of the potential benefits and limitations of introducing GenAI into engineering design.</p>
 
-        <p>Core Activity Supported by Aladdin</p>
+        <h4>Core Activity Supported by Aladdin</h4>
 
-        <p>Generate a design solution</p>
+        <h4>Generate a design solution</h4>
 
         <p>Students begin by using GenAI in Aladdin to generate an initial net-zero house design. They create a Building Design project and write a prompt describing the house they want to design. This step introduces prompting as a way for students to translate design ideas into AI-generated building solutions. To support this process, students are provided with general prompt-writing guidelines, such as writing concise prompts, combining multiple design ideas when appropriate, and using specific technical terms. Although the activity constrains students to a colonial-style house format, they can still adjust key design variables in their prompts, such as location, orientation, roof type, insulation values, window properties, HVAC settings, and solar panel coverage.</p>
 
         <figure>
           <img src="assets/aladin_draft_0617/figure_01.png" alt="Figure 1 from the manuscript draft">
+        </figure>
 
-        <p>Analyze the design solution</p>
+        <h4>Analyze the design solution</h4>
 
         <p>After generating a house design, students use Aladdin’s built-in non-AI energy simulation tool, Analyze Yearly Building Energy, to evaluate the design. The tool calculates the house’s monthly and annual energy performance, including heater use, AC use, solar panel output, and net energy use. These results provide quantitative evidence for students to evaluate whether the AI-generated design moves toward the net-zero goal. This step encourages multi-source verification by asking students to compare AI-generated design suggestions with evidence from Aladdin’s built-in non-AI energy simulation.</p>
 
         <figure>
           <img src="assets/aladin_draft_0617/figure_02.png" alt="Figure 2 from the manuscript draft">
+        </figure>
 
-        <p>Iteratively Improve the Design Solution</p>
+        <h4>Iteratively Improve the Design Solution</h4>
 
         <p>Based on the simulation results, students revise their prompts and generate improved versions of the house to reduce its energy usage. Students are introduced to the default variables that Aladdin assumes when these variables are not specified in prompts, which also points them to multiple ways of further reducing energy use. In this sense, students learn how to modify design parameters and iteratively improve their house design toward the net-zero goal.</p>
 
         <figure>
           <img src="assets/aladin_draft_0617/figure_03.png" alt="Figure 3 from the manuscript draft">
+        </figure>
 
-        <p>Document interaction with AI</p>
+        <h4>Document interaction with AI</h4>
 
         <p>Students are required to document their prompts, AI’s reasoning, and relevant simulation results in the worksheet for up to five important design rounds. This documentation not only helps students keep track of their progress toward the net-zero goal, but also makes the human-AI design process visible. By reviewing these records, students can more easily examine their design decisions, pay attention to AI’s reasoning, and reflect on the implications of AI-generated suggestions.</p>
 
         <figure>
           <img src="assets/aladin_draft_0617/figure_04.png" alt="Figure 4 from the manuscript draft">
+        </figure>
 
-        <p>Reflection</p>
+        <h4>Reflection</h4>
 
         <p>At the end of the activity, students complete a final reflection. They share their Aladdin project link and reflect on three questions: what science and engineering concepts they learned from AI, what strategies they learned for designing toward the net-zero goal, and what they see as the advantages and limitations of using AI in engineering design. This final step connects the design experience to broader learning about sustainable engineering and responsible GenAI use.</p>
 
-        <h3>3. 3 Experiment Design</h3>
+        <h3>3.3 Experiment Design</h3>
 
         <p>Participating students completed a two-session engineering design activity using Aladdin, a generative AI-supported design environment for energy-efficient home design. The activity asked students to work toward the goal of reducing a house’s energy cost by testing and refining different design strategies. Each implementation group included three class blocks and followed the same two-session structure. During the first session, students were introduced to the project, completed a pre-survey assessing their prior knowledge of relevant engineering concepts, and began exploring the design task in Aladdin and set the model to colonial style. During the second session, students continued working on the design task by testing and revising design strategies in relation to the energy-cost reduction goal. At the end of the second session, students completed a post-survey that used the same knowledge questions as the pre-survey to examine changes in conceptual understanding after the Aladdin-supported design activity.</p>
 
@@ -230,11 +237,11 @@
 
         <p>An additional student learning agency survey was also administered after the design activity. This survey was intended to capture students’ reflections on their own role, decision-making, and self-regulation while interacting with generative AI during the design process.</p>
 
-        <p>Pre- and Post-Test</p>
+        <h4>Pre- and Post-Test</h4>
 
         <p>The pre- and post tests included the same 12 questions designed to assess students’ prior understanding of concepts relevant to energy-efficient home design. The questions mapped onto four conceptual areas: thermal insulation and heat transfer, solar geometry and radiation, HVAC controls and strategy, and sustainable engineering goals. The full pre- and post-survey are included in Appendix.</p>
 
-        <p>Interview Design</p>
+        <h4>Interview Design</h4>
 
         <p>The semi-structured interview protocol was organized around three main primary questions (add areas?). The main interview questions then focused on three topics: concept learning, design strategies and problem solving, and critical evaluation. First, students were asked about the science and engineering concepts they learned through interacting with AI. Second, students were asked about the design strategies they learned from AI when designing toward the net-zero goal. Third, students were asked to evaluate the advantages and limitations of using AI in engineering design. Below is the interview questions:</p>
 
@@ -248,7 +255,7 @@
 
         <p>What is your opinion about the pros and cons of using AI in engineering design?</p>
 
-        <p>Student Learning Agency Survey</p>
+        <h4>Student Learning Agency Survey</h4>
 
         <p>The student learning agency survey was adapted from the Student Learning Agency in Generative AI-supported Contexts scale developed by Xia et al. (2025). This scale was developed to measure student agency specifically in learning environments that involve generative AI., rather than relying on general learning agency measures. The survey in this study was designed to examine how students perceived their own role, decision-making, and self-regulation while using Aladdin.</p>
 
@@ -595,21 +602,23 @@
 
         <figure>
           <img src="assets/aladin_draft_0617/figure_07.png" alt="Figure 7 from the manuscript draft">
+        </figure>
 
         <p>The k = 3 solution was selected as it yielded the highest silhouette score among solutions with no cluster smaller than three students. The resulting three clusters contained 9, 36, and 9 students respectively, and are described below.</p>
 
         <figure>
           <img src="assets/aladin_draft_0617/figure_08.png" alt="Figure 8 from the manuscript draft">
+        </figure>
 
-        <p>Cluster 1: High-Iteration Sophisticated Prompters (<em>n</em> = 9)</p>
+        <h4>Cluster 1: High-Iteration Sophisticated Prompters (n = 9)</h4>
 
         <p>Students in this cluster were distinguished by the highest number of design iterations among the three groups (M = 14.78, SD = 2.95), reflecting sustained behavioral engagement with the design-revise cycle across the task. Their mean PSI was the highest of the three clusters (M = 1.97, SD = 1.22), indicating relatively greater specificity and conceptual breadth in prompting, though PSI remained stable over time (PSI growth: M = 0.05, SD = 0.07), suggesting that these students entered the task with an already-developed prompting approach rather than developing it progressively. Mean AI reasoning uptake was also the highest across clusters (M = 0.51, SD = 0.08), indicating that these students more consistently incorporated AI feedback into subsequent prompts than their peers.</p>
 
-        <p>Cluster 2: Self-Exploratory Testers (<em>n</em> = 36)</p>
+        <h4>Cluster 2: Self-Exploratory Testers (n = 36)</h4>
 
         <p>The largest cluster, comprising two-thirds of the analytic sample, showed moderate levels of iterative engagement (M = 6.22 iterations, SD = 2.23) and low prompt sophistication (M = 1.09, SD = 1.15). PSI showed some growth over the task (M = 0.23, SD = 0.30), but the overall level remained low, indicating that while some students in this group became slightly more specific in their prompts over time, prompts were generally surface-level throughout. AI reasoning uptake was the lowest of the three clusters (M = 0.30, SD = 0.21), suggesting limited responsiveness to the AI-generated design feedback. This cluster represents the modal student design pattern in this sample.</p>
 
-        <p>Cluster 3: Short-Run Sophistication Improvers (<em>n</em> = 9)</p>
+        <h4>Cluster 3: Short-Run Sophistication Improvers (n = 9)</h4>
 
         <p>Students in this cluster completed the fewest design iterations (M = 2.89, SD = 0.93), but showed the most rapid growth in prompt sophistication over the course of those iterations (PSI growth: M = 0.94, SD = 0.45), by far the highest PSI growth across all three clusters. Although their overall mean PSI was comparable to Cluster 2 (M = 0.98, SD = 0.48), the steep upward trajectory indicates that within a small number of attempts, these students substantially increased the specificity and conceptual scope of their design requests. Uptake growth was similarly the highest of the three clusters (M = 0.32, SD = 0.19), suggesting that even in their limited number of iterations, these students showed an increasing tendency to incorporate AI reasoning into subsequent prompts. This pattern may reflect a rapid learning curve within a compressed design process.</p>
 
@@ -683,21 +692,25 @@
 
         <figure>
           <img src="assets/aladin_draft_0617/figure_09.png" alt="Figure 9 from the manuscript draft">
+        </figure>
 
         <p>The most frequent action sets differed across clusters. In Cluster1, the two most frequent action sets were F+W+R+S+I (13%) and F+W+N+R+S+I+H+C+G+B (10%). In Cluster 2, the most frequent action sets were G (13%). In Cluster 3, the most frequent sets were S (15%), F+S+I+C (12%), R+S+G (12%), and G (12%).</p>
 
         <figure>
           <img src="assets/aladin_draft_0617/figure_10.png" alt="Figure 10 from the manuscript draft">
+        </figure>
 
         <p>The depth means how many codes appear at the same time of iteration. Action-set depth differed significantly across clusters (&chi;<sup>2</sup> = 73.62, <em>p</em> = .001, V = .31), with Cluster 1 students producing depth-4+ action sets in 79% of their iterations. This stands in marked contrast to Cluster 3, where single-code prompts accounted for 38% of iterations and depth-0 sets, reflecting no identifiable prompted action, reached 12%, the highest rate across all three clusters. Cluster 2 occupied an intermediate position, with iterations distributed relatively evenly across depth categories. These findings suggest that Cluster 1 students routinely integrated multiple design dimensions within a single prompt, whereas Cluster 3 students most often addressed one dimension at a time or produced prompts that could not be attributed to any specific design action.</p>
 
         <figure>
           <img src="assets/aladin_draft_0617/figure_11.png" alt="Figure 11 from the manuscript draft">
+        </figure>
 
         <p>The transition type analysis revealed systematic differences in how students moved between prompted action sets across iterations. Cluster 1 students were characterized by a dominant repeat/refinement pattern, with 63% of transitions involving identical action sets across consecutive iterations, suggesting that these students sustained engagement with the same design configuration rather than shifting focus. Cluster 2 students showed the highest rate of additive refinement (29%), indicating a tendency to incrementally expand their action sets by introducing new codes without abandoning existing ones. Cluster 3 students, by contrast, exhibited the highest rates of both integration move (35%) and jump/testing (12%), suggesting that when Cluster 3 students did change their prompts, they were more likely to either leap toward a qualitatively different configuration or produce transitions with no code overlap across consecutive iterations.</p>
 
         <figure>
           <img src="assets/aladin_draft_0617/figure_12.png" alt="Figure 12 from the manuscript draft">
+        </figure>
 
         <p>To illustrate cluster-level prompting behavior, a medoid sequence was identified for each cluster. The medoid was defined as the student whose prompted action-set sequence had the highest mean DTW similarity to all other sequences within the same cluster, making it the most centrally representative trajectory in the group. The representative sequences illustrate these patterns at the level of individual prompting behavior. The Cluster 1 medoid student (Student H) began with a location-anchored prompt and systematically accumulated design specifications across iterations, retaining solar, insulation, and window codes from iteration 2 onward and introducing HVAC only in iteration 8. This trajectory reflects the incremental pattern dominant in Cluster 1: the core prompt remained stable while new elements were selectively incorporated. The Cluster 2 medoid student (Student N) repeated an identical location-only prompt across the first three iterations before introducing solar panels in iteration 4 and appending insulation and HVAC in subsequent prompts. Her final iteration, however, dropped these additions entirely and shifted to &quot;Window Insulation,&quot; consistent with the partial uptake and late pivot characteristic of Cluster 2&#x27;s additive-then-diverge pattern. The Cluster 3 medoid student (Student D) completed only three iterations, moving from a bare location prompt to solar panels and then to a multi-component specification combining roof, solar, and insulation in a single step.</p>
 
@@ -852,7 +865,7 @@
 
       <section id="discussion">
 
-        <h2>5   Discussion</h2>
+        <h2>5 Discussion</h2>
 
         <h3>5.1 Conceptual learning in GenAI-CAD design</h3>
 
