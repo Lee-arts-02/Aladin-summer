@@ -279,6 +279,14 @@
 
         <p>Seven student-level features were constructed from the raw platform log data to characterize each student&#x27;s engagement across four behavioral dimensions: iterative engagement, prompt sophistication (PSI), AI reasoning uptake, and energy performance. All features were computed directly from raw text and numeric log values,  no pre-coded values or externally derived scores were used at any stage. Table 1 shows how each dimension is calculated.</p>
 
+        <h4>Prompt sophistication: qualitative coding to quantitative features</h4>
+
+        <p>Prompt sophistication was quantified at the iteration level using a Prompt Sophistication Index (PSI). Each student prompt was coded for three components: specificity, conceptual/computational breadth (CCB), and reasoning orientation. The iteration-level score was calculated as PSI<sub>i</sub> = specificity<sub>i</sub> + CCB<sub>i</sub> + reasoning orientation<sub>i</sub>. Two student-level features were then derived from the sequence of iteration-level PSI scores. Mean PSI represented the average sophistication of a student&#x27;s prompts across all valid iterations. PSI growth represented the ordinary least squares linear regression slope of PSI<sub>i</sub> regressed on iteration number, capturing whether a student&#x27;s prompting became more sophisticated over time.</p>
+
+        <h4>AI reasoning uptake: qualitative coding to quantitative features</h4>
+
+        <p>AI reasoning uptake was quantified by estimating the extent to which students incorporated AI-generated reasoning into subsequent prompts. For each iteration, uptake combined semantic similarity and concept overlap: uptake<sub>i</sub> = 0.5 &times; semantic uptake<sub>i</sub> + 0.5 &times; concept overlap<sub>i</sub>. Semantic uptake was computed using TF-IDF cosine similarity between the AI reasoning and the student&#x27;s subsequent prompt, while concept overlap measured the extent to which key concepts from the AI reasoning reappeared in the next student prompt. Two student-level features were derived from this sequence. Mean uptake represented the average uptake of AI reasoning across iterations. Uptake growth represented the ordinary least squares linear regression slope of uptake<sub>i</sub> regressed on iteration number, capturing whether students increasingly incorporated AI reasoning as the design task progressed.</p>
+
         <table>
           <caption>Table 1 summarizes the seven features used in the clustering analysis.</caption>
           <thead>

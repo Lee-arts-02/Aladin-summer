@@ -216,6 +216,26 @@ PROMOTED_SUBHEADINGS = {
 }
 
 
+FEATURE_METHOD_HTML = [
+    "        <h4>Prompt sophistication: qualitative coding to quantitative features</h4>",
+    html_paragraph(
+        "Prompt sophistication was quantified at the iteration level using a Prompt Sophistication Index (PSI). Each student prompt was coded for three components: specificity, conceptual/computational breadth (CCB), and reasoning orientation. The iteration-level score was calculated as PSI_i = specificity_i + CCB_i + reasoning orientation_i. Two student-level features were then derived from the sequence of iteration-level PSI scores. Mean PSI represented the average sophistication of a student's prompts across all valid iterations. PSI growth represented the ordinary least squares linear regression slope of PSI_i regressed on iteration number, capturing whether a student's prompting became more sophisticated over time."
+    )
+    .replace("PSI_i", "PSI<sub>i</sub>")
+    .replace("specificity_i", "specificity<sub>i</sub>")
+    .replace("CCB_i", "CCB<sub>i</sub>")
+    .replace("reasoning orientation_i", "reasoning orientation<sub>i</sub>"),
+    "        <h4>AI reasoning uptake: qualitative coding to quantitative features</h4>",
+    html_paragraph(
+        "AI reasoning uptake was quantified by estimating the extent to which students incorporated AI-generated reasoning into subsequent prompts. For each iteration, uptake combined semantic similarity and concept overlap: uptake_i = 0.5 x semantic uptake_i + 0.5 x concept overlap_i. Semantic uptake was computed using TF-IDF cosine similarity between the AI reasoning and the student's subsequent prompt, while concept overlap measured the extent to which key concepts from the AI reasoning reappeared in the next student prompt. Two student-level features were derived from this sequence. Mean uptake represented the average uptake of AI reasoning across iterations. Uptake growth represented the ordinary least squares linear regression slope of uptake_i regressed on iteration number, capturing whether students increasingly incorporated AI reasoning as the design task progressed."
+    )
+    .replace("uptake_i", "uptake<sub>i</sub>")
+    .replace("concept overlap_i", "concept overlap<sub>i</sub>")
+    .replace("semantic uptake<sub>i</sub>", "semantic uptake<sub>i</sub>")
+    .replace("0.5 x", "0.5 &times;"),
+]
+
+
 def should_promote_paragraph(text: str) -> bool:
     return text in PROMOTED_SUBHEADINGS or text.startswith("Cluster 1:") or text.startswith("Cluster 2:") or text.startswith("Cluster 3:")
 
@@ -305,6 +325,8 @@ def build_body(doc: Document, rel_to_path: dict[str, str]) -> str:
                 pending_caption = text
             else:
                 lines.append(html_paragraph(text))
+                if text.startswith("Seven student-level features were constructed"):
+                    lines.extend(FEATURE_METHOD_HTML)
         elif child.tag == qn("w:tbl"):
             rows = rows_from_table(child)
             lines.append(html_table(rows, pending_caption))
