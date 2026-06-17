@@ -14,7 +14,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -34,13 +34,17 @@ jobs:
           mkdir _site
           cp index.html _site/
           cp .nojekyll _site/
+          cp -R assets _site/assets
           cp -R outputs _site/outputs
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
+          name: paper-html-${{ github.run_id }}
           path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: paper-html-${{ github.run_id }}
