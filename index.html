@@ -275,6 +275,72 @@
 
         <p>Pre- and post-test assessments used the same set of 12 building energy concept problems, administered before and after the GenAI-CAD design task, respectively. The original datasets included 124 pre-test records and 74 post-test records. Participants were matched across the two datasets using usernames. A total of 68 students appeared in both and were included in the paired analysis sample. Individual improvement scores were calculated by subtracting each student&#x27;s pre-test total score from their post-test total score. These assessments were used to address RQ1 and were not included as inputs to the clustering algorithm described in Section 2.6.</p>
 
+        <p>The assessment was designed to capture conceptual understanding that students would need when evaluating and revising sustainable building designs in Aladdin. The 12 items were organized around four conceptual directions that correspond to the major energy mechanisms embedded in the design task: thermal insulation and heat transfer, solar geometry and radiation, HVAC controls and strategy, and sustainable engineering goals. This alignment allowed the pre/post test to measure not only whether students improved overall, but also which conceptual areas were most responsive to the GenAI-CAD activity.</p>
+
+        <table>
+
+          <caption>Table 1. Alignment between pre/post assessment design and conceptual directions.</caption>
+
+          <thead>
+
+            <tr>
+
+              <th>Conceptual direction</th>
+
+              <th>Assessment focus</th>
+
+              <th>Connection to the Aladdin design task</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody>
+
+            <tr>
+
+              <td>Thermal insulation and heat transfer</td>
+
+              <td>Students' understanding of how insulation, R-value, U-value, and heat transfer affect building energy performance.</td>
+
+              <td>Students could modify insulation-related parameters and evaluate how envelope decisions changed heating and cooling demand.</td>
+
+            </tr>
+
+            <tr>
+
+              <td>Solar geometry and radiation</td>
+
+              <td>Students' understanding of sunlight, roof color, solar panel orientation, passive solar design, and shading-related mechanisms.</td>
+
+              <td>Students could prompt for solar panels, windows, roof features, overhangs, and location-specific solar conditions while checking simulation outcomes.</td>
+
+            </tr>
+
+            <tr>
+
+              <td>HVAC controls and strategy</td>
+
+              <td>Students' understanding of thermostat placement, heating and cooling setpoints, and energy-efficient HVAC use.</td>
+
+              <td>Students could reason about heater and AC use in the yearly energy analysis and revise designs to reduce mechanical energy demand.</td>
+
+            </tr>
+
+            <tr>
+
+              <td>Sustainable engineering goals</td>
+
+              <td>Students' understanding of net-zero design, energy trade-offs, and the relationship between design choices and overall performance.</td>
+
+              <td>Students were asked to pursue a net-zero or low-energy house and use AI reasoning plus simulation feedback to evaluate progress toward that goal.</td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
         <h3>3.5 Feature Construction</h3>
 
         <p>Seven student-level features were constructed from the raw platform log data to characterize each student&#x27;s engagement across four behavioral dimensions: iterative engagement, prompt sophistication (PSI), AI reasoning uptake, and energy performance. All features were computed directly from raw text and numeric log values,  no pre-coded values or externally derived scores were used at any stage. Table 1 shows how each dimension is calculated.</p>
@@ -283,12 +349,74 @@
 
         <p>Prompt sophistication was quantified at the iteration level using a Prompt Sophistication Index (PSI). Each student prompt was coded for three components: specificity, conceptual/computational breadth (CCB), and reasoning orientation. The iteration-level score was calculated as PSI<sub>i</sub> = specificity<sub>i</sub> + CCB<sub>i</sub> + reasoning orientation<sub>i</sub>. Two student-level features were then derived from the sequence of iteration-level PSI scores. Mean PSI represented the average sophistication of a student&#x27;s prompts across all valid iterations. PSI growth represented the ordinary least squares linear regression slope of PSI<sub>i</sub> regressed on iteration number, capturing whether a student&#x27;s prompting became more sophisticated over time.</p>
 
+        <table>
+
+          <caption>Table 2. Prompt Sophistication Index coding rubric.</caption>
+
+          <thead>
+
+            <tr>
+
+              <th>PSI component</th>
+
+              <th>Coding focus</th>
+
+              <th>Example indicators in student prompts</th>
+
+              <th>Score contribution</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody>
+
+            <tr>
+
+              <td>Specificity</td>
+
+              <td>Degree to which the prompt specifies concrete design parameters rather than a general request.</td>
+
+              <td>Location, orientation, roof type, R-value, U-value, HVAC setting, solar panel placement, window dimensions.</td>
+
+              <td>0-2</td>
+
+            </tr>
+
+            <tr>
+
+              <td>Conceptual/computational breadth (CCB)</td>
+
+              <td>Degree to which the prompt coordinates multiple sustainable-building concepts or design variables.</td>
+
+              <td>Combining envelope, solar, HVAC, climate, window, shading, or energy-performance elements in the same prompt.</td>
+
+              <td>0-2</td>
+
+            </tr>
+
+            <tr>
+
+              <td>Reasoning orientation</td>
+
+              <td>Degree to which the prompt expresses a rationale, performance goal, trade-off, or causal mechanism.</td>
+
+              <td>Requests to reduce heating load, improve net-zero performance, use insulation to reduce heat transfer, or adjust design choices because of energy consequences.</td>
+
+              <td>0-2</td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
         <h4>AI reasoning uptake: qualitative coding to quantitative features</h4>
 
         <p>AI reasoning uptake was quantified by estimating the extent to which students incorporated AI-generated reasoning into subsequent prompts. For each iteration, uptake combined semantic similarity and concept overlap: uptake<sub>i</sub> = 0.5 &times; semantic uptake<sub>i</sub> + 0.5 &times; concept overlap<sub>i</sub>. Semantic uptake was computed using TF-IDF cosine similarity between the AI reasoning and the student&#x27;s subsequent prompt, while concept overlap measured the extent to which key concepts from the AI reasoning reappeared in the next student prompt. Two student-level features were derived from this sequence. Mean uptake represented the average uptake of AI reasoning across iterations. Uptake growth represented the ordinary least squares linear regression slope of uptake<sub>i</sub> regressed on iteration number, capturing whether students increasingly incorporated AI reasoning as the design task progressed.</p>
 
         <table>
-          <caption>Table 1 summarizes the seven features used in the clustering analysis.</caption>
+          <caption>Table 3. Student-level features used in the clustering analysis.</caption>
           <thead>
             <tr>
               <th>Feature</th>
@@ -358,7 +486,7 @@
         <p>The action-code scheme was developed through a combined deductive and inductive process. Deductively, initial categories were informed by Singh et al. (2022), who developed a set of manually defined design-action categories for coding Aladdin CAD log data. The codebook was subsequently refined through inductive review: categories were removed or added based on a manually qualitative examination of students&#x27; generative AI prompts in the present dataset, ensuring that the final scheme reflected the specific action types observed in this GenAI-supported design context. The resulting scheme comprised 14 codes, summarized in Table 2.</p>
 
         <table>
-          <caption>Table 2: Action Coding Scheme</caption>
+          <caption>Table 4. Action coding scheme.</caption>
           <thead>
             <tr>
               <th>Code</th>
@@ -455,7 +583,7 @@
         <p>Overall, students demonstrated significant improvement in conceptual understanding of building energy concepts after engaging with the Aladdin GenAI tool. Students entered the program with a mean score of 5.53 out of 12 (SD = 2.98), or approximately 46% correct, reflecting limited prior knowledge. By the post-test, the mean rose to 7.07 out of 12 (SD = 3.98), or 59% correct, a gain of 1.54 points on average. A one-tailed paired-samples t-test confirmed that this improvement was statistically significant, t(67) = 3.43, p &lt; .001, indicating that the observed gain was unlikely to be attributable to chance. At the individual level, 54.4% of students improved their scores, 19.1% showed no change, and 26.5% declined.</p>
 
         <table>
-          <caption>Table 3: Significance test</caption>
+          <caption>Table 5. Overall pre/post significance tests.</caption>
           <thead>
             <tr>
               <th>Analysis</th>
@@ -491,7 +619,7 @@
         </figure>
 
         <table>
-          <caption>Table 4. McNemar's test results for question-level improvements.</caption>
+          <caption>Table 6. McNemar's test results for question-level improvements.</caption>
           <thead>
             <tr>
               <th>Question</th>
@@ -623,7 +751,7 @@
         <p>Students in this cluster completed the fewest design iterations (M = 2.89, SD = 0.93), but showed the most rapid growth in prompt sophistication over the course of those iterations (PSI growth: M = 0.94, SD = 0.45), by far the highest PSI growth across all three clusters. Although their overall mean PSI was comparable to Cluster 2 (M = 0.98, SD = 0.48), the steep upward trajectory indicates that within a small number of attempts, these students substantially increased the specificity and conceptual scope of their design requests. Uptake growth was similarly the highest of the three clusters (M = 0.32, SD = 0.19), suggesting that even in their limited number of iterations, these students showed an increasing tendency to incorporate AI reasoning into subsequent prompts. This pattern may reflect a rapid learning curve within a compressed design process.</p>
 
         <table>
-          <caption>Table 4 Cluster Profile Statistics - Mean (SD) for Each Clustering Feature</caption>
+          <caption>Table 7. Cluster profile statistics: Mean (SD) for each clustering feature.</caption>
           <thead>
             <tr>
               <th>Feature</th>
@@ -715,6 +843,7 @@
         <p>To illustrate cluster-level prompting behavior, a medoid sequence was identified for each cluster. The medoid was defined as the student whose prompted action-set sequence had the highest mean DTW similarity to all other sequences within the same cluster, making it the most centrally representative trajectory in the group. The representative sequences illustrate these patterns at the level of individual prompting behavior. The Cluster 1 medoid student (Student H) began with a location-anchored prompt and systematically accumulated design specifications across iterations, retaining solar, insulation, and window codes from iteration 2 onward and introducing HVAC only in iteration 8. This trajectory reflects the incremental pattern dominant in Cluster 1: the core prompt remained stable while new elements were selectively incorporated. The Cluster 2 medoid student (Student N) repeated an identical location-only prompt across the first three iterations before introducing solar panels in iteration 4 and appending insulation and HVAC in subsequent prompts. Her final iteration, however, dropped these additions entirely and shifted to &quot;Window Insulation,&quot; consistent with the partial uptake and late pivot characteristic of Cluster 2&#x27;s additive-then-diverge pattern. The Cluster 3 medoid student (Student D) completed only three iterations, moving from a bare location prompt to solar panels and then to a multi-component specification combining roof, solar, and insulation in a single step.</p>
 
         <table>
+          <caption>Table 8. Representative prompted action-set sequences by designer profile.</caption>
           <thead>
             <tr>
               <th>Cluster</th>

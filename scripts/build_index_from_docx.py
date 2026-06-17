@@ -217,6 +217,78 @@ PROMOTED_SUBHEADINGS = {
 }
 
 
+ASSESSMENT_ALIGNMENT_HTML = [
+    "        <p>The assessment was designed to capture conceptual understanding that students would need when evaluating and revising sustainable building designs in Aladdin. The 12 items were organized around four conceptual directions that correspond to the major energy mechanisms embedded in the design task: thermal insulation and heat transfer, solar geometry and radiation, HVAC controls and strategy, and sustainable engineering goals. This alignment allowed the pre/post test to measure not only whether students improved overall, but also which conceptual areas were most responsive to the GenAI-CAD activity.</p>",
+    "        <table>",
+    "          <caption>Table 1. Alignment between pre/post assessment design and conceptual directions.</caption>",
+    "          <thead>",
+    "            <tr>",
+    "              <th>Conceptual direction</th>",
+    "              <th>Assessment focus</th>",
+    "              <th>Connection to the Aladdin design task</th>",
+    "            </tr>",
+    "          </thead>",
+    "          <tbody>",
+    "            <tr>",
+    "              <td>Thermal insulation and heat transfer</td>",
+    "              <td>Students' understanding of how insulation, R-value, U-value, and heat transfer affect building energy performance.</td>",
+    "              <td>Students could modify insulation-related parameters and evaluate how envelope decisions changed heating and cooling demand.</td>",
+    "            </tr>",
+    "            <tr>",
+    "              <td>Solar geometry and radiation</td>",
+    "              <td>Students' understanding of sunlight, roof color, solar panel orientation, passive solar design, and shading-related mechanisms.</td>",
+    "              <td>Students could prompt for solar panels, windows, roof features, overhangs, and location-specific solar conditions while checking simulation outcomes.</td>",
+    "            </tr>",
+    "            <tr>",
+    "              <td>HVAC controls and strategy</td>",
+    "              <td>Students' understanding of thermostat placement, heating and cooling setpoints, and energy-efficient HVAC use.</td>",
+    "              <td>Students could reason about heater and AC use in the yearly energy analysis and revise designs to reduce mechanical energy demand.</td>",
+    "            </tr>",
+    "            <tr>",
+    "              <td>Sustainable engineering goals</td>",
+    "              <td>Students' understanding of net-zero design, energy trade-offs, and the relationship between design choices and overall performance.</td>",
+    "              <td>Students were asked to pursue a net-zero or low-energy house and use AI reasoning plus simulation feedback to evaluate progress toward that goal.</td>",
+    "            </tr>",
+    "          </tbody>",
+    "        </table>",
+]
+
+
+PSI_CODING_TABLE_HTML = [
+    "        <table>",
+    "          <caption>Table 2. Prompt Sophistication Index coding rubric.</caption>",
+    "          <thead>",
+    "            <tr>",
+    "              <th>PSI component</th>",
+    "              <th>Coding focus</th>",
+    "              <th>Example indicators in student prompts</th>",
+    "              <th>Score contribution</th>",
+    "            </tr>",
+    "          </thead>",
+    "          <tbody>",
+    "            <tr>",
+    "              <td>Specificity</td>",
+    "              <td>Degree to which the prompt specifies concrete design parameters rather than a general request.</td>",
+    "              <td>Location, orientation, roof type, R-value, U-value, HVAC setting, solar panel placement, window dimensions.</td>",
+    "              <td>0-2</td>",
+    "            </tr>",
+    "            <tr>",
+    "              <td>Conceptual/computational breadth (CCB)</td>",
+    "              <td>Degree to which the prompt coordinates multiple sustainable-building concepts or design variables.</td>",
+    "              <td>Combining envelope, solar, HVAC, climate, window, shading, or energy-performance elements in the same prompt.</td>",
+    "              <td>0-2</td>",
+    "            </tr>",
+    "            <tr>",
+    "              <td>Reasoning orientation</td>",
+    "              <td>Degree to which the prompt expresses a rationale, performance goal, trade-off, or causal mechanism.</td>",
+    "              <td>Requests to reduce heating load, improve net-zero performance, use insulation to reduce heat transfer, or adjust design choices because of energy consequences.</td>",
+    "              <td>0-2</td>",
+    "            </tr>",
+    "          </tbody>",
+    "        </table>",
+]
+
+
 FEATURE_METHOD_HTML = [
     "        <h4>Prompt sophistication: qualitative coding to quantitative features</h4>",
     html_paragraph(
@@ -226,6 +298,7 @@ FEATURE_METHOD_HTML = [
     .replace("specificity_i", "specificity<sub>i</sub>")
     .replace("CCB_i", "CCB<sub>i</sub>")
     .replace("reasoning orientation_i", "reasoning orientation<sub>i</sub>"),
+    *PSI_CODING_TABLE_HTML,
     "        <h4>AI reasoning uptake: qualitative coding to quantitative features</h4>",
     html_paragraph(
         "AI reasoning uptake was quantified by estimating the extent to which students incorporated AI-generated reasoning into subsequent prompts. For each iteration, uptake combined semantic similarity and concept overlap: uptake_i = 0.5 x semantic uptake_i + 0.5 x concept overlap_i. Semantic uptake was computed using TF-IDF cosine similarity between the AI reasoning and the student's subsequent prompt, while concept overlap measured the extent to which key concepts from the AI reasoning reappeared in the next student prompt. Two student-level features were derived from this sequence. Mean uptake represented the average uptake of AI reasoning across iterations. Uptake growth represented the ordinary least squares linear regression slope of uptake_i regressed on iteration number, capturing whether students increasingly incorporated AI reasoning as the design task progressed."
@@ -327,6 +400,8 @@ def build_body(doc: Document, rel_to_path: dict[str, str]) -> str:
                 pending_caption = text
             else:
                 lines.append(html_paragraph(text))
+                if text.startswith("Pre- and post-test assessments used"):
+                    lines.extend(ASSESSMENT_ALIGNMENT_HTML)
                 if text.startswith("Seven student-level features were constructed"):
                     lines.extend(FEATURE_METHOD_HTML)
         elif child.tag == qn("w:tbl"):
@@ -470,11 +545,27 @@ def build_html(body: str) -> str:
 """
 
 
+def normalize_table_captions(html_text: str) -> str:
+    replacements = {
+        "Table 1 summarizes the seven features used in the clustering analysis.": "Table 3. Student-level features used in the clustering analysis.",
+        "Table 2: Action Coding Scheme": "Table 4. Action coding scheme.",
+        "Table 3: Significance test": "Table 5. Overall pre/post significance tests.",
+        "Table 4. McNemar's test results for question-level improvements.": "Table 6. McNemar's test results for question-level improvements.",
+        "Table 4 Cluster Profile Statistics - Mean (SD) for Each Clustering Feature": "Table 7. Cluster profile statistics: Mean (SD) for each clustering feature.",
+    }
+    for old, new in replacements.items():
+        html_text = html_text.replace(f"<caption>{old}</caption>", f"<caption>{new}</caption>")
+
+    marker = "        <table>\n          <thead>\n            <tr>\n              <th>Cluster</th>\n              <th>Student</th>\n              <th>Iter.</th>"
+    replacement = "        <table>\n          <caption>Table 8. Representative prompted action-set sequences by designer profile.</caption>\n          <thead>\n            <tr>\n              <th>Cluster</th>\n              <th>Student</th>\n              <th>Iter.</th>"
+    return html_text.replace(marker, replacement)
+
+
 def main() -> None:
     doc = Document(DOCX)
     rel_to_path = extract_images(doc)
     body = build_body(doc, rel_to_path)
-    html_text = build_html(body)
+    html_text = normalize_table_captions(build_html(body))
     OUT.write_text(html_text, encoding="utf-8", newline="\n")
     for asset in ASSET_DIR.glob("*"):
         if asset.as_posix() not in html_text:
