@@ -14,6 +14,7 @@ DOCX = Path(r"D:\Penn Study\Education\Aladdin\Aladin-draft-0617.docx")
 OUT = Path("index.html")
 ASSET_DIR = Path("assets/aladin_draft_0617")
 TITLE = "Coupling Human and AI Reasoning: Student Agency and Designer Identity in GenAI-Enabled Design Learning"
+ASSET_PUBLIC_PREFIX = "https://lee-arts-02.github.io/Aladin-summer/"
 
 
 def p_text(elm) -> str:
@@ -273,7 +274,8 @@ def build_body(doc: Document, rel_to_path: dict[str, str]) -> str:
                         lines.append(mcnemar_table_html())
                         i = j
                     else:
-                        fig = f'        <figure>\n          <img src="{html.escape(src)}" alt="Figure {figure_no} from the manuscript draft">'
+                        public_src = ASSET_PUBLIC_PREFIX + src
+                        fig = f'        <figure>\n          <img src="{html.escape(public_src)}" alt="Figure {figure_no} from the manuscript draft">'
                         if caption:
                             fig += f"\n          <figcaption>{html.escape(caption)}</figcaption>"
                             i = j
