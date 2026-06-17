@@ -364,13 +364,6 @@ def build_html(body: str) -> str:
       margin: 0 0 14px;
       font-weight: 700;
     }}
-    .subtitle {{
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.45;
-      max-width: 920px;
-    }}
     main {{ padding: 28px 56px 60px; }}
     h2 {{
       font-size: 24px;
@@ -443,7 +436,6 @@ def build_html(body: str) -> str:
     <header>
       <div class="journal">Computers &amp; Education manuscript draft</div>
       <h1>{html.escape(TITLE)}</h1>
-      <div class="subtitle">Draft converted from Aladin-draft-0617.docx with manuscript figures and tables preserved.</div>
     </header>
     <main>
 {body}
