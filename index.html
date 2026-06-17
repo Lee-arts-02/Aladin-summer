@@ -303,7 +303,7 @@
 
         <h3>3.3. Data sources and measures</h3>
         <p>
-          Four primary data sources were used. First, pre- and post-assessments measured students' conceptual understanding of sustainable building design and related STEM engineering concepts. The assessment included 12 items addressing thermal insulation and heat transfer, R-value, U-value, greenhouse effect, roof color, solar design, thermostat placement, passive solar design, HVAC strategy, and net-zero design. Second, system log data captured student prompts, AI-generated reasoning, design iterations, and energy-related design metrics. Third, a learning agency survey measured students' perceived agency in the GenAI-supported design process. Fourth, open-ended survey responses, worksheets, and interview transcripts provided qualitative evidence of planning, adjustment, reflection, ownership, and perceived control.
+          Three primary analytic data sources were used. First, pre- and post-assessments measured students' conceptual understanding of sustainable building design and related STEM engineering concepts. The assessment included 12 items addressing thermal insulation and heat transfer, R-value, U-value, greenhouse effect, roof color, solar design, thermostat placement, passive solar design, HVAC strategy, and net-zero design. Second, system log data captured student prompts, AI-generated reasoning, design iterations, and energy-related design metrics. Third, open-ended responses, worksheets, and interview transcripts provided qualitative context for interpreting students' design decisions and human-AI interaction patterns.
         </p>
 
         <table>
@@ -319,58 +319,45 @@
             <tr>
               <td>Pre/post assessment</td>
               <td>124 pre-test rows; 74 post-test rows; 68 matched pre/post students</td>
-              <td>Conceptual learning gains and adjusted outcome modeling for RQ1</td>
+              <td>Conceptual learning gains and item-level pre/post change analysis for RQ1</td>
             </tr>
             <tr>
               <td>Design log data</td>
               <td>75 project records; 70 projects with valid interaction trajectories</td>
-              <td>Human-AI design reasoning trajectory reconstruction, student engineer type analysis, and ENA-style network analysis for RQ2</td>
-            </tr>
-            <tr>
-              <td>Learning agency survey</td>
-              <td>38 responses; 12 survey responses matched to log/profile records</td>
-              <td>SLA-GAI-aligned agency scoring and exploratory survey-log integration for RQ3</td>
+              <td>Designer profile clustering, prompt-based design-action coding, and sequence analysis for RQ2</td>
             </tr>
             <tr>
               <td>Open-ended responses and interviews</td>
               <td>Survey open-ended responses and transcript files</td>
-              <td>Qualitative explanation of agency, ownership, and human-AI role negotiation</td>
+              <td>Qualitative context for interpreting conceptual learning and design-process patterns</td>
             </tr>
           </tbody>
         </table>
 
-        <h3>3.4. RQ1 analysis: Conceptual learning gains</h3>
+        <h3>3.4. Data analysis</h3>
         <p>
-          RQ1 was examined using matched pre/post assessment scores. Descriptive statistics were first computed for pre-test, post-test, and raw gain scores. An ANCOVA-style adjusted gain model was then estimated with gain score as the dependent variable, pre-test score as a covariate, and class as a control variable:
-        </p>
-        <p class="note">
-          <strong>ANCOVA-style model:</strong> gain = post-test score - pre-test score; gain ~ pre-test score + class.
-        </p>
-        <p>
-          To account for repeated observations nested within students, a student random-intercept mixed model was also estimated:
-        </p>
-        <p class="note">
-          <strong>Mixed model:</strong> score ~ time + class + (1 | student), where time was coded as 0 for pre-test and 1 for post-test.
-        </p>
-        <p>
-          In addition to total-score models, an item-level analysis was conducted to identify which sustainable building concepts changed from pre-test to post-test. For each of the 12 assessment items, the correct-response rate was calculated separately for pre-test and post-test responses in the matched sample. Item gains were reported as post-test minus pre-test percentage points. Items were also grouped into four conceptual themes: insulation / R-value / U-value, solar / passive solar / net-zero, windows / sunlight / radiant heat, and HVAC / thermostat / energy use.
-        </p>
-        <p>
-          Interview data were used to triangulate the item-level assessment patterns. Transcript excerpts were reviewed deductively using the same conceptual themes. Evidence was treated as thematic support when students described a relevant design idea, such as insulation and R-value, solar panels and net energy, windows and sunlight, or location-related heating and cooling demand. This interview-analysis layer was used to interpret how students talked about concepts that also appeared in the pre/post assessment, rather than as a stand-alone qualitative outcome analysis.
-        </p>
-        <p>
-          Because the study did not include a randomized control group, results are interpreted as evidence of conceptual gains following participation in the GenAI-CAD activity rather than causal evidence that GenAI alone produced the gains.
+          The analytic strategy was organized around the two research questions. RQ1 examined whether students' conceptual understanding changed after the GenAI-supported CAD activity. RQ2 examined what types of designers students became during the activity and how those types unfolded across prompt-based design actions.
         </p>
 
-        <h3>3.5. RQ2 analysis: Human-AI design reasoning trajectories and student engineer types</h3>
+        <h4>3.4.1. RQ1 analysis: Conceptual learning gains</h4>
         <p>
-          To examine what student engineer types emerged, the design log data were reconstructed as human-AI design reasoning trajectories. Each trajectory linked a student prompt, the AI-generated reasoning response, and the student's subsequent prompt or design change:
-        </p>
-        <p class="note">
-          <strong>Trajectory unit:</strong> student prompt<sub>i</sub> -> AI reasoning<sub>i</sub> -> next student prompt<sub>i+1</sub> / design metric change.
+          RQ1 was addressed with the matched pre/post assessment sample (<span class="inline-stat">n = 68</span>). For each student, a total conceptual-understanding score was computed for the pre-test and post-test, and an improvement score was calculated as the post-test score minus the pre-test score. A one-tailed paired-samples <em>t</em>-test was used to test whether the mean improvement score was significantly greater than zero, reflecting the directional expectation that participation in the GenAI-CAD activity would support conceptual learning.
         </p>
         <p>
-          Rule-based content coding was applied to each design iteration. Prompt-side codes captured technical parameter use, performance-goal prompting, visual/spatial focus, and off-task divergence. AI reasoning-side codes captured energy reasoning, parameter recommendation, climate/site reasoning, trade-off reasoning, and feasibility reasoning. Human-AI coupling codes captured whether concepts in the AI reasoning were taken up in the next student prompt.
+          Two complementary analyses were used to interpret the pre/post pattern. First, Pearson correlation was used to examine the association between students' pre-test and post-test total scores, indicating the stability of relative performance across the activity. Second, McNemar's tests were conducted for each of the 12 assessment items to identify concept-specific shifts in correctness. For each item, the test compared the number of students who changed from incorrect to correct with the number who changed from correct to incorrect. This item-level analysis helped distinguish broad total-score improvement from gains concentrated in particular sustainable building concepts.
+        </p>
+
+        <h4>3.4.2. RQ2 analysis: Designer profile clustering</h4>
+        <p>
+          RQ2 was first addressed by identifying student designer profiles from the log-data analytic sample (<span class="inline-stat">n = 54</span>). Seven student-level features were constructed to represent four dimensions of GenAI-CAD activity: Iterative Engagement, Prompt Sophistication, AI Reasoning Uptake, and Energy Performance. Prior to clustering, all features were z-score standardized (<em>M</em> = 0, <em>SD</em> = 1). Dimension-level equal weighting was then applied so that each of the four dimensions contributed 25% to the weighted feature matrix. The single Iterative Engagement feature received the full 25% weight, whereas each feature within the other three two-feature dimensions received 12.5%.
+        </p>
+        <p>
+          K-means clustering was conducted on the weighted, standardized feature matrix. Candidate solutions from <em>k</em> = 2 to <em>k</em> = 10 were evaluated using the within-cluster sum of squares elbow pattern and average silhouette score. Solutions containing clusters with fewer than three students were excluded because very small clusters were unlikely to support stable interpretation. Based on these criteria, the three-cluster solution was selected and interpreted as three designer profiles that differed in the configuration of engagement, prompting, uptake of AI reasoning, and energy-performance change.
+        </p>
+
+        <h4>3.4.3. RQ2 analysis: Sequential design-action analysis</h4>
+        <p>
+          To examine how the designer profiles developed across the task, RQ2 also included a sequential design-action analysis. Each valid design iteration was coded using a scheme developed through a combined deductive and inductive process. Deductively, initial categories were informed by prior work on coding Aladdin CAD log data. Inductively, the codebook was refined through qualitative review of students' GenAI prompts in the present dataset so that the final scheme reflected the design actions observed in this GenAI-supported context.
         </p>
 
         <table>
@@ -402,11 +389,11 @@
         </table>
 
         <p>
-          Iteration-level codes were aggregated to student-level indicators. Six indicators were entered into a latent-profile-style model-based clustering analysis: technical parameter density, performance goal density, energy reasoning density, AI reasoning uptake rate, transformative uptake rate, and off-task ratio. Candidate two-, three-, four-, and five-type solutions were compared using BIC, entropy, type size, and interpretability.
+          For each iteration, all codes assigned to a student's prompt were combined into an unordered action set, representing the design elements addressed in that attempt. Action sets were then ordered chronologically within each student to create an action-set sequence. Sequence clustering was conducted in TraMineR, with cluster number determined by inspecting the hierarchical dendrogram and by considering the frequency of coded action events, transition rates between states, and within-sequence entropy.
         </p>
 
         <p>
-          To further explain how students moved through the prompt-based design process, a second strategy-level coding layer was added to the RQ2 analysis. Whereas the profile model summarized aggregate behavioral indicators, the strategy analysis treated the ordered prompt sequence as a design trajectory. Each prompt was first coded for its dominant prompt state: parameter-focused, performance-oriented, site-focused, detail-descriptive, off-task, or general. Student-level trajectory features were then derived from the full sequence, including prompt retention similarity between adjacent prompts, added design-token count, number of distinct sites, site-shift count, parameter-specific prompt rate, performance-outcome prompt rate, visual-detail rate, and off-task rate.
+          To characterize movement across consecutive design iterations, each adjacent pair of action sets was classified as one of six transition types: repeat/refinement, additive refinement, narrowing, integration move, jump/testing, or pivot/mixed revision. Transition-type rates were computed as the proportion of each transition type within each sequence cluster. These sequential results were used to explain how the designer profiles differed not only in aggregate features, but also in the temporal organization of their prompt-based design work.
         </p>
 
         <table>
@@ -453,26 +440,7 @@
         </table>
 
         <p>
-          The strategy analysis was integrated with the model-derived student engineer types, pre/post assessment records, agency survey scores, and ENA-style network coordinates. Strategy-type alignment was examined using cross-tabulation and Cramer's V. Learning and agency comparisons by strategy were treated as exploratory because assessment and agency matching reduced the available sample sizes.
-        </p>
-
-        <h3>3.6. RQ3 analysis: Learning agency</h3>
-        <p>
-          Learning agency was analyzed using a type-informed mixed-methods agency analysis. Survey items were grouped according to the Student Learning Agency in Generative AI-supported contexts framework. The analyzed dimensions included self-cognition, goal setting, self-adjustment, self-reflection, selective action, responsible action, participative action, motivation, and self-efficacy. Volition was not analyzed as a separate dimension because the survey did not include a dedicated volition item.
-        </p>
-        <p>
-          Dimension scores were computed as the mean of corresponding items. Reliability was examined using Cronbach's alpha for two-item dimensions and the overall agency scale. Survey-based agency scores were then integrated with RQ2 log-based indicators for the subset of matched students. Given the limited survey-log matched sample, survey-log correlations and type-informed comparisons were treated as exploratory.
-        </p>
-        <p>
-          Open-ended responses were coded deductively using agency-related themes: planning/goal setting, adaptive prompting, AI reasoning monitoring, selective reliance, ownership protection, peer-supported agency, agency expansion, agency constraint, and future control support.
-        </p>
-
-        <h3>3.7. ENA-style co-occurrence network analysis</h3>
-        <p>
-          To connect RQ2 and RQ3, an ENA-style co-occurrence network analysis was conducted. Each design episode was treated as a stanza, and each student/project was treated as a unit. Ten nodes were included: GoalPrompt, TechPrompt, VisualSpatial, AIEnergy, AIParameter, AIClimate, AIFeasibility, SelectiveUptake, TransformUptake, and OffTask. For each stanza, co-occurrence edges were generated among active codes. Student-level network vectors were created by aggregating and normalizing edge counts across stanzas. Centered network vectors were projected into two dimensions using singular value decomposition.
-        </p>
-        <p>
-          ENA-style analysis was used in three ways: first, to compare networks across student engineer types; second, to compare networks by post-test conceptual understanding and learning gain; and third, to compare networks by pre-test conceptual understanding. These network comparisons were interpreted as exploratory process evidence linking human-AI reasoning structures to learning outcomes.
+          The prompt-strategy coding layer was used as an interpretive complement to the designer-profile and sequence analyses. Whereas the profile model summarized aggregate behavioral indicators, the strategy analysis treated the ordered prompt sequence as a design trajectory. Strategy-type alignment was examined descriptively to clarify how particular prompt trajectories corresponded to the three designer profiles and to the learning patterns reported in the results.
         </p>
       </section>
 
@@ -758,82 +726,49 @@
 
         <h3>5.1. Conceptual learning in GenAI-CAD design</h3>
         <p>
-          The findings indicate that students demonstrated significant conceptual gains after engaging in the GenAI-supported CAD activity. Both the ANCOVA-style gain model and the mixed model showed a robust positive change from pre-test to post-test. The mixed model further indicated substantial student-level variance, suggesting that students entered and moved through the activity with different conceptual starting points and learning trajectories.
+          The first research question asked whether interacting with a GenAI-based CAD tool could improve students' conceptual understanding of sustainable building design. The results provide affirmative evidence. Students showed a statistically significant increase from pre-test to post-test, with a mean gain of 1.54 points on a 12-item assessment and a medium effect size. This finding suggests that a GenAI-supported design activity can support conceptual learning when students use AI-generated suggestions within a simulation-rich engineering design environment rather than as stand-alone answers.
         </p>
         <p>
-          The negative association between pre-test score and gain indicates that students with lower initial scores tended to improve more. This pattern may reflect ceiling effects among higher-baseline students, greater room for growth among lower-baseline students, or differential support from the GenAI-CAD activity. Because no randomized comparison condition is available, the results should be interpreted as evidence of learning gains following participation rather than as causal evidence that GenAI alone caused improvement.
+          The gains, however, were selective rather than uniform. The items that improved significantly were concentrated in concepts that were actionable within the Aladdin task, including R-value, U-value, thermostat efficiency, passive solar design, and solar panel orientation. These concepts could be connected directly to design levers that students encountered while prompting, revising, and evaluating houses. By contrast, concepts that were already relatively familiar before the activity or that were less explicitly foregrounded in students' design moves showed little change. This pattern indicates that GenAI-CAD environments do not automatically produce broad conceptual growth; they appear most productive when disciplinary concepts are made available as usable resources for design action.
         </p>
         <p>
-          The item-level results sharpen this interpretation. Students showed the strongest gains on concepts that were highly actionable within the design task: R-value, U-value, solar panel orientation, thermostat setback, and passive solar overhangs. These are concepts that students could potentially encounter as design levers in the GenAI-CAD environment, either by asking for insulation and solar panels or by observing energy consequences in the generated house. Interview evidence was consistent with this pattern: students talked about insulation as a way to save energy, described R-value as increasing with insulation, connected solar panels to lowering net energy, and noticed that location affected heating and air-conditioning use.
+          This result is important because it positions GenAI as part of a broader learning ecology rather than as an isolated tutor. In this study, students were not only reading AI explanations; they were generating designs, checking energy outcomes, and revising prompts. Conceptual learning therefore likely emerged from the coordination of AI reasoning, CAD representation, simulation feedback, and student decision making. The selective item-level gains also point to a design principle for GenAI learning environments: concepts that matter for assessment should also become visible, manipulable, and consequential within the design task.
         </p>
         <p>
           At the same time, not all concepts improved equally. The windows / sunlight / radiant heat theme showed little average gain, and Q6 on dark-colored roofs declined. This suggests that visual exposure to a feature is not sufficient for conceptual learning. Students frequently manipulated visible design features such as roofs, windows, solar panels, and colors, but prompt-log evidence suggests they rarely connected roof color with hot climates and radiant energy absorption. In other words, students may have treated roof color as an aesthetic attribute rather than as a thermal-performance variable. This pattern supports the need for instruction and tool scaffolds that explicitly connect visible CAD features to underlying energy mechanisms.
         </p>
 
-        <h3>5.2. Productive GenAI use as human-AI reasoning coupling</h3>
+        <h3>5.2. Student designer profiles and human-AI design coupling</h3>
         <p>
-          RQ2 results suggest that productive GenAI-CAD use cannot be understood only by counting prompts or iterations. Students became different types of engineers depending on how they connected their own goals with AI-generated reasoning. AI-guided technical optimizers showed dense coupling among technical prompts, performance goals, AI energy reasoning, AI parameter recommendations, and uptake. In contrast, visual-spatial generators showed limited coupling between AI engineering reasoning and subsequent student design moves.
+          The second research question asked what types of designers students became through the GenAI-guided CAD process and how those types unfolded. The cluster analysis identified three profiles: High-Iteration Sophisticated Prompters, Self-Exploratory Testers, and Short-Run Sophistication Improvers. These profiles show that students' engagement with GenAI-CAD differed not only in how much they interacted with the tool, but also in how they configured prompting, AI-reasoning uptake, iteration, and energy-performance change.
         </p>
         <p>
-          The prompt-based design strategy analysis clarifies the process through which these student engineer types emerged. Cumulative incremental and parameter-driven strategies were the clearest pathways into technical, AI-reasoning-coupled engineering design. In these trajectories, students did not simply ask the system to generate a house; they repeatedly preserved, extended, or technically specified the design problem. This helped create a sequence in which prior design intentions, AI reasoning, and subsequent student revisions remained connected over time. By contrast, detail-descriptive strategies often produced visual-spatial generator types because prompts centered on visible attributes rather than energy reasoning, parameter control, or sustained optimization.
+          High-Iteration Sophisticated Prompters appeared to use GenAI as a sustained design partner. Their many iterations, relatively sophisticated prompts, and stronger uptake of AI reasoning suggest a form of human-AI coupling in which students preserved and extended design goals across attempts. Self-Exploratory Testers, the largest profile, engaged in moderate iteration but showed less systematic coupling between technical prompting, AI reasoning, and subsequent action. Short-Run Sophistication Improvers showed that improvement in prompt sophistication can occur even with fewer iterations, but their limited run length constrained the extent to which AI reasoning could be developed into a sustained design trajectory.
         </p>
         <p>
-          The distinction between performance-oriented and parameter-driven prompting is also important. Asking for a final outcome such as "net zero" expresses a goal, but it does not necessarily specify the design mechanism by which that goal should be reached. Parameter-driven prompting, in contrast, gave students a way to manipulate the building through disciplinary variables such as R-value, U-value, heating and cooling setpoints, PV models, or overhangs. This difference suggests that productive GenAI-CAD learning may require scaffolds that help students translate broad performance goals into actionable engineering parameters.
+          The sequential action analysis adds process-level meaning to these profiles. Students did not simply move from one prompt to another; they formed action-set trajectories that varied in refinement, expansion, narrowing, integration, and jumping across design ideas. Productive GenAI-supported design therefore depends on more than frequent AI use. It requires students to maintain continuity between their own goals, the AI's technical recommendations, the CAD model, and the energy evidence returned by simulation. When that continuity is weak, GenAI can still support exploration, but the exploration may remain visually or procedurally active without becoming conceptually integrated.
         </p>
         <p>
-          This distinction is important for GenAI-supported STEM learning. A student can interact with GenAI frequently without necessarily engaging in disciplinary reasoning. Conversely, productive agency appears when students monitor AI reasoning, select relevant ideas, and transform those ideas into their own design decisions. Thus, the key learning process is not simply AI assistance, but the student's active coordination of AI reasoning, design constraints, and evolving goals.
-        </p>
-
-        <h3>5.3. Prior understanding, conceptual outcomes, and network structure</h3>
-        <p>
-          The conceptual understanding-based ENA analyses add an important layer to the interpretation. Students with higher pre-test scores already showed more integrated technical/AI reasoning networks, suggesting that prior conceptual understanding shaped how students engaged with AI reasoning. This aligns with the broader literature on prior knowledge: students who enter a learning task with stronger conceptual resources may be better able to ask technical questions, interpret AI explanations, and incorporate AI-generated reasoning into subsequent action.
-        </p>
-        <p>
-          Post-test ENA showed that students with higher final conceptual understanding also had stronger networks linking technical prompting, AI energy reasoning, AI parameter reasoning, climate/site reasoning, feasibility reasoning, and uptake. Learning gain-based ENA further suggested that growth was especially associated with climate/site and feasibility reasoning. This is a meaningful pattern for sustainable building design. Conceptual growth may involve moving beyond isolated design features, such as adding solar panels, toward more situated reasoning about climate, feasibility, and energy performance.
-        </p>
-        <p>
-          The strategy findings are consistent with this interpretation. Parameter-driven and cumulative incremental designers showed the most technical ENA positions and higher average learning gains in the matched subset, whereas off-task / imaginative exploratory trajectories showed lower gains. Site exploration occupied a more ambiguous position. Changing locations can be a superficial generative variation, but it can also become conceptually productive when students connect site changes to climate, solar availability, heating and cooling demand, and feasibility constraints. Thus, the educational value of site exploration depends on whether geographic variation becomes engineering reasoning rather than merely prompt variation.
+          This distinction is important for GenAI-supported STEM learning. A student can interact with GenAI frequently without necessarily engaging in disciplinary reasoning. Conversely, productive design learning appears when students monitor AI reasoning, select relevant ideas, and transform those ideas into their own design decisions. Thus, the key learning process is not simply AI assistance, but the student's active coordination of AI reasoning, design constraints, and evolving goals.
         </p>
 
-        <h3>5.4. GenAI-CAD and student learning agency</h3>
+        <h3>5.3. Educational implications</h3>
         <p>
-          Agency results suggest that students experienced the GenAI-CAD activity as moderately agentic, with particularly strong self-adjustment and motivation. Students reported that they refined prompts, adjusted AI-generated designs, and enjoyed exploring design alternatives. However, goal setting and participative action were lower, suggesting that students may need additional scaffolds to articulate design goals, monitor progress, and collaborate around AI-supported design decisions.
+          These findings suggest that instruction should help students translate broad performance goals into actionable engineering parameters. Asking for a "net-zero" or "energy-efficient" house expresses an outcome, but it does not necessarily specify the mechanisms by which that outcome might be achieved. Students may need prompts, worksheets, or interface cues that ask them to connect goals with variables such as insulation, glazing, solar-panel orientation, thermostat settings, climate, and passive solar features. Such scaffolds could make the difference between surface-level prompting and disciplinary design reasoning.
         </p>
         <p>
-          Survey-log integration, although exploratory, provides a useful mechanism. Goal setting and self-cognition were negatively associated with off-task divergence, while self-adjustment was positively associated with transformative uptake. This suggests that agency in GenAI-CAD environments is not merely a motivational state. It is enacted through concrete design practices: setting goals, recognizing one's own capabilities, deciding when to rely on AI, and transforming AI reasoning into student-owned design decisions.
+          The profile results also suggest the value of differentiated support. High-Iteration Sophisticated Prompters may benefit from tools that support comparison across many design alternatives and help them evaluate trade-offs. Self-Exploratory Testers may need prompts that make AI reasoning uptake more explicit, such as asking which AI suggestion they accepted, rejected, or modified and why. Short-Run Sophistication Improvers may need supports that encourage additional cycles of testing and revision so that early gains in prompt quality can develop into sustained engineering inquiry.
         </p>
         <p>
-          The strategy-level agency results complicate a simple "more technical equals more agency" interpretation. Detail-descriptive designers reported high agency in the matched survey subset even though their logs showed weaker AI engineering-reasoning coupling. This suggests that students can experience agency through expressive control over form, appearance, and spatial configuration. However, expressive agency is not identical to engineering agency. Cumulative incremental and parameter-driven strategies more clearly reflected adaptive engineering agency because students revised prompts over time, engaged with AI reasoning, and used technical constraints to steer the design. Off-task / imaginative exploratory strategies, by contrast, were associated with lower overall agency and weaker transformative uptake, suggesting that playful exploration may become productive only when students retain task goals and reconnect exploration to engineering reasoning.
-        </p>
-
-        <h3>5.5. Implications for design and instruction</h3>
-        <p>
-          The findings suggest several instructional implications. First, students should be prompted to read and evaluate AI reasoning, not only inspect generated designs. Second, teachers and systems should scaffold goal setting before prompting, because stronger goal setting was associated with less off-task divergence. Third, students should be encouraged to compare AI suggestions with design metrics, climate/site constraints, and feasibility conditions. Fourth, reflection prompts should ask students to explain why they accepted, modified, or rejected AI reasoning. Such scaffolds may support transformative uptake rather than passive acceptance or surface-level generation.
-        </p>
-        <p>
-          The design strategy typology also suggests targeted scaffolds for different learners. Detail-descriptive designers may benefit from prompts that convert visible features into engineering questions, such as asking how window number, roof shape, or color affects heating, cooling, or solar gain. Performance-oriented designers may need support decomposing an outcome such as net zero into controllable parameters. Site exploration designers may need climate-comparison prompts that ask them to justify how the same design should change across cold, hot, humid, or sunny locations. Off-task / imaginative exploratory designers may benefit from structured opportunities for creative variation followed by a required return to task criteria and energy metrics.
-        </p>
-        <p>
-          For GenAI-CAD tool design, the results suggest value in dashboards that make reasoning-action links visible. For example, the tool could highlight when AI reasoning mentions insulation, climate, or solar performance and then invite students to decide whether and how to incorporate those ideas into the next design move. Such features could support learning agency by making the student-AI division of labor explicit.
+          For GenAI-CAD tool design, the results point toward interfaces that make reasoning-action links visible. For example, when AI reasoning mentions insulation, solar orientation, or climate conditions, the system could invite students to decide whether and how to incorporate that reasoning into the next design move. Dashboards could also show how prompts, AI reasoning, and energy outcomes change over time. These features would support students in treating AI as a source of ideas to interrogate and transform, rather than as an automatic design generator.
         </p>
 
-        <h3>5.6. Limitations and future work</h3>
+        <h3>5.4. Limitations and future research</h3>
         <p>
-          Several limitations should be considered. First, the study does not include a randomized control group, limiting causal inference. Second, the agency survey could be matched to log/type data for only 12 students because many survey responses lacked names; type-informed agency results should therefore be interpreted as exploratory. Third, the current coding is rule-based and should be validated through human coding, inter-rater reliability, or a transparent human-AI coding procedure. Fourth, the ENA-style analysis uses a co-occurrence approximation implemented through centered network vectors and SVD rather than external ENA software. Fifth, the study focuses on one GenAI-CAD tool and one sustainable building design task.
+          Several limitations should be considered. First, the study used a one-group pretest-posttest design, so the learning-gain results should be interpreted as evidence of improvement following the activity rather than as causal evidence that GenAI alone produced the gains. Second, the log-data sample was smaller than the assessment sample, and the designer profiles should be validated with larger cohorts and additional implementations. Third, the action-code scheme was developed for this GenAI-supported sustainable building task; future work should examine whether the same codes and transition patterns generalize to other engineering domains and AI-CAD systems.
         </p>
         <p>
-          The prompt-based design strategy analysis has additional limitations. The strategy labels were derived from rule-based indicators and should be treated as an analytic layer for interpretation rather than a finalized human-coded typology. Some students showed hybrid trajectories, such as site exploration combined with performance-oriented goals, and the dominant-strategy classification necessarily simplified those cases. Future work should validate these strategy categories through independent human coding, report inter-rater reliability, and examine whether multi-label or sequence-clustering approaches capture hybrid trajectories more faithfully.
-        </p>
-        <p>
-          The item-level and interview triangulation analyses should also be interpreted cautiously. Item-level pre/post comparisons are descriptive and were not modeled with item-response methods. The interview evidence was used to contextualize assessment patterns, but the interview sample was smaller than the full assessment sample and was not designed to estimate theme prevalence. Future work should align interview protocols more directly with assessment constructs and use larger qualitative samples to examine how students explain specific concepts such as roof color, radiant absorption, passive solar design, and thermostat placement.
-        </p>
-        <p>
-          Future research should use larger samples, stronger experimental or comparison designs, and validated coding workflows. Future studies could also examine how real-time scaffolds for goal setting, AI reasoning evaluation, and transformative uptake affect both conceptual learning and agency in GenAI-supported design environments.
-        </p>
-
-        <h3>5.7. Conclusion</h3>
-        <p>
-          This study suggests that GenAI-supported CAD learning is most productive when students do more than issue prompts or accept generated designs. Students demonstrated conceptual gains after the activity, but their design processes varied substantially. Productive student engineer types were characterized by networks that connected student goals, technical prompting, AI-generated engineering reasoning, and uptake into subsequent design moves. The prompt-based design strategy analysis shows how those types formed: cumulative incremental and parameter-driven trajectories supported technical human-AI coupling, detail-descriptive trajectories supported expressive design control, and off-task / imaginative trajectories varied depending on whether students returned to engineering goals. Agency emerged through students' ability to set goals, monitor AI reasoning, selectively rely on system support, and transform AI output into student-owned design decisions. These findings position student engineer types and human-AI reasoning coupling as central mechanisms for understanding learning and agency in GenAI-supported STEM design.
+          Future research should combine stronger comparison designs with richer process measures. Experimental or quasi-experimental studies could test whether scaffolds for goal setting, AI-reasoning evaluation, and parameter-based revision improve both conceptual learning and designer-profile development. Additional qualitative work could examine how students interpret AI explanations, decide when to trust or reject them, and connect them to simulation evidence. Such work would deepen understanding of how GenAI can support engineering learning while keeping students' disciplinary reasoning and design agency at the center of the activity.
         </p>
       </section>
 
