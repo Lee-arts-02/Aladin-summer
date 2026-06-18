@@ -218,36 +218,36 @@ PROMOTED_SUBHEADINGS = {
 
 
 ASSESSMENT_ALIGNMENT_HTML = [
-    "        <p>The assessment was designed to capture conceptual understanding that students would need when evaluating and revising sustainable building designs in Aladdin. The 12 items were organized around four conceptual directions that correspond to the major energy mechanisms embedded in the design task: thermal insulation and heat transfer, solar geometry and radiation, HVAC controls and strategy, and sustainable engineering goals. This alignment allowed the pre/post test to measure not only whether students improved overall, but also which conceptual areas were most responsive to the GenAI-CAD activity.</p>",
+    "        <p>The assessment was designed to capture conceptual understanding that students would need when reasoning about sustainable building design. The 12 items were organized into four conceptual directions: insulation / R-value / U-value, windows / sunlight / radiant heat, HVAC / thermostat / energy use, and solar / passive solar / net-zero design. This structure allowed the pre/post analysis to examine both overall learning gains and concept-specific changes across the item set.</p>",
     "        <table>",
-    "          <caption>Table 1. Alignment between pre/post assessment design and conceptual directions.</caption>",
+    "          <caption>Table 1. Pre/post assessment item mapping by conceptual direction.</caption>",
     "          <thead>",
     "            <tr>",
     "              <th>Conceptual direction</th>",
-    "              <th>Assessment focus</th>",
-    "              <th>Connection to the Aladdin design task</th>",
+    "              <th>Question items</th>",
+    "              <th>Item-level concept focus</th>",
     "            </tr>",
     "          </thead>",
     "          <tbody>",
     "            <tr>",
-    "              <td>Thermal insulation and heat transfer</td>",
-    "              <td>Students' understanding of how insulation, R-value, U-value, and heat transfer affect building energy performance.</td>",
-    "              <td>Students could modify insulation-related parameters and evaluate how envelope decisions changed heating and cooling demand.</td>",
+    "              <td>Insulation / R-value / U-value</td>",
+    "              <td>Q1, Q2, Q3, Q4, Q11</td>",
+    "              <td>Sweater insulation; R-value; doubling insulation; U-value; net-zero design in a cold climate.</td>",
     "            </tr>",
     "            <tr>",
-    "              <td>Solar geometry and radiation</td>",
-    "              <td>Students' understanding of sunlight, roof color, solar panel orientation, passive solar design, and shading-related mechanisms.</td>",
-    "              <td>Students could prompt for solar panels, windows, roof features, overhangs, and location-specific solar conditions while checking simulation outcomes.</td>",
+    "              <td>Windows / sunlight / radiant heat</td>",
+    "              <td>Q5, Q6, Q7</td>",
+    "              <td>Window greenhouse effect; dark roof in a hot climate; closing curtains to block radiant solar energy.</td>",
     "            </tr>",
     "            <tr>",
-    "              <td>HVAC controls and strategy</td>",
-    "              <td>Students' understanding of thermostat placement, heating and cooling setpoints, and energy-efficient HVAC use.</td>",
-    "              <td>Students could reason about heater and AC use in the yearly energy analysis and revise designs to reduce mechanical energy demand.</td>",
+    "              <td>HVAC / thermostat / energy use</td>",
+    "              <td>Q8, Q9</td>",
+    "              <td>Thermostat setback; thermostat placement above a vent.</td>",
     "            </tr>",
     "            <tr>",
-    "              <td>Sustainable engineering goals</td>",
-    "              <td>Students' understanding of net-zero design, energy trade-offs, and the relationship between design choices and overall performance.</td>",
-    "              <td>Students were asked to pursue a net-zero or low-energy house and use AI reasoning plus simulation feedback to evaluate progress toward that goal.</td>",
+    "              <td>Solar / passive solar / net-zero</td>",
+    "              <td>Q10, Q12</td>",
+    "              <td>Passive solar overhang design; solar panel orientation for peak-demand production.</td>",
     "            </tr>",
     "          </tbody>",
     "        </table>",
@@ -307,6 +307,37 @@ FEATURE_METHOD_HTML = [
     .replace("concept overlap_i", "concept overlap<sub>i</sub>")
     .replace("semantic uptake<sub>i</sub>", "semantic uptake<sub>i</sub>")
     .replace("0.5 x", "0.5 &times;"),
+]
+
+INTERVIEW_AGENCY_HTML = [
+    "        <h4>Interview design</h4>",
+    html_paragraph(
+        "Semi-structured interviews were used to examine how students interpreted GenAI support during the Aladdin design activity. The protocol was organized around students' prior experience with GenAI, their initial reactions to using AI for engineering design, the science and engineering concepts they reported learning, the design strategies they developed, and their evaluation of the benefits and limitations of AI-supported design. The interview questions were:"
+    ),
+    '        <ol class="instrument-list">',
+    "          <li>Which GenAI tools have you used before this project?</li>",
+    "          <li>What was your first impression of using AI for a complex engineering task like this?</li>",
+    "          <li>What new science and engineering concepts have you learned from AI?</li>",
+    "          <li>What strategies have you learned from AI in designing toward the net-zero goal?</li>",
+    "          <li>What is your opinion about the advantages and limitations of using AI in engineering design?</li>",
+    "        </ol>",
+    "        <h4>Student learning agency survey</h4>",
+    html_paragraph(
+        "The student learning agency survey was adapted from the Student Learning Agency in Generative AI-supported Contexts scale developed by Xia et al. (2025). The scale was selected because it measures agency in learning environments involving generative AI rather than relying on general learning-agency constructs. In this study, the survey captured how students perceived their role, decision making, and self-regulation while using Aladdin."
+    ),
+    html_paragraph(
+        "Closed-ended Likert-scale items measured ten dimensions of student agency: self-cognition, goal setting, self-adjustment, self-reflection, selective action, responsible action, participative action, motivation, self-efficacy, and volition. Following Xia et al.'s framework, these dimensions represent key abilities, active actions, and essential mental characteristics in GenAI-supported learning contexts. The items were used to examine how students understood their strengths and challenges, set design goals, adjusted prompts or design choices, reflected on AI interactions, decided when to rely on AI support, and maintained responsibility for their design decisions."
+    ),
+    html_paragraph("The survey also included four open-ended questions:"),
+    '        <ol class="instrument-list">',
+    "          <li>When working on your design with AI, how did you plan, adjust, and reflect on your work? Please give one example.</li>",
+    "          <li>How did you decide what to do yourself and what support to use during your design process? Please give one example.</li>",
+    "          <li>How did you evaluate your own ability to use generative AI during your design process? Please give one example.</li>",
+    "          <li>How do you see your role when interacting with generative AI in designing your house?</li>",
+    "        </ol>",
+    html_paragraph(
+        "Together, the pre/post assessments, learning agency survey, classroom observations, and interviews provided complementary data sources for examining students' conceptual learning and their experiences of agency in AI-supported engineering design."
+    ),
 ]
 
 
@@ -369,12 +400,25 @@ def build_body(doc: Document, rel_to_path: dict[str, str]) -> str:
                 i += 1
                 continue
 
+            if text == "Interview Design":
+                lines.extend(INTERVIEW_AGENCY_HTML)
+                i += 1
+                while i < len(blocks):
+                    if blocks[i].tag == qn("w:p") and p_text(blocks[i]).startswith(
+                        "Together, the pre/post surveys"
+                    ):
+                        i += 1
+                        break
+                    i += 1
+                continue
+
             if text.startswith("5   Discussion"):
                 if section_open:
                     lines.append("      </section>")
                     section_open = False
                 lines.append('      <section id="discussion">')
                 lines.extend(supplemental_discussion())
+                lines.append("      </section>")
                 # Skip draft discussion paragraphs until Conclusion.
                 i += 1
                 while i < len(blocks):
@@ -398,6 +442,18 @@ def build_body(doc: Document, rel_to_path: dict[str, str]) -> str:
                 lines.append(f"        <h4>{html.escape(clean_heading(text))}</h4>")
             elif text.startswith("Table "):
                 pending_caption = text
+            elif text.startswith("In addition to the pre- and post-surveys"):
+                lines.append(
+                    html_paragraph(
+                        "In addition to the pre- and post-surveys, a subset of students was invited to participate in individual semi-structured interviews after completing the two design sessions. In total, 10 students participated in interviews. Each interview lasted approximately 30 to 45 minutes and focused on students' experiences using generative AI in Aladdin for engineering design."
+                    )
+                )
+            elif text.startswith("An additional student learning agency survey"):
+                lines.append(
+                    html_paragraph(
+                        "An additional student learning agency survey was administered after the design activity to capture students' reflections on their own role, decision making, and self-regulation while interacting with generative AI during the design process."
+                    )
+                )
             else:
                 lines.append(html_paragraph(text))
                 if text.startswith("Pre- and post-test assessments used"):
@@ -483,6 +539,14 @@ def build_html(body: str) -> str:
       font-style: italic;
     }}
     p {{ margin: 9px 0; text-align: justify; }}
+    .instrument-list {{
+      margin: 8px 0 16px 28px;
+      padding: 0;
+    }}
+    .instrument-list li {{
+      margin: 5px 0;
+      padding-left: 4px;
+    }}
     table {{
       width: 100%;
       border-collapse: collapse;
@@ -555,6 +619,11 @@ def normalize_table_captions(html_text: str) -> str:
     }
     for old, new in replacements.items():
         html_text = html_text.replace(f"<caption>{old}</caption>", f"<caption>{new}</caption>")
+
+    html_text = html_text.replace(
+        "Table 1 shows how each dimension is calculated.",
+        "Table 3 shows how each dimension is calculated.",
+    )
 
     marker = "        <table>\n          <thead>\n            <tr>\n              <th>Cluster</th>\n              <th>Student</th>\n              <th>Iter.</th>"
     replacement = "        <table>\n          <caption>Table 8. Representative prompted action-set sequences by designer profile.</caption>\n          <thead>\n            <tr>\n              <th>Cluster</th>\n              <th>Student</th>\n              <th>Iter.</th>"
